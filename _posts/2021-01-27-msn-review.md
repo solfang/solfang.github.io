@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MSN paper review
+title: Morphing and Sampling Network for Dense Point Cloud Completion: Review
 published: true
-tags: 
+tags: autonomous driving, computer vision
 ---
