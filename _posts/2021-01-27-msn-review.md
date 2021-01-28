@@ -5,10 +5,12 @@ published: true
 tags: todo
 ---
 
-In this post, we will review the paper [Morphing and Sampling Network for Dense Point Cloud Completion](https://ojs.aaai.org/index.php/AAAI/article/view/6827)presented by Liu et al. at the AAAI 2020 in New York.
+In this post, we will review the paper [Morphing and Sampling Network for Dense Point Cloud Completion](https://ojs.aaai.org/index.php/AAAI/article/view/6827) presented by Liu et al. at the AAAI 2020 in New York.
 We will take a quick look at the motivation behind point cloud completion and previous approaches and then take a look at the network architecture and view the experiments conducted on the network. To close off I present a conclusion and my view on the paper.
 
 The code for this paper is available under [https://github.com/Colin97/MSN-Point-Cloud-Completion]().
+
+<img src="/images/panda.png" height="75">
 
 ## Motivation
 
