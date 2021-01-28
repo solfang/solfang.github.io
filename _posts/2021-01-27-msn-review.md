@@ -19,34 +19,49 @@ First, scans are often obtained from a single view angle. This means that any pa
 
 Second, the capacity of the sensor limits the fidelity of the scan. While objects in the foreground of the scene will be represented by many points, objects in the back may only be represented by a handful of points. You can imagine that any tasks that we want to perform on the point cloud, such as segmantic segmentation or object classifcation are very difficult if parts of the data are missing. Therefore we could greatly improve the performance of these subsequent tasks by first completing objects in the points cloud. This is the idea behind point cloud completion: We get as input an incomplete point cloud and are assigned the task of completing the shapes of certain objects in the point cloud [img of incomplete and completed pc].
 
-<img src="/images/paper review/shapenet_reordered.png" height="100">
+<img src="/images/paper review/shapenet_reordered.png" height="400">
 
 ## 3D Shape Completion
-In this section, I will present some of the approaches people have come up with to complete a partial 3D shape. The approaches can be partitioned into three main avenues: Geometry-based, example-base and learning-based.
+In this section, I will present some of the methods that can be usd to complete a partial 3D shape. These methods can be partitioned into three main avenues: Geometry-based, example-base and learning-based.
 
 **Geometry-based**
 
-
 Geometry-based approaches aim to complete parts of the shape by extrapolating from existing parts in the input. This can be done either by interpolating between surfaces or, given the assumption that the shape of the object is symmetric in any way, complete the shape by modeling the parts of the symmetry which are not present in the input. Problematic with this approach is that interpolation does not work for large-scale incompleteness (imagine the complete back-half of a car missing from the point cloud). Similarly, symmetry assumptions do not apply to all objects. 
+
+<img src="/images/paper review/relatedwork_symmetry.png" height="400">
 
 **Example-based**
 
 The second approach involves example-based methods. Here, we have a database of existing shapes which we then deform and assemble to form the complete shape of the object. You can imagine that this method fails for unseen shapes which are not present in the shape database. 
 
+<img src="/images/paper review/relatedwork_examplebased.png" height="400">
+
 **Learning-based**
 
 The idea behind learning-based approaches is to learn a mapping between the partial shape and the object and its complete shape. The challenge with this approach is finding an operation that can learn this mapping. In image processing, convolutional layers are often used to perform such an operation. Convolutions require a regular structure but  unfortunately, point clouds have a greatly varying distribution of points so directly applying purely grid-based convolutions is out of the question. Naturally, one way to get to transform a point cloud into a structure is to represent it as a volumetric grid, which discretizes the point cloud into same-sized voxels. A downside to this method is that the resolution of the grid (i.e. how many voxels can we use to represent the scene) is limted by memory constraints and therefore we may lose fine details of the point cloud. Another way to deal with the point representation is to construct a graph on the point cloud and then perform graph-based convolutions. This method seems promising but brings its own batch of downsides such as being sensitive to the point cloud density. Finally, we could work directly with the point cloud without any discretization. Representing the input scene directly as the point cloud is very memory-efficient but we lose information about the local neighborhood of the points since the point cloud is unordered. Nevertheless, networks that operate directly on points clouds have achieved striking success in point-cloud related tasks, including point cloud completion. The paper analyzed in this post uses a network which can directly operate on a point cloud.
-[vllt schon auf GRnet eingehen]
-[...Überleitung?]
+
+<img src="/images/paper review/relatedowork_pc.png" height="400">
 
 ## Related Work
 
 In this section I will explain some of the existing work that has been done on point cloud processing and point cloud generation. To better understand why some of the papers presented are able to produce high-quality results I will introduce a set of metrics to (informally) evaluate the quality of a completed point cloud. Those metrics will also help us understand how the paper presented here achieves high-quality point clouds. Those metrics are:
 
 1. **Smooth surfaces**: The completed shape should have continous and smooth surfaces.
+
+
+<img src="/images/paper review/goals_smooth.png" height="400">
+
 2. **Fine details**: We want to capture fine details of the object, such as an antenna on a car or the indivual blades of a propeller on an airplane.
+
+<img src="/images/paper review/goals_details.png" height="400">
+
 3. **Locally even distribution**: We want the points to be distributed evenly on the local parts of the object.
+
+<img src="/images/paper review/goals_even.png" height="400">
+
 4. **Preserve input structure**: All parts of the object in partial input should be preserved in the completed shape.
+
+<img src="/images/paper review/goals_existing.png" height="400">
 
 ### Point Cloud Processing
 **PointNet**
@@ -68,7 +83,7 @@ The task of point cloud generation is, given a compressed version of an input po
 
 **Point Completion Network (PCN)**
 
-Point Completion Network (PCN) [] introduces the idea of modeling the rough shape of the object in an initial pass and then refining the details in a subsequent pass. This approach tends to produce more detailed shapes than if we had tried to predict the complete shape in one go. With the coarse-to-fine network we have the second puzzle piece for our point cloud completion network. [maybe Second puzzle piece: ...]
+Point Completion Network (PCN) [cite] introduces the idea of modeling the rough shape of the object in an initial pass and then refining the details in a subsequent pass. This approach tends to produce more detailed shapes than if we had tried to predict the complete shape in one go. With the coarse-to-fine network we have the second puzzle piece for our point cloud completion network. [maybe Second puzzle piece: ...]
 
 
 ## Contributions
@@ -83,7 +98,13 @@ We will see later how each of these parts play a role in predicting completed ob
 
 ## Architecture
 The architecture of the network in the MSN paper can be divided into four parts: 
-[img of full network]
+
+<img src="/images/paper review/structure.png" height="400">
+
+1. The Encoder and Morphing-based Decoder
+2. Merging and Sampling
+3. Refining
+4. The Loss Function
 
 In the following section I'll explain the individual parts of the network in more detail.
 ### 1. Encoder and Morphing-based Decoder [image of section with transparency]
