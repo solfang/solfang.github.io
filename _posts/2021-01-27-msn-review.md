@@ -92,14 +92,14 @@ We want the points to be distributed evenly on the local parts of the object.
 
 
 <figure>
-  <img src="/images/paper review/goals_even.png" height="140">
+  <img src="/images/paper review/goals_even.png" height="134">
   <figcaption>
   </figcaption>
 </figure>
 
+
 ### 4. Preserve input structure
 All parts of the object in partial input should be preserved in the completed shape.
-
 
 <figure>
   <img src="/images/paper review/goals_existing.png" height="140">
@@ -201,7 +201,7 @@ At this point we have modeled the coarse shape of the object which has relativel
 
 **Sampling**
 
-To fix the distribution, the authors propose to sample from the merged point cloud in a way that the sampled point cloud has an even distribution again. Unfortunately existing sampling algorithms such as Farthest Point Sampling (FPS) or Poisson Disk Sampling (PDS) preserve the unevenness in density and are not appropriate here. The authors therefore come up with their own sampling algorithm called Minimum Density Sampling (MDS). In contrast to FPS, which samples the farthest point from the previously sampled points, MDS samples points in a way that the 'density' of the points in the sample is minimized. Density here is determined by the Gaussian-weighted distance of the point-to-sample to all previously sampled points. [point to formula]. The resulting point cloud now has a uniform distribution.
+To recover the even distribution of points, the authors propose to sample from the merged point cloud in a way that the sampled point cloud has an even distribution again. Unfortunately existing sampling algorithms such as Farthest Point Sampling (FPS) or Poisson Disk Sampling (PDS) preserve the unevenness in density and are not appropriate here. The authors therefore come up with their own sampling algorithm called Minimum Density Sampling (MDS). In contrast to FPS, which samples the farthest point from the previously sampled points, MDS samples points in a way that the 'density' of the points in the sample is minimized. Density here is determined by the Gaussian-weighted distance of the point-to-sample to all previously sampled points. [point to formula]. The resulting point cloud now has a uniform distribution.
 [FPS formula][maybe FPS img]
 
 
