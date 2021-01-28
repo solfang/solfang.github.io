@@ -11,7 +11,7 @@ We will take a quick look at the motivation behind point cloud completion and pr
 The code for this paper is available under [https://github.com/Colin97/MSN-Point-Cloud-Completion]().
 
 
-## Motivation
+# Motivation
 
 The eyes into the world of an autonomous vehicle are the sensors installed in the vehicle. In order to understand the environment in which the vehicle is driving and to make informed decisions about potential paths of actions it's important to have reliable and complete sensor data about the scene. Such 3D data is commonly collected with Lidar sensors, which capture a scene as a set of distinct points, which are referred to as a point cloud. Even though Lidar  produces high fidelity scans,  There are two main factors which can lower the quality of the 3D scans. 
 
@@ -21,7 +21,7 @@ Second, the capacity of the sensor limits the fidelity of the scan. While object
 
 <img src="/images/paper review/shapenet_reordered.png" height="300">
 
-## 3D Shape Completion
+# 3D Shape Completion
 In this section, I will present some of the methods that can be usd to complete a partial 3D shape. These methods can be partitioned into three main avenues: Geometry-based, example-base and learning-based.
 
 **Geometry-based**
@@ -42,36 +42,36 @@ The idea behind learning-based approaches is to learn a mapping between the part
 
 <img src="/images/paper review/relatedowork_pc.png" height="140">
 
-## Related Work
+# Related Work
 
 In this section I will explain some of the existing work that has been done on point cloud processing and point cloud generation. To better understand why some of the papers presented are able to produce high-quality results I will introduce a set of metrics to (informally) evaluate the quality of a completed point cloud. Those metrics will also help us understand how the paper presented here achieves high-quality point clouds. Those metrics are:
 
-#### 1. Smooth surfaces
+### 1. Smooth surfaces
 The completed shape should have continous and smooth surfaces.
 
 <img src="/images/paper review/goals_smooth.png" height="140">
 
-#### Fine details
+### 2. Fine details
 We want to capture fine details of the object, such as an antenna on a car or the indivual blades of a propeller on an airplane.
 
 <img src="/images/paper review/goals_details.png" height="140">
 
-#### Locally even distribution
+### 3. Locally even distribution
 We want the points to be distributed evenly on the local parts of the object.
 
 <img src="/images/paper review/goals_even.png" height="140">
 
-#### Preserve input structure
+### 4. Preserve input structure
 All parts of the object in partial input should be preserved in the completed shape.
 
 <img src="/images/paper review/goals_existing.png" height="140">
 
-### Point Cloud Processing
+## Point Cloud Processing
 **PointNet**
 
 PointNet is a seminal paper in point cloud processing because of its simple yet effective architecture. PointNet directly takes in a point cloud and produces a single feature vector through an auto-encoder which describes the input point cloud very efficiently. The first few layers of the encoder scale up the input to 1024 channels through 1D convolutions and ensure that the network is indifferent to the exact order of the points within the point cloud or its rotation. At the end of the encoder a single max pool is applied which produces the feature vector of size 1x1024. This feature vector can then be used in subsequent tasks such as shape classifiation or segmantic segmentation by passing it through a decoder.
 
-### Point Cloud Generation
+## Point Cloud Generation
 
 **FoldingNet**
 
@@ -89,7 +89,7 @@ The task of point cloud generation is, given a compressed version of an input po
 Point Completion Network (PCN) [cite] introduces the idea of modeling the rough shape of the object in an initial pass and then refining the details in a subsequent pass. This approach tends to produce more detailed shapes than if we had tried to predict the complete shape in one go. With the coarse-to-fine network we have the second puzzle piece for our point cloud completion network. [maybe Second puzzle piece: ...]
 
 
-## Contributions
+# Contributions
 
 Now that we have seen some method used to generate our desired point clouds, we can turn to the Morphind and Sampling (MSN) paper. The papers makes four main contributions:
 1. A novel two-stage approach for point cloud estimation
@@ -99,7 +99,7 @@ Now that we have seen some method used to generate our desired point clouds, we 
 
 We will see later how each of these parts play a role in predicting completed object shapes which satisfy the four qualities the point cloud should have. To recap, those are: smooth surfaces, fine details, a locally even distribution of points and preserving existing structure from the input.
 
-## Architecture
+# Architecture
 The architecture of the network in the MSN paper can be divided into four parts: 
 
 <img src="/images/paper review/structure.png" height="400">
@@ -110,7 +110,7 @@ The architecture of the network in the MSN paper can be divided into four parts:
 4. The Loss Function
 
 In the following section I'll explain the individual parts of the network in more detail.
-### 1. Encoder and Morphing-based Decoder [image of section with transparency]
+## 1. Encoder and Morphing-based Decoder [image of section with transparency]
 
 **Generating the Coarse Shape**
 
@@ -121,7 +121,7 @@ In the decoder we start with K 2D grids (16 in the paper). We then sample points
 
 The idea here is to encourage the surface elements to shrink to their respective center. This is done by construction a minimum spanning tree from the points of each surface element, with a total of K trees. A minimum spanning tree is a tree that connects all the vertices of a graph together without any cycles and with the minimum possible edge weight, where the edge weight here is the distance between two vertices. To this spanning tree a loss function is applied which penalizes long edges in the tree. This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center.
 
-### 2. Merging and Sampling
+## 2. Merging and Sampling
 
 **Merging**
 
@@ -132,11 +132,11 @@ At this point we have modeled the coarse shape of the object which has relativel
 To fix the distribution, the authors propose to sample from the merged point cloud in a way that the sampled point cloud has an even distribution again. Unfortunately existing sampling algorithms such as Farthest Point Sampling (FPS) or Poisson Disk Sampling (PDS) preserve the unevenness in density and are not appropriate here. The authors therefore come up with their own sampling algorithm called Minimum Density Sampling (MDS). In contrast to FPS, which samples the farthest point from the previously sampled points, MDS samples points in a way that the 'density' of the points in the sample is minimized. Density here is determined by the Gaussian-weighted distance of the point-to-sample to all previously sampled points. [point to formula]. The resulting point cloud now has a uniform distribution.
 [FPS formula][maybe FPS img]
 
-### 3. Refining
+## 3. Refining
 
 To generate fine-grained structures, the merged point cloud is fed into a residual network. The network consists of an encoder (based on PointNet) and a decoder which learns a refinement for each point which is then added point-by-point to the merged cloud. At this stage we have generated the final output point cloud, which represents the predicted complete shape of the object.
 
-### 4. The Loss Function
+## 4. The Loss Function
 
 To compare the predicted shape to the ground truth shape we need a metric that judges the simlarity between the two point clouds of the shapes. Possible candidates for the distance metric are the Chamfer Distance (CD) and the Earth Mover's Distance (EMD).
 
@@ -157,9 +157,9 @@ The final loss function is composed of the expansion loss of the coarse output a
 [puzzle piece narrative needs more tending to, maybe with putting it all together]
 
 
-## Experiments
+# Experiments
 
-### Evaluation Results
+## Evaluation Results
 The network was evaluated on a subset of the ShapeNet dataset wich includes eight classes of objects: table, chair, car, airplane, sofa, lamp, vessel, cabinet.
 30,974 different models were used and for each model, 50 pairs of partial and completed shape were generated through 50 different camera poses, resulting in a training and testing set with a combined size of 30,974\*50 = ~1.5mil samples.
 
@@ -170,7 +170,7 @@ We can see that compared to the networks of previous papers, MSN tends to genera
 
 [qual. results] 
 
-### Ablation studies
+## Ablation studies
 The authors have tested versions of the network where different parts were changed or omitted:
 
 A) Without expansion loss 
@@ -186,13 +186,13 @@ Version A, B and C performed worse than the non-ablated version of the network o
 [abalation img, only upper half]
 
 
-## Conclusion
+# Conclusion
 
 The authors have presented a novel way for point cloud completion where a coarse point cloud is generated in a first pass and then merged with the input point cloud and refined in a second pass.
 This approach generates smooth surfaces, preserves existing structure in the input and can generate fine-grained structures. The addition of an expansion penalty and a novel sampling algorithm as well as an approximation of the Earth Mover's Distance ensure an even distribution of points. The network is able to generate realistic point clouds which reach state-of-the-art results in point cloud completion.
 
 
-## My take on the paper
+# My take on the paper
 **Method** 
 
 The network was evaluated on both the 'native' Earth Mover's distance as well as on the Chamger Distance. The papers used to represent state-of-the-art for the evaluation are in my eyes a fair selection. On top of that, the authors have conducted extensive ablation studies. The network was evaluated on ShapeNet, which features dense point cloud. It also would have been interesting to see the performance on sparse data such as Kitti, albeit the authors state that the focus of the paper was on dense point cloud completion.
@@ -206,4 +206,4 @@ Potential ways to improve the networks performance include combining a folding-b
 The code is available on Github. The authors explain the network architecture concisely and in an easy to follow manner. What I find especially commendable about this paper is that the authors have presented solutions to existing problems, such as the approximation of the Earth Mover's Distance as well as the Minimum density sampling algorithm. Earth Mover's Distance, now that it has a feasible implementation, could improve the quality of future point cloud completion approaches and has been used to produce state-of-the-art results in the 'Cloud Transformers' network [cite]. Altough with a computatational cost of O(n^2) EMD is not an undisputed [wording] choice over the CD.
 Furthermore, point-cloud based methods are no longer the only successful approach to point cloud comletion. Recent Voxel-based networks, such as GRNet [cite], have overcome the drawbacks of voxelization could deliver interesting results.
 
-## References
+# References
