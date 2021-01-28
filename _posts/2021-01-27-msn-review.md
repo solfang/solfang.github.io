@@ -10,7 +10,6 @@ We will take a quick look at the motivation behind point cloud completion and pr
 
 The code for this paper is available under [https://github.com/Colin97/MSN-Point-Cloud-Completion]().
 
-<img src="/images/panda.png" height="75">
 
 ## Motivation
 
@@ -19,6 +18,8 @@ The eyes into the world of an autonomous vehicle are the sensors installed in th
 First, scans are often obtained from a single view angle. This means that any part of an object that is occluded by itself or by other objects in the scene will be missing in the obtained point cloud. 
 
 Second, the capacity of the sensor limits the fidelity of the scan. While objects in the foreground of the scene will be represented by many points, objects in the back may only be represented by a handful of points. You can imagine that any tasks that we want to perform on the point cloud, such as segmantic segmentation or object classifcation are very difficult if parts of the data are missing. Therefore we could greatly improve the performance of these subsequent tasks by first completing objects in the points cloud. This is the idea behind point cloud completion: We get as input an incomplete point cloud and are assigned the task of completing the shapes of certain objects in the point cloud [img of incomplete and completed pc].
+
+<img src="/images/paper review/shapenet_reordered.png" height="100">
 
 ## 3D Shape Completion
 In this section, I will present some of the approaches people have come up with to complete a partial 3D shape. The approaches can be partitioned into three main avenues: Geometry-based, example-base and learning-based.
