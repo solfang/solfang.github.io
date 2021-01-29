@@ -182,17 +182,10 @@ In theory, the surface elements are not prohibited to overlap. To reduce overlap
 The idea here is to encourage the surface elements to shrink to their respective center. This is done by construction a minimum spanning tree from the points of each surface element, with a total of K trees. A minimum spanning tree is a tree that connects all the vertices of a graph together without any cycles and with the minimum possible edge weight, where the edge weight here is the distance between two vertices. A loss function is applied to this spanning tree which penalizes long edges in the tree. To be exact, the function sums up for each spanning tree K all edges in the tree which are longer than the average edge in the tree  l<sub>i</sub> times a factor λ (a hyperparameter).
 
 <figure>
-  <img src="/images/paper review/img_expansionloss.png" height="65">
+  <img src="/images/paper review/img_expansionloss.png" height="72">
   <figcaption>
   </figcaption>
 </figure>
-
-  <img src="/images/paper review/img_expansionloss.png" height="70">
-    <img src="/images/paper review/img_expansionloss.png" height="71">
-      <img src="/images/paper review/img_expansionloss.png" height="72">
-        <img src="/images/paper review/img_expansionloss.png" height="73">
-          <img src="/images/paper review/img_expansionloss.png" height="74">
-            <img src="/images/paper review/img_expansionloss.png">
 
 
 This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center. In the image below we can see the coarse output of the network on different objects, once without and once with the expansion penalty applied. Not only does the expansion penalty eliminate overlap, it also leads to the surface elements modeling different semantic parts of the object.
@@ -227,7 +220,7 @@ To recover the even distribution of points, the authors propose to sample from t
 The authors therefore come up with their own sampling algorithm called Minimum Density Sampling (MDS). In contrast to FPS, which samples the farthest point from the previously sampled points, MDS samples points in a way that the 'density' of the points in the sample is minimized. Density here is determined by the Gaussian-weighted distance of the point-to-sample to all previously sampled points. In the formula below, P<sub>i-1</sub> denotes the already sampled points and σ a hyperparameter which determines the size of the neighbourhood considered.
 
 <figure>
-  <img src="/images/paper review/img_minimumdensitysampling.png" height="60">
+  <img src="/images/paper review/img_minimumdensitysampling.png" height="72">
   <figcaption>
   </figcaption>
 </figure>
@@ -264,6 +257,7 @@ In contrast, the Earth Mover's Distance tends to produce point clouds of higher 
 > Earth Mover's Distance for an even distribution of points
 
 There are two downsides to the EMD. First, it requires the two point clouds to be of equal size. Second, finding the bijection is a challenging task of its own and the textbook implementation of such an algorithm requires memory in O(n²). With this kind of memory consumption, comparing point clouds of more than ~2000 points is not feasible. 
+
 To address the memory problem, the authors propose an algorithm that approximates the EMD with memory consumption of O(n), based on an algorithm from auction theory. In essence, the algorithm treats the points as persons and objects and auctions them off iteratively with the goal of reaching an economic equilibrium. In terms of computational cost, CD can be computed with O(n\*log(n)) complexity, while the EMD approximation takes O(n²) computations. In the image below we can see that the EMD heavily penalizes point clouds with blurry surfaces, in contrast to the CD.
 
 <figure>
