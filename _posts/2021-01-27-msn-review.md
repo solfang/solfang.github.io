@@ -187,12 +187,12 @@ The idea here is to encourage the surface elements to shrink to their respective
   </figcaption>
 </figure>
 
-  <img src="/images/paper review/img_expansionloss.png" height="63">
-    <img src="/images/paper review/img_expansionloss.png" height="66">
-      <img src="/images/paper review/img_expansionloss.png" height="67">
-        <img src="/images/paper review/img_expansionloss.png" height="68">
-          <img src="/images/paper review/img_expansionloss.png" height="69">
-            <img src="/images/paper review/img_expansionloss.png" height="610">
+  <img src="/images/paper review/img_expansionloss.png" height="70">
+    <img src="/images/paper review/img_expansionloss.png" height="71">
+      <img src="/images/paper review/img_expansionloss.png" height="72">
+        <img src="/images/paper review/img_expansionloss.png" height="73">
+          <img src="/images/paper review/img_expansionloss.png" height="74">
+            <img src="/images/paper review/img_expansionloss.png">
 
 
 This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center. In the image below we can see the coarse output of the network on different objects, once without and once with the expansion penalty applied. Not only does the expansion penalty eliminate overlap, it also leads to the surface elements modeling different semantic parts of the object.
@@ -222,7 +222,9 @@ At this point we have modeled the coarse shape of the object with relatively smo
 
 ### Sampling
 
-To recover the even distribution of points, the authors propose to sample from the merged point cloud in a way that the sampled point cloud has an even distribution again. Unfortunately existing sampling algorithms such as Farthest Point Sampling (FPS) or Poisson Disk Sampling (PDS) preserve the unevenness in density and are not appropriate here. The authors therefore come up with their own sampling algorithm called Minimum Density Sampling (MDS). In contrast to FPS, which samples the farthest point from the previously sampled points, MDS samples points in a way that the 'density' of the points in the sample is minimized. Density here is determined by the Gaussian-weighted distance of the point-to-sample to all previously sampled points. In the formula below, P<sub>i-1</sub> denotes the already sampled points and σ a hyperparameter which determines the size of the neighbourhood considered.
+To recover the even distribution of points, the authors propose to sample from the merged point cloud in a way that the sampled point cloud has an even distribution again. Unfortunately existing sampling algorithms such as Farthest Point Sampling (FPS) or Poisson Disk Sampling (PDS) preserve the unevenness in density and are not appropriate here. 
+
+The authors therefore come up with their own sampling algorithm called Minimum Density Sampling (MDS). In contrast to FPS, which samples the farthest point from the previously sampled points, MDS samples points in a way that the 'density' of the points in the sample is minimized. Density here is determined by the Gaussian-weighted distance of the point-to-sample to all previously sampled points. In the formula below, P<sub>i-1</sub> denotes the already sampled points and σ a hyperparameter which determines the size of the neighbourhood considered.
 
 <figure>
   <img src="/images/paper review/img_minimumdensitysampling.png" height="60">
