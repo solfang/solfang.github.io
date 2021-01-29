@@ -46,11 +46,9 @@ The second approach involves example-based methods. Here, we have a database of 
 
 The idea behind learning-based approaches is to learn a mapping between the partial shape and the object and its complete shape. The challenge with this approach is finding an operation that can learn this mapping. In image processing, convolutional layers are often used to perform such an operation. Convolutions require a regular structure but  unfortunately, point clouds have a greatly varying distribution of points so directly applying purely grid-based convolutions is out of the question. 
 
-Naturally, one way to get to transform a point cloud into a structure is to represent it as a volumetric grid, which discretizes the point cloud into same-sized voxels. A downside to this method is that the resolution of the grid (i.e. how many voxels can we use to represent the scene) is limited by memory constraints and therefore we may lose fine details of the point cloud. 
-
-Another way to deal with the point representation is to construct a graph on the point cloud and then perform graph-based convolutions. This method seems promising but brings its own batch of downsides such as being sensitive to the point cloud density. 
-
-Finally, we could work directly with the point cloud without any discretization. Representing the input scene directly as the point cloud is very memory-efficient but we lose information about the local neighborhood of the points since the point cloud is unordered. Nevertheless, networks that operate directly on points clouds have achieved striking success in point-cloud related tasks, including point cloud completion. The paper analyzed in this post uses a network which can directly operate on a point cloud.
+A natural solution would be to build a grid from the points (by voxelization) and apply 3D convolutions. The resolution of the grid is limited by memory and can herefore not capture finer details of the object. Another way would be to build a graph from the points and apply graph-based convolutions, brings its own batch of downsides such as being sensitive to the point cloud density.
+ 
+We could also work directly on the unordered points of the point cloud, which is very memory-efficient but we lose information about the local neighborhood of the points. Nevertheless, networks that operate directly on points clouds have achieved striking success in point-cloud related tasks, including point cloud completion. The paper analyzed in this post uses a network which can directly operate on a point cloud.
 
 <figure>
   <img src="/images/paper review/relatedowork_pc.png" height="150">
@@ -61,7 +59,7 @@ Finally, we could work directly with the point cloud without any discretization.
 
 # Related Work
 
-In this section I will explain some of the existing work on point cloud processing and point cloud generation, which are crucial parts in the task of point cloud completion. To better understand why some of the papers presented are able to produce high-quality predictions I will introduce a set of metrics to (informally) evaluate the quality of a completed point cloud. For each metric I will present an image of the input shape, a predicted shape which failed to adhere to the metric and the ground truth shape which follows the metric. The qualities of point cloud described here will also help us understand how the *Morphing and Sampling* paper achieves high-quality point clouds.
+In this section I will explain some of the existing work on point cloud processing and point cloud generation, which are crucial parts in the task of point cloud completion. To better understand why some of the papers presented are able to produce high-quality predictions I will introduce a set of metrics to (informally) evaluate the quality of a completed point cloud. For each metric I present an image of the input shape, a predicted shape which failed to adhere to the metric and the ground truth shape which of course follows the metric.
 
 ### 1. Smooth surfaces
 The completed shape should have continuous and smooth surfaces, which is not the case in the predicted shape of the lamp below.
