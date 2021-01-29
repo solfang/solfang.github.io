@@ -302,78 +302,76 @@ The final loss function is composed of the expansion loss of the coarse output a
   </figcaption>
 </figure>
 
-Here we can see the structure of the complete network again. We have seen how the morphing-based decoder produces a coarse point cloud with smooth surfaces using surface elements monitored by the exansion loss. The corase shape is then merged with the input shape to preserve existing input structures and sampled through MDS to recover the uniform density of points, followed by a residual network which models fine details of the object. The final output is then evaluated using EMD which warrants a locally even distribution of points.
+Here we can see the structure of the complete network again. We have seen how the morphing-based decoder produces a coarse point cloud with **smooth surfaces** using surface elements and an expansion penalty. The coarse shape is then merged with the input shape to **preserve existing input structures** and sampled through MDS to recover the uniform density of points. Following the sampling is a residual network which can model **finer details of the object**. The final output is then evaluated using EMD which warrants a **locally even distribution of points**.
 
 # Experiments
 
 ## Evaluation Results
 The network was evaluated on a subset of the ShapeNet dataset [[5]](#5) wich includes eight classes of objects: table, chair, car, airplane, sofa, lamp, vessel, cabinet.
+
 30,974 different models were used and for each model, 50 pairs of partial and completed shape were generated through 50 different camera poses, resulting in a training and testing set with a combined size of 30,974\*50 = ~1.5mil samples.
 
 While the network was trained on the EMD distance, it was evaluated both on the CD and EMD. In both metrics, the network beats the state-of-the-art at the time of publishing the paper for each object class.
 
-
 <figure>
   <img src="/images/paper review/img_evaluation.png" height="320">
   <figcaption>
-   Quantitative results.
   </figcaption>
 </figure>
 
 ## Qualitative results
 
-Below you can see qualitative results.
-We can see that compared to the networks of previous papers, MSN tends to generate surfaces with less blur and finer details as well as getting the overall shape of the object right more often.
-
+Below we can see qualitative results.
+Compared to the networks of previous papers, MSN tends to generate surfaces with less blur and finer details as well as getting the overall shape of the object right more often.
 
 <figure>
   <img src="/images/paper review/img_evaluation_qualitative.png">
   <figcaption>
-   Qualitative results.
   </figcaption>
 </figure>
 
 ## Ablation studies
-The authors have tested versions of the network where different parts were changed or omitted:
+The authors have tested versions of the network where different parts were changed or omitted. These versions are:
 
 A) Without expansion loss 
 
 B) Without merging and refining 
 
-C) With FPS instead of MDS for the sampling 
+C) Using FPS instead of MDS for the sampling 
 
 D) Without refining
 
 The ablated versions of the network were, like in the evaluation, tested on both the Chamfer Distance and Earth Mover's Distance.
-Version A, B and C performed worse than the non-ablated version of the network on both distance metrics. For the sampling (C), the network evaluated on the Chamfer Distance provided better resuls with FPS than with the authors sampling algorithm (MDS). The explanation the authors give is that FPS results in a more uneven ditribution of points, which is not as heavily penalized by CD than with EMD. On the other hand, FPS tends to preserve more points from the reliable input than MDS.
+Versions A, B and C performed worse than the non-ablated version of the network on both distance metrics. For the sampling (C), the network evaluated on the Chamfer Distance provided better results with FPS than with the authors sampling algorithm (MDS). The explanation the authors give is that FPS results in a more uneven ditribution of points, which is not as heavily penalized by CD than with EMD. On the other hand, FPS tends to preserve more points from the reliable input than MDS.
 
 
 <figure>
   <img src="/images/paper review/img_ablation.png" height="340">
   <figcaption>
-   Ablation study results.
   </figcaption>
 </figure>
 
 # Conclusion
 
 The authors have presented a novel way for point cloud completion where a coarse point cloud is generated in a first pass and then merged with the input point cloud and refined in a second pass.
-This approach generates smooth surfaces, preserves existing structure in the input and can generate fine-grained structures. The addition of an expansion penalty and a novel sampling algorithm as well as an approximation of the Earth Mover's Distance ensure an even distribution of points. The network is able to generate realistic point clouds which reach state-of-the-art results in point cloud completion.
+This approach generates smooth surfaces, preserves existing structure in the input and can generate fine-grained structures. The addition of an expansion penalty and a novel sampling algorithm as well as an approximation of the Earth Mover's Distance ensure an even distribution of points. The network is able to generate realistic point clouds and achieves state-of-the-art results in point cloud completion.
 
 
 # My take on the paper
 **Method** 
 
-The network was evaluated on both the 'native' Earth Mover's distance as well as on the Chamger Distance. The papers used to represent state-of-the-art for the evaluation are in my eyes a fair selection. On top of that, the authors have conducted extensive ablation studies. The network was evaluated on ShapeNet, which features dense point cloud. It also would have been interesting to see the performance on sparse data such as Kitti, albeit the authors state that the focus of the paper was on dense point cloud completion.
+The network was evaluated on both the 'native' Earth Mover's distance as well as on the Chamfer Distance. The papers used to represent state-of-the-art for the evaluation are in my eyes a fair selection. On top of that, the authors have conducted extensive ablation studies. The network was evaluated on ShapeNet, which features dense point clouds. It also would have been interesting to see the performance on sparse data such as KITTI, albeit the authors state that the focus of the paper was on dense point cloud completion.
 
 **Architecture**
 
-Potential ways to improve the networks performance include combining a folding-based decoder and a fully-connected decoder instead of only relying on a folding-based decoder. Also, explicitly trying to rpedict missing parts of the objects from the input point cloud  could potentally improve the quality of the completed objects.
+In my eyes, the architecture is well thought-out an distinctly addresses the desired qualities of the output point cloud.
+Potential ways to improve the performance of the network could be to combine a folding-based decoder and a fully-connected decoder instead of only relying on a folding-based decoder. Also, explicitly trying to predict missing parts of the objects from the input point cloud  could potentally improve the quality of the completed shapes.
 
 **General Assessment**
 
-The code is available on Github. The authors explain the network architecture concisely and in an easy to follow manner. What I find especially commendable about this paper is that the authors have presented solutions to existing problems, such as the approximation of the Earth Mover's Distance as well as the Minimum density sampling algorithm. Earth Mover's Distance, now that it has a feasible implementation, could improve the quality of future point cloud completion approaches and has been used to produce state-of-the-art results in the 'Cloud Transformers' network [[8]](#8). Altough with a computatational cost of O(n^2) EMD is not a clear-cut choice over the CD.
-Furthermore, point-cloud based methods are no longer the only successful approach to point cloud comletion. Recent Voxel-based networks, such as GRNet [[6]](#6), have overcome the drawbacks of voxelization and can deliver results that rival those of purely point-based networks.
+The authors explain the network architecture concisely and in an easy to follow manner. What I find especially interesting about this paper is that the authors have presented solutions to existing problems, such as the approximation of the Earth Mover's Distance as well as the Minimum density sampling algorithm. Earth Mover's Distance, now that it has a feasible implementation, could improve the quality of future point cloud completion approaches and has been used to produce state-of-the-art results, for example in the *Cloud Transformers* network [[8]](#8). Altough with a computatational cost of O(n^2) EMD is not a clear-cut choice over the CD.
+
+Furthermore, point-cloud based methods are no longer the only successful approach to point cloud comletion. Recent Voxel-based networks, such as *GRNet* [[6]](#6), have overcome the drawbacks of voxelization and can deliver results that rival those of purely point-based networks.
 
 # References
 
