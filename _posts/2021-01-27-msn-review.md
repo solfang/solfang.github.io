@@ -10,27 +10,29 @@ We will take a quick look at the motivation behind point cloud completion and pr
 
 The code for this paper is available under [https://github.com/Colin97/MSN-Point-Cloud-Completion]().
 
-My presentation on this paper can be found [here] (/files/msn/ADCV_Seminar_Presi.pdf)
+My presentation on this paper can be found [here](/files/msn/ADCV_Seminar_Presi.pdf).
 
 
 # Motivation
 
-The eyes into the world of an autonomous vehicle are the sensors installed in the vehicle. In order to understand the environment in which the vehicle is driving and to make informed decisions about potential paths of actions it's important to have reliable and complete sensor data about the scene. Such 3D data is commonly collected with Lidar sensors, which capture a scene as a set of distinct points, which are referred to as a point cloud. Even though Lidar  produces high fidelity scans,  There are two main factors which can lower the quality of the 3D scans. 
+The eyes into the world of an autonomous vehicle are the sensors installed in the vehicle. In order to understand the environment in which the vehicle is driving and to make informed decisions about potential paths of actions it's important to have reliable and complete sensor data about the scene. Such 3D data is commonly collected with Lidar sensors, which capture a scene as a set of distinct points, which are referred to as a point cloud. Even though Lidar produces high fidelity scans, there are two main factors which can lower the quality of the 3D scans. 
 
-First, scans are often obtained from a single view angle. This means that any part of an object that is occluded by itself or by other objects in the scene will be missing in the obtained point cloud. 
+First, scans are often obtained from a single view angle. This means that any part of an object which is occluded by itself or by other objects in the scene will be missing in the obtained point cloud. 
 
-Second, the capacity of the sensor limits the fidelity of the scan. While objects in the foreground of the scene will be represented by many points, objects in the back may only be represented by a handful of points. You can imagine that any tasks that we want to perform on the point cloud, such as segmantic segmentation or object classifcation are very difficult if parts of the data are missing. Therefore we could greatly improve the performance of these subsequent tasks by first completing objects in the points cloud. This is the idea behind point cloud completion: We get as input an incomplete point cloud and are assigned the task of completing the shapes of certain objects in the point cloud.
+Second, the capacity of the sensor limits the fidelity of the scan. While objects in the foreground of the scene will be represented by many points, objects in the back may only be represented by a handful of points. You can imagine that any tasks that we want to perform on the point cloud, such as segmantic segmentation or object classifcation are very difficult if parts of the data are missing. 
+
+Therefore we could greatly improve the performance of these subsequent tasks by first completing objects in the points cloud. This is the idea behind point cloud completion: We get as input an incomplete point cloud and are assigned the task of completing the shapes of certain objects in the point cloud. Some examples of partial input shapes and complete shapes can be seen in the image below.
 
 
 <figure>
-  <img src="/images/paper review/shapenet_reordered.png" height="300">
+  <img  src="/images/paper review/shapenet_reordered.png" height="300">
   <figcaption>
     Partial input shapes (top row) and completed shapes (bottom row) [9]
   </figcaption>
 </figure>
 
 # 3D Shape Completion
-In this section, I will present some of the methods that can be usd to complete a partial 3D shape. These methods can be partitioned into three main avenues: Geometry-based, example-base and learning-based.
+In this section, I will present some of the methods that can be used to complete a partial 3D shape. These methods can be partitioned into three main avenues: Geometry-based, example-base and learning-based.
 
 ## Geometry-based
 
