@@ -80,7 +80,7 @@ Finally, we could work directly with the point cloud without any discretization.
 In this section I will explain some of the existing work on point cloud processing and point cloud generation, which are crucial parts in the task of point cloud completion. To better understand why some of the papers presented are able to produce high-quality predictions I will introduce a set of metrics to (informally) evaluate the quality of a completed point cloud. For each metric I will present an image of the input shape, a predicted shape which failed to adhere to the metric and the ground truth shape which follows the metric. The qualities of point cloud described here will also help us understand how the *Morphing and Sampling* paper achieves high-quality point clouds.
 
 ### 1. Smooth surfaces
-The completed shape should have continous and smooth surfaces.
+The completed shape should have continous and smooth surfaces, which is not the case in the predicted shape of the lamp below.
 
 <figure>
   <img src="/images/paper review/goals_smooth.png" height="140">
