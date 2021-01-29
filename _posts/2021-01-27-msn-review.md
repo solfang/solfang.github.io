@@ -15,7 +15,7 @@ My presentation on this paper can be found [here](/files/msn/ADCV_Seminar_Presi.
 
 # Motivation
 
-The eyes into the world of an autonomous vehicle are the sensors installed in the vehicle. In order to understand the environment in which the vehicle is driving and to make informed decisions about potential paths of actions it's important to have reliable and complete sensor data about the scene. Such 3D data is commonly collected with Lidar sensors which capture a scene as a set of distinct points,  referred to as a point cloud. Even though Lidar produces high fidelity scans, there are two main factors which can lower the quality of the 3D scans. 
+The eyes into the world of an autonomous vehicle are the sensors installed on the vehicle. In order to understand the environment in which the vehicle is driving and to make informed decisions about potential paths of actions it's important to have reliable and complete sensor data about the scene. Such 3D data is commonly collected with Lidar sensors which capture a scene as a set of distinct points,  referred to as a point cloud. Even though Lidar produces high fidelity scans, there are two main factors which can lower the quality of the 3D scans. 
 
 First, scans are often obtained from a single view angle. This means that any part of an object which is occluded by itself or by other objects in the scene will be missing in the obtained point cloud. 
 
