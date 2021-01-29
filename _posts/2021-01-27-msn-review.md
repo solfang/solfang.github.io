@@ -141,21 +141,21 @@ FoldingNet [[3]](#3) introduces a way of recovering the point cloud which resemb
 
  AtlastNet [[4]](#4) uses a similar approach to FoldingNet. Instead of one 2D grid, multiple 2D grids are deformed into 3D surface elements, which then together build the final shape of the object. By using multiple grids, finer details of the shape can be captured.
  
- We can see that deforming 2D grids into 3D surfaces is a promising approach to model smooth and continuous surfaces, which was one of our goals. Therefore we could view this kind of 'morphing' based decoder as our first puzzle piece needed to build a solid network for point cloud completion.
+ We can see that deforming 2D grids into 3D surfaces is a promising approach to model smooth and continuous surfaces, which was one of our goals. Therefore we could view this kind of **morphing-based decoder** as our first puzzle piece needed to build a solid network for point cloud completion.
 
 
 **Point Completion Network (PCN)**
 
-Point Completion Network (PCN) [[5]](#5) introduces the idea of modeling the rough shape of the object in an initial pass and then refining the details in a subsequent pass. This approach tends to produce more detailed shapes than if we had tried to predict the complete shape in one go. With the coarse-to-fine network we have the second puzzle piece for our point cloud completion network.
+Point Completion Network (PCN) [[5]](#5) introduces the idea of modeling the rough shape of the object in an initial pass and then refining the details in a subsequent pass. This approach tends to produce more detailed shapes than if we had tried to predict the complete shape in one go. With the **coarse-to-fine network** we have the second puzzle piece for our point cloud completion network.
 
 
 # Contributions
 
-Now that we have seen some method used to generate our desired point clouds, we can turn to the Morphind and Sampling (MSN) paper. The papers makes four main contributions:
-1. A novel two-stage approach for point cloud estimation
-2. The addition of an expansion penalty for surface elements
-3. A novel sampling algorithm for point clouds with evenly distributed results
-4. An Implementation of an Earth mover’s distance (EMD) approximation
+Now that we have seen some method used to generate point clouds we can turn to the Morphing and Sampling (MSN) paper. The papers makes four main contributions:
+1. A novel two-stage approach for point cloud estimation.
+2. The addition of an expansion penalty for surface elements.
+3. A novel sampling algorithm for point clouds with evenly distributed results.
+4. An Implementation of an Earth Mover’s Distance (EMD) approximation.
 
 We will see later how each of these parts play a role in predicting completed object shapes which satisfy the four qualities the point cloud should have. To recap, those are: smooth surfaces, fine details, a locally even distribution of points and preserving existing structure from the input.
 
@@ -169,6 +169,7 @@ The architecture of the network in the MSN paper can be divided into four parts:
   </figcaption>
 </figure>
 
+
 1. The Encoder and Morphing-based Decoder
 2. Merging and Sampling
 3. Refining
@@ -177,7 +178,7 @@ The architecture of the network in the MSN paper can be divided into four parts:
 In the following section I'll explain the individual parts of the network in more detail.
 ## 1. Encoder and Morphing-based Decoder
 
-**Generating the Coarse Shape**
+### Generating the Coarse Shape
 
 <figure>
   <img src="/images/paper review/1_with_expansion.png">
@@ -185,20 +186,31 @@ In the following section I'll explain the individual parts of the network in mor
   </figcaption>
 </figure>
 
-The encoder is based on PointNet. It produces a single feature vector which will be used in the decoder.
-In the decoder we start with K 2D grids (16 in the paper). We then sample points from those grids which are concatenated with the feature vector. The concatenated vectors are fed into K MLPs which 'morph' them into K 3D surface elements as we have seen in the Point Completion Network. The surface elements together make up the coarse shape of the object. In theory, the surface elements are not prohibited to overlap. To reduce overlap to a minimum, the authors introduce an 'Expansion Penalty' that is applied to the surface elements. 
+The encoder is based on PointNet. It produces a single feature vector is then used in the decoder.
+In the decoder, we start with K 2D grids (K=16 in the paper). From those grids, n points (n=512 in the paper) are sampled and concatenated with the feature vector. The concatenated vectors are fed into K MLPs which deform them into K 3D surface elements as we have seen in the *Point Completion Network*. The surface elements together make up the coarse shape of the object. 
 
 > Morphing-based decoder for smooth surfaces
 
-**Expansion Penalty**
+In theory, the surface elements are not prohibited to overlap. To reduce overlap to a minimum, the authors introduce an 'Expansion Penalty' that is applied to the surface elements. 
+
+### Expansion Penalty
 
 
-The idea here is to encourage the surface elements to shrink to their respective center. This is done by construction a minimum spanning tree from the points of each surface element, with a total of K trees. A minimum spanning tree is a tree that connects all the vertices of a graph together without any cycles and with the minimum possible edge weight, where the edge weight here is the distance between two vertices. To this spanning tree a loss function is applied which penalizes long edges in the tree. This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center. In the image below we can see the coarse output of the network on different shapes, once without and once with the explansion penalty applied. Not only does the expansion penalty elimiate overlap, is also leads to the surface elements modeling different semantic parts of the object.
+The idea here is to encourage the surface elements to shrink to their respective center. This is done by construction a minimum spanning tree from the points of each surface element, with a total of K trees. A minimum spanning tree is a tree that connects all the vertices of a graph together without any cycles and with the minimum possible edge weight, where the edge weight here is the distance between two vertices. A loss function is applied to this spanning tree which penalizes long edges in the tree. To be exact, the function sums up for each spanning tree K all edges in the tree which are longer than the average edge in the tree  l<sub>i</sub> times a factor λ (a hyperparameter).
+
+<figure>
+  <img src="/images/paper review/img_expansionloss.png" height="63">
+  <figcaption>
+  </figcaption>
+</figure>
+
+
+This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center. In the image below we can see the coarse output of the network on different shapes, once without and once with the explansion penalty applied. Not only does the expansion penalty elimiate overlap, is also leads to the surface elements modeling different semantic parts of the object.
 
 <figure>
   <img src="/images/paper review/img_expansion.png" height="300">
   <figcaption>
-    Img: Coarse output without (top row) and with (bottom row) expansion penalty.
+    Coarse output without (top row) and with (bottom row) expansion penalty applied.
   </figcaption>
 </figure>
 
@@ -206,7 +218,7 @@ The idea here is to encourage the surface elements to shrink to their respective
 
 ## 2. Merging and Sampling
 
-**Merging**
+### Merging
 
 <figure>
   <img src="/images/paper review/2.png">
@@ -218,7 +230,7 @@ At this point we have modeled the coarse shape of the object which has relativel
 
 > Merging with the input shape for preserving input structures
 
-**Sampling**
+### Sampling
 
 To recover the even distribution of points, the authors propose to sample from the merged point cloud in a way that the sampled point cloud has an even distribution again. Unfortunately existing sampling algorithms such as Farthest Point Sampling (FPS) or Poisson Disk Sampling (PDS) preserve the unevenness in density and are not appropriate here. The authors therefore come up with their own sampling algorithm called Minimum Density Sampling (MDS). In contrast to FPS, which samples the farthest point from the previously sampled points, MDS samples points in a way that the 'density' of the points in the sample is minimized. Density here is determined by the Gaussian-weighted distance of the point-to-sample to all previously sampled points. The formula can be seen below. After sampling from the merged point clouds using MDS, the resulting point cloud now has a uniform distribution again.
 
@@ -245,11 +257,11 @@ To generate fine-grained structures, the merged point cloud is fed into a residu
 
 To compare the predicted shape to the ground truth shape we need a metric that judges the simlarity between the two point clouds of the shapes. Possible candidates for the distance metric are the Chamfer Distance (CD) and the Earth Mover's Distance (EMD).
 
-**Chamfer Distance**
+### Chamfer Distance
 
 The Chamfer Distance (CD) is a commonly used distance metric in point cloud completion tasks. Intuitively, for each point in one point cloud it computes the closest point in the second point cloud and then averages all the distances. The Chamfer Distance is straight-forward to calculate but when used as a loss function tends to produce shapes with blurry details and areas that are over-or underpopulated by points. 
 
-**Earth Mover's Distance**
+### Earth Mover's Distance
 
 In contrast, the Earth Mover's Distance tends to produce point clouds of higher quality. Intuitively, the Earth Mover's Distance finds a **bijection** between the points of two point clouds and averages the distance between each pair of points. The bijection is chosen so that the average distance between corresponding points is minized. There are two downsides to the EMD. First, it requires the two point cloud to be of equal size. Second, finding the bijection is a challenging task of its own and the textbook implementation of such an algorithm requires memory in O(n²). With this kind of memory consumption, comparing point clouds of more than ~2000 points is not feasible. 
 To address the memory problem, the authors propose an algorithm that approximates the EMD with memory consumption of O(n), based on an algorithm from auction theory. In essence, the algorithm treats the points as persons and objects and auctions them off iteratively with the goal of reaching an economic equilibrium. In term of computational cost, CD can be computed with O(n\*log(n)) complexity, while the EMD approximation takes O(n²) computations.
