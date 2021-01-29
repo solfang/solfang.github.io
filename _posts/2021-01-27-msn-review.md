@@ -251,13 +251,15 @@ After sampling from the merged point clouds using MDS, the resulting point cloud
   </figcaption>
 </figure>
 
-To generate fine-grained structures, the merged point cloud is fed into a residual network. The network consists of an encoder (based on PointNet) and a decoder which learns a refinement for each point which is then added point-by-point to the merged cloud. At this stage we have generated the final output point cloud, which represents the predicted complete shape of the object.
+To generate fine-grained structures, the merged point cloud is fed into a residual network. The network consists of an encoder (based on PointNet) and a decoder which learns a refinement for each point that is then added point-by-point to the merged cloud. 
 
 > Coarse-to-fine pass to model fine details of the object
 
+At this stage we have generated the final output point cloud which represents the predicted complete shape of the object.
+
 ## 4. The Loss Function
 
-To compare the predicted shape to the ground truth shape we need a metric that judges the simlarity between the two point clouds of the shapes. Possible candidates for the distance metric are the Chamfer Distance (CD) and the Earth Mover's Distance (EMD).
+To compare the predicted shape to the ground truth shape we need a metric that judges the similarity between the point clouds of the predicted and ground truth shape. Possible candidates for the distance metric are the Chamfer Distance (CD) and the Earth Mover's Distance (EMD).
 
 ### Chamfer Distance
 
@@ -265,11 +267,12 @@ The Chamfer Distance (CD) is a commonly used distance metric in point cloud comp
 
 ### Earth Mover's Distance
 
-In contrast, the Earth Mover's Distance tends to produce point clouds of higher quality. Intuitively, the Earth Mover's Distance finds a **bijection** between the points of two point clouds and averages the distance between each pair of points. The bijection is chosen so that the average distance between corresponding points is minized. There are two downsides to the EMD. First, it requires the two point cloud to be of equal size. Second, finding the bijection is a challenging task of its own and the textbook implementation of such an algorithm requires memory in O(n²). With this kind of memory consumption, comparing point clouds of more than ~2000 points is not feasible. 
-To address the memory problem, the authors propose an algorithm that approximates the EMD with memory consumption of O(n), based on an algorithm from auction theory. In essence, the algorithm treats the points as persons and objects and auctions them off iteratively with the goal of reaching an economic equilibrium. In term of computational cost, CD can be computed with O(n\*log(n)) complexity, while the EMD approximation takes O(n²) computations.
+In contrast, the Earth Mover's Distance tends to produce point clouds of higher quality. Intuitively, the Earth Mover's Distance finds a **bijection** between the points of two point clouds and averages the distance between each pair of points. The bijection is chosen so that the average distance between corresponding points is minimized. 
 
 > Earth Mover's Distance for an even distribution of points
 
+There are two downsides to the EMD. First, it requires the two point clouds to be of equal size. Second, finding the bijection is a challenging task of its own and the textbook implementation of such an algorithm requires memory in O(n²). With this kind of memory consumption, comparing point clouds of more than ~2000 points is not feasible. 
+To address the memory problem, the authors propose an algorithm that approximates the EMD with memory consumption of O(n), based on an algorithm from auction theory. In essence, the algorithm treats the points as persons and objects and auctions them off iteratively with the goal of reaching an economic equilibrium. In terms of computational cost, CD can be computed with O(n\*log(n)) complexity, while the EMD approximation takes O(n²) computations. In the image below we can see that the EMD heavily penalizes point clouds with blurry surfaces, in contrast to the CD.
 
 <figure>
   <img align="center" src="/images/paper review/img_losscomparison.png" height="343">
@@ -277,7 +280,10 @@ To address the memory problem, the authors propose an algorithm that approximate
   </figcaption>
 </figure>
 
-The final loss function is composed of the expansion loss of the coarse output as well as the EMD of the coarse and final output, compared to a point cloud sampled from the ground truth shape.
+
+### Final Loss Function
+
+The final loss function is composed of the expansion loss of the coarse output as well as the EMD of the coarse and final output.
 
 
 <figure>
@@ -285,6 +291,7 @@ The final loss function is composed of the expansion loss of the coarse output a
   <figcaption>
   </figcaption>
 </figure>
+
 
 
 ## Putting it all together
@@ -295,7 +302,7 @@ The final loss function is composed of the expansion loss of the coarse output a
   </figcaption>
 </figure>
 
-Here we can see the structure of the complete network again. We have seen how the different parts of the network are put together to achieve smooth surfaces, the ability model fine detials, grant a locally even distribution of points and preserve input structure.
+Here we can see the structure of the complete network again. We have seen how the morphing-based decoder produces a coarse point cloud with smooth surfaces using surface elements monitored by the exansion loss. The corase shape is then merged with the input shape to preserve existing input structures and sampled through MDS to recover the uniform density of points, followed by a residual network which models fine details of the object. The final output is then evaluated using EMD which warrants a locally even distribution of points.
 
 # Experiments
 
