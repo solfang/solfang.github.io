@@ -126,13 +126,10 @@ The task of point cloud generation is, given a compressed version of an input po
  We can see that deforming 2D grids into 3D surfaces is a promising approach to model smooth and continuous surfaces, which was one of our goals. Therefore we could view this kind of 'morphing' based decoder as our first puzzle piece needed to build a solid network for point cloud completion.
 [maybe mid-column fancy background box: First puzzle piece: Morphing-based decoder]
 
-> First puzzle piece: Morphing-based decoder for smooth surfaces
 
 **Point Completion Network (PCN)**
 
 Point Completion Network (PCN) [cite] introduces the idea of modeling the rough shape of the object in an initial pass and then refining the details in a subsequent pass. This approach tends to produce more detailed shapes than if we had tried to predict the complete shape in one go. With the coarse-to-fine network we have the second puzzle piece for our point cloud completion network. [maybe Second puzzle piece: ...]
-
-> Second puzzle piece: Coarse-to-fine pass for fine details
 
 
 # Contributions
@@ -165,18 +162,18 @@ In the following section I'll explain the individual parts of the network in mor
 
 **Generating the Coarse Shape**
 
-The encoder is based on PointNet. It produces a single feature feature which will be used in the decoder.
-In the decoder we start with K 2D grids (16 in the paper). We then sample points from those grids which are concatenated with the feature vector. The concatenated vectors are fed into K MLPs which 'morph' them into K 3D surface elements [point at image] as we have seen in the Point Completion Network. The surface elements together make up the coarse shape of the object. In theory, the surface elements are not prohibited to overlap. To reduce overlap to a minimum, the authors introduce an 'Expansion Penalty' that is applied to the surface elements. 
-
 <figure>
   <img src="/images/paper review/1_with_expansion.png" height="300">
   <figcaption>
   </figcaption>
 </figure>
 
-**Expansion Penalty**
+The encoder is based on PointNet. It produces a single feature feature which will be used in the decoder.
+In the decoder we start with K 2D grids (16 in the paper). We then sample points from those grids which are concatenated with the feature vector. The concatenated vectors are fed into K MLPs which 'morph' them into K 3D surface elements [point at image] as we have seen in the Point Completion Network. The surface elements together make up the coarse shape of the object. In theory, the surface elements are not prohibited to overlap. To reduce overlap to a minimum, the authors introduce an 'Expansion Penalty' that is applied to the surface elements. 
 
-The idea here is to encourage the surface elements to shrink to their respective center. This is done by construction a minimum spanning tree from the points of each surface element, with a total of K trees. A minimum spanning tree is a tree that connects all the vertices of a graph together without any cycles and with the minimum possible edge weight, where the edge weight here is the distance between two vertices. To this spanning tree a loss function is applied which penalizes long edges in the tree. This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center.
+> Morphing-based decoder for smooth surfaces
+
+**Expansion Penalty**
 
 <figure>
   <img src="/images/paper review/img_expansion.png" height="200">
@@ -184,12 +181,13 @@ The idea here is to encourage the surface elements to shrink to their respective
   </figcaption>
 </figure>
 
+The idea here is to encourage the surface elements to shrink to their respective center. This is done by construction a minimum spanning tree from the points of each surface element, with a total of K trees. A minimum spanning tree is a tree that connects all the vertices of a graph together without any cycles and with the minimum possible edge weight, where the edge weight here is the distance between two vertices. To this spanning tree a loss function is applied which penalizes long edges in the tree. This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center.
+
+
+
 ## 2. Merging and Sampling
 
 **Merging**
-
-At this point we have modeled the coarse shape of the object which has relatively smooth surfaces and a locally even distribution of points. That's two out of the four goals checked so far. During the generation of the coarse shape structures that are present in the input might have been dropped because the fixed-size surface elements can only model so much detail. To address this problem, the coarse point cloud is merged with the input point cloud. The two point clouds overlap in some areas and therefore the merged point cloud likely has an uneven distribution. Through the merging operation we get to keep all structure from the input but the even distribution that was just there on the coarse point cloud is ruined. 
-
 
 <figure>
   <img src="/images/paper review/2.png" height="300">
@@ -197,7 +195,9 @@ At this point we have modeled the coarse shape of the object which has relativel
   </figcaption>
 </figure>
 
-> Third puzzle piece: Merging with the input shape for preserving input structures
+At this point we have modeled the coarse shape of the object which has relatively smooth surfaces and a locally even distribution of points. That's two out of the four goals checked so far. During the generation of the coarse shape structures that are present in the input might have been dropped because the fixed-size surface elements can only model so much detail. To address this problem, the coarse point cloud is merged with the input point cloud. The two point clouds overlap in some areas and therefore the merged point cloud likely has an uneven distribution. Through the merging operation we get to keep all structure from the input but the even distribution that was just there on the coarse point cloud is ruined. 
+
+> Merging with the input shape for preserving input structures
 
 **Sampling**
 
@@ -214,15 +214,15 @@ To recover the even distribution of points, the authors propose to sample from t
 
 ## 3. Refining
 
-To generate fine-grained structures, the merged point cloud is fed into a residual network. The network consists of an encoder (based on PointNet) and a decoder which learns a refinement for each point which is then added point-by-point to the merged cloud. At this stage we have generated the final output point cloud, which represents the predicted complete shape of the object.
-
-
-
 <figure>
   <img src="/images/paper review/3.png" height="300">
   <figcaption>
   </figcaption>
 </figure>
+
+To generate fine-grained structures, the merged point cloud is fed into a residual network. The network consists of an encoder (based on PointNet) and a decoder which learns a refinement for each point which is then added point-by-point to the merged cloud. At this stage we have generated the final output point cloud, which represents the predicted complete shape of the object.
+
+> Coarse-to-fine pass for fine details
 
 ## 4. The Loss Function
 
@@ -237,11 +237,11 @@ The Chamfer Distance (CD) is a commonly used distance metric in point cloud comp
 In contrast, the Earth Mover's Distance tends to produce point clouds of higher quality. Intuitively, the Earth Mover's Distance finds a **bijection** between the points of two point clouds and averages the distance between each pair of points. The bijection is chosen so that the average distance between corresponding points is minized. There are two downsides to the EMD. First, it requires the two point cloud to be of equal size. Second, finding the bijection is a challenging task of its own and the textbook implementation of such an algorithm requires memory in O(n²). With this kind of memory consumption, comparing point clouds of more than ~2000 points is not feasible. 
 To address the memory problem, the authors propose an algorithm that approximates the EMD with memory consumption of O(n), based on an algorithm from auction theory. In essence, the algorithm treats the points as persons and objects and auctions them off iteratively with the goal of reaching an economic equilibrium. In term of computational cost, CD can be computed with O(n\*log(n)) complexity, while the EMD approximation takes O(n²) computations.
 
-> Fourth puzzle piece: Earth Mover's Distance for even distribution of points
+> Earth Mover's Distance for even distribution of points
 
 
 <figure>
-  <img src="/images/paper review/img_losscomparison.png" height="343">
+  <img align="center" src="/images/paper review/img_losscomparison.png" height="343">
   <figcaption>
   </figcaption>
 </figure>
