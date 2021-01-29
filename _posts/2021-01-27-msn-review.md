@@ -19,7 +19,7 @@ The eyes into the world of an autonomous vehicle are the sensors installed in th
 
 First, scans are often obtained from a single view angle. This means that any part of an object which is occluded by itself or by other objects in the scene will be missing in the obtained point cloud. 
 
-Second, the capacity of the sensor limits the fidelity of the scan. While objects in the foreground of the scene will be represented by many points, objects in the back may only be represented by a handful of points. You can imagine that any tasks that we want to perform on the point cloud, such as segmantic segmentation or object classifcation are very difficult if parts of the data are missing. 
+Second, the capacity of the sensor limits the fidelity of the scan. While objects in the foreground of the scene will be represented by many points, objects in the back may only be represented by a handful of points. You can imagine that any tasks that we want to perform on the point cloud, such as semantic segmentation or object classification are very difficult if parts of the data are missing. 
 
 Therefore we could greatly improve the performance of these subsequent tasks by first completing objects in the points cloud. This is the idea behind point cloud completion: We get as input an incomplete point cloud and are assigned the task of completing the shapes of certain objects in the point cloud. Some examples of partial input shapes and complete shapes can be seen in the image below.
 
@@ -78,7 +78,7 @@ Finally, we could work directly with the point cloud without any discretization.
 In this section I will explain some of the existing work on point cloud processing and point cloud generation, which are crucial parts in the task of point cloud completion. To better understand why some of the papers presented are able to produce high-quality predictions I will introduce a set of metrics to (informally) evaluate the quality of a completed point cloud. For each metric I will present an image of the input shape, a predicted shape which failed to adhere to the metric and the ground truth shape which follows the metric. The qualities of point cloud described here will also help us understand how the *Morphing and Sampling* paper achieves high-quality point clouds.
 
 ### 1. Smooth surfaces
-The completed shape should have continous and smooth surfaces, which is not the case in the predicted shape of the lamp below.
+The completed shape should have continuous and smooth surfaces, which is not the case in the predicted shape of the lamp below.
 
 <figure>
   <img src="/images/paper review/goals_smooth.png" height="140">
@@ -87,7 +87,7 @@ The completed shape should have continous and smooth surfaces, which is not the 
 </figure>
 
 ### 2. Fine details
-We want to capture fine details of the object, such as an antenna on a car. In the image below the antenna is barely present in the input yet has not been modelled by the prediction.
+We want to capture fine details of the object, such as an antenna on a car. In the image below the antenna is barely present in the input yet has not been modeled by the prediction.
 
 <figure>
   <img src="/images/paper review/goals_details.png" height="110">
@@ -96,7 +96,7 @@ We want to capture fine details of the object, such as an antenna on a car. In t
 </figure>
 
 ### 3. Locally even distribution of points
-We want the points to be distributed evenly on the local parts of the object. When completing the shape of a table, we would expect the individual legs of the table below to have an even distribution of points, wich should be considered in the prediction. 
+We want the points to be distributed evenly on the local parts of the object. When completing the shape of a table, we would expect the individual legs of the table below to have an even distribution of points, which should be considered in the prediction. 
 
 <figure>
   <img src="/images/paper review/goals_even.png" height="134">
@@ -118,7 +118,7 @@ All parts of the object in partial input should be preserved in the completed sh
 
 **PointNet**
 
-PointNet [[2]](#2) is a seminal paper in point cloud processing because of its simple yet effective architecture. PointNet directly takes in a point cloud and produces a single feature vector through an auto-encoder and a final max-pool. Through feature transform layers, the network is also indifferent to the rotation of the point cloud and to the exact order of the points, which is an important feature to have since the points in a point cloud are unordered. The produced feature vector can then be used in subsequent tasks such as shape classifiation, segmantic segmentation or shape completion like in our case, by passing it through a decoder.
+PointNet [[2]](#2) is a seminal paper in point cloud processing because of its simple yet effective architecture. PointNet directly takes in a point cloud and produces a single feature vector through an auto-encoder and a final max-pool. Through feature transform layers, the network is also indifferent to the rotation of the point cloud and to the exact order of the points, which is an important feature to have since the points in a point cloud are unordered. The produced feature vector can then be used in subsequent tasks such as shape classification, semantic segmentation or shape completion like in our case, by passing it through a decoder.
 
 ## Point Cloud Generation
 
@@ -204,7 +204,7 @@ The idea here is to encourage the surface elements to shrink to their respective
 </figure>
 
 
-This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center. In the image below we can see the coarse output of the network on different objects, once without and once with the explansion penalty applied. Not only does the expansion penalty eliminate overlap, it also leads to the surface elements modeling different semantic parts of the object.
+This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center. In the image below we can see the coarse output of the network on different objects, once without and once with the expansion penalty applied. Not only does the expansion penalty eliminate overlap, it also leads to the surface elements modeling different semantic parts of the object.
 
 <figure>
   <img src="/images/paper review/img_expansion.png" height="300">
@@ -339,7 +339,7 @@ C) Using FPS instead of MDS for the sampling
 D) Without refining
 
 The ablated versions of the network were, like in the evaluation, tested on both the Chamfer Distance and Earth Mover's Distance.
-Versions A, B and C performed worse than the non-ablated version of the network on both distance metrics. For the sampling (C), the network evaluated on the Chamfer Distance provided better results with FPS than with the authors sampling algorithm (MDS). The explanation the authors give is that FPS results in a more uneven ditribution of points, which is not as heavily penalized by CD than with EMD. On the other hand, FPS tends to preserve more points from the reliable input than MDS.
+Versions A, B and C performed worse than the non-ablated version of the network on both distance metrics. For the sampling (C), the network evaluated on the Chamfer Distance provided better results with FPS than with the authors sampling algorithm (MDS). The explanation the authors give is that FPS results in a more uneven distribution of points, which is not as heavily penalized by CD than with EMD. On the other hand, FPS tends to preserve more points from the reliable input than MDS.
 
 
 <figure>
@@ -362,13 +362,13 @@ The network was evaluated on both the 'native' Earth Mover's distance as well as
 **Architecture**
 
 In my eyes, the architecture is well thought-out an distinctly addresses the desired qualities of the output point cloud.
-Potential ways to improve the performance of the network could be to combine a folding-based decoder and a fully-connected decoder instead of only relying on a folding-based decoder. Also, explicitly trying to predict missing parts of the objects from the input point cloud  could potentally improve the quality of the completed shapes.
+Potential ways to improve the performance of the network could be to combine a folding-based decoder and a fully-connected decoder instead of only relying on a folding-based decoder. Also, explicitly trying to predict missing parts of the objects from the input point cloud  could potentially improve the quality of the completed shapes.
 
 **General Assessment**
 
-The authors explain the network architecture concisely and in an easy to follow manner. What I find especially interesting about this paper is that the authors have presented solutions to existing problems, such as the approximation of the Earth Mover's Distance as well as the Minimum density sampling algorithm. Earth Mover's Distance, now that it has a feasible implementation, could improve the quality of future point cloud completion approaches and has been used to produce state-of-the-art results, for example in the *Cloud Transformers* network [[8]](#8). Altough with a computatational cost of O(n^2) EMD is not a clear-cut choice over the CD.
+The authors explain the network architecture concisely and in an easy to follow manner. What I find especially interesting about this paper is that the authors have presented solutions to existing problems, such as the approximation of the Earth Mover's Distance as well as the Minimum density sampling algorithm. Earth Mover's Distance, now that it has a feasible implementation, could improve the quality of future point cloud completion approaches and has been used to produce state-of-the-art results, for example in the *Cloud Transformers* network [[8]](#8). Although with a computational cost of O(n^2) EMD is not a clear-cut choice over the CD.
 
-Furthermore, point-cloud based methods are no longer the only successful approach to point cloud comletion. Recent Voxel-based networks, such as *GRNet* [[6]](#6), have overcome the drawbacks of voxelization and can deliver results that rival those of purely point-based networks.
+Furthermore, point-cloud based methods are no longer the only successful approach to point cloud completion. Recent Voxel-based networks, such as *GRNet* [[6]](#6), have overcome the drawbacks of voxelization and can deliver results that rival those of purely point-based networks.
 
 # References
 
