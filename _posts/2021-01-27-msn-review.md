@@ -15,13 +15,13 @@ My presentation on this paper can be found [here](/files/msn/ADCV_Seminar_Presi.
 
 # Motivation
 
-The eyes into the world of an autonomous vehicle are the sensors installed in the vehicle. In order to understand the environment in which the vehicle is driving and to make informed decisions about potential paths of actions it's important to have reliable and complete sensor data about the scene. Such 3D data is commonly collected with Lidar sensors, which capture a scene as a set of distinct points, which are referred to as a point cloud. Even though Lidar produces high fidelity scans, there are two main factors which can lower the quality of the 3D scans. 
+The eyes into the world of an autonomous vehicle are the sensors installed in the vehicle. In order to understand the environment in which the vehicle is driving and to make informed decisions about potential paths of actions it's important to have reliable and complete sensor data about the scene. Such 3D data is commonly collected with Lidar sensors which capture a scene as a set of distinct points,  referred to as a point cloud. Even though Lidar produces high fidelity scans, there are two main factors which can lower the quality of the 3D scans. 
 
 First, scans are often obtained from a single view angle. This means that any part of an object which is occluded by itself or by other objects in the scene will be missing in the obtained point cloud. 
 
-Second, the capacity of the sensor limits the fidelity of the scan. While objects in the foreground of the scene will be represented by many points, objects in the back may only be represented by a handful of points. You can imagine that any tasks that we want to perform on the point cloud, such as semantic segmentation or object classification are very difficult if parts of the data are missing. 
+Second, the capacity of the sensor limits the fidelity of the scan. While objects in the foreground of the scene will be represented by many points, objects in the back may only be represented by a handful of points. 
 
-Therefore we could greatly improve the performance of these subsequent tasks by first completing objects in the points cloud. This is the idea behind point cloud completion: We get as input an incomplete point cloud and are assigned the task of completing the shapes of certain objects in the point cloud. Some examples of partial input shapes and complete shapes can be seen in the image below.
+You can imagine that any tasks that we want to perform on the point cloud, such as semantic segmentation or object classification are very difficult if parts of the data are missing. Therefore, we could greatly improve the performance of these subsequent tasks by first completing objects in the points cloud. This is the idea behind point cloud completion: We get as input an incomplete point cloud and are assigned the task of completing the shapes of certain objects in the point cloud. Some examples of partial input shapes and complete shapes can be seen in the image below.
 
 
 <figure>
@@ -36,25 +36,11 @@ In this section, I will present some of the methods that can be used to complete
 
 ## Geometry-based
 
-Geometry-based approaches aim to complete parts of the shape by extrapolating from existing parts in the input, either by interpolation or using assumption about symmetry in the object. Interpolation fails on large-scale incompleteness and symmetry is not given for all objects so this approach has some clear drawbacks.
-
-<figure>
-  <img src="/images/paper review/relatedwork_symmetry.png" height="160">
-  <figcaption>
-    Types of reflection symmetries. [10]
-  </figcaption>
-</figure>
+Geometry-based approaches aim to complete parts of the shape by extrapolating from existing parts in the input, either by interpolation or using assumptions about symmetry in the object. Interpolation fails on large-scale incompleteness and symmetry is not given for all objects so this approach has some clear drawbacks.
 
 ## Example-based
 
 The second approach involves example-based methods. Here, we have a database of existing shapes which we then deform and assemble to form the complete shape of the object. You can imagine that this method fails for unseen shapes which are not present in the shape database. 
-
-<figure>
-  <img src="/images/paper review/relatedwork_examplebased.png" height="140">
-  <figcaption>
-    Objects from a model shape database. [11]
-  </figcaption>
-</figure>
 
 ## Learning-based
 
@@ -69,7 +55,7 @@ Finally, we could work directly with the point cloud without any discretization.
 <figure>
   <img src="/images/paper review/relatedowork_pc.png" height="150">
   <figcaption>
-    Point clouds of varying densities, demonstrating the irregular structure of point clouds.  [12]
+    Point clouds of varying densities, demonstrating the irregular structure of point clouds.  [10]
   </figcaption>
 </figure>
 
@@ -392,11 +378,7 @@ Images not cited are taken from the MSN paper.
 
 <a name="9"> [9] cs.cmu.edu/~wyuan1/pcn/images/shapenet.png, last accessed 12.01.2021
   
-<a name="10"> [10] Thrun, S., & Wegbreit, B. (2005, October). Shape from symmetry. In Tenth IEEE International Conference on Computer Vision (ICCV'05) Volume 1 (Vol. 2, pp. 1824-1831). IEEE.
-  
-<a name="11"> [11] Pauly, M., Mitra, N. J., Giesen, J., Gross, M. H., & Guibas, L. J. (2005). Example-based 3D scan completion. In Symposium on Geometry Processing (No. CONF, pp. 23-32).
-  
-<a name="12"> [12] Lim, I., Ibing, M., & Kobbelt, L. (2019, August). A Convolutional Decoder for Point Clouds using Adaptive Instance Normalization. In Computer Graphics Forum (Vol. 38, No. 5, pp. 99-108).
+<a name="12"> [10] Lim, I., Ibing, M., & Kobbelt, L. (2019, August). A Convolutional Decoder for Point Clouds using Adaptive Instance Normalization. In Computer Graphics Forum (Vol. 38, No. 5, pp. 99-108).
   
   
   
