@@ -355,7 +355,7 @@ Potential ways to improve the performance of the network could be to combine a f
 
 **General Assessment**
 
-The authors explain the network architecture concisely and in an easy to follow manner. What I find especially interesting about this paper is that the authors have presented solutions to existing problems, such as the approximation of the Earth Mover's Distance as well as the Minimum density sampling algorithm. Earth Mover's Distance, now that it has a feasible implementation, could improve the quality of future point cloud completion approaches and has been used to produce state-of-the-art results, for example in the *Cloud Transformers* network [[8]](#8). Although with a computational cost of O(n^2) EMD is not a clear-cut choice over the CD.
+The authors explain the network architecture concisely and in an easy to follow manner. What I find especially interesting about this paper is that the authors have presented solutions to existing problems, such as the approximation of the Earth Mover's Distance as well as the Minimum density sampling algorithm. Earth Mover's Distance, now that it has a feasible implementation, could improve the quality of future point cloud completion approaches and has been used to produce state-of-the-art results, for example in the *Cloud Transformers* network [[8]](#8). Although with a computational cost of O(n²) EMD is not a clear-cut choice over the CD.
 
 Furthermore, point-cloud based methods are no longer the only successful approach to point cloud completion. Recent Voxel-based networks, such as *GRNet* [[6]](#6), have overcome the drawbacks of voxelization and can deliver results that rival those of purely point-based networks.
 
