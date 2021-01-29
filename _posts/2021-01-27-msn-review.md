@@ -288,14 +288,16 @@ The final loss function is composed of the expansion loss of the coarse output a
   </figcaption>
 </figure>
 
-Here we can see the structure of the complete network again. We have seen how the morphing-based decoder produces a coarse point cloud with **smooth surfaces** using surface elements and an expansion penalty. The coarse shape is then merged with the input shape to **preserve existing input structures** and sampled through MDS to recover the uniform density of points. Following the sampling is a residual network which can model **finer details of the object**. The final output is then evaluated using EMD which warrants a **locally even distribution of points**.
+Here we can see the structure of the complete network again. We have seen how the morphing-based decoder produces a coarse point cloud with **smooth surfaces** using surface elements and an expansion penalty. The coarse shape is then merged with the input shape to **preserve existing input structures** and sampled through Minimum Density Sampling to recover the uniform density of points. Following the sampling is a residual network which can model **finer details of the object**. The final output is then evaluated using EMD which warrants a **locally even distribution of points**.
 
 # Experiments
 
 ## Evaluation Results
-The network was evaluated on a subset of the ShapeNet dataset [[5]](#5) wich includes eight classes of objects: table, chair, car, airplane, sofa, lamp, vessel, cabinet. From ~30k objects in the dataset, 1.5mil training samples were created by using different camera poses to simulate different view angles.
+The network was evaluated on a subset of the ShapeNet dataset [[5]](#5) wich includes eight classes of objects: table, chair, car, airplane, sofa, lamp, vessel, cabinet. 
 
-While the network was trained on the EMD distance, it was evaluated both on the CD and EMD. In both metrics, the network beats the state-of-the-art at the time of publishing the paper for each object class.
+From ~30k objects in the dataset, 1.5million training samples were created by using varying camera poses to simulate different view angles.
+
+While the network was trained on the EMD distance, it was evaluated both on the CD and EMD metrics. In both metrics, the network beats the state-of-the-art at the time of publishing the paper for each object class.
 
 <figure>
   <img src="/images/paper review/img_evaluation.png" height="320">
@@ -344,7 +346,7 @@ This approach generates smooth surfaces, preserves existing structure in the inp
 # My take on the paper
 **Method** 
 
-The network was evaluated on both the 'native' Earth Mover's distance as well as on the Chamfer Distance. The papers used to represent state-of-the-art for the evaluation are in my eyes a fair selection. On top of that, the authors have conducted extensive ablation studies. The network was evaluated on ShapeNet, which features dense point clouds. It also would have been interesting to see the performance on sparse data such as KITTI, albeit the authors state that the focus of the paper was on dense point cloud completion.
+The network was evaluated on both the *native* Earth Mover's Distance as well as on the Chamfer Distance. The papers used to represent state-of-the-art for the evaluation are in my eyes a fair selection. On top of that, the authors have conducted extensive ablation studies. The network was evaluated on ShapeNet, which features dense point clouds. It would have also been interesting to see the performance on sparse data such as KITTI, albeit the authors state that the focus of the paper was on dense point cloud completion.
 
 **Architecture**
 
@@ -375,11 +377,11 @@ Images not cited are taken from the MSN paper.
 
 <a name="7"> [7] </a> Xie, H., Yao, H., Zhou, S., Mao, J., Zhang, S., & Sun, W. (2020). GRNet: Gridding Residual Network for Dense Point Cloud Completion. arXiv preprint arXiv:2006.03761.
 
-<a name="8"> [8] Mazur, K., & Lempitsky, V. (2020). Cloud transformers. arXiv preprint arXiv:2007.11679.
+<a name="8"> [8] </a> Mazur, K., & Lempitsky, V. (2020). Cloud transformers. arXiv preprint arXiv:2007.11679.
 
-<a name="9"> [9] cs.cmu.edu/~wyuan1/pcn/images/shapenet.png, last accessed 12.01.2021
+<a name="9"> [9]  </a> cs.cmu.edu/~wyuan1/pcn/images/shapenet.png, last accessed 12.01.2021
   
-<a name="12"> [10] Lim, I., Ibing, M., & Kobbelt, L. (2019, August). A Convolutional Decoder for Point Clouds using Adaptive Instance Normalization. In Computer Graphics Forum (Vol. 38, No. 5, pp. 99-108).
+<a name="10"> [10]  </a> Lim, I., Ibing, M., & Kobbelt, L. (2019, August). A Convolutional Decoder for Point Clouds using Adaptive Instance Normalization. In Computer Graphics Forum (Vol. 38, No. 5, pp. 99-108).
   
   
   
