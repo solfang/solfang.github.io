@@ -6,7 +6,7 @@ tags: computer vision
 ---
 
 In this post, we will review the paper [Morphing and Sampling Network for Dense Point Cloud Completion](https://ojs.aaai.org/index.php/AAAI/article/view/6827) presented by Liu et al. at the AAAI 2020 in New York.
-We will take a quick look at the motivation behind point cloud completion and previous approaches and then dive into the network architecture and review the experiments conducted on the network. To close off I present a conclusion and my view on the paper.
+We will take a quick look at the motivation and previous approaches on point cloud completion and then dive into the network architecture and review the experiments conducted on the network. To close off I present a conclusion and my view on the paper.
 
 The code for this paper is available under [https://github.com/Colin97/MSN-Point-Cloud-Completion]().
 
