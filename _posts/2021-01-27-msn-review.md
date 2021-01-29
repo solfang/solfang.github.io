@@ -189,7 +189,7 @@ In the following section I'll explain the individual parts of the network in mor
 The encoder is based on PointNet. It produces a single feature vector is then used in the decoder.
 In the decoder, we start with K 2D grids (K=16 in the paper). From those grids, n points (n=512 in the paper) are sampled and concatenated with the feature vector. The concatenated vectors are fed into K MLPs which deform them into K 3D surface elements as we have seen in the *Point Completion Network*. The surface elements together make up the coarse shape of the object. 
 
-> Morphing-based decoder for smooth surfaces
+> Morphing-based decoder to achieve smooth surfaces
 
 In theory, the surface elements are not prohibited to overlap. To reduce overlap to a minimum, the authors introduce an 'Expansion Penalty' that is applied to the surface elements. 
 
@@ -205,7 +205,7 @@ The idea here is to encourage the surface elements to shrink to their respective
 </figure>
 
 
-This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center. In the image below we can see the coarse output of the network on different shapes, once without and once with the explansion penalty applied. Not only does the expansion penalty elimiate overlap, is also leads to the surface elements modeling different semantic parts of the object.
+This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center. In the image below we can see the coarse output of the network on different objects, once without and once with the explansion penalty applied. Not only does the expansion penalty eliminate overlap, it also leads to the surface elements modeling different semantic parts of the object.
 
 <figure>
   <img src="/images/paper review/img_expansion.png" height="300">
@@ -226,19 +226,21 @@ This way the vertices in the spanning tree are encouraged to migrate towards the
   </figcaption>
 </figure>
 
-At this point we have modeled the coarse shape of the object which has relatively smooth surfaces and a locally even distribution of points. That's two out of the four goals checked so far. During the generation of the coarse shape structures that are present in the input might have been dropped because the fixed-size surface elements can only model so much detail. To address this problem, the coarse point cloud is merged with the input point cloud. The two point clouds overlap in some areas and therefore the merged point cloud likely has an uneven distribution. Through the merging operation we get to keep all structure from the input but the even distribution that was just there on the coarse point cloud is ruined. 
+At this point we have modeled the coarse shape of the object with relatively smooth surfaces and a locally even distribution of points. That's two out of the four goals checked so far. During the generation of the coarse shape, structures that are present in the input might have been dropped because the fixed-size surface elements can only model so much detail. To address this problem, the coarse point cloud is merged with the input point cloud. The two point clouds overlap in some areas (and not at all in other areas), therefore the merged point cloud likely has an uneven distribution of points. Through the merging operation we get to keep all structure from the input but the even distribution that was just there on the coarse point cloud is gone. 
 
-> Merging with the input shape for preserving input structures
+> Merging with the input shape to preserve input structures
 
 ### Sampling
 
-To recover the even distribution of points, the authors propose to sample from the merged point cloud in a way that the sampled point cloud has an even distribution again. Unfortunately existing sampling algorithms such as Farthest Point Sampling (FPS) or Poisson Disk Sampling (PDS) preserve the unevenness in density and are not appropriate here. The authors therefore come up with their own sampling algorithm called Minimum Density Sampling (MDS). In contrast to FPS, which samples the farthest point from the previously sampled points, MDS samples points in a way that the 'density' of the points in the sample is minimized. Density here is determined by the Gaussian-weighted distance of the point-to-sample to all previously sampled points. The formula can be seen below. After sampling from the merged point clouds using MDS, the resulting point cloud now has a uniform distribution again.
+To recover the even distribution of points, the authors propose to sample from the merged point cloud in a way that the sampled point cloud has an even distribution again. Unfortunately existing sampling algorithms such as Farthest Point Sampling (FPS) or Poisson Disk Sampling (PDS) preserve the unevenness in density and are not appropriate here. The authors therefore come up with their own sampling algorithm called Minimum Density Sampling (MDS). In contrast to FPS, which samples the farthest point from the previously sampled points, MDS samples points in a way that the 'density' of the points in the sample is minimized. Density here is determined by the Gaussian-weighted distance of the point-to-sample to all previously sampled points. In the formula below, P<sub>i-1</sub> denotes the already sampled points and σ a hyperparameter which determines the size of the neighbourhood considered.
 
 <figure>
   <img src="/images/paper review/img_minimumdensitysampling.png" height="60">
   <figcaption>
   </figcaption>
 </figure>
+
+After sampling from the merged point clouds using MDS, the resulting point cloud now has a uniform distribution again.
 
 
 ## 3. Refining
@@ -251,7 +253,7 @@ To recover the even distribution of points, the authors propose to sample from t
 
 To generate fine-grained structures, the merged point cloud is fed into a residual network. The network consists of an encoder (based on PointNet) and a decoder which learns a refinement for each point which is then added point-by-point to the merged cloud. At this stage we have generated the final output point cloud, which represents the predicted complete shape of the object.
 
-> Coarse-to-fine pass for fine details
+> Coarse-to-fine pass to model fine details of the object
 
 ## 4. The Loss Function
 
@@ -266,7 +268,7 @@ The Chamfer Distance (CD) is a commonly used distance metric in point cloud comp
 In contrast, the Earth Mover's Distance tends to produce point clouds of higher quality. Intuitively, the Earth Mover's Distance finds a **bijection** between the points of two point clouds and averages the distance between each pair of points. The bijection is chosen so that the average distance between corresponding points is minized. There are two downsides to the EMD. First, it requires the two point cloud to be of equal size. Second, finding the bijection is a challenging task of its own and the textbook implementation of such an algorithm requires memory in O(n²). With this kind of memory consumption, comparing point clouds of more than ~2000 points is not feasible. 
 To address the memory problem, the authors propose an algorithm that approximates the EMD with memory consumption of O(n), based on an algorithm from auction theory. In essence, the algorithm treats the points as persons and objects and auctions them off iteratively with the goal of reaching an economic equilibrium. In term of computational cost, CD can be computed with O(n\*log(n)) complexity, while the EMD approximation takes O(n²) computations.
 
-> Earth Mover's Distance for even distribution of points
+> Earth Mover's Distance for an even distribution of points
 
 
 <figure>
