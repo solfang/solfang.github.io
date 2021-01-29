@@ -67,7 +67,7 @@ The idea behind learning-based approaches is to learn a mapping between the part
 
 # Related Work
 
-In this section I will explain some of the existing work that has been done on point cloud processing and point cloud generation. To better understand why some of the papers presented are able to produce high-quality results I will introduce a set of metrics to (informally) evaluate the quality of a completed point cloud. Those metrics will also help us understand how the paper presented here achieves high-quality point clouds. Those metrics are:
+In this section I will explain some of the existing work that has been done on point cloud processing and point cloud generation. To better understand why some of the papers presented are able to produce high-quality results I will introduce a set of metrics to (informally) evaluate the quality of a completed point cloud. For each metric I will present an image of the input shape, a predicted shape which failed to adhere to the metric and the ground truth shape which follows the metric. The qualities of point cloud described here will also help us understand how the paper presented here achieves high-quality point clouds.
 
 ### 1. Smooth surfaces
 The completed shape should have continous and smooth surfaces.
@@ -79,7 +79,7 @@ The completed shape should have continous and smooth surfaces.
 </figure>
 
 ### 2. Fine details
-We want to capture fine details of the object, such as an antenna on a car or the indivual blades of a propeller on an airplane.
+We want to capture fine details of the object, such as an antenna on a car which is present in the input here but has not been modelled by the prediction.
 
 <figure>
   <img src="/images/paper review/goals_details.png" height="110">
@@ -88,8 +88,7 @@ We want to capture fine details of the object, such as an antenna on a car or th
 </figure>
 
 ### 3. Locally even distribution of points
-We want the points to be distributed evenly on the local parts of the object.
-
+We want the points to be distributed evenly on the local parts of the object. We would expect the individual legs on the table below to have an even distribution of points, wich should be considered in the prediction. 
 
 <figure>
   <img src="/images/paper review/goals_even.png" height="134">
@@ -99,7 +98,7 @@ We want the points to be distributed evenly on the local parts of the object.
 
 
 ### 4. Preserve input structure
-All parts of the object in partial input should be preserved in the completed shape.
+All parts of the object in partial input should be preserved in the completed shape. As we can see here, the little connector at the bottom of the chair has gone missing while producing the predicted shape.
 
 <figure>
   <img src="/images/paper review/goals_existing.png" height="140">
@@ -111,13 +110,15 @@ All parts of the object in partial input should be preserved in the completed sh
 
 **PointNet**
 
-PointNet is a seminal paper in point cloud processing because of its simple yet effective architecture. PointNet directly takes in a point cloud and produces a single feature vector through an auto-encoder which describes the input point cloud very efficiently. The first few layers of the encoder scale up the input to 1024 channels through 1D convolutions and ensure that the network is indifferent to the exact order of the points within the point cloud or its rotation. At the end of the encoder a single max pool is applied which produces the feature vector of size 1x1024. This feature vector can then be used in subsequent tasks such as shape classifiation or segmantic segmentation by passing it through a decoder.
+PointNet is a seminal paper in point cloud processing because of its simple yet effective architecture. PointNet directly takes in a point cloud and produces a single feature vector through an auto-encoder and a final max-pool which describes the input point cloud very efficiently. Through feature transform layers, the network is also indifferent to the rotation of the point cloud or the exact order of the points, which is an important feature because the points in a point cloud are unordered. The produced feature vector can then be used in subsequent tasks such as shape classifiation or segmantic segmentation by passing it through a decoder.
 
 ## Point Cloud Generation
 
+The task of point cloud generation is, given a compressed version of an input point cloud produces by an encoder (like in PointNet), to decode it back into a point cloud in 3D space. A naive way of doing that would be to directly predict each point in the point cloud. Altough simple, this approach cannot guarantee that we end up with smooth surfaces on the output shape. We'll now look at some of the more sophisticated approaches for point cloud generation.
+
 **FoldingNet**
 
-The task of point cloud generation is, given a compressed version of an input point cloud produces by an encoder (like in PointNet), to decode it back into a point cloud in 3D space. A naive way of doing that would be to directly predict each point in the point cloud. Altough simple, this approach cannot guarantee that we end up with smooth surfaces on the output shape. FoldingNet [cite] introduces a more sophisticated way of recovering the point cloud.  FoldingNet samples points from a 2D grid and then deforms this 2D grid into the 3D shape, similar to Origami (but without sharp edges). This type of decoder is referred to as a  'morphing-based' decoder. The resulting objects tend to have continuous and smooth surfaces.
+FoldingNet [cite] introduces a way of recovering the point cloud which resembles folding a piece of paper. FoldingNet samples points from a 2D grid and then deforms this 2D grid into the 3D shape, similar to Origami (but without sharp edges). This type of decoder is referred to as a  'morphing-based' decoder. The resulting objects tend to have continuous and smooth surfaces.
 
 **AtlasNet**
 
@@ -175,13 +176,14 @@ In the decoder we start with K 2D grids (16 in the paper). We then sample points
 
 **Expansion Penalty**
 
+
+The idea here is to encourage the surface elements to shrink to their respective center. This is done by construction a minimum spanning tree from the points of each surface element, with a total of K trees. A minimum spanning tree is a tree that connects all the vertices of a graph together without any cycles and with the minimum possible edge weight, where the edge weight here is the distance between two vertices. To this spanning tree a loss function is applied which penalizes long edges in the tree. This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center.
+
 <figure>
   <img src="/images/paper review/img_expansion.png" height="200">
   <figcaption>
   </figcaption>
 </figure>
-
-The idea here is to encourage the surface elements to shrink to their respective center. This is done by construction a minimum spanning tree from the points of each surface element, with a total of K trees. A minimum spanning tree is a tree that connects all the vertices of a graph together without any cycles and with the minimum possible edge weight, where the edge weight here is the distance between two vertices. To this spanning tree a loss function is applied which penalizes long edges in the tree. This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center.
 
 
 
@@ -259,13 +261,12 @@ The final loss function is composed of the expansion loss of the coarse output a
 ## Putting it all together
 
 <figure>
-  <img src="/images/paper review/structure.png" height="300">
+  <img src="/images/paper review/structure.png">
   <figcaption>
   </figcaption>
 </figure>
 
-[puzzle piece narrative needs more tending to, maybe with putting it all together]
-
+Here we can see the structure of the complete network again. We have seen how the different parts of the network are put together to achieve smooth surfaces, the ability model fine detials, grant a locally even distribution of points and preserve input structure.
 
 # Experiments
 
@@ -282,6 +283,8 @@ While the network was trained on the EMD distance, it was evaluated both on the 
    Quantitative results.
   </figcaption>
 </figure>
+
+## Qualitative results
 
 Below you can see qualitative results.
 We can see that compared to the networks of previous papers, MSN tends to generate surfaces with less blur and finer details as well as getting the overall shape of the object right more often.
