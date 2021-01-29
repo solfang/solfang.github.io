@@ -162,6 +162,11 @@ We will see later how each of these parts play a role in predicting completed ob
 # Architecture
 The architecture of the network in the MSN paper can be divided into four parts: 
 
+1. The Encoder and Morphing-based Decoder
+2. Merging and Sampling
+3. Refining
+4. The Loss Function
+
 <figure>
   <img src="/images/paper review/structure.png"> 
   <figcaption>
@@ -169,11 +174,7 @@ The architecture of the network in the MSN paper can be divided into four parts:
   </figcaption>
 </figure>
 
-
-1. The Encoder and Morphing-based Decoder
-2. Merging and Sampling
-3. Refining
-4. The Loss Function
+&nbsp;
 
 In the following section I'll explain the individual parts of the network in more detail.
 ## 1. Encoder and Morphing-based Decoder
