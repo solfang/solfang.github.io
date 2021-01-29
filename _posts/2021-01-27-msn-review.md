@@ -2,11 +2,11 @@
 layout: post
 title: Morphing and Sampling Network for Dense Point Cloud Completion - A Review
 published: true
-tags: todo
+tags: computer vision
 ---
 
 In this post, we will review the paper [Morphing and Sampling Network for Dense Point Cloud Completion](https://ojs.aaai.org/index.php/AAAI/article/view/6827) presented by Liu et al. at the AAAI 2020 in New York.
-We will take a quick look at the motivation behind point cloud completion and previous approaches and then take a look at the network architecture and view the experiments conducted on the network. To close off I present a conclusion and my view on the paper.
+We will take a quick look at the motivation behind point cloud completion and previous approaches and then dive into the network architecture and review the experiments conducted on the network. To close off I present a conclusion and my view on the paper.
 
 The code for this paper is available under [https://github.com/Colin97/MSN-Point-Cloud-Completion]().
 
@@ -23,7 +23,7 @@ Second, the capacity of the sensor limits the fidelity of the scan. While object
 <figure>
   <img src="/images/paper review/shapenet_reordered.png" height="300">
   <figcaption>
-    Partial input shapes (top row) and completed shapes (bottom row)
+    Partial input shapes (top row) and completed shapes (bottom row) [8]
   </figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ Geometry-based approaches aim to complete parts of the shape by extrapolating fr
 <figure>
   <img src="/images/paper review/relatedwork_symmetry.png" height="160">
   <figcaption>
-    Reflection symmetries
+    Reflection symmetries [9]
   </figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ The second approach involves example-based methods. Here, we have a database of 
 <figure>
   <img src="/images/paper review/relatedwork_examplebased.png" height="140">
   <figcaption>
-    Model shape database
+    Objects from a model shape database. [10]
   </figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ The idea behind learning-based approaches is to learn a mapping between the part
 <figure>
   <img src="/images/paper review/relatedowork_pc.png" height="150">
   <figcaption>
-    Point clouds of varying densities
+    Point clouds of varying densities [11]
   </figcaption>
 </figure>
 
@@ -110,7 +110,7 @@ All parts of the object in partial input should be preserved in the completed sh
 
 **PointNet**
 
-PointNet is a seminal paper in point cloud processing because of its simple yet effective architecture. PointNet directly takes in a point cloud and produces a single feature vector through an auto-encoder and a final max-pool which describes the input point cloud very efficiently. Through feature transform layers, the network is also indifferent to the rotation of the point cloud or the exact order of the points, which is an important feature because the points in a point cloud are unordered. The produced feature vector can then be used in subsequent tasks such as shape classifiation or segmantic segmentation by passing it through a decoder.
+PointNet [[2]](#2) is a seminal paper in point cloud processing because of its simple yet effective architecture. PointNet directly takes in a point cloud and produces a single feature vector through an auto-encoder and a final max-pool which describes the input point cloud very efficiently. Through feature transform layers, the network is also indifferent to the rotation of the point cloud or the exact order of the points, which is an important feature because the points in a point cloud are unordered. The produced feature vector can then be used in subsequent tasks such as shape classifiation or segmantic segmentation by passing it through a decoder.
 
 ## Point Cloud Generation
 
@@ -118,11 +118,11 @@ The task of point cloud generation is, given a compressed version of an input po
 
 **FoldingNet**
 
-FoldingNet [cite] introduces a way of recovering the point cloud which resembles folding a piece of paper. FoldingNet samples points from a 2D grid and then deforms this 2D grid into the 3D shape, similar to Origami (but without sharp edges). This type of decoder is referred to as a  'morphing-based' decoder. The resulting objects tend to have continuous and smooth surfaces.
+FoldingNet [[3]](#3) introduces a way of recovering the point cloud which resembles folding a piece of paper. FoldingNet samples points from a 2D grid and then deforms this 2D grid into the 3D shape, similar to Origami (but without sharp edges). This type of decoder is referred to as a  'morphing-based' decoder. The resulting objects tend to have continuous and smooth surfaces.
 
 **AtlasNet**
 
- AtlastNet [cite] uses a similar approach to FoldingNet. Instead of one 2D grid, multiple 2D grids are deformed into 3D surface elements, which then together build the final shape of the object. By using multiple grids, finer details of the shape can be captured.
+ AtlastNet [[4]](#4) uses a similar approach to FoldingNet. Instead of one 2D grid, multiple 2D grids are deformed into 3D surface elements, which then together build the final shape of the object. By using multiple grids, finer details of the shape can be captured.
  
  We can see that deforming 2D grids into 3D surfaces is a promising approach to model smooth and continuous surfaces, which was one of our goals. Therefore we could view this kind of 'morphing' based decoder as our first puzzle piece needed to build a solid network for point cloud completion.
 [maybe mid-column fancy background box: First puzzle piece: Morphing-based decoder]
@@ -130,7 +130,7 @@ FoldingNet [cite] introduces a way of recovering the point cloud which resembles
 
 **Point Completion Network (PCN)**
 
-Point Completion Network (PCN) [cite] introduces the idea of modeling the rough shape of the object in an initial pass and then refining the details in a subsequent pass. This approach tends to produce more detailed shapes than if we had tried to predict the complete shape in one go. With the coarse-to-fine network we have the second puzzle piece for our point cloud completion network. [maybe Second puzzle piece: ...]
+Point Completion Network (PCN) [[5]](#5) introduces the idea of modeling the rough shape of the object in an initial pass and then refining the details in a subsequent pass. This approach tends to produce more detailed shapes than if we had tried to predict the complete shape in one go. With the coarse-to-fine network we have the second puzzle piece for our point cloud completion network. [maybe Second puzzle piece: ...]
 
 
 # Contributions
@@ -164,12 +164,12 @@ In the following section I'll explain the individual parts of the network in mor
 **Generating the Coarse Shape**
 
 <figure>
-  <img src="/images/paper review/1_with_expansion.png" height="300">
+  <img src="/images/paper review/1_with_expansion.png">
   <figcaption>
   </figcaption>
 </figure>
 
-The encoder is based on PointNet. It produces a single feature feature which will be used in the decoder.
+The encoder is based on PointNet. It produces a single feature vector which will be used in the decoder.
 In the decoder we start with K 2D grids (16 in the paper). We then sample points from those grids which are concatenated with the feature vector. The concatenated vectors are fed into K MLPs which 'morph' them into K 3D surface elements [point at image] as we have seen in the Point Completion Network. The surface elements together make up the coarse shape of the object. In theory, the surface elements are not prohibited to overlap. To reduce overlap to a minimum, the authors introduce an 'Expansion Penalty' that is applied to the surface elements. 
 
 > Morphing-based decoder for smooth surfaces
@@ -177,11 +177,12 @@ In the decoder we start with K 2D grids (16 in the paper). We then sample points
 **Expansion Penalty**
 
 
-The idea here is to encourage the surface elements to shrink to their respective center. This is done by construction a minimum spanning tree from the points of each surface element, with a total of K trees. A minimum spanning tree is a tree that connects all the vertices of a graph together without any cycles and with the minimum possible edge weight, where the edge weight here is the distance between two vertices. To this spanning tree a loss function is applied which penalizes long edges in the tree. This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center.
+The idea here is to encourage the surface elements to shrink to their respective center. This is done by construction a minimum spanning tree from the points of each surface element, with a total of K trees. A minimum spanning tree is a tree that connects all the vertices of a graph together without any cycles and with the minimum possible edge weight, where the edge weight here is the distance between two vertices. To this spanning tree a loss function is applied which penalizes long edges in the tree. This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center. In the image below we can see the coarse output of the network on different shapes, once without and once with the explansion penalty applied. Not only does the expansion penalty elimiate overlap, is also leads to the surface elements modeling different semantic parts of the object.
 
 <figure>
-  <img src="/images/paper review/img_expansion.png" height="200">
+  <img src="/images/paper review/img_expansion.png" height="300">
   <figcaption>
+    Img: Coarse output without (top row) and with (bottom row) expansion penalty.
   </figcaption>
 </figure>
 
@@ -192,7 +193,7 @@ The idea here is to encourage the surface elements to shrink to their respective
 **Merging**
 
 <figure>
-  <img src="/images/paper review/2.png" height="300">
+  <img src="/images/paper review/2.png">
   <figcaption>
   </figcaption>
 </figure>
@@ -217,7 +218,7 @@ To recover the even distribution of points, the authors propose to sample from t
 ## 3. Refining
 
 <figure>
-  <img src="/images/paper review/3.png" height="300">
+  <img src="/images/paper review/3.png">
   <figcaption>
   </figcaption>
 </figure>
@@ -271,7 +272,7 @@ Here we can see the structure of the complete network again. We have seen how th
 # Experiments
 
 ## Evaluation Results
-The network was evaluated on a subset of the ShapeNet dataset wich includes eight classes of objects: table, chair, car, airplane, sofa, lamp, vessel, cabinet.
+The network was evaluated on a subset of the ShapeNet dataset [[5]](#5) wich includes eight classes of objects: table, chair, car, airplane, sofa, lamp, vessel, cabinet.
 30,974 different models were used and for each model, 50 pairs of partial and completed shape were generated through 50 different camera poses, resulting in a training and testing set with a combined size of 30,974\*50 = ~1.5mil samples.
 
 While the network was trained on the EMD distance, it was evaluated both on the CD and EMD. In both metrics, the network beats the state-of-the-art at the time of publishing the paper for each object class.
@@ -337,6 +338,35 @@ Potential ways to improve the networks performance include combining a folding-b
 **General Assessment**
 
 The code is available on Github. The authors explain the network architecture concisely and in an easy to follow manner. What I find especially commendable about this paper is that the authors have presented solutions to existing problems, such as the approximation of the Earth Mover's Distance as well as the Minimum density sampling algorithm. Earth Mover's Distance, now that it has a feasible implementation, could improve the quality of future point cloud completion approaches and has been used to produce state-of-the-art results in the 'Cloud Transformers' network [cite]. Altough with a computatational cost of O(n^2) EMD is not an undisputed [wording] choice over the CD.
-Furthermore, point-cloud based methods are no longer the only successful approach to point cloud comletion. Recent Voxel-based networks, such as GRNet [cite], have overcome the drawbacks of voxelization could deliver interesting results.
+Furthermore, point-cloud based methods are no longer the only successful approach to point cloud comletion. Recent Voxel-based networks, such as GRNet [[6]](#6), have overcome the drawbacks of voxelization could deliver interesting results.
 
 # References
+
+Images not cited are taken from the MSN paper.
+
+<a name="1"> [1] </a> Liu, M., Sheng, L., Yang, S., Shao, J., & Hu, S. M. (2020, April). Morphing and sampling network for dense point cloud completion. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 34, No. 07, pp. 11596-11603). 
+
+<a name="2"> [2] </a> Qi, C. R., Su, H., Mo, K., & Guibas, L. J. (2017). Pointnet: Deep learning on point sets for 3d classification and segmentation. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 652-660).
+
+<a name="3"> [3] </a>  Yang, Y., Feng, C., Shen, Y., & Tian, D. (2018). Foldingnet: Point cloud auto-encoder via deep grid deformation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 206-215).
+
+<a name="4"> [4] </a> Groueix, T., Fisher, M., Kim, V. G., Russell, B. C., & Aubry, M. (2018). A papier-mâché approach to learning 3d surface generation. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 216-224).
+
+<a name="5"> [5] </a> Yuan, W., Khot, T., Held, D., Mertz, C., & Hebert, M. (2018, September). Pcn: Point completion network. In 2018 International Conference on 3D Vision (3DV) (pp. 728-737). IEEE.
+
+<a name="6"> [6] </a> ShapeNet: Chang, A. X., Funkhouser, T., Guibas, L., Hanrahan, P., Huang, Q., Li, Z., ... & Yu, F. (2015). Shapenet: An information-rich 3d model repository. arXiv preprint arXiv:1512.03012.
+
+<a name="7"> [7] </a> Xie, H., Yao, H., Zhou, S., Mao, J., Zhang, S., & Sun, W. (2020). GRNet: Gridding Residual Network for Dense Point Cloud Completion. arXiv preprint arXiv:2006.03761.
+
+<a name="8"> [8] cs.cmu.edu/~wyuan1/pcn/images/shapenet.png, last accessed 12.01.2021
+  
+<a name="9"> [9] Thrun, S., & Wegbreit, B. (2005, October). Shape from symmetry. In Tenth IEEE International Conference on Computer Vision (ICCV'05) Volume 1 (Vol. 2, pp. 1824-1831). IEEE.
+  
+<a name="10"> [10] Pauly, M., Mitra, N. J., Giesen, J., Gross, M. H., & Guibas, L. J. (2005). Example-based 3D scan completion. In Symposium on Geometry Processing (No. CONF, pp. 23-32).
+  
+<a name="11"> [11] Lim, I., Ibing, M., & Kobbelt, L. (2019, August). A Convolutional Decoder for Point Clouds using Adaptive Instance Normalization. In Computer Graphics Forum (Vol. 38, No. 5, pp. 99-108).
+  
+  
+  
+
+
