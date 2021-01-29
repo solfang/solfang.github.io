@@ -131,10 +131,11 @@ The task of point cloud generation is to take a compressed version of an input p
 FoldingNet [[3]](#3) introduces a way of recovering the point cloud which resembles folding a piece of paper. FoldingNet samples points from a 2D grid and then deforms this 2D grid into the 3D shape in two passes. This type of decoder is referred to as a  'morphing-based' decoder. The resulting objects tend to have continuous and smooth surfaces. The folding process can be seen in the image below.
 
 <figure>
-  <img src="/images/paper review/img_foldingnet_folds.png"> 
+  <img src="/images/paper review/img_foldingnet_folds.png" height="145"> 
   <figcaption>
   </figcaption>
 </figure>
+
 
 **AtlasNet**
 
