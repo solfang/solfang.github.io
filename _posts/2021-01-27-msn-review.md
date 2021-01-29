@@ -62,7 +62,7 @@ The second approach involves example-based methods. Here, we have a database of 
 
 The idea behind learning-based approaches is to learn a mapping between the partial shape and the object and its complete shape. The challenge with this approach is finding an operation that can learn this mapping. In image processing, convolutional layers are often used to perform such an operation. Convolutions require a regular structure but  unfortunately, point clouds have a greatly varying distribution of points so directly applying purely grid-based convolutions is out of the question. 
 
-Naturally, one way to get to transform a point cloud into a structure is to represent it as a volumetric grid, which discretizes the point cloud into same-sized voxels. A downside to this method is that the resolution of the grid (i.e. how many voxels can we use to represent the scene) is limted by memory constraints and therefore we may lose fine details of the point cloud. 
+Naturally, one way to get to transform a point cloud into a structure is to represent it as a volumetric grid, which discretizes the point cloud into same-sized voxels. A downside to this method is that the resolution of the grid (i.e. how many voxels can we use to represent the scene) is limited by memory constraints and therefore we may lose fine details of the point cloud. 
 
 Another way to deal with the point representation is to construct a graph on the point cloud and then perform graph-based convolutions. This method seems promising but brings its own batch of downsides such as being sensitive to the point cloud density. 
 
@@ -71,7 +71,7 @@ Finally, we could work directly with the point cloud without any discretization.
 <figure>
   <img src="/images/paper review/relatedowork_pc.png" height="150">
   <figcaption>
-    Point clouds of varying densities [12]
+    Point clouds of varying densities, demonstrating the irregular structure of point clouds.  [12]
   </figcaption>
 </figure>
 
