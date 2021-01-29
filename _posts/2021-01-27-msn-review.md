@@ -10,6 +10,8 @@ We will take a quick look at the motivation behind point cloud completion and pr
 
 The code for this paper is available under [https://github.com/Colin97/MSN-Point-Cloud-Completion]().
 
+My presentation on this paper can be found [here] (/files/msn/ADCV_Seminar_Presi.pdf)
+
 
 # Motivation
 
