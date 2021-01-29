@@ -27,7 +27,7 @@ Therefore we could greatly improve the performance of these subsequent tasks by 
 <figure>
   <img  src="/images/paper review/shapenet_reordered.png" height="300">
   <figcaption>
-    Partial input shapes (top row) and completed shapes (bottom row) [9]
+    Partial input shapes (top row) and completed shapes (bottom row). [9]
   </figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Geometry-based approaches aim to complete parts of the shape by extrapolating fr
 <figure>
   <img src="/images/paper review/relatedwork_symmetry.png" height="160">
   <figcaption>
-    Reflection symmetries [10]
+    Types of reflection symmetries. [10]
   </figcaption>
 </figure>
 
@@ -60,7 +60,13 @@ The second approach involves example-based methods. Here, we have a database of 
 
 ## Learning-based
 
-The idea behind learning-based approaches is to learn a mapping between the partial shape and the object and its complete shape. The challenge with this approach is finding an operation that can learn this mapping. In image processing, convolutional layers are often used to perform such an operation. Convolutions require a regular structure but  unfortunately, point clouds have a greatly varying distribution of points so directly applying purely grid-based convolutions is out of the question. Naturally, one way to get to transform a point cloud into a structure is to represent it as a volumetric grid, which discretizes the point cloud into same-sized voxels. A downside to this method is that the resolution of the grid (i.e. how many voxels can we use to represent the scene) is limted by memory constraints and therefore we may lose fine details of the point cloud. Another way to deal with the point representation is to construct a graph on the point cloud and then perform graph-based convolutions. This method seems promising but brings its own batch of downsides such as being sensitive to the point cloud density. Finally, we could work directly with the point cloud without any discretization. Representing the input scene directly as the point cloud is very memory-efficient but we lose information about the local neighborhood of the points since the point cloud is unordered. Nevertheless, networks that operate directly on points clouds have achieved striking success in point-cloud related tasks, including point cloud completion. The paper analyzed in this post uses a network which can directly operate on a point cloud.
+The idea behind learning-based approaches is to learn a mapping between the partial shape and the object and its complete shape. The challenge with this approach is finding an operation that can learn this mapping. In image processing, convolutional layers are often used to perform such an operation. Convolutions require a regular structure but  unfortunately, point clouds have a greatly varying distribution of points so directly applying purely grid-based convolutions is out of the question. 
+
+Naturally, one way to get to transform a point cloud into a structure is to represent it as a volumetric grid, which discretizes the point cloud into same-sized voxels. A downside to this method is that the resolution of the grid (i.e. how many voxels can we use to represent the scene) is limted by memory constraints and therefore we may lose fine details of the point cloud. 
+
+Another way to deal with the point representation is to construct a graph on the point cloud and then perform graph-based convolutions. This method seems promising but brings its own batch of downsides such as being sensitive to the point cloud density. 
+
+Finally, we could work directly with the point cloud without any discretization. Representing the input scene directly as the point cloud is very memory-efficient but we lose information about the local neighborhood of the points since the point cloud is unordered. Nevertheless, networks that operate directly on points clouds have achieved striking success in point-cloud related tasks, including point cloud completion. The paper analyzed in this post uses a network which can directly operate on a point cloud.
 
 <figure>
   <img src="/images/paper review/relatedowork_pc.png" height="150">
@@ -71,7 +77,7 @@ The idea behind learning-based approaches is to learn a mapping between the part
 
 # Related Work
 
-In this section I will explain some of the existing work that has been done on point cloud processing and point cloud generation. To better understand why some of the papers presented are able to produce high-quality results I will introduce a set of metrics to (informally) evaluate the quality of a completed point cloud. For each metric I will present an image of the input shape, a predicted shape which failed to adhere to the metric and the ground truth shape which follows the metric. The qualities of point cloud described here will also help us understand how the paper presented here achieves high-quality point clouds.
+In this section I will explain some of the existing work on point cloud processing and point cloud generation, which are crucial parts in the task of point cloud completion. To better understand why some of the papers presented are able to produce high-quality predictions I will introduce a set of metrics to (informally) evaluate the quality of a completed point cloud. For each metric I will present an image of the input shape, a predicted shape which failed to adhere to the metric and the ground truth shape which follows the metric. The qualities of point cloud described here will also help us understand how the *Morphing and Sampling* paper achieves high-quality point clouds.
 
 ### 1. Smooth surfaces
 The completed shape should have continous and smooth surfaces.
@@ -83,7 +89,7 @@ The completed shape should have continous and smooth surfaces.
 </figure>
 
 ### 2. Fine details
-We want to capture fine details of the object, such as an antenna on a car which is present in the input here but has not been modelled by the prediction.
+We want to capture fine details of the object, such as an antenna on a car. In the image below the antenna is barely present in the input yet has not been modelled by the prediction.
 
 <figure>
   <img src="/images/paper review/goals_details.png" height="110">
@@ -92,7 +98,7 @@ We want to capture fine details of the object, such as an antenna on a car which
 </figure>
 
 ### 3. Locally even distribution of points
-We want the points to be distributed evenly on the local parts of the object. We would expect the individual legs on the table below to have an even distribution of points, wich should be considered in the prediction. 
+We want the points to be distributed evenly on the local parts of the object. When completing the shape of a table, we would expect the individual legs of the table below to have an even distribution of points, wich should be considered in the prediction. 
 
 <figure>
   <img src="/images/paper review/goals_even.png" height="134">
@@ -114,15 +120,21 @@ All parts of the object in partial input should be preserved in the completed sh
 
 **PointNet**
 
-PointNet [[2]](#2) is a seminal paper in point cloud processing because of its simple yet effective architecture. PointNet directly takes in a point cloud and produces a single feature vector through an auto-encoder and a final max-pool which describes the input point cloud very efficiently. Through feature transform layers, the network is also indifferent to the rotation of the point cloud or the exact order of the points, which is an important feature because the points in a point cloud are unordered. The produced feature vector can then be used in subsequent tasks such as shape classifiation or segmantic segmentation by passing it through a decoder.
+PointNet [[2]](#2) is a seminal paper in point cloud processing because of its simple yet effective architecture. PointNet directly takes in a point cloud and produces a single feature vector through an auto-encoder and a final max-pool. Through feature transform layers, the network is also indifferent to the rotation of the point cloud and to the exact order of the points, which is an important feature to have since the points in a point cloud are unordered. The produced feature vector can then be used in subsequent tasks such as shape classifiation, segmantic segmentation or shape completion like in our case, by passing it through a decoder.
 
 ## Point Cloud Generation
 
-The task of point cloud generation is, given a compressed version of an input point cloud produces by an encoder (like in PointNet), to decode it back into a point cloud in 3D space. A naive way of doing that would be to directly predict each point in the point cloud. Altough simple, this approach cannot guarantee that we end up with smooth surfaces on the output shape. We'll now look at some of the more sophisticated approaches for point cloud generation.
+The task of point cloud generation is to take a compressed version of an input point cloud produced by an encoder (like in PointNet) and decode it back into a point cloud in 3D space. A naive way of doing that would be to directly predict each point in the point cloud. Altough simple, this approach cannot guarantee that we end up with smooth surfaces on the output shape. We'll now look at some of the more sophisticated approaches for point cloud generation.
 
 **FoldingNet**
 
-FoldingNet [[3]](#3) introduces a way of recovering the point cloud which resembles folding a piece of paper. FoldingNet samples points from a 2D grid and then deforms this 2D grid into the 3D shape, similar to Origami (but without sharp edges). This type of decoder is referred to as a  'morphing-based' decoder. The resulting objects tend to have continuous and smooth surfaces.
+FoldingNet [[3]](#3) introduces a way of recovering the point cloud which resembles folding a piece of paper. FoldingNet samples points from a 2D grid and then deforms this 2D grid into the 3D shape in two passes. This type of decoder is referred to as a  'morphing-based' decoder. The resulting objects tend to have continuous and smooth surfaces. The folding process can be seen in the image below.
+
+<figure>
+  <img src="/images/img_foldingnet_folds.png"> 
+  <figcaption>
+  </figcaption>
+</figure>
 
 **AtlasNet**
 
