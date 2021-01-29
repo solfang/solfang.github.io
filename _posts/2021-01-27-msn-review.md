@@ -36,9 +36,7 @@ In this section, I will present some of the methods that can be used to complete
 
 ## Geometry-based
 
-Geometry-based approaches aim to complete parts of the shape by extrapolating from existing parts in the input. This can be done either by interpolating between surfaces or, given the assumption that the shape of the object is symmetric in any way, complete the shape by modeling the parts of the symmetry which are not present in the input. Problematic with this approach is that interpolation does not work for large-scale incompleteness (imagine the complete back-half of a car missing from the point cloud). Similarly, symmetry assumptions do not apply to all objects. 
-
-
+Geometry-based approaches aim to complete parts of the shape by extrapolating from existing parts in the input, either by interpolation or using assumption about symmetry in the object. Interpolation fails on large-scale incompleteness and symmetry is not given for all objects so this approach has some clear drawbacks.
 
 <figure>
   <img src="/images/paper review/relatedwork_symmetry.png" height="160">
@@ -308,9 +306,7 @@ Here we can see the structure of the complete network again. We have seen how th
 # Experiments
 
 ## Evaluation Results
-The network was evaluated on a subset of the ShapeNet dataset [[5]](#5) wich includes eight classes of objects: table, chair, car, airplane, sofa, lamp, vessel, cabinet.
-
-30,974 different models were used and for each model, 50 pairs of partial and completed shape were generated through 50 different camera poses, resulting in a training and testing set with a combined size of 30,974\*50 = ~1.5mil samples.
+The network was evaluated on a subset of the ShapeNet dataset [[5]](#5) wich includes eight classes of objects: table, chair, car, airplane, sofa, lamp, vessel, cabinet. From ~30k objects in the dataset, 1.5mil training samples were created by using different camera poses to simulate different view angles.
 
 While the network was trained on the EMD distance, it was evaluated both on the CD and EMD. In both metrics, the network beats the state-of-the-art at the time of publishing the paper for each object class.
 
