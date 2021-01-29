@@ -44,11 +44,11 @@ The second approach involves example-based methods. Here, we have a database of 
 
 ## Learning-based
 
-The idea behind learning-based approaches is to learn a mapping between the partial shape and the object and its complete shape. The challenge with this approach is finding an operation that can learn this mapping. In image processing, convolutional layers are often used to perform such an operation. Convolutions require a regular structure but  unfortunately, point clouds have a greatly varying distribution of points so directly applying purely grid-based convolutions is out of the question. 
+The idea behind learning-based approaches is to learn a mapping between the partial shape and the object and its complete shape. The challenge with this approach is finding an operation that can learn this mapping. In image processing, convolutional layers are often used to perform such an operation. Convolutions require a regular structure but  unfortunately, point clouds have a greatly varying distribution of points so directly applying grid-based convolutions is out of the question. 
 
-A natural solution would be to build a grid from the points (by voxelization) and apply 3D convolutions. The resolution of the grid is limited by memory and can herefore not capture finer details of the object. Another way would be to build a graph from the points and apply graph-based convolutions, brings its own batch of downsides such as being sensitive to the point cloud density.
+A natural solution would be to build a grid from the points (by voxelization) and then apply 3D convolutions. The resolution of the grid is limited by memory and can therefore not capture finer details of the object. Another way would be to build a graph from the points and apply graph-based convolutions, which brings its own batch of downsides such as being sensitive to the point cloud density.
  
-We could also work directly on the unordered points of the point cloud, which is very memory-efficient but we lose information about the local neighborhood of the points. Nevertheless, networks that operate directly on points clouds have achieved striking success in point-cloud related tasks, including point cloud completion. The paper analyzed in this post uses a network which can directly operate on a point cloud.
+We could also work directly on the unordered points of the point cloud, which is very memory-efficient, but we lose information about the local neighborhood of the points. Nevertheless, networks that operate directly on points clouds have achieved striking success in point-cloud related tasks, including point cloud completion. The paper analyzed in this post uses a network which can directly operate on a point cloud.
 
 <figure>
   <img src="/images/paper review/relatedowork_pc.png" height="150">
