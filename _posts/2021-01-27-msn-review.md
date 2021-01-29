@@ -46,16 +46,16 @@ The second approach involves example-based methods. Here, we have a database of 
 
 The idea behind learning-based approaches is to learn a mapping between the partial shape and the object and its complete shape. The challenge with this approach is finding an operation that can learn this mapping. In image processing, convolutional layers are often used to perform such an operation. Convolutions require a regular structure but  unfortunately, point clouds have a greatly varying distribution of points so directly applying grid-based convolutions is out of the question. 
 
-A natural solution would be to build a grid from the points (by voxelization) and then apply 3D convolutions. The resolution of the grid is limited by memory and can therefore not capture finer details of the object. Another way would be to build a graph from the points and apply graph-based convolutions, which brings its own batch of downsides such as being sensitive to the point cloud density.
- 
-We could also work directly on the unordered points of the point cloud, which is very memory-efficient, but we lose information about the local neighborhood of the points. Nevertheless, networks that operate directly on points clouds have achieved striking success in point-cloud related tasks, including point cloud completion. The paper analyzed in this post uses a network which can directly operate on a point cloud.
-
 <figure>
   <img src="/images/paper review/relatedowork_pc.png" height="150">
   <figcaption>
     Point clouds of varying densities, demonstrating the irregular structure of point clouds.  [10]
   </figcaption>
 </figure>
+
+A natural solution would be to build a grid from the points (by voxelization) and then apply 3D convolutions. The resolution of the grid is limited by memory and can therefore not capture finer details of the object. Another way would be to build a graph from the points and apply graph-based convolutions, which brings its own batch of downsides such as being sensitive to the point cloud density.
+ 
+We could also work directly on the unordered points of the point cloud, which is very memory-efficient, but we lose information about the local neighborhood of the points. Nevertheless, networks that operate directly on points clouds have achieved striking success in point-cloud related tasks, including point cloud completion. The paper analyzed in this post uses a network which can directly operate on a point cloud.
 
 # Related Work
 
@@ -102,7 +102,7 @@ All parts of the object in partial input should be preserved in the completed sh
 
 **PointNet**
 
-PointNet [[2]](#2) is a seminal paper in point cloud processing because of its simple yet effective architecture. PointNet directly takes in a point cloud and produces a single feature vector through an auto-encoder and a final max-pool. Through feature transform layers, the network is also indifferent to the rotation of the point cloud and to the exact order of the points, which is an important feature to have since the points in a point cloud are unordered. The produced feature vector can then be used in subsequent tasks such as shape classification, semantic segmentation or shape completion like in our case, by passing it through a decoder.
+PointNet [[2]](#2) is a seminal paper in point cloud processing because of its simple yet effective architecture. PointNet directly takes in a point cloud and produces a single feature vector through an auto-encoder and a final max-pool. Through feature transform layers, the network is also indifferent to the rotation of the point cloud and to the exact order of the points, which is an important feature to have since the points in a point cloud are unordered.
 
 ## Point Cloud Generation
 
@@ -110,7 +110,7 @@ The task of point cloud generation is to take a compressed version of an input p
 
 **FoldingNet**
 
-FoldingNet [[3]](#3) introduces a way of recovering the point cloud which resembles folding a piece of paper. FoldingNet samples points from a 2D grid and then deforms this 2D grid into the 3D shape in two passes. This type of decoder is referred to as a  'morphing-based' decoder. The resulting objects tend to have continuous and smooth surfaces. The folding process can be seen in the image below.
+FoldingNet [[3]](#3) introduces a way of recovering the point cloud which resembles folding a piece of paper. FoldingNet samples points from a 2D grid and then deforms this 2D grid into the 3D shape in two passes. This type of decoder is referred to as a  'morphing-based' decoder and tends to produce shapes with continuous and smooth surfaces. The folding process can be seen in the image below.
 
 <figure>
   <img src="/images/paper review/img_foldingnet_folds.png" height="145"> 
@@ -133,13 +133,13 @@ Point Completion Network (PCN) [[5]](#5) introduces the idea of modeling the rou
 
 # Contributions
 
-Now that we have seen some method used to generate point clouds we can turn to the Morphing and Sampling (MSN) paper. The papers makes four main contributions:
+Now that we have seen some methods used to generate point clouds we can turn to the Morphing and Sampling (MSN) paper. The papers makes four main contributions:
 1. A novel two-stage approach for point cloud estimation.
 2. The addition of an expansion penalty for surface elements.
 3. A novel sampling algorithm for point clouds with evenly distributed results.
 4. An Implementation of an Earth Mover’s Distance (EMD) approximation.
 
-We will see later how each of these parts play a role in predicting completed object shapes which satisfy the four qualities the point cloud should have. To recap, those are: smooth surfaces, fine details, a locally even distribution of points and preserving existing structure from the input.
+We will see later how each of these parts play a role in predicting completed object shapes which satisfy the four qualities presented in the last section. To recap, those are: smooth surfaces, fine details, a locally even distribution of points and preserving existing structure from the input.
 
 # Architecture
 The architecture of the network in the MSN paper can be divided into four parts: 
@@ -169,8 +169,8 @@ In the following section I'll explain the individual parts of the network in mor
   </figcaption>
 </figure>
 
-The encoder is based on PointNet. It produces a single feature vector is then used in the decoder.
-In the decoder, we start with K 2D grids (K=16 in the paper). From those grids, n points (n=512 in the paper) are sampled and concatenated with the feature vector. The concatenated vectors are fed into K MLPs which deform them into K 3D surface elements as we have seen in the *Point Completion Network*. The surface elements together make up the coarse shape of the object. 
+The encoder is based on PointNet and produces a single feature vector which encodes the input point cloud.
+In the decoder, we start with K 2D grids (K=16 in the paper). From those grids, n points (n=512 in the paper) are sampled and concatenated with the feature vector. The concatenated vectors are fed into K MLPs which deform them into K 3D surface elements as we have seen in the *Point Completion Network*. The surface elements together make up the coarse shape of the object with relatively smooth surfaces.
 
 > Morphing-based decoder to achieve smooth surfaces
 
@@ -182,10 +182,17 @@ In theory, the surface elements are not prohibited to overlap. To reduce overlap
 The idea here is to encourage the surface elements to shrink to their respective center. This is done by construction a minimum spanning tree from the points of each surface element, with a total of K trees. A minimum spanning tree is a tree that connects all the vertices of a graph together without any cycles and with the minimum possible edge weight, where the edge weight here is the distance between two vertices. A loss function is applied to this spanning tree which penalizes long edges in the tree. To be exact, the function sums up for each spanning tree K all edges in the tree which are longer than the average edge in the tree  l<sub>i</sub> times a factor λ (a hyperparameter).
 
 <figure>
-  <img src="/images/paper review/img_expansionloss.png" height="63">
+  <img src="/images/paper review/img_expansionloss.png" height="65">
   <figcaption>
   </figcaption>
 </figure>
+
+  <img src="/images/paper review/img_expansionloss.png" height="63">
+    <img src="/images/paper review/img_expansionloss.png" height="66">
+      <img src="/images/paper review/img_expansionloss.png" height="67">
+        <img src="/images/paper review/img_expansionloss.png" height="68">
+          <img src="/images/paper review/img_expansionloss.png" height="69">
+            <img src="/images/paper review/img_expansionloss.png" height="610">
 
 
 This way the vertices in the spanning tree are encouraged to migrate towards the middle vertex, which shrinks the surface elements towards its center. In the image below we can see the coarse output of the network on different objects, once without and once with the expansion penalty applied. Not only does the expansion penalty eliminate overlap, it also leads to the surface elements modeling different semantic parts of the object.
