@@ -17,13 +17,13 @@ The eyes into the world of an autonomous vehicle are the sensors installed in th
 
 First, scans are often obtained from a single view angle. This means that any part of an object that is occluded by itself or by other objects in the scene will be missing in the obtained point cloud. 
 
-Second, the capacity of the sensor limits the fidelity of the scan. While objects in the foreground of the scene will be represented by many points, objects in the back may only be represented by a handful of points. You can imagine that any tasks that we want to perform on the point cloud, such as segmantic segmentation or object classifcation are very difficult if parts of the data are missing. Therefore we could greatly improve the performance of these subsequent tasks by first completing objects in the points cloud. This is the idea behind point cloud completion: We get as input an incomplete point cloud and are assigned the task of completing the shapes of certain objects in the point cloud [img of incomplete and completed pc].
+Second, the capacity of the sensor limits the fidelity of the scan. While objects in the foreground of the scene will be represented by many points, objects in the back may only be represented by a handful of points. You can imagine that any tasks that we want to perform on the point cloud, such as segmantic segmentation or object classifcation are very difficult if parts of the data are missing. Therefore we could greatly improve the performance of these subsequent tasks by first completing objects in the points cloud. This is the idea behind point cloud completion: We get as input an incomplete point cloud and are assigned the task of completing the shapes of certain objects in the point cloud.
 
 
 <figure>
   <img src="/images/paper review/shapenet_reordered.png" height="300">
   <figcaption>
-    Partial input shapes (top row) and completed shapes (bottom row) [8]
+    Partial input shapes (top row) and completed shapes (bottom row) [9]
   </figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ Geometry-based approaches aim to complete parts of the shape by extrapolating fr
 <figure>
   <img src="/images/paper review/relatedwork_symmetry.png" height="160">
   <figcaption>
-    Reflection symmetries [9]
+    Reflection symmetries [10]
   </figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ The second approach involves example-based methods. Here, we have a database of 
 <figure>
   <img src="/images/paper review/relatedwork_examplebased.png" height="140">
   <figcaption>
-    Objects from a model shape database. [10]
+    Objects from a model shape database. [11]
   </figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ The idea behind learning-based approaches is to learn a mapping between the part
 <figure>
   <img src="/images/paper review/relatedowork_pc.png" height="150">
   <figcaption>
-    Point clouds of varying densities [11]
+    Point clouds of varying densities [12]
   </figcaption>
 </figure>
 
@@ -125,12 +125,11 @@ FoldingNet [[3]](#3) introduces a way of recovering the point cloud which resemb
  AtlastNet [[4]](#4) uses a similar approach to FoldingNet. Instead of one 2D grid, multiple 2D grids are deformed into 3D surface elements, which then together build the final shape of the object. By using multiple grids, finer details of the shape can be captured.
  
  We can see that deforming 2D grids into 3D surfaces is a promising approach to model smooth and continuous surfaces, which was one of our goals. Therefore we could view this kind of 'morphing' based decoder as our first puzzle piece needed to build a solid network for point cloud completion.
-[maybe mid-column fancy background box: First puzzle piece: Morphing-based decoder]
 
 
 **Point Completion Network (PCN)**
 
-Point Completion Network (PCN) [[5]](#5) introduces the idea of modeling the rough shape of the object in an initial pass and then refining the details in a subsequent pass. This approach tends to produce more detailed shapes than if we had tried to predict the complete shape in one go. With the coarse-to-fine network we have the second puzzle piece for our point cloud completion network. [maybe Second puzzle piece: ...]
+Point Completion Network (PCN) [[5]](#5) introduces the idea of modeling the rough shape of the object in an initial pass and then refining the details in a subsequent pass. This approach tends to produce more detailed shapes than if we had tried to predict the complete shape in one go. With the coarse-to-fine network we have the second puzzle piece for our point cloud completion network.
 
 
 # Contributions
@@ -159,7 +158,7 @@ The architecture of the network in the MSN paper can be divided into four parts:
 4. The Loss Function
 
 In the following section I'll explain the individual parts of the network in more detail.
-## 1. Encoder and Morphing-based Decoder [image of section with transparency]
+## 1. Encoder and Morphing-based Decoder
 
 **Generating the Coarse Shape**
 
@@ -170,7 +169,7 @@ In the following section I'll explain the individual parts of the network in mor
 </figure>
 
 The encoder is based on PointNet. It produces a single feature vector which will be used in the decoder.
-In the decoder we start with K 2D grids (16 in the paper). We then sample points from those grids which are concatenated with the feature vector. The concatenated vectors are fed into K MLPs which 'morph' them into K 3D surface elements [point at image] as we have seen in the Point Completion Network. The surface elements together make up the coarse shape of the object. In theory, the surface elements are not prohibited to overlap. To reduce overlap to a minimum, the authors introduce an 'Expansion Penalty' that is applied to the surface elements. 
+In the decoder we start with K 2D grids (16 in the paper). We then sample points from those grids which are concatenated with the feature vector. The concatenated vectors are fed into K MLPs which 'morph' them into K 3D surface elements as we have seen in the Point Completion Network. The surface elements together make up the coarse shape of the object. In theory, the surface elements are not prohibited to overlap. To reduce overlap to a minimum, the authors introduce an 'Expansion Penalty' that is applied to the surface elements. 
 
 > Morphing-based decoder for smooth surfaces
 
@@ -204,9 +203,7 @@ At this point we have modeled the coarse shape of the object which has relativel
 
 **Sampling**
 
-To recover the even distribution of points, the authors propose to sample from the merged point cloud in a way that the sampled point cloud has an even distribution again. Unfortunately existing sampling algorithms such as Farthest Point Sampling (FPS) or Poisson Disk Sampling (PDS) preserve the unevenness in density and are not appropriate here. The authors therefore come up with their own sampling algorithm called Minimum Density Sampling (MDS). In contrast to FPS, which samples the farthest point from the previously sampled points, MDS samples points in a way that the 'density' of the points in the sample is minimized. Density here is determined by the Gaussian-weighted distance of the point-to-sample to all previously sampled points. [point to formula]. The resulting point cloud now has a uniform distribution.
-[FPS formula][maybe FPS img]
-
+To recover the even distribution of points, the authors propose to sample from the merged point cloud in a way that the sampled point cloud has an even distribution again. Unfortunately existing sampling algorithms such as Farthest Point Sampling (FPS) or Poisson Disk Sampling (PDS) preserve the unevenness in density and are not appropriate here. The authors therefore come up with their own sampling algorithm called Minimum Density Sampling (MDS). In contrast to FPS, which samples the farthest point from the previously sampled points, MDS samples points in a way that the 'density' of the points in the sample is minimized. Density here is determined by the Gaussian-weighted distance of the point-to-sample to all previously sampled points. The formula can be seen below. After sampling from the merged point clouds using MDS, the resulting point cloud now has a uniform distribution again.
 
 <figure>
   <img src="/images/paper review/img_minimumdensitysampling.png" height="60">
@@ -337,8 +334,8 @@ Potential ways to improve the networks performance include combining a folding-b
 
 **General Assessment**
 
-The code is available on Github. The authors explain the network architecture concisely and in an easy to follow manner. What I find especially commendable about this paper is that the authors have presented solutions to existing problems, such as the approximation of the Earth Mover's Distance as well as the Minimum density sampling algorithm. Earth Mover's Distance, now that it has a feasible implementation, could improve the quality of future point cloud completion approaches and has been used to produce state-of-the-art results in the 'Cloud Transformers' network [cite]. Altough with a computatational cost of O(n^2) EMD is not an undisputed [wording] choice over the CD.
-Furthermore, point-cloud based methods are no longer the only successful approach to point cloud comletion. Recent Voxel-based networks, such as GRNet [[6]](#6), have overcome the drawbacks of voxelization could deliver interesting results.
+The code is available on Github. The authors explain the network architecture concisely and in an easy to follow manner. What I find especially commendable about this paper is that the authors have presented solutions to existing problems, such as the approximation of the Earth Mover's Distance as well as the Minimum density sampling algorithm. Earth Mover's Distance, now that it has a feasible implementation, could improve the quality of future point cloud completion approaches and has been used to produce state-of-the-art results in the 'Cloud Transformers' network [[8]](#8). Altough with a computatational cost of O(n^2) EMD is not a clear-cut choice over the CD.
+Furthermore, point-cloud based methods are no longer the only successful approach to point cloud comletion. Recent Voxel-based networks, such as GRNet [[6]](#6), have overcome the drawbacks of voxelization and can deliver results that rival those of purely point-based networks.
 
 # References
 
@@ -358,13 +355,15 @@ Images not cited are taken from the MSN paper.
 
 <a name="7"> [7] </a> Xie, H., Yao, H., Zhou, S., Mao, J., Zhang, S., & Sun, W. (2020). GRNet: Gridding Residual Network for Dense Point Cloud Completion. arXiv preprint arXiv:2006.03761.
 
-<a name="8"> [8] cs.cmu.edu/~wyuan1/pcn/images/shapenet.png, last accessed 12.01.2021
+<a name="8"> [8] Mazur, K., & Lempitsky, V. (2020). Cloud transformers. arXiv preprint arXiv:2007.11679.
+
+<a name="9"> [9] cs.cmu.edu/~wyuan1/pcn/images/shapenet.png, last accessed 12.01.2021
   
-<a name="9"> [9] Thrun, S., & Wegbreit, B. (2005, October). Shape from symmetry. In Tenth IEEE International Conference on Computer Vision (ICCV'05) Volume 1 (Vol. 2, pp. 1824-1831). IEEE.
+<a name="10"> [10] Thrun, S., & Wegbreit, B. (2005, October). Shape from symmetry. In Tenth IEEE International Conference on Computer Vision (ICCV'05) Volume 1 (Vol. 2, pp. 1824-1831). IEEE.
   
-<a name="10"> [10] Pauly, M., Mitra, N. J., Giesen, J., Gross, M. H., & Guibas, L. J. (2005). Example-based 3D scan completion. In Symposium on Geometry Processing (No. CONF, pp. 23-32).
+<a name="11"> [11] Pauly, M., Mitra, N. J., Giesen, J., Gross, M. H., & Guibas, L. J. (2005). Example-based 3D scan completion. In Symposium on Geometry Processing (No. CONF, pp. 23-32).
   
-<a name="11"> [11] Lim, I., Ibing, M., & Kobbelt, L. (2019, August). A Convolutional Decoder for Point Clouds using Adaptive Instance Normalization. In Computer Graphics Forum (Vol. 38, No. 5, pp. 99-108).
+<a name="12"> [12] Lim, I., Ibing, M., & Kobbelt, L. (2019, August). A Convolutional Decoder for Point Clouds using Adaptive Instance Normalization. In Computer Graphics Forum (Vol. 38, No. 5, pp. 99-108).
   
   
   
