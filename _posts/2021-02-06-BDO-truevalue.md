@@ -71,6 +71,18 @@ The true value of a rare mat is the value created by using the rare mat in a rec
 compared to the next-best option that doesn't use the rare mat.**
 </span>.
 
+<span style="color:#0056b5">
+**Definition  
+The true value of a rare mat is the value created by using the rare mat in a recipe...  
+compared to the next-best option that doesn't use the rare mat.**
+</span>.
+
+<span style="color:#005cc2">
+**Definition  
+The true value of a rare mat is the value created by using the rare mat in a recipe...  
+compared to the next-best option that doesn't use the rare mat.**
+</span>.
+
 
 `The true value of a rare mat is the value created by using the rare mat in a recipe...`   
 `... compared to the next-best option that doesn't use the rare mat.`  
