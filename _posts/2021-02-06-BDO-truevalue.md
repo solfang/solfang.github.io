@@ -70,9 +70,9 @@ Here's how it would look like on the imp sheet. I'm using 600 cooking mastery an
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oMUZf7gtdYU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-{% include youtubePlayer.html id="page.oMUZf7gtdYU" %}
+{% include youtubePlayer.html id=page."oMUZf7gtdYU" %}
 
-{% include youtube.html id="dQw4w9WgXcQ" %}
+{% include youtube.html id="oMUZf7gtdYU" %}
 
 In this example, milk has a true value of 14900 when making milk tea boxes compared to Pickled Veg boxes.
 It's important to take the milk-less alternative (Pickled Vegs here) into account because we could make 310k/box on those without using any milk. The difference in profit is created by using milk.
