@@ -10,7 +10,7 @@ Last updated: 07.02.2021
 This post is aimed at:  
 Established players who are interested in item valuation, not so much at beginners. I'll try to break down the concepts in an easy-to-grasp manner but it definitely helps if you have thought about the topic of item valuation before.
 
-In this post we'll do a deep dive into into **material valuation in BDO**. Most of the worthwhile recipes in cooking/alchemy/processing involve rare materials. Therefore being able to calculate the true value of a material is an important skill to have in order to compare the profit of different recipes.
+In this post we'll do a deep dive into into **material valuation in BDO**. Most of the worthwhile recipes in cooking/alchemy/processing involve rare materials. Therefore being able to calculate the true value of a material is an important skill and immensely helpful when comparing the profit of different recipes.
 
 # 1) What is a rare material? 
 
@@ -43,6 +43,7 @@ The true value of a rare mat is the value created by using the rare mat in a rec
 </span>
  </p>
 
+&nbsp;
 
 **Example:**  
 We want to figure out the true value of *lion meat* when cooked into jungle hamburgs. Also, say the recipe consumes 10k lion meat an hour.   
@@ -77,7 +78,7 @@ Once you get familiar with the method, it'll be easy to apply it to other profit
 
 ### Processing Milk into Cheese
 
-__Step 1)__ Which rare mats does cheese take? **Milk**  
+__Step 1)__ Which rare mats does cheese take? **Milk.**  
 
 __Step 2)__ Nothing to do here since the only rare mat in the recipe is milk \:)  
 
@@ -120,7 +121,7 @@ __Step 4)__ Using Bdodae, the profit from one utensil craft **without valuing ro
 
 __Step 1)__ Which rare mats does Milk Tea have? __Milk__. The next-best box that doesn't use rare mats? __Pickled Vegs__.  
 
-__Step 2)__ -  
+__Step 2)__ Skiiip   
 
 __Step 3)__ the next-best recipe are pickled vegetable boxes at `~310k` profit per box.  
 
