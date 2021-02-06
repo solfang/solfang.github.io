@@ -116,7 +116,7 @@ Here's a list of potential recipes for calculating the true value of rare mats. 
 - **Eggs**: Dressing, Coconut Fried Fish (eggs, coconut)
 - **Coconuts**: Coconut Cocktail, Coconut Pasta
 - **Snake Meat**: Couscous
-- **Scorpion Meat** Teff Sandwiches (snake meat)
+- **Scorpion Meat:** Teff Sandwiches (snake meat)
 - **Lion Meat**: Hamburgs, Valencia Meal (snake meat, scorpion meat)
 Note that for instance, cheese in Cheese Gratin and White Sauce in Coconut Pasta don't count towards rare mats cause they can be bought on the market (at the time of writing this).
 
