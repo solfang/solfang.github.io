@@ -24,23 +24,18 @@ Think of a rare item, for example milk or lion meat.
 > The true value of a rare material is the maximum price you would pay for that item at the vendor.
 
 
-<span style="color:bg-gray;"Assume there was a vendor who sells the rare item and is only available to you.</span>
-
-<pre><code>
-<span style="background-color:bg-gray">Assume there was a vendor who sells the rare item and is only available to you.
+```diff
+Assume there was a vendor who sells the rare item and is only available to you.  
 The true value of a rare material is the maximum price you would pay for that item at the vendor.
-</span>
-</code></pre>
+```
 
-<div class="text-white bg-gray-dark mb-2">
-  .text-white on .bg-gray-dark
-</div>
+```diff
+Assume there was a vendor who.
+```
 
-<span style="color:ebeced;"Assume there was a vendor who sells the rare item and is only available to you.</span>
+<span style="color:blue">some *blue* text</span>.
 
-<span style="color:e6e6e6;"Assume there was a vendor who sells the rare item and is only available to you.</span>
-
-<span style="color:707070;"Assume there was a vendor who sells the rare item and is only available to you.</span>
+<span style="color:blue">some *This is Blue italic.* text</span>
 
 
 
