@@ -31,23 +31,30 @@ Having an unlimited supply of the item would enable you to craft all of the reci
 So, in order to find out how much we would pay for the item at the rare material vendor we need to find the maximum price at which a recipe that uses the rare mat isn't any better or worse than another recipe that doesn't use the rare mat.
 This leads to a 'formal' definition for the true value of a rare item:
 
-
-**Definition**  
-<span style="color:#242323">
-**The true value of a rare mat is the value created by using the rare mat in a recipe...  
- compared to the next-best option that doesn't use the rare mat.**
-</span>.
-
-**Definition**  
-<span style="color:#2e2e2e">
-**The true value of a rare mat is the value created by using the rare mat in a recipe...  
- compared to the next-best option that doesn't use the rare mat.**
-</span>.
-
-**Definition**  
 <span style="color:#474747">
-**The true value of a rare mat is the value created by using the rare mat in a recipe...  
- compared to the next-best option that doesn't use the rare mat.**
+**Definition  
+The true value of a rare mat is the value created by using the rare mat in a recipe...  
+compared to the next-best option that doesn't use the rare mat.**
+</span>.
+
+<span style="color:#575757">
+**Definition  
+The true value of a rare mat is the value created by using the rare mat in a recipe...  
+compared to the next-best option that doesn't use the rare mat.**
+</span>.
+
+
+<span style="color:#6e6e6e">
+**Definition  
+The true value of a rare mat is the value created by using the rare mat in a recipe...  
+compared to the next-best option that doesn't use the rare mat.**
+</span>.
+
+
+<span style="color:#6c6f8c">
+**Definition  
+The true value of a rare mat is the value created by using the rare mat in a recipe...  
+compared to the next-best option that doesn't use the rare mat.**
 </span>.
 
 
@@ -68,9 +75,9 @@ Going back to the vendor scenario, 20k is the maximum price we would pay for lio
 
 # 3) How to calculate the true value of a rare mat in a recipe?
 
-__Prep 1)__ Think about which rare materials the recipe has, which one to solve for and what the next-best option to cook without rare mats is.
-__Prep 2)__ If the recipe has more than one rare mat, find the true values of the rare mats you aren't solving for.
-__Step 1)__ Calculate the profit from cooking the next best recipe that doesn't take rare materials.
+__Prep 1)__ Think about which rare materials the recipe has, which one to solve for and what the next-best option to cook without rare mats is.  
+__Prep 2)__ If the recipe has more than one rare mat, find the true values of the rare mats you aren't solving for.  
+__Step 1)__ Calculate the profit from cooking the next best recipe that doesn't take rare materials.  
 __Step 2)__ Calculate the profit from cooking the recipe that takes rare mats. In the calculation, price the rare mat so that profits of Step 1) and this step match. 
 See below for examples.
 
