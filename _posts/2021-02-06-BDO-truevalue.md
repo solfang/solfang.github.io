@@ -18,35 +18,13 @@ Examples for potential rare mats are: milk, meat, eggs, coconuts, white onions/g
 # 2) What is the true value of a rare material? 
 
 I'll start this by presenting a hypothetical scenario:
-Think of a rare item, for example milk or lion meat.
+Think of a rare item, for example milk or lion meat. The scenario:
  
 > Assume there was a vendor who sells the rare item and is only available to you.  
 > The true value of a rare material is the maximum price you would pay for that item at the vendor.
 
 
-```diff
-Assume there was a vendor who sells the rare item and is only available to you.  
-The true value of a rare material is the maximum price you would pay for that item at the vendor.
-```
 
-```diff
-Assume there was a vendor who.
-```
-
-<span style="color:$bg-blue">
-some   
-blue    
-</span>.
-
-<span style="color:#0366d6">
-some   
-blue  
-</span>.
-
-<span style="color:#0366d6">
-**Assume there was a vendor who sells the rare item and is only available to you.  
-The true value of a rare material is the maximum price you would pay for that item at the vendor.**
-</span>.
 
 
 Having an unlimited supply of the item would enable you to craft all of the recipes which take the rare item. But the profit on those recipes depends on how much you paid for the rare item at the vendor. Overpaying for the item would mean that those recipes may only turn a little profit or none at all. And at that point, you could just craft any other recipe and make more money, no? 
@@ -55,6 +33,24 @@ This leads to a 'formal' definition for the true value of a rare item:
 
 
 **Definition**  
+<span style="color:#242323">
+**The true value of a rare mat is the value created by using the rare mat in a recipe...  
+ compared to the next-best option that doesn't use the rare mat.**
+</span>.
+
+**Definition**  
+<span style="color:#2e2e2e">
+**The true value of a rare mat is the value created by using the rare mat in a recipe...  
+ compared to the next-best option that doesn't use the rare mat.**
+</span>.
+
+**Definition**  
+<span style="color:#474747">
+**The true value of a rare mat is the value created by using the rare mat in a recipe...  
+ compared to the next-best option that doesn't use the rare mat.**
+</span>.
+
+
 `The true value of a rare mat is the value created by using the rare mat in a recipe...`   
 `... compared to the next-best option that doesn't use the rare mat.`  
 
