@@ -57,7 +57,7 @@ The process of calculating the true value of an item can be proken down into fou
 
 __Step 1)__ Think about which rare materials the recipe has, which one to solve for and what the next-best option to craft without rare mats is.  
 __Step 2)__ If the recipe has more than one rare mat, find the true values of the rare mats you aren't solving for.  
-__Step 3)__ Calculate the profit from crafting the next best recipe that doesn't take rare materials.  
+__Step 3)__ Calculate the profit from crafting the next best recipe that doesn't take rare materials. In some cases, where the baseline profit is really low, it's also fine to set it to 0 and effectively skip this step.
 __Step 4)__ Calculate the profit from crafting the recipe that takes rare mats. In the calculation, price the rare mat so that profits of Step 1) and this step match. 
 See [Section 4](#examples) for examples.
 
@@ -68,15 +68,35 @@ As you can see, we need to know two things beforehand:
 # 4) Examples
 
 I'll use my  [imperial sheet](http://bit.ly/ImperialSheet) and [Bdodae](https://www.bdodae.com/) to show how to apply the steps from above. 
-Once you get familiar with the method, it'll be easy to apply it to other profit calculators/sheets as well.
+Once you get familiar with the method, it'll be easy to apply it to other profit calculators as well.
+
+
+## 4.1) Processing
+
+### Processing Milk into Cheese
+
+__Step 1)__ Which rare mats does cheese take? **Milk**
+__Step 2)__ Nothing to do here since the only rare mat in the recipe is milk \:)  
+__Step 3)__ Next-best recipe? We'll skip this step for now and assume the baseline profit is 0mil/h.
+__Step 4)__ Profit crated by processing milk into cheese?    
+We assume cheese is priced at `5,950` silver. One milk turns into 2.5 cheese. The profit per craft is `2.5*5950(*0.845) = 12.5k` and since we used one milk that's also the true value of milk when turned into cheese.   
+If we are using the cheese to cook, the tax can be omitted. Altough, taxing the cheese even when using it to cook is also fine as long as it's also taxed (as an input cost) in the cooking calculation.
+
+I omitted step 3) for the sake of simplicity before. We'll now repeat the calculation with it included.
+I'll also assume that our heating mastery (for cheese) is the same as our shaking mastery (for dough). If it was not, we'd have to calculate on a per-hour basis instead of a per-craft basis to be 100% exact. But who has time for that? :)
+Step 3): Next-best recipe? Processing dough at `20 mil/h` at 10k crafts per hour, which results in `20m / 10k = 2k` profit per craft.
+This leaves `12.5k - 2k = 10.5k` profit per craft and therefore `10.5k` profit per milk. You'll notice that the value is actually slightly below the market price for milk.  
+
+In this case, buying milk, processing it into cheese and selling the cheeese would be a loss, given that we could process dough for `20 mil/h` instead. In other words, processing milk into cheese makes less than `20 mil/h` (our baseline profit) and you should ask yourself if that's a good use of milk. To be fair, the cheese price is rather low in this example.
 
 ## 4.1) Cooking Imperials
 
-**Milk Tea Boxes with the Imperial sheet**
-__Step 1)__ Which rare mats does Milk Tea have? __Milk__. Next-best box that doesn't use rare mats? __Pickled Vegs__.  
-__Step 2)__ Nothing to do here since the only rare mat in the recipe is milk \:)  
+### Milk Tea Boxes with the Imperial sheet  
+
+__Step 1)__ Which rare mats does Milk Tea have? __Milk__. The next-best box that doesn't use rare mats? __Pickled Vegs__.  
+__Step 2)__ -
 __Step 3)+4)__ The goal is to find a price for milk at which the profits on the Milk Tea box and Pickled Vegs box match.  
-Here's how it would look like on the imp sheet. I'm using 600 cooking mastery and 780 turn-in mastery in the clip.  
+Here's how that would look like on the imp sheet. I'm using 600 cooking mastery and 780 turn-in mastery in the clip. In the clip you'll see me gradually adjusting the price of milk until the profit on Milk Tea box and Pickled Vegs box match.
 
 {% include youtube.html id="oMUZf7gtdYU" %}
 
@@ -85,12 +105,12 @@ It's important to take the milk-less alternative (Pickled Vegs here) into accoun
 
 ## 4.2) Market Cooking
 
-**Organic Feed with Bdodae**
+### Organic Feed with Bdodae
 
 __Step 1)__ Which rare mats does Organic Feed take? __Milk and Meat__. Which one are we solving for? __Meat__ (this choice is up to you). Next best recipe that doesn't use rare mats? __Vinegar__ .
 
 __Step 2)__ Now we need to figure out the true value of milk. There are several recipes that milk can be used in and very few where it's the only rare ingredient, which makes things complicated. Luckily, milk can also turn a profit via processing it into cheese, cream or butter and selling it to the market. We choose cheese cause it has steady demand.
-One milk turns into 2.5 cheese. Cheese is priced at 5950 silver. So the true value/milk for making cheese is `2.5*5950(*0.845) = 12.5k`. If we are using the cheese to cook, the tax can be omitted.
+TOOD: talk about how we have already calculated that before and arrived at 12,500.
 Alternatively, if turning in milk tea boxes was our most profitable option for imperials, we could use the value/milk of 14.9k we calculated earlier.
 
 __Step 3)__ Our next best option is vinegar. For simplicity, I'll say the profit on vinegar is +-0 mil/h + byproducts. Since both vinegar and organic feed produce the same number of byproducts/h we'll ignore byproducts in the calculation and treat the profit of vinegar as 0 mil/h.
