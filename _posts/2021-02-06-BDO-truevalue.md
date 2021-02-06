@@ -28,11 +28,13 @@ Having an unlimited supply of the item would enable you to craft all of the reci
 So, in order to find out how much we would pay for the item at the rare material vendor we need to find the maximum price at which a recipe that uses the rare mat isn't any better or worse than another recipe that doesn't use the rare mat.
 This leads to a 'formal' definition for the true value of a rare item:
 
+<p align=center>
 <span style="color:#005cc2">
 **Definition:  
  The true value of a rare mat is the value created by using the rare mat in a recipe...  
 compared to the next-best option that doesn't use the rare mat.**
 </span>.
+ </p>
 
 **Example:**  
 We want to figure out the true value of *lion meat* when cooked into jungle hamburgs. Also, say the recipe consumes 10k lion meat an hour. 
@@ -109,7 +111,7 @@ Here's a list of potential recipes for calculating the true value of rare mats. 
 - __Coconuts__: Coconut Cocktail, Coconut Pasta
 Note that for instance, cheese in Cheese Gratin and White Sauce in Coconut Pasta don't count towards rare mats cause they can be bought on the market (at the time of writing this).
 
-&nbsp
+&nbsp;
 
 **Closing Remarks**
 
