@@ -31,13 +31,13 @@ This leads to a 'formal' definition for the true value of a rare item:
 <p align=center>
 <span style="color:#005cc2">
  <b>Definition:    
-The true value of a rare mat is the value created by using the rare mat in a recipe...    
+The true value of a rare mat is the value created by using the rare mat in a recipe...<br/> 
 ...compared to the next-best option that doesn't use the rare mat.</b>
 </span>.
  </p>
 
 **Example:**  
-We want to figure out the true value of *lion meat* when cooked into jungle hamburgs. Also, say the recipe consumes 10k lion meat an hour. 
+We want to figure out the true value of *lion meat* when cooked into jungle hamburgs. Also, say the recipe consumes 10k lion meat an hour.   
 1) If we cooked hamburgs and ignored the cost of lion meat, we would make 210 mil/h.  
 2) Our baseline for profit is cooking vinegar at 10 mil/h, which one can buy all the mats for.  
 3) The additional `210m - 10m = 200m` per hour were created by using the rare material lion meat. Therefore the true value of lion meat is `200mil/10k = 20k`.  
