@@ -23,86 +23,36 @@ Think of a rare item, for example milk or lion meat. The scenario:
 > Assume there was a vendor who sells the rare item and is only available to you.  
 > The true value of a rare material is the maximum price you would pay for that item at the vendor.
 
-
-
-
-
 Having an unlimited supply of the item would enable you to craft all of the recipes which take the rare item. But the profit on those recipes depends on how much you paid for the rare item at the vendor. Overpaying for the item would mean that those recipes may only turn a little profit or none at all. And at that point, you could just craft any other recipe and make more money, no? 
+
 So, in order to find out how much we would pay for the item at the rare material vendor we need to find the maximum price at which a recipe that uses the rare mat isn't any better or worse than another recipe that doesn't use the rare mat.
 This leads to a 'formal' definition for the true value of a rare item:
 
-<span style="color:#474747">
-**Definition  
-The true value of a rare mat is the value created by using the rare mat in a recipe...  
-compared to the next-best option that doesn't use the rare mat.**
-</span>.
-
-<span style="color:#575757">
-**Definition  
-The true value of a rare mat is the value created by using the rare mat in a recipe...  
-compared to the next-best option that doesn't use the rare mat.**
-</span>.
-
-
-<span style="color:#6e6e6e">
-**Definition  
-The true value of a rare mat is the value created by using the rare mat in a recipe...  
-compared to the next-best option that doesn't use the rare mat.**
-</span>.
-
-
-<span style="color:#6c6f8c">
-**Definition  
-The true value of a rare mat is the value created by using the rare mat in a recipe...  
-compared to the next-best option that doesn't use the rare mat.**
-</span>.
-
-**Definition**
-<span style="color:#0366d6">
-**Definition  
-The true value of a rare mat is the value created by using the rare mat in a recipe...  
-compared to the next-best option that doesn't use the rare mat.**
-</span>.
-
-
-<span style="color:#004da3">
-**Definition  
-The true value of a rare mat is the value created by using the rare mat in a recipe...  
-compared to the next-best option that doesn't use the rare mat.**
-</span>.
-
-<span style="color:#0056b5">
-**Definition  
-The true value of a rare mat is the value created by using the rare mat in a recipe...  
-compared to the next-best option that doesn't use the rare mat.**
-</span>.
-
 <span style="color:#005cc2">
-**Definition  
-The true value of a rare mat is the value created by using the rare mat in a recipe...  
+**Definition:  
+ The true value of a rare mat is the value created by using the rare mat in a recipe...  
 compared to the next-best option that doesn't use the rare mat.**
 </span>.
 
-
-`The true value of a rare mat is the value created by using the rare mat in a recipe...`   
-`... compared to the next-best option that doesn't use the rare mat.`  
-
-
-**An example**  
+**Example:**  
 We want to figure out the true value of *lion meat* when cooked into jungle hamburgs. Also, say the recipe consumes 10k lion meat an hour. 
 1) If we cooked hamburgs and ignored the cost of lion meat, we would make 210 mil/h.  
 2) Our baseline for profit is cooking vinegar at 10 mil/h, which one can buy all the mats for.  
 3) The additional `210m - 10m = 200m` per hour were created by using the rare material lion meat. Therefore the true value of lion meat is `200mil/10k = 20k`.  
 Going back to the vendor scenario, 20k is the maximum price we would pay for lion meat at the vendor. If we paid any more, there would be no point in cooking hamburgs over vinegar (EXP aside).
 
-`Note`: The true value of rare mats is subjective. It depends on your mastery, the recipes you can make and market prices.
-`Note`: This method translates into any lifeskill. Here's an example for gathering and finding the true value of rough stone when crafted into utensils:
+The true value of rare mats is subjective. It depends on your mastery, the recipes you can make and market prices.
+
+The method for calculating the true value of an item explained in this post translates into any lifeskill. Here's an example for gathering and finding the true value of rough stone when crafted into utensils:
+
 <img  src="/files/bdo_truevalue/utensils.png">
 
 # 3) How to calculate the true value of a rare mat in a recipe?
 
+**Preparation:**  
 __Prep 1)__ Think about which rare materials the recipe has, which one to solve for and what the next-best option to cook without rare mats is.  
 __Prep 2)__ If the recipe has more than one rare mat, find the true values of the rare mats you aren't solving for.  
+**Calculation:**  
 __Step 1)__ Calculate the profit from cooking the next best recipe that doesn't take rare materials.  
 __Step 2)__ Calculate the profit from cooking the recipe that takes rare mats. In the calculation, price the rare mat so that profits of Step 1) and this step match. 
 See below for examples.
@@ -116,21 +66,22 @@ Multiple variables are not helpful. We need to factor out all rare mats but the 
 I'll use my  [imperial sheet](http://bit.ly/ImperialSheet) and [Bdodae](https://www.bdodae.com/) to show how to apply the steps from above. 
 Once you get familiar with the method, it'll be easy to apply it to other profit calculators/sheets as well.
 
-**5.1) Imperials**
-**Example: Milk Tea Boxes with the Imperial sheet**
-__Prep 1)__ Which rare mats does Milk Tea have? __Milk__. Next-best box that doesn't use rare mats? __Pickled Vegs__.
-__Prep 2)__ Nothing to do here since the only rare mat in the recipe is milk \:)
-__Step 1)+2)__ The goal is to find a price for milk at which the profits on the Milk Tea box and Pickled Vegs box match.
-Here's how it would look like on the imp sheet. I'm using 600 cooking mastery and 780 turn-in mastery in the clip.
+## 5.1) Imperials
+
+**Milk Tea Boxes with the Imperial sheet**
+__Prep 1)__ Which rare mats does Milk Tea have? __Milk__. Next-best box that doesn't use rare mats? __Pickled Vegs__.  
+__Prep 2)__ Nothing to do here since the only rare mat in the recipe is milk \:)  
+__Step 1)+2)__ The goal is to find a price for milk at which the profits on the Milk Tea box and Pickled Vegs box match.  
+Here's how it would look like on the imp sheet. I'm using 600 cooking mastery and 780 turn-in mastery in the clip.  
 
 {% include youtube.html id="oMUZf7gtdYU" %}
 
-In this example, milk has a true value of 14900 when making milk tea boxes compared to Pickled Veg boxes.
-It's important to take the milk-less alternative (Pickled Vegs here) into account because we could make 310k/box on those without using any milk. The difference in profit is created by using milk.
+In this example, milk has a true value of `14,900` when making milk tea boxes compared to Pickled Veg boxes.
+It's important to take the milk-less alternative (Pickled Vegs here) into account because we could make `310k` per box on those without using any milk. The difference in profit is created by using milk.
 
 ## 5.2) Market Cooking
 
-**Example: Organic Feed with Bdodae**
+**Organic Feed with Bdodae**
 
 __Prep 1)__ Which rare mats does Organic Feed take? __Milk and Meat__. Which one are we solving for? __Meat__ (this choice is up to you). Next best recipe that doesn't use rare mats? __Vinegar__ .
 
@@ -158,6 +109,7 @@ Here's a list of potential recipes for calculating the true value of rare mats. 
 - __Coconuts__: Coconut Cocktail, Coconut Pasta
 Note that for instance, cheese in Cheese Gratin and White Sauce in Coconut Pasta don't count towards rare mats cause they can be bought on the market (at the time of writing this).
 
+&nbsp
 
 **Closing Remarks**
 
