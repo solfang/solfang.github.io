@@ -33,8 +33,9 @@ This leads to a 'formal' definition for the true value of a rare item:
  <b>Definition:<br/>     
 The true value of a rare mat is the value created by using the rare mat in a recipe...<br/> 
 ...compared to the next-best option that doesn't use the rare mat.</b>
-</span>.
+</span>
  </p>
+
 
 **Example:**  
 We want to figure out the true value of *lion meat* when cooked into jungle hamburgs. Also, say the recipe consumes 10k lion meat an hour.   
@@ -44,10 +45,6 @@ We want to figure out the true value of *lion meat* when cooked into jungle hamb
 Going back to the vendor scenario, 20k is the maximum price we would pay for lion meat at the vendor. If we paid any more, there would be no point in cooking hamburgs over vinegar (EXP aside).
 
 The true value of rare mats is subjective. It depends on your mastery, the recipes you can make and market prices.
-
-The method for calculating the true value of an item explained in this post translates into any lifeskill. Here's an example for gathering and finding the true value of rough stone when crafted into utensils:
-
-<img  src="/files/bdo_truevalue/utensils.png">
 
 # 3) How to calculate the true value of a rare mat in a recipe?
 
@@ -68,7 +65,7 @@ Multiple variables are not helpful. We need to factor out all rare mats but the 
 I'll use my  [imperial sheet](http://bit.ly/ImperialSheet) and [Bdodae](https://www.bdodae.com/) to show how to apply the steps from above. 
 Once you get familiar with the method, it'll be easy to apply it to other profit calculators/sheets as well.
 
-## 5.1) Imperials
+## 5.1) Cooking Imperials
 
 **Milk Tea Boxes with the Imperial sheet**
 __Prep 1)__ Which rare mats does Milk Tea have? __Milk__. Next-best box that doesn't use rare mats? __Pickled Vegs__.  
@@ -101,6 +98,12 @@ On 1k crafts, we used 5k meat and created a profit of 81.8m. This leads to a tru
 If the profit on the alternative activity (vinegar) was more than 0 mil/h, we'd have to subtract the profit of 1428 vinegar crafts from the 81.8m before dividing by the number of meat (1428 is the total main+sub crafts for needed for the 81.8mil - displayed to the left of the cooking utensil cost).
 
 {% include youtube.html id="NW7y-5O5Dqs" %}
+
+## 5.3) Workshops: Cooking Utenils
+
+TODO + involve shs image into text
+
+<img  src="/files/bdo_truevalue/utensils.png">
 
 # 6) Recommendations
 Finding recipes to base the true value of materials on is not always easy. That's partly because profitable recipes usually take multiple rare materials. Recipes that only take one rare mat are usually not profitable to sell due to low price caps (e.g. lean meat salad, boiled bird eggs).
