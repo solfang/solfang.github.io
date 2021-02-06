@@ -39,7 +39,8 @@ We want to figure out the true value of *lion meat* when cooked into jungle hamb
 Going back to the vendor scenario, 20k is the maximum price we would pay for lion meat at the vendor. If we paid any more, there would be no point in cooking hamburgs over vinegar (EXP aside).
 
 `Note`: The true value of rare mats is subjective. It depends on your mastery, the recipes you can make and market prices.
-`Note`: This method translates into any lifeskill. Here's an example for gathering and finding the true value of rough stone when crafted into utensils: <video width="320" <img  src="/files//bdo_truevalue/utensils.png">
+`Note`: This method translates into any lifeskill. Here's an example for gathering and finding the true value of rough stone when crafted into utensils:
+<img  src="/files//bdo_truevalue/utensils.png">
 
 link1
 
@@ -67,9 +68,11 @@ __Prep 2)__ Nothing to do here since the only rare mat in the recipe is milk \:)
 __Step 1)+2)__ The goal is to find a price for milk at which the profits on the Milk Tea box and Pickled Vegs box match.
 Here's how it would look like on the imp sheet. I'm using 600 cooking mastery and 780 turn-in mastery in the clip.
 
-<video controls>
-  <source type="video/mp4" src="/files//bdo_truevalue/raremats_imp_1.mp4">
-</video>
+{% include youtubePlayer.html id=page.oMUZf7gtdYU %}
+
+<img src="/files//bdo_truevalue/raremats_imp_1.gif">
+
+<img src="/files/bdo_truevalue/raremats_dae_2.gif">
 
 In this example, milk has a true value of 14900 when making milk tea boxes compared to Pickled Veg boxes.
 It's important to take the milk-less alternative (Pickled Vegs here) into account because we could make 310k/box on those without using any milk. The difference in profit is created by using milk.
