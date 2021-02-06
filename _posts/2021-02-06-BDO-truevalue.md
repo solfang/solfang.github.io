@@ -73,6 +73,8 @@ Here's how it would look like on the imp sheet. I'm using 600 cooking mastery an
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oMUZf7gtdYU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 <img src="/files//bdo_truevalue/raremats_imp_1.gif">
 
 <img src="/files/bdo_truevalue/raremats_dae_2.gif">
