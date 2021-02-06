@@ -43,7 +43,6 @@ Going back to the vendor scenario, 20k is the maximum price we would pay for lio
 `Note`: This method translates into any lifeskill. Here's an example for gathering and finding the true value of rough stone when crafted into utensils:
 <img  src="/files//bdo_truevalue/utensils.png">
 
-link1
 
 # 3) How to calculate the true value of a rare mat in a recipe?
 
