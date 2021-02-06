@@ -23,8 +23,19 @@ Think of a rare item, for example milk or lion meat.
 > Assume there was a vendor who sells the rare item and is only available to you.  
 > The true value of a rare material is the maximum price you would pay for that item at the vendor.
 
-<pre><code>int foo (void) {
-    <span style="background-color:yellow">Assume there was a vendor who sells the rare item and is only available to you.  ;</span>
+<pre><code>
+<span style="background-color:grey">Assume there was a vendor who sells the rare item and is only available to you.
+The true value of a rare material is the maximum price you would pay for that item at the vendor.
+</span>
+}
+</code></pre>
+
+abc
+
+<pre><code>
+<span style="background-color:gray">Assume there was a vendor who sells the rare item and is only available to you.
+The true value of a rare material is the maximum price you would pay for that item at the vendor.
+</span>
 }
 </code></pre>
 
