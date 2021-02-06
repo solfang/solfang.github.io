@@ -24,13 +24,41 @@ Think of a rare item, for example milk or lion meat.
 > The true value of a rare material is the maximum price you would pay for that item at the vendor.
 
 
-<span style="color:bg-gray;">Word up</span>
+<span style="color:bg-gray;"
+Assume there was a vendor who sells the rare item and is only available to you.
+The true value of a rare material is the maximum price you would pay for that item at the vendor.
+</span>
 
 <pre><code>
 <span style="background-color:bg-gray">Assume there was a vendor who sells the rare item and is only available to you.
 The true value of a rare material is the maximum price you would pay for that item at the vendor.
 </span>
 </code></pre>
+
+<div class="text-white bg-gray-dark mb-2">
+Assume there was a vendor who sells the rare item and is only available to you.
+ The true value of a rare material is the maximum price you would pay for that item at the vendor.
+</div>
+
+<span style="color:ebeced;"
+Assume there was a vendor who sells the rare item and is only available to you.
+The true value of a rare material is the maximum price you would pay for that item at the vendor.
+</span>
+
+<span style="color:e6e6e6;"
+Assume there was a vendor who sells the rare item and is only available to you.
+The true value of a rare material is the maximum price you would pay for that item at the vendor.
+</span>
+
+<span style="color:707070;"
+Assume there was a vendor who sells the rare item and is only available to you.
+The true value of a rare material is the maximum price you would pay for that item at the vendor.
+</span>
+
+
+
+
+
 
 
 Having an unlimited supply of the item would enable you to craft all of the recipes which take the rare item. But the profit on those recipes depends on how much you paid for the rare item at the vendor. Overpaying for the item would mean that those recipes may only turn a little profit or none at all. And at that point, you could just craft any other recipe and make more money, no? 
