@@ -75,17 +75,17 @@ Once you get familiar with the method, it'll be easy to apply it to other profit
 
 ### Processing Milk into Cheese
 
-__Step 1)__ Which rare mats does cheese take? **Milk**
+__Step 1)__ Which rare mats does cheese take? **Milk**  
 __Step 2)__ Nothing to do here since the only rare mat in the recipe is milk \:)  
-__Step 3)__ Next-best recipe? We'll skip this step for now and assume the baseline profit is 0mil/h.
-__Step 4)__ Profit crated by processing milk into cheese?    
+__Step 3)__ Next-best recipe? We'll skip this step for now and assume the baseline profit is 0mil/h.  
+__Step 4)__ Profit created by processing milk into cheese?    
 We assume cheese is priced at `5,950` silver. One milk turns into 2.5 cheese. The profit per craft is `2.5*5950(*0.845) = 12.5k` and since we used one milk that's also the true value of milk when turned into cheese.   
 If we are using the cheese to cook, the tax can be omitted. Altough, taxing the cheese even when using it to cook is also fine as long as it's also taxed (as an input cost) in the cooking calculation.
 
-I omitted step 3) for the sake of simplicity before. We'll now repeat the calculation with it included.
-I'll also assume that our heating mastery (for cheese) is the same as our shaking mastery (for dough). If it was not, we'd have to calculate on a per-hour basis instead of a per-craft basis to be 100% exact. But who has time for that? :)
+I omitted step 3) for the sake of simplicity before. We'll now repeat the calculation with it included.  
+I'll also assume that our heating mastery (for cheese) is the same as our shaking mastery (for dough). If it was not, we'd have to calculate on a per-hour basis instead of a per-craft basis to be 100% exact. But who has time for that? :)  
 Step 3): Next-best recipe? Processing dough at `20 mil/h` at 10k crafts per hour, which results in `20m / 10k = 2k` profit per craft.
-This leaves `12.5k - 2k = 10.5k` profit per craft and therefore `10.5k` profit per milk. You'll notice that the value is actually slightly below the market price for milk.  
+This leaves `12.5k - 2k = 10.5k` profit per craft and therefore `10.5k` value per milk. You'll notice that the value is actually slightly below the market price for milk.  
 
 In this case, buying milk, processing it into cheese and selling the cheeese would be a loss, given that we could process dough for `20 mil/h` instead. In other words, processing milk into cheese makes less than `20 mil/h` (our baseline profit) and you should ask yourself if that's a good use of milk. To be fair, the cheese price is rather low in this example.
 
@@ -93,15 +93,16 @@ In this case, buying milk, processing it into cheese and selling the cheeese wou
 
 ### Milk Tea Boxes with the Imperial sheet  
 
-__Step 1)__ Which rare mats does Milk Tea have? __Milk__. The next-best box that doesn't use rare mats? __Pickled Vegs__.  
-__Step 2)__ -
-__Step 3)+4)__ The goal is to find a price for milk at which the profits on the Milk Tea box and Pickled Vegs box match.  
-Here's how that would look like on the imp sheet. I'm using 600 cooking mastery and 780 turn-in mastery in the clip. In the clip you'll see me gradually adjusting the price of milk until the profit on Milk Tea box and Pickled Vegs box match.
+__Step 1)__ Which rare mats does Milk Tea have? __Milk__. The next-best box that doesn't use rare mats? __Pickled Vegs__.    
+__Step 2)__ -  
+__Step 3)__ the next-best recipe are pickled vegetable boxes at `~310k` profit per box.
+__Step 4)__ The goal is to find a price for milk at which the profits on the Milk Tea box and Pickled Vegs box match.    
+Here's how that would look like on the imp sheet. I'm using 600 cooking mastery and 780 turn-in mastery in the clip. In the clip you'll see me gradually adjusting the price of milk until the profit of the two boxes in question match.
 
 {% include youtube.html id="oMUZf7gtdYU" %}
 
 In this example, milk has a true value of `14,900` when making milk tea boxes compared to Pickled Veg boxes.
-It's important to take the milk-less alternative (Pickled Vegs here) into account because we could make `310k` per box on those without using any milk. The difference in profit is created by using milk.
+It's important to take the milk-less alternative (Pickled Vegs here) into account because we could make `310k` per box on those without using any milk - this is an example where omitting step 3) would lead to an overestimation of the true value for milk. The difference in profit is created by using milk.
 
 ## 4.2) Market Cooking
 
@@ -109,9 +110,7 @@ It's important to take the milk-less alternative (Pickled Vegs here) into accoun
 
 __Step 1)__ Which rare mats does Organic Feed take? __Milk and Meat__. Which one are we solving for? __Meat__ (this choice is up to you). Next best recipe that doesn't use rare mats? __Vinegar__ .
 
-__Step 2)__ Now we need to figure out the true value of milk. There are several recipes that milk can be used in and very few where it's the only rare ingredient, which makes things complicated. Luckily, milk can also turn a profit via processing it into cheese, cream or butter and selling it to the market. We choose cheese cause it has steady demand.
-TOOD: talk about how we have already calculated that before and arrived at 12,500.
-Alternatively, if turning in milk tea boxes was our most profitable option for imperials, we could use the value/milk of 14.9k we calculated earlier.
+__Step 2)__ Now we need to figure out the true value of milk. There are several cooking recipes that milk can be used in and very few where it's the only rare ingredient, which makes things complicated. Luckily we have already calculated the true value of milk to be `12,500` when processed into cheese (without considering the value of processing time). Alternatively, if milk tea was our most profitable imperial box, we could use the value/milk of `14.9k` we calculated earlier.
 
 __Step 3)__ Our next best option is vinegar. For simplicity, I'll say the profit on vinegar is +-0 mil/h + byproducts. Since both vinegar and organic feed produce the same number of byproducts/h we'll ignore byproducts in the calculation and treat the profit of vinegar as 0 mil/h.
 
