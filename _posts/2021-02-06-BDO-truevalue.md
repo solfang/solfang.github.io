@@ -30,9 +30,9 @@ This leads to a 'formal' definition for the true value of a rare item:
 
 <p align=center>
 <span style="color:#005cc2">
-**Definition:  
- The true value of a rare mat is the value created by using the rare mat in a recipe...  
-compared to the next-best option that doesn't use the rare mat.**
+ <b>Definition:    
+The true value of a rare mat is the value created by using the rare mat in a recipe...    
+...compared to the next-best option that doesn't use the rare mat.</b>
 </span>.
  </p>
 
