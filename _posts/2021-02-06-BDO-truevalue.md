@@ -19,7 +19,7 @@ Some potential rare mats are:
 <img align="left" src="/files/bdo_truevalue/coconut.png" height="20"> coconuts  
 <img align="left" src="/files/bdo_truevalue/onion.png" height="20"> white onions.
 
-this is a text ![Some Title](https://bdocodex.com/items/new_icon/03_etc/07_productmaterial/00007303.png){:style="float: right;margin-right: 7px;margin-top: 7px;"} with an image.
+this is a text ![Some Title](/files/bdo_truevalue/onion.png){:height="20px"} with an image.
 
 # 2) What is the true value of a rare material? 
 
