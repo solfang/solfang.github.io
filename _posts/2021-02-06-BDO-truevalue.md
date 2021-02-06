@@ -33,16 +33,12 @@ The true value of a rare material is the maximum price you would pay for that it
 abc
 
 <pre><code>
-<span style="background-color:gray">Assume there was a vendor who sells the rare item and is only available to you.
+<span style="background-color:bg-gray">Assume there was a vendor who sells the rare item and is only available to you.
 The true value of a rare material is the maximum price you would pay for that item at the vendor.
 </span>
-}
 </code></pre>
 
-<details> 
-  <summary>Q1: What is the best Language in the World? </summary>
-   A1: JavaScript 
-</details>
+
 
 <details> 
    A1: JavaScript 
