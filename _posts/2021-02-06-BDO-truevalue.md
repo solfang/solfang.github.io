@@ -76,7 +76,7 @@ Multiple variables are not helpful. We need to factor out all rare mats but the 
 
 # 5) Examples
 
-I'll use my imperial sheet ([](http://bit.ly/ImperialSheet)) and Bdodae ([](https://www.bdodae.com/)) to show how to apply the steps from above. 
+I'll use my  [imperial sheet](http://bit.ly/ImperialSheet) and [Bdodae](https://www.bdodae.com/) to show how to apply the steps from above. 
 Once you get familiar with the method, it'll be easy to apply it to other profit calculators/sheets as well.
 
 **5.1) Imperials**
