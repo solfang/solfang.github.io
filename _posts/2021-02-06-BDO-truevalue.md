@@ -92,8 +92,7 @@ __Step 1)__ Our next best option is vinegar. For simplicity, I'll say the profit
 
 __Step 2)__ We calculate the profit on cooking Organic Feed using Bdodae, using the true value of milk from Prep 2).
 The goal is to find the price of milk at which Organic Feed and vinegar profit (0 mil/h here) match.
-Here's how this would look like on Bdodae. I'm using 600 cooking mastery in the clip, which slightly increases the proc rate on Organic Feed (see Mastery tab in the imperial sheet for details).
-link3
+Here's how this would look like on Bdodae. I'm using 600 cooking mastery in the clip, which slightly increases the proc rate on Organic Feed (see the Mastery tab in the [imperial sheet] (https://docs.google.com/spreadsheets/d/1D7mFcXYFm4BUS_MKxTvgBY2lXkGtwWqn2AW91ntUvzE/edit#gid=1519713712) for details).
 On 1k crafts, we used 5k meat and created a profit of 81.8m. This leads to a true value of `81.8m / 5k = 16.3k`.
 If the profit on the alternative activity (vinegar) was more than 0 mil/h, we'd have to subtract the profit of 1428 vinegar crafts from the 81.8m before dividing by the number of meat (1428 is the total main+sub crafts for needed for the 81.8mil - displayed to the left of the cooking utensil cost).
 
