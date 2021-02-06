@@ -3,7 +3,6 @@ layout: post
 title: Black Desert Online - How to Figure out the True Value of Materials
 published: true
 tags: BDO
-youtubeId: oMUZf7gtdYU
 ---
 
 In this post we'll do a deep dive into into material valuation in BDO. Most of the worthwhile recipes in cooking/alchemy/processing involve rare materials so being able to calculate the true value of a material is an important skill in order to compare the profit of different recipes.
@@ -13,7 +12,12 @@ This post is aimed at established players who are interested in item valuation, 
 # 1) What is a rare material? 
 
 Rare materials are mats that can't be bought on the market in reasonable quantity. Therefore their value is higher than the market price. 
-Examples for potential rare mats are: milk, meat, eggs, coconuts, white onions/garlic/pepper/hot pepper.
+Some potential rare mats are: 
+<img src="/files/bdo_truevalue/milk.png" height="20"> milk,
+ <img src="/files/bdo_truevalue/redmeat.png" height="20"> meat, 
+<img src="/files/bdo_truevalue/egg.png" height="20"> eggs, 
+<img src="/files/bdo_truevalue/coconut.png" height="20"> coconuts or
+<img src="/files/bdo_truevalue/onion.png" height="20"> white onions.
 
 # 2) What is the true value of a rare material? 
 
