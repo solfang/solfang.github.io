@@ -3,6 +3,7 @@ layout: post
 title: Black Desert Online - How to Figure out the True Value of Materials
 published: true
 tags: BDO
+youtubeId: oMUZf7gtdYU
 ---
 
 In this post we'll do a deep dive into into material valuation in BDO. Most of the worthwhile recipes in cooking/alchemy/processing involve rare materials so being able to calculate the true value of a material is an important skill in order to compare the profit of different recipes.
@@ -69,6 +70,8 @@ __Step 1)+2)__ The goal is to find a price for milk at which the profits on the 
 Here's how it would look like on the imp sheet. I'm using 600 cooking mastery and 780 turn-in mastery in the clip.
 
 {% include youtubePlayer.html id=page.oMUZf7gtdYU %}
+
+{% include youtubePlayer.html id=page.youtubeId %}
 
 <img src="/files//bdo_truevalue/raremats_imp_1.gif">
 
