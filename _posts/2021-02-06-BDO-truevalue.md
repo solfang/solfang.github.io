@@ -69,17 +69,15 @@ __Prep 2)__ Nothing to do here since the only rare mat in the recipe is milk \:)
 __Step 1)+2)__ The goal is to find a price for milk at which the profits on the Milk Tea box and Pickled Vegs box match.
 Here's how it would look like on the imp sheet. I'm using 600 cooking mastery and 780 turn-in mastery in the clip.
 
-{% include youtubePlayer.html id=page.oMUZf7gtdYU %}
+{% include youtubePlayer.html id=page."oMUZf7gtdYU" %}
+
+tst
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oMUZf7gtdYU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 {% include youtube.html id=dQw4w9WgXcQ %}
-
-<img src="/files//bdo_truevalue/raremats_imp_1.gif">
-
-<img src="/files/bdo_truevalue/raremats_dae_2.gif">
 
 In this example, milk has a true value of 14900 when making milk tea boxes compared to Pickled Veg boxes.
 It's important to take the milk-less alternative (Pickled Vegs here) into account because we could make 310k/box on those without using any milk. The difference in profit is created by using milk.
