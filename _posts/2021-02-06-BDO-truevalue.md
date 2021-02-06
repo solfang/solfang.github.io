@@ -15,7 +15,7 @@ Rare materials are mats that can't be bought on the market in reasonable quantit
 Some potential rare mats are: 
 <img align="left" src="/files/bdo_truevalue/milk.png" height="20"> milk,
 <img align="left" src="/files/bdo_truevalue/redmeat.png" height="20"> meat, 
-<img src="/files/bdo_truevalue/egg.png" height="20"> eggs, 
+<p><img src="/files/bdo_truevalue/egg.png" height="20"></p> eggs, 
 <img src="/files/bdo_truevalue/coconut.png" height="20"> coconuts or
 <img src="/files/bdo_truevalue/onion.png" height="20"> white onions.
 
