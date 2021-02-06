@@ -111,10 +111,13 @@ TODO + involve shs image into text
 # 6) Recommendations
 Finding recipes to base the true value of materials on is not always easy. That's partly because profitable recipes usually take multiple rare materials. Recipes that only take one rare mat are usually not profitable to sell due to low price caps (e.g. lean meat salad, boiled bird eggs).
 Here's a list of potential recipes for calculating the true value of rare mats. Rare mats other than the one in question are in (brackets).
-- __Meat__: Red Sauce, Organic Feed (dried fish), Cheese Gratin (onion)
-- __Milk__: Cheese/Cream/Butter, White Sauce, Milk Tea, Sute Tea, Organic Feed (meat)
-- __Eggs__: Dressing, Coconut Fried Fish (eggs, coconut)
-- __Coconuts__: Coconut Cocktail, Coconut Pasta
+- **Meat**: Red Sauce, Organic Feed (dried fish), Cheese Gratin (onion)
+- **Milk**: Cheese/Cream/Butter, White Sauce, Milk Tea, Sute Tea, Organic Feed (meat)
+- **Eggs**: Dressing, Coconut Fried Fish (eggs, coconut)
+- **Coconuts**: Coconut Cocktail, Coconut Pasta
+- **Snake Meat**: Couscous
+- **Scorpion Meat** Teff Sandwiches (snake meat)
+- **Lion Meat**: Hamburgs, Valencia Meal (snake meat, scorpion meat)
 Note that for instance, cheese in Cheese Gratin and White Sauce in Coconut Pasta don't count towards rare mats cause they can be bought on the market (at the time of writing this).
 
 &nbsp;
