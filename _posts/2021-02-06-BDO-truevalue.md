@@ -33,9 +33,15 @@ The true value of a rare material is the maximum price you would pay for that it
 Assume there was a vendor who.
 ```
 
-<span style="color:blue">some *blue* text</span>.
+<span style="color:.bg-blue">some *blue* text</span>.
 
-<span style="color:blue">some *This is Blue italic.* text</span>
+<span style="color:.bg-blue">some 
+blue text</span>.
+ 
+<span style="color:.bg-blue">
+some 
+blue text
+</span>.
 
 **My Bold Text, in red color.**{: style="color: red; opacity: 0.80;" }
 
