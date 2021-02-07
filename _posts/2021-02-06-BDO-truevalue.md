@@ -160,10 +160,9 @@ The goal is to find the price of milk at which Organic Feed and vinegar profit (
 Here's how this would look like on Bdodae. I'm using 600 cooking mastery in the clip, which slightly increases the proc rate on Organic Feed (See the Mastery tab in the [imperial sheet](https://docs.google.com/spreadsheets/d/1D7mFcXYFm4BUS_MKxTvgBY2lXkGtwWqn2AW91ntUvzE/edit#gid=1519713712) for details on proc rates with mastery).
 On 1k crafts, we used 5k meat and created a profit of 81.8m. This leads to a true value of `81.8m / 5k = 16.3k`.
 
-If the profit on the alternative activity (vinegar) was more than 0 mil/h, we'd have to subtract the profit of 1428 vinegar crafts from the 81.8m before dividing by the number of meat (1428 is the total main+sub crafts for needed for the 81.8mil - displayed to the left of the cooking utensil cost). Say that vinegar was `10 mil/h` (or roughly 1.1k profit per craft at 9k crafts per hour). Now the true value of meat would be `(81.8m - 1428 * 1.1k) / 5k = 80.2mil / 5k = 16k`. The cost of time is not a huge deal here but for players who value their cooking time at `100+ mil/h` it's definitely something to keep in mind.
-
 {% include youtube.html id="NW7y-5O5Dqs" %}
 
+If the profit on the alternative activity (vinegar) was more than 0 mil/h, we'd have to subtract the profit of 1428 vinegar crafts from the 81.8m before dividing by the number of meat (1428 is the total main+sub crafts for needed for the 81.8mil - displayed to the left of the cooking utensil cost). Say that vinegar was `10 mil/h` (or roughly 1.1k profit per craft at 9k crafts per hour). Now the true value of meat would be `(81.8m - 1428 * 1.1k) / 5k = 80.2mil / 5k = 16k`. The cost of time is not a huge deal here but for players who value their cooking time at `100+ mil/h` it's definitely something to keep in mind.
 
 # 6) Recommendations
 Finding recipes to base the true value of materials on is not always easy. That's partly because profitable recipes usually take multiple rare materials. Recipes that only take one rare mat are usually not profitable to sell due to low price caps (e.g. lean meat salad, boiled bird eggs).
