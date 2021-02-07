@@ -10,9 +10,6 @@ We will take a quick look at the motivation and previous approaches on point clo
 
 The code for this paper is available under [https://github.com/Colin97/MSN-Point-Cloud-Completion]().
 
-My presentation on this paper can be found [here](/files/msn/ADCV_Seminar_Presi.pdf).
-
-
 # Motivation
 
 The eyes into the world of an autonomous vehicle are the sensors installed on the vehicle. In order to understand the environment in which the vehicle is driving and to make informed decisions about potential paths of actions it's important to have reliable and complete sensor data about the scene. Such 3D data is commonly collected with Lidar sensors which capture a scene as a set of distinct points,  referred to as a point cloud. Even though Lidar produces high fidelity scans, there are two main factors which can lower the quality of the 3D scans. 
@@ -358,6 +355,8 @@ Potential ways to improve the performance of the network could be to combine a f
 The authors explain the network architecture concisely and in an easy to follow manner. What I find especially interesting about this paper is that the authors have presented solutions to existing problems, such as the approximation of the Earth Mover's Distance as well as the Minimum density sampling algorithm. Earth Mover's Distance, now that it has a feasible implementation, could improve the quality of future point cloud completion approaches and has been used to produce state-of-the-art results, for example in the *Cloud Transformers* network [[8]](#8). Although with a computational cost of O(n²) EMD is not a clear-cut choice over the CD.
 
 Furthermore, point-cloud based methods are no longer the only successful approach to point cloud completion. Recent Voxel-based networks, such as *GRNet* [[6]](#6), have overcome the drawbacks of voxelization and can deliver results that rival those of purely point-based networks.
+
+My presentation on this paper can be found [here](/files/msn/ADCV_Seminar_Presi.pdf).
 
 # References
 
