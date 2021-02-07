@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Black Desert Online - How to Figure out the True Value of Materials
+title: Black Desert Online - How to Calculate the True Value of Materials
 published: true
 tags: BDO
 ---
