@@ -50,9 +50,9 @@ The true value of a rare mat is the value created by using the rare mat in a rec
 **Example:**  
 We want to figure out the true value of *lion meat* when cooked into jungle hamburgs. Also, say the recipe consumes 10k lion meat an hour.   
 1) If we cooked hamburgs and **ignored the cost of lion meat**, we would make `210 mil/h`.  
-2) The baseline for profit is cooking vinegar at 10 mil/h, which one can buy all the mats for.  
+2) The baseline for profit is cooking vinegar at `10 mil/h`, which one can buy all the mats for.  
 3) The additional `210m - 10m = 200m` per hour were created by using the rare material *lion meat*. Therefore the true value of lion meat is `200m/10k = 20k`.  
-Going back to the vendor scenario, 20k is the maximum price we would pay for *lion meat* at the vendor. If we paid any more, there would be no point in cooking hamburgs over vinegar (cooking EXP aside). I'll explain the process of calculating the true value in the next section in more detail.
+Going back to the vendor scenario, `20k` is the maximum price we would pay for *lion meat* at the vendor. If we paid any more, there would be no point in cooking hamburgs over vinegar (cooking EXP aside). I'll explain the process of calculating the true value in the next section in more detail.
 
 Also note that the true value of rare mats is subjective. It depends on your mastery, the recipes you can make and market prices.
 
@@ -140,7 +140,7 @@ It's important to take the milk-less alternative (Pickled Vegs here) into accoun
 
 ### Milk into Organic Feed
 
-__Step 1)__ Which rare mats does Organic Feed take? __Milk and Meat__. Which one are we solving for? __Meat__ (this choice is up to you). Next best recipe that doesn't use rare mats? __Vinegar__ .
+__Step 1)__ Which rare mats does Organic Feed take? __Milk__ and __Meat__. Which one are we solving for? __Meat__ (this choice is up to you). Next best recipe that doesn't use rare mats? __Vinegar__ .
 
 __Step 2)__ Now we need to figure out the true value of milk. There are several cooking recipes that milk can be used in and very few where it's the only rare ingredient, which makes things complicated. Luckily we have already calculated the true value of milk to be `12,500` when processed into cheese (without considering the cost of processing time). Alternatively, if milk tea was our most profitable imperial box, we could use the value/milk of `14.9k` we calculated earlier.
 
