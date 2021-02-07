@@ -14,6 +14,9 @@ In this post we'll do a deep dive into **material valuation in BDO**. Most of th
 
 I'll first explain what a rare material and its value is, and then go over how to calculate the true value. Lastly, we'll take a look at popular recipes from cooking and processing, including cheese, advanced utensils and organic feed and see how to calculate the true value of their rare materials.
 
+**TLDR:**  
+Rare items can't be bought on the market in reasonable quantity. The true value of a rare item is the profit created by using that item in a recipe. Calculate as: `Price of the rare item where the craft profit is 0.` If the time spent crafting is valuable to you, subtract the value of the time spent crafting from the craft profit. 
+
 # 1) What is a rare material? 
 
 Rare materials are mats that can't be bought on the market in reasonable quantity. This often means that their value is higher than the market price. 
