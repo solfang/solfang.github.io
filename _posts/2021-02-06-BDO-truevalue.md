@@ -12,7 +12,7 @@ Established players who are interested in item valuation, not so much at beginne
 
 In this post we'll do a deep dive into **material valuation in BDO**. Most of the worthwhile recipes in cooking/alchemy/processing involve rare materials. Therefore being able to calculate the true value of a material is an important skill and immensely helpful when comparing the profit of different recipes.
 
-I'll first explain what a rare material and its value is, then go over how to calculate the true value. Lastly, we'll take a look at popular recipes from cooking and processing, including cheese, advanced utensils and organic feed and see how to calculate the true value of their rare materials.
+I'll first explain what a rare material and its value is, and then go over how to calculate the true value. Lastly, we'll take a look at popular recipes from cooking and processing, including cheese, advanced utensils and organic feed and see how to calculate the true value of their rare materials.
 
 # 1) What is a rare material? 
 
