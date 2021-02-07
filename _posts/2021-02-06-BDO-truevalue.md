@@ -18,11 +18,11 @@ I'll first explain what a rare material and its value is, then go over how to ca
 
 Rare materials are mats that can't be bought on the market in reasonable quantity. This often means that their value is higher than the market price. 
 Some potential rare mats are:   
-<img align="left" src="/files/bdo_truevalue/milk.png" height="20"> &thinsp; milk,  
-<img align="left" src="/files/bdo_truevalue/redmeat.png" height="20"> &thinsp; meat,    
-<img align="left" src="/files/bdo_truevalue/egg.png" height="20"> &thinsp; eggs,   
+<img align="left" src="/files/bdo_truevalue/milk.png" height="20"> &thinsp; milk    
+<img align="left" src="/files/bdo_truevalue/redmeat.png" height="20"> &thinsp; meat      
+<img align="left" src="/files/bdo_truevalue/egg.png" height="20"> &thinsp; eggs     
 <img align="left" src="/files/bdo_truevalue/coconut.png" height="20"> &thinsp; coconuts  
-<img align="left" src="/files/bdo_truevalue/onion.png" height="20"> &thinsp; white onions.
+<img align="left" src="/files/bdo_truevalue/onion.png" height="20"> &thinsp; white onions
 
 
 # 2) What is the true value of a rare material? 
