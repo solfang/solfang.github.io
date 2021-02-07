@@ -63,7 +63,7 @@ The process of calculating the true value of an item can be broken down into fou
 __Step 1)__ Think about which rare materials the recipe has, which one to solve for and what the next-best option to craft without rare mats is.  
 __Step 2)__ If the recipe has more than one rare mat, find the true values of the rare mats you aren't solving for.  
 __Step 3)__ Calculate the profit from crafting the next best recipe that doesn't take rare materials. In some cases, where the baseline profit is really low, it's also fine to set it to 0 and effectively skip this step.  
-__Step 4)__ Calculate the profit from crafting the recipe that takes rare mats. In the calculation, price the rare mat so that profits of Step 1) and this step match. A simple way to do this is to calculate the profit with the rare material valued at 0, subtract the profit from step 3) and then divide the resulting profit by the number of rare mats used.
+__Step 4)__ Calculate the profit from crafting the recipe that takes rare mats. In the calculation, price the rare mat so that profits of Step 3) and this step match. A simple way to do this is to first calculate the profit with the rare material valued at 0, subtract the profit from step 3) and then divide the resulting profit by the number of rare mats used.
 See [Section 4](#examples) for examples.
 
 As you can see, we need to know two things beforehand:  
