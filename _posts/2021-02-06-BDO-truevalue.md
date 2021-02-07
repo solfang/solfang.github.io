@@ -54,6 +54,8 @@ We want to figure out the true value of *lion meat* when cooked into jungle hamb
 3) The additional `210m - 10m = 200m` per hour were created by using the rare material *lion meat*. Therefore the true value of lion meat is `200m/10k = 20k`.  
 Going back to the vendor scenario, `20k` is the maximum price we would pay for *lion meat* at the vendor. If we paid any more, there would be no point in cooking hamburgs over vinegar (cooking EXP aside). I'll explain the process of calculating the true value in the next section in more detail.
 
+Keep in mind that this way of calculating the true value is only valid for mats that aren't available on the market in sufficient quantity. Items that can be bought on the market have their value capped at the market price.
+
 Also note that the true value of rare mats is subjective. It depends on your mastery, the recipes you can make and market prices.
 
 # 3) How to calculate the true value of a rare mat in a recipe?
@@ -65,6 +67,8 @@ __Step 2)__ If the recipe has more than one rare mat, find the true values of th
 __Step 3)__ Calculate the profit from crafting the next best recipe that doesn't take rare materials. In some cases, where the baseline profit is really low, it's also fine to set it to 0 and effectively skip this step.  
 __Step 4)__ Calculate the profit from crafting the recipe that takes rare mats. In the calculation, price the rare mat so that profits of Step 3) and this step match. A simple way to do this is to first calculate the profit with the rare material valued at 0, subtract the profit from step 3) and then divide the resulting profit by the number of rare mats used.
 See [Section 4](#examples) for examples.
+
+In a more technical sense, we're essentially solving an equation with multiple unknowns (the price of one or more rare mats and the time spent crafting) by factoring out all unknowns except the price of the rare marerial.
 
 As you can see, we need to know two things beforehand:  
 - The profit per hour of a 'filler' recipe, which doesn't take any rare mats and can always be crafted. This recipe determines the value of our time (be it cooking/alch/processing). If you have used the 'Time Cost' field in any of my sheets you should already be familiar with this concept.
@@ -97,6 +101,10 @@ Step 3): Next-best recipe? Processing dough at `20 mil/h` at 10k crafts per hour
 This leaves `12.5k - 2k = 10.5k` profit per craft and therefore `10.5k` value per milk. You'll notice that the value is actually slightly below the market price for milk.  
 
 In this case, buying milk, processing it into cheese and selling the cheese would be a loss, given that we could process dough for `20 mil/h` instead. In other words, processing milk into cheese makes less than `20 mil/h` (our baseline profit) and you should ask yourself if that's a good use of milk. To be fair, the cheese price is rather low in this example.
+
+Also, since processing cheese can be done overnight, the 'next-best' thing to do in that time would be a full afk activity like fishing or horse training. In general, the next-best thing doesn't have to involve crafting. Anything that gives a value for the time spent crafting the rare material works. Full afk activities aren't that profitable so they resulting cost of the time spent processing cheese is rather low.
+
+Therefore, calculating the value of milk when turned into cheese as `2.5*CheesePrice*Tax` is an alright approximation and saves you from the headache of valuing the processing time.
 
 ## 4.2) Workshops
 
