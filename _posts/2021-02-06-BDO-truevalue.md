@@ -102,7 +102,8 @@ This leaves `12.5k - 2k = 10.5k` profit per craft and therefore `10.5k` value pe
 
 In this case, buying milk, processing it into cheese and selling the cheese would be a loss, given that we could process dough for `20 mil/h` instead. In other words, processing milk into cheese makes less than `20 mil/h` (our baseline profit) and you should ask yourself if that's a good use of milk. To be fair, the cheese price is rather low in this example.
 
-Also, since processing cheese can be done overnight, the 'next-best' thing to do in that time would be a full afk activity like fishing or horse training. In general, the next-best thing doesn't have to involve crafting. Anything that gives a value for the time spent crafting the rare material works. Full afk activities aren't that profitable so they resulting cost of the time spent processing cheese is rather low.
+Also, since processing cheese can be done overnight, the 'next-best' thing to do in that time would be a full afk activity like fishing or horse training. In general, the next-best thing doesn't have to involve crafting. Anything that gives an opportunity cost for the time spent crafting the rare material works.   
+Full afk activities aren't all that profitable so the resulting opportunity cost of the time spent processing cheese is rather low.
 
 Therefore, calculating the value of milk when turned into cheese as `2.5*CheesePrice*Tax` is an alright approximation and saves you from the headache of valuing the processing time.
 
