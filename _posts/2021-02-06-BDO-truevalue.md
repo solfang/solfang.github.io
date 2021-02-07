@@ -52,18 +52,18 @@ We want to figure out the true value of *lion meat* when cooked into jungle hamb
 1) If we cooked hamburgs and **ignored the cost of lion meat**, we would make `210 mil/h`.  
 2) The baseline for profit is cooking vinegar at 10 mil/h, which one can buy all the mats for.  
 3) The additional `210m - 10m = 200m` per hour were created by using the rare material *lion meat*. Therefore the true value of lion meat is `200m/10k = 20k`.  
-Going back to the vendor scenario, 20k is the maximum price we would pay for *lion meat* at the vendor. If we paid any more, there would be no point in cooking hamburgs over vinegar (cooking EXP aside).
+Going back to the vendor scenario, 20k is the maximum price we would pay for *lion meat* at the vendor. If we paid any more, there would be no point in cooking hamburgs over vinegar (cooking EXP aside). I'll explain the process of calculating the true value in the next section in more detail.
 
 Also note that the true value of rare mats is subjective. It depends on your mastery, the recipes you can make and market prices.
 
 # 3) How to calculate the true value of a rare mat in a recipe?
 
-The process of calculating the true value of an item can be proken down into four steps:
+The process of calculating the true value of an item can be broken down into four steps:
 
 __Step 1)__ Think about which rare materials the recipe has, which one to solve for and what the next-best option to craft without rare mats is.  
 __Step 2)__ If the recipe has more than one rare mat, find the true values of the rare mats you aren't solving for.  
-__Step 3)__ Calculate the profit from crafting the next best recipe that doesn't take rare materials. In some cases, where the baseline profit is really low, it's also fine to set it to 0 and effectively skip this step.
-__Step 4)__ Calculate the profit from crafting the recipe that takes rare mats. In the calculation, price the rare mat so that profits of Step 1) and this step match. A simple way to do this is to calculate the profit with the rare material valued at 0, subtractg the profit from step 3) and then divide the resulting profit by the number of rare mats used.
+__Step 3)__ Calculate the profit from crafting the next best recipe that doesn't take rare materials. In some cases, where the baseline profit is really low, it's also fine to set it to 0 and effectively skip this step.  
+__Step 4)__ Calculate the profit from crafting the recipe that takes rare mats. In the calculation, price the rare mat so that profits of Step 1) and this step match. A simple way to do this is to calculate the profit with the rare material valued at 0, subtract the profit from step 3) and then divide the resulting profit by the number of rare mats used.
 See [Section 4](#examples) for examples.
 
 As you can see, we need to know two things beforehand:  
@@ -88,14 +88,14 @@ __Step 3)__ Next-best recipe? We'll skip this step for now and assume the baseli
 
 __Step 4)__ Profit created by processing milk into cheese?    
 We assume cheese is priced at `5,950` silver. One milk turns into 2.5 cheese. The profit per craft is `2.5*5950(*0.845) = 12.5k` and since we used one milk that's also the true value of milk when turned into cheese.   
-If we are using the cheese to cook, the tax can be omitted. Altough, taxing the cheese even when using it to cook is also fine as long as it's also taxed (as an input cost) in the cooking calculation.
+If we are using the cheese to cook, the tax can be omitted. Although, taxing the cheese even when using it to cook is also fine as long as it's also taxed (as an input cost) in the cooking calculation.
 
 I omitted **step 3)** for the sake of simplicity before. We'll now repeat the calculation with it included.  
 I'll also assume that our heating mastery (for cheese) is the same as our shaking mastery (for dough). If it was not, we'd have to calculate on a per-hour basis instead of a per-craft basis to be 100% exact. But who has time for that? :)  
 Step 3): Next-best recipe? Processing dough at `20 mil/h` at 10k crafts per hour, which results in `20m / 10k = 2k` profit per craft.
 This leaves `12.5k - 2k = 10.5k` profit per craft and therefore `10.5k` value per milk. You'll notice that the value is actually slightly below the market price for milk.  
 
-In this case, buying milk, processing it into cheese and selling the cheeese would be a loss, given that we could process dough for `20 mil/h` instead. In other words, processing milk into cheese makes less than `20 mil/h` (our baseline profit) and you should ask yourself if that's a good use of milk. To be fair, the cheese price is rather low in this example.
+In this case, buying milk, processing it into cheese and selling the cheese would be a loss, given that we could process dough for `20 mil/h` instead. In other words, processing milk into cheese makes less than `20 mil/h` (our baseline profit) and you should ask yourself if that's a good use of milk. To be fair, the cheese price is rather low in this example.
 
 ## Workshops
 
@@ -111,7 +111,7 @@ __Step 1)__ Rare mats? **Rough stone** and possibly **Logs**. At the time of wri
 
 __Step 2)__ Can be skipped atm. If logs/scantling were not available on the market, we'd have to figure out a true value for logs. Since there's really not much worthwhile stuff to do with logs, that's a bit of a challenge. The easiest would be to treat logs and rough stone as the same material and then calculate the true value for both of them at the same time.
 
-__Step 3)__ Can be skipped if you don't want to be 100% exact. If we wanted to be exact, one possible thing to do instead of making utensils would be to invest the workshop CP into nodes. We assume 40 utensils produced per day with a workshop that takes 4 CP. We also assume `200k` value per CP per day. That would result in a cost of `4 * 200k / 40 = 20k` silver per utensil. Basically negligible. Also technically, we'd have to include the time spent processing rough stone into polished stone. Again, this cost is neglibile.
+__Step 3)__ Can be skipped if you don't want to be 100% exact. If we wanted to be exact, one possible thing to do instead of making utensils would be to invest the workshop CP into nodes. We assume 40 utensils produced per day with a workshop that takes 4 CP. We also assume `200k` value per CP per day. That would result in a cost of `4 * 200k / 40 = 20k` silver per utensil. Basically negligible. Also technically, we'd have to include the time spent processing rough stone into polished stone. Again, this cost is negligible.
 
 __Step 4)__ Using Bdodae, the profit from one utensil craft **without valuing rough stone** comes out to be `632,150`. The craft takes 80 rough stone, which leads to a value of `7,902` silver per rough stone as can be seen in the image below.  
 
