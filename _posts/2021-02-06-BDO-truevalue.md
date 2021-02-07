@@ -67,7 +67,7 @@ __Step 4)__ Calculate the profit from crafting the recipe that takes rare mats. 
 See [Section 4](#examples) for examples.
 
 As you can see, we need to know two things beforehand:  
-- The profit per hour of a 'filler' recipe, which doesn't take any rare mats and always be crafted. This recipe determines the value of our time (be it cooking/alch/processing). If you have used the 'Time Cost' field in any of my sheets you should already be familiar with this concept.
+- The profit per hour of a 'filler' recipe, which doesn't take any rare mats and can always be crafted. This recipe determines the value of our time (be it cooking/alch/processing). If you have used the 'Time Cost' field in any of my sheets you should already be familiar with this concept.
 - If the recipe requires multiple rare mats, we need to know or at least have a rough idea of the value of the other rare mats in the recipe.
 
 # 4) Examples
