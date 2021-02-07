@@ -91,7 +91,7 @@ We assume cheese is priced at `5,950` silver. One milk turns into 2.5 cheese. Th
 If we are using the cheese to cook, the tax can be omitted. Although, taxing the cheese even when using it to cook is also fine as long as it's also taxed (as an input cost) in the cooking calculation.
 
 I omitted **step 3)** for the sake of simplicity before. We'll now repeat the calculation with it included.  
-I'll also assume that our heating mastery (for cheese) is the same as our shaking mastery (for dough). If it was not, we'd have to calculate on a per-hour basis instead of a per-craft basis to be 100% exact. But who has time for that? :)  
+I'll also assume that our drying mastery (for cheese) is the same as our shaking mastery (for dough). If it was not, we'd have to calculate on a per-hour basis instead of a per-craft basis to include the difference in processing speed. But who has time for that? :)  
 
 Step 3): Next-best recipe? Processing dough at `20 mil/h` at 10k crafts per hour, which results in `20m / 10k = 2k` profit per craft.
 This leaves `12.5k - 2k = 10.5k` profit per craft and therefore `10.5k` value per milk. You'll notice that the value is actually slightly below the market price for milk.  
