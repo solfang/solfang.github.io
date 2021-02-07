@@ -97,7 +97,7 @@ This leaves `12.5k - 2k = 10.5k` profit per craft and therefore `10.5k` value pe
 
 In this case, buying milk, processing it into cheese and selling the cheese would be a loss, given that we could process dough for `20 mil/h` instead. In other words, processing milk into cheese makes less than `20 mil/h` (our baseline profit) and you should ask yourself if that's a good use of milk. To be fair, the cheese price is rather low in this example.
 
-## Workshops
+## 4.2) Workshops
 
 ### Rough Stone into Cooking Utensils
 
@@ -109,9 +109,9 @@ Now let's see how that fits into our 4-step process:
 
 __Step 1)__ Rare mats? **Rough stone** and possibly **Logs**. At the time of writing this, usable scantling is readily available on the market so usable scantling or logs are not a rare material.
 
-__Step 2)__ Can be skipped atm. If logs/scantling were not available on the market, we'd have to figure out a true value for logs. Since there's really not much worthwhile stuff to do with logs, that's a bit of a challenge. The easiest would be to treat logs and rough stone as the same material and then calculate the true value for both of them at the same time.
+__Step 2)__ Can be skipped atm. If logs/scantling were not available on the market, we'd have to figure out a true value for logs. Since there's really not much worthwhile stuff to do with logs, it's a bit of a challenge. The easiest would be to treat logs and rough stone as the same material and then calculate the true value for both of them at the same time.
 
-__Step 3)__ Can be skipped if you don't want to be 100% exact. If we wanted to be exact, one possible thing to do instead of making utensils would be to invest the workshop CP into nodes. We assume 40 utensils produced per day with a workshop that takes 4 CP. We also assume `200k` value per CP per day. That would result in a cost of `4 * 200k / 40 = 20k` silver per utensil. Basically negligible. Also technically, we'd have to include the time spent processing rough stone into polished stone. Again, this cost is negligible.
+__Step 3)__ Can be skipped if you don't want to be 100% exact. If we wanted to though, we'd have to include the cost of running the workshop, for example by valuing the CP that went into renting it. We assume 40 utensils produced per day with a workshop that takes 4 CP (in O'draxxia). We also assume `200k` value per CP per day. That would result in a cost of `4 * 200k / 40 = 20k` silver per utensil. Basically negligible. Also technically, we'd have to include the time spent processing rough stone into polished stone. Again, this cost is negligible.
 
 __Step 4)__ Using Bdodae, the profit from one utensil craft **without valuing rough stone** comes out to be `632,150`. The craft takes 80 rough stone, which leads to a value of `7,902` silver per rough stone as can be seen in the image below.  
 
@@ -123,7 +123,7 @@ __Step 4)__ Using Bdodae, the profit from one utensil craft **without valuing ro
 
 __Step 1)__ Which rare mats does Milk Tea have? __Milk__. The next-best box that doesn't use rare mats? __Pickled Vegs__.  
 
-__Step 2)__ Skiiip   
+__Step 2)__ Skiiip.  
 
 __Step 3)__ the next-best recipe are pickled vegetable boxes at `~310k` profit per box.  
 
@@ -141,7 +141,7 @@ It's important to take the milk-less alternative (Pickled Vegs here) into accoun
 
 __Step 1)__ Which rare mats does Organic Feed take? __Milk and Meat__. Which one are we solving for? __Meat__ (this choice is up to you). Next best recipe that doesn't use rare mats? __Vinegar__ .
 
-__Step 2)__ Now we need to figure out the true value of milk. There are several cooking recipes that milk can be used in and very few where it's the only rare ingredient, which makes things complicated. Luckily we have already calculated the true value of milk to be `12,500` when processed into cheese (without considering the value of processing time). Alternatively, if milk tea was our most profitable imperial box, we could use the value/milk of `14.9k` we calculated earlier.
+__Step 2)__ Now we need to figure out the true value of milk. There are several cooking recipes that milk can be used in and very few where it's the only rare ingredient, which makes things complicated. Luckily we have already calculated the true value of milk to be `12,500` when processed into cheese (without considering the cost of processing time). Alternatively, if milk tea was our most profitable imperial box, we could use the value/milk of `14.9k` we calculated earlier.
 
 __Step 3)__ Our next best option is vinegar. For simplicity, I'll say the profit on vinegar is +-0 mil/h + byproducts. Since both vinegar and organic feed produce the same number of byproducts/h we'll ignore byproducts in the calculation and treat the profit of vinegar as 0 mil/h.
 
