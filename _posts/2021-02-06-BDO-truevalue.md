@@ -97,10 +97,10 @@ If we are using the cheese to cook, the tax can be omitted. Although, taxing the
 I omitted **step 3)** for the sake of simplicity before. We'll now repeat the calculation with it included.  
 I'll also assume that our drying mastery (for cheese) is the same as our shaking mastery (for dough). If it was not, we'd have to calculate on a per-hour basis instead of a per-craft basis to include the difference in processing speed. But who has time for that? :)  
 
-<img  align="left" src="/files/bdo_truevalue/notstonks.jpg" height="200">
-
 Step 3): Next-best recipe? Processing dough at `20 mil/h` at 10k crafts per hour, which results in `20m / 10k = 2k` profit per craft.
 This leaves `12.5k - 2k = 10.5k` profit per craft and therefore `10.5k` value per milk. You'll notice that the value is actually slightly below the market price for milk. In this case, buying milk, processing it into cheese and selling the cheese would be a loss, given that we could process dough for `20 mil/h` instead. In other words, processing milk into cheese makes less than `20 mil/h` (our baseline profit) and you should ask yourself if that's a good use of milk. To be fair, the cheese price is rather low in this example.
+
+<img src="/files/bdo_truevalue/notstonks.jpg" height="200">
 
 Also, since processing cheese can be done overnight, the 'next-best' thing to do in that time would be a full afk activity like fishing or horse training. In general, the next-best thing doesn't have to involve crafting. Anything that gives an opportunity cost for the time spent crafting the rare material works.   
 Full afk activities aren't all that profitable so the resulting opportunity cost of the time spent processing cheese is rather low.
