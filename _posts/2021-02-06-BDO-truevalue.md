@@ -30,7 +30,7 @@ Some potential rare mats are:
 Knowing the true value of rare materials becomes important once you're comparing different recipes. For example
 
 1) What is the most profit I can get out of this material?
-2) Which route of gathering->crafting is more profitable
+2) Which route of gathering->crafting different materials is the most profitable?
 
 ## Scenario 1: Best profit per material
 We have collected a large stockpile of coconuts from the Arehaza storage and want to know the most profitable way to liquidate the coconuts. Potential recipes are coconut cocktails, coconut dried fish and coconut pasta. After calculating the profit, coconut dried fish turns out to be the most profit per hour. But it also takes three coconuts per craft while the other two recipes take two. So with coconut fried fish we'd be making more silver per hour but couldn't cook for as long. Now it would be interesting to know which recipes create the most profit **per coconut** to get a measure that doesn't depend on the time it takes to cook the coconuts. 
