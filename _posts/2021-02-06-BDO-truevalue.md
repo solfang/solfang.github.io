@@ -27,7 +27,7 @@ Some potential rare mats are:
 <img align="left" src="/files/bdo_truevalue/coconut.png" height="20"> &thinsp; coconuts  
 <img align="left" src="/files/bdo_truevalue/onion.png" height="20"> &thinsp; white onions
 
-Knowing the true value of rare materials becomes important once you're comparing different recipes. Theer are two scenarios where calculating the true value can prove useful:
+Knowing the true value of rare materials becomes important once you're comparing different recipes. There are two scenarios where calculating the true value can prove useful:
 
 1) What is the most profit I can get out of this material?
 2) Which route of gathering->crafting different materials is the most profitable?
