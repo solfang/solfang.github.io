@@ -5,7 +5,7 @@ published: true
 tags: BDO
 ---
 
-Last updated: 07.02.2021
+Last updated: 09.02.2021
 
 This post is aimed at:  
 Established players who are interested in item valuation, not so much at beginners. I'll try to break down the concepts in an easy-to-grasp manner but it definitely helps if you have thought about the topic of item valuation before.
