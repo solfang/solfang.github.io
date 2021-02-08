@@ -33,7 +33,10 @@ Knowing the true value of rare materials becomes important once you're comparing
 2) Which route of gathering->crafting different materials is the most profitable?
 
 ## Scenario 1: Best profit per material
-We have collected a large stockpile of coconuts from the Arehaza storage and want to know the most profitable way to liquidate the coconuts. Potential recipes are coconut cocktails, coconut dried fish and coconut pasta. After calculating the profit, coconut dried fish turns out to be the most profit per hour. But it also takes three coconuts per craft while the other two recipes take two. So with coconut fried fish we'd be making more silver per hour but couldn't cook for as long. Now it would be interesting to know which recipes create the most profit **per coconut** to get a measure that doesn't depend on the time it takes to cook the coconuts. 
+
+<img src="/files/bdo_truevalue/coconuts_meme2.png">
+
+We have collected a moderate stockpile of coconuts from the Arehaza storage and want to know the most profitable way to liquidate the coconuts. Potential recipes are coconut cocktails, coconut dried fish and coconut pasta. After calculating the profit, coconut dried fish turns out to be the most profit per hour. But it also takes three coconuts per craft while the other two recipes take two. So with coconut fried fish we'd be making more silver per hour but couldn't cook for as long. Now it would be interesting to know which recipes create the most profit **per coconut** to get a measure that doesn't depend on the time it takes to cook the coconuts. 
 
 By calculating the **true value** per coconut across the three recipes we then can decide which recipe is the most worthwhile. Of course, completely ignoring the time it takes to cook the coconuts would be disingenuous. But if we calculate the true profit using the method outlined in See [Section 3](#how-to-calculate-the-true-value-of-a-rare-mat-in-a-recipe), the time spent cooking will also be factored in. The cool thing is that if we also wanted to consider other methods to use the coconuts than cooking, like processing them into pine coated plywood, that wouldn't be hared to calculate either.
 
