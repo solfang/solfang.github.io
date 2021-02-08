@@ -38,7 +38,7 @@ Knowing the true value of rare materials becomes important once you're comparing
 
 We have collected a moderate number of coconuts from the Arehaza storage and want to know the most profitable way to liquidate the coconuts. Potential recipes are coconut cocktails, coconut dried fish and coconut pasta. After calculating the profit, coconut dried fish turns out to be the most profit per hour. But it also takes three coconuts per craft while the other two recipes take two. So with coconut fried fish we'd be making more silver per hour but couldn't cook for as long. Now it would be interesting to know which recipes create the most profit **per coconut** to get a measure that doesn't depend on the time it takes to cook the coconuts. 
 
-By calculating the **true value** per coconut across the three recipes we then can decide which recipe is the most worthwhile. Of course, completely ignoring the time it takes to cook the coconuts would be disingenuous. But if we calculate the true value using the method outlined in See [Section 3](#-3-how-to-calculate-the-true-value-of-a-rare-mat-in-a-recipe), the time spent cooking will also be factored in. The cool thing is that if we also wanted to consider other methods to use the coconuts than cooking, like processing them into pine coated plywood, that wouldn't be hared to calculate either.
+By calculating the **true value** per coconut across the three recipes we then can decide which recipe is the most worthwhile. Of course, completely ignoring the time it takes to cook the coconuts would be disingenuous. But if we calculate the true value using the method outlined in section 3, the time spent cooking will also be factored in. The cool thing is that if we also wanted to consider other methods to use the coconuts than cooking, like processing them into pine coated plywood, that wouldn't be hared to calculate either.
 
 ## Scenario 2: Comparing different activities
 
@@ -96,7 +96,7 @@ __Step 1)__ Think about which rare materials the recipe has, which one to solve 
 __Step 2)__ If the recipe has more than one rare mat, find the true values of the rare mats you aren't solving for.  
 __Step 3)__ Calculate the profit from crafting the next best recipe that doesn't take rare materials. In some cases, where the baseline profit is really low, it's also fine to set it to 0 and effectively skip this step.  
 __Step 4)__ Calculate the profit from crafting the recipe that takes rare mats. In the calculation, price the rare mat so that profits of Step 3) and this step match. A simple way to do this is to first calculate the profit with the rare material valued at 0, subtract the profit from step 3) and then divide the resulting profit by the number of rare mats used.
-See [Section 4](#examples) for examples.
+See section 4 for examples.
 
 In a more technical sense, we're essentially solving an equation with multiple unknowns (the price of one or more rare mats and the time spent crafting) by factoring out all unknowns except the price of the rare marerial.
 
