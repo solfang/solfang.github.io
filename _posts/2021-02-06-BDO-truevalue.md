@@ -40,7 +40,7 @@ We have collected a moderate stockpile of coconuts from the Arehaza storage and 
 
 By calculating the **true value** per coconut across the three recipes we then can decide which recipe is the most worthwhile. Of course, completely ignoring the time it takes to cook the coconuts would be disingenuous. But if we calculate the true profit using the method outlined in See [Section 3](#how-to-calculate-the-true-value-of-a-rare-mat-in-a-recipe), the time spent cooking will also be factored in. The cool thing is that if we also wanted to consider other methods to use the coconuts than cooking, like processing them into pine coated plywood, that wouldn't be hared to calculate either.
 
-## Scenario 2: Comparing different activites
+## Scenario 2: Comparing different activities
 
 We have acquired two shiny new Manos tools: a Tet pickaxe and a Tet butchering knive. Now we want to know what is more profitable:
 
