@@ -29,7 +29,7 @@ Some potential rare mats are:
 
 Knowing the true value of rare materials becomes important once you're comparing different recipes. There are two scenarios where calculating the true value can prove useful:
 
-1) What is the most profit I can get out of this material?
+1) What is the most profit I can get out of this material?  
 2) Which route of gathering->crafting different materials is the most profitable?
 
 ## Scenario 1: Best profit per material
