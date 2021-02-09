@@ -17,7 +17,7 @@ I'll first explain what a rare material and its value is, and then go over how t
 **TLDR:**  
 Rare items have a higher value than the market price due to scarcity. To compare different recipes which contain rare materials, it can be helpful to calculate their true value. The true value of a rare item is the profit created by using that item in a recipe. Calculate as: `Price of the rare item where the craft profit is 0.` If the time spent crafting is valuable to you, subtract the value of the time spent crafting from the craft profit beforehand. 
 
-# 1) What is a rare material and why is knowing the true value important?
+# 1) What is a rare material and why is knowing its true value important?
 
 Rare materials are mats that can't be bought on the market in reasonable quantity. This often means that their value is higher than the market price. 
 Some potential rare mats are:   
