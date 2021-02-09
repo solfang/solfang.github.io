@@ -131,8 +131,8 @@ I omitted **step 3)** for the sake of simplicity before. We'll now repeat the ca
 <span style="color:#828282">Side note: I'll also assume that our drying mastery (for cheese) is the same as our shaking mastery (for dough). If it was not, we'd have to calculate on a per-hour basis instead of a per-craft basis to include the difference in processing speed. But who has time for that? :)  </span
 
 Step 3:   
-Next-best recipe? Processing dough at `20 mil/h`.  At 10k crafts per hour, which results in `20m / 10k = 2k` profit per craft.    
-This leaves `12.5k - 2k = 10.5k` profit per craft and therefore `10.5k` value per milk. Compare that to the `12.5k` before factoring in processing time. You'll notice that the new value is actually slightly below the maximum market price of milk (`10.5k` < `10.8k`). In this case, buying milk, processing it into cheese and selling the cheese would be a loss, given that we could process dough for `20 mil/h` instead. In other words, processing milk into cheese makes less than `20 mil/h` (our baseline profit) and you should ask yourself if that's a good use of milk. To be fair, the cheese price is rather low in this example.
+Next-best recipe? Processing dough at `20 mil/h`. At 10k crafts per hour that's `20m / 10k = 2k` profit per craft.    
+After subtracting the cost of the processing time from the profit, we're left with `12.5k - 2k = 10.5k` and therefore `10.5k` value per milk. Compare that to the `12.5k` before factoring in processing time. You'll notice that the new value is actually slightly below the maximum market price of milk (`10.5k` < `10.8k`). In this case, buying milk, processing it into cheese and selling the cheese would be a loss, given that we could process dough for `20 mil/h` instead. In other words, processing milk into cheese makes less than `20 mil/h` (our baseline profit) and you should ask yourself if that's a good use of milk. To be fair, the cheese price is rather low in this example.
 
 <img src="/files/bdo_truevalue/notstonks.jpg" height="200">
 
