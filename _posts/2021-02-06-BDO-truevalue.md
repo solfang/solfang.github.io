@@ -102,7 +102,7 @@ __Step 3)__ Calculate the profit from crafting the next best recipe that doesn't
 __Step 4)__ Calculate the profit from crafting the recipe that takes rare mats. In the calculation, price the rare mat so that profits of Step 3) and this step match. A simple way to do this is to first calculate the profit with the rare material valued at 0, subtract the profit from step 3) and then divide the resulting profit by the number of rare mats used.
 See section 4 for examples.
 
-In a more technical sense, we're essentially solving an equation with multiple unknowns (the price of one or more rare mats and the time spent crafting) by factoring out all unknowns except the price of the rare marerial.
+In a more technical sense, we're solving an equation with multiple unknowns (the price of one or more rare mats and the time spent crafting) by factoring out all unknowns except the price of a chosen rare marerial and then solving for that price.
 
 As you can see, we need to know two things beforehand:  
 - The profit per hour of a 'filler' recipe, which doesn't take any rare mats and can always be crafted. This recipe determines the value of our time (be it cooking/alch/processing). If you have used the 'Time Cost' field in any of my sheets you should already be familiar with this concept.
