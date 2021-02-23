@@ -12,10 +12,10 @@ Established players who are interested in item valuation, not so much at beginne
 
 In this post we'll do a deep dive into **material valuation in BDO**. Most of the worthwhile recipes in cooking/alchemy/processing involve rare materials. Therefore being able to calculate the true value of a material is an important skill and immensely helpful when comparing the profit of different recipes.
 
-I'll first explain what a rare material and its value is, and then go over how to calculate the true value. Lastly, we'll take a look at popular recipes from cooking and processing, including cheese, advanced utensils and organic feed and see how to calculate the true value of their rare materials.
+I'll first explain what a rare material is and then go over how to calculate its true value. Lastly, we'll take a look at popular recipes from cooking and processing, including cheese, advanced utensils and organic feed and see how to calculate the true value of rare materials in those recipes.
 
 **TLDR:**  
-Rare items have a higher value than the market price due to scarcity. To compare different recipes which contain rare materials, it can be helpful to calculate their true value. The true value of a rare item is the profit created by using that item in a recipe. Calculate as: `Price of the rare item where the craft profit is 0.` If the time spent crafting is valuable to you, subtract the value of the time spent crafting from the craft profit beforehand. 
+Rare materials have a higher value than the market price due to scarcity. To compare different recipes which contain rare materials, it can be helpful to calculate the true value of those materials. The true value of a rare material is the profit created by using that material in a recipe. Calculate as: `Price of the rare material where the craft profit is 0.` If the time spent crafting is valuable to you, aim for X profit instead of 0, where X is the minimum acceptable profit based on the value of your time.
 
 # 1) What is a rare material and why is knowing its true value important?
 
@@ -189,8 +189,8 @@ __Step 2)__ Now we need to figure out the true value of milk. There are several 
 
 __Step 3)__ Our next best option is vinegar. For simplicity, I'll say the profit on vinegar is +-0 mil/h + byproducts. Since both vinegar and organic feed produce the same number of byproducts/h we'll ignore byproducts in the calculation and treat the profit of vinegar as 0 mil/h.
 
-__Step 4)__ We calculate the profit on cooking Organic Feed using Bdodae, using the true value of milk from Prep 2).
-The goal is to find the price of milk at which Organic Feed and vinegar profit (0 mil/h here) match.
+__Step 4)__ We calculate the profit on cooking Organic Feed using Bdodae, using the true value of milk from Step 2).
+The goal is to find the price of meat at which the profit of Organic Feed and vinegar (0 mil/h here) match.
 Here's how this would look like on Bdodae. I'm using 600 cooking mastery in the clip, which slightly increases the proc rate on Organic Feed (See the Mastery tab in the [imperial sheet](https://docs.google.com/spreadsheets/d/1D7mFcXYFm4BUS_MKxTvgBY2lXkGtwWqn2AW91ntUvzE/edit#gid=1519713712) for details on proc rates with mastery).
 On 1k crafts, we used 5k meat and created a profit of 81.8m. This leads to a true value of `81.8m / 5k = 16.3k`.
 
