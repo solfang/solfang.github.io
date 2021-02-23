@@ -34,6 +34,8 @@ Knowing the true value of rare materials becomes important once you're comparing
 
 As you can see, calculating the true value only has merit when comparing different recipes which all have at least one rare material. For anything else (say comparing grain->flour to flour->dough processing profits), a simple side-by-side profit comparison will do.
 
+Below, I'll go over an example for each of the two scenarios.
+
 ## Scenario 1: Best profit per material
 
 <img src="/files/bdo_truevalue/coconuts_meme2.png">
