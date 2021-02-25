@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Black Desert Online - What to Cook
-published: false
+published: true
 tags: BDO
 ---
 
