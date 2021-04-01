@@ -130,7 +130,7 @@ The profit per craft is `2.5 * CheesePrice  * Tax = 2.5 * 5,950 * 0.845 = 12.5k`
 Since we used one milk, the true value of milk when turned into cheese is `12.5k / 1 = 12.5k`.
 
 I omitted **step 3)** for the sake of simplicity before. We'll now repeat the calculation with it included.    
-<span style="color:#828282">Side note: I'll also assume that our drying mastery (for cheese) is the same as our shaking mastery (for dough). If it was not, we'd have to calculate on a per-hour basis instead of a per-craft basis to include the difference in processing speed. But who has time for that? :)  </span
+<span style="color:#828282">Side note: I'll also assume that our drying mastery (for cheese) is the same as our shaking mastery (for dough). If it was not, we'd have to calculate on a per-hour basis instead of a per-craft basis to include the difference in processing speed. But who has time for that? :)  </span>
 
 Step 3:   
 Next-best recipe? Processing dough at `20 mil/h`. At 10k crafts per hour that's `20m / 10k = 2k` profit per craft.    
