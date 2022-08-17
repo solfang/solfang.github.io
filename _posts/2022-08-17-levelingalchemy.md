@@ -17,12 +17,12 @@ If you still feel like leveling alchemy, this post can hopefully provide guidanc
 - Alchemy is notorious for attracting people who are ready to throw away billions of silver to level alchemy for the memes.
 
 ## How to Get Materials for Alchemy
-- <img src="/images/icons/trace_of_the_earth.png" height="30">Traces: nodes / pre-order
-- <img src="/images/icons/fruit_of_nature.png" height="30">Fruit of x: hoe gathering / farming / pre-order
-- <img src="/images/icons/ash_sap.png" height="30">Saps: gathering (sapping) / pre-order
-- <img src="/images/icons/purified_water.png" height="30">Purified water: general goods vendor at Sandgrain Bazaar (5k silver)
-- <img src="/images/icons/sunrise_herb.png" height="30">Herbs: gathering / market / herb vendors, e.g. Nieves in Calpheon (500-575 silver)
-- <img src="/images/icons/mushroom.png" height="30">Mushrooms: farming/ market / Mushroom vendor Brandio in Calpheon (950-1k silver)
+- <img src="/images/icons/trace_of_the_earth.png" height="30"> Traces: nodes / pre-order
+- <img src="/images/icons/fruit_of_nature.png" height="30"> Fruit of x: hoe gathering / farming / pre-order
+- <img src="/images/icons/ash_sap.png" height="30"> Saps: gathering (sapping) / pre-order
+- <img src="/images/icons/purified_water.png" height="30"> Purified water: general goods vendor at Sandgrain Bazaar (5k silver)
+- <img src="/images/icons/sunrise_herb.png" height="30"> Herbs: gathering / market / herb vendors, e.g. Nieves in Calpheon (500-575 silver)
+- <img src="/images/icons/mushroom.png" height="30"> Mushrooms: farming/ market / Mushroom vendor Brandio in Calpheon (950-1k silver)
 
 ## EXP Buffs
 - Recommended: seafood cron meal, verdure draught
