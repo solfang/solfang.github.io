@@ -140,25 +140,30 @@ See <https://bdolytics.com/alchemy/imperial> for a list of alchemy imperial boxe
 2. Wait for pre-orders to fill.
 3. Crafts fruits into oils, traces into bloods, oils+traces+saps into elixirs.
 
-By having bottlenecks like fruits, traces etc. you'll be able to form recipe chains all the way up to T3 elixirs, which in total is solid EXP.
+By having bottlenecks like fruits, traces etc., you'll be able to form recipe chains all the way up to T3 elixirs, which in total is solid EXP.
 
 The classic recipe chains are:
 
-<img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) **→** <img src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351) → <img src="/images/icons/elixir_of_assassination.png" height="30"> [Elixir of Assassination](https://bdolytics.com/alchemy/market/696) / <img src="/images/icons/elixir_of_frenzy.png" height="30"> [Elixir of Frenzy](https://bdolytics.com/alchemy/market/672)
+<img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> <img src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351) -> <img src="/images/icons/elixir_of_assassination.png" height="30"> [Elixir of Assassination](https://bdolytics.com/alchemy/market/696) / <img src="/images/icons/elixir_of_frenzy.png" height="30"> [Elixir of Frenzy](https://bdolytics.com/alchemy/market/672)
 
-<img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) → <img src="/images/icons/tyrant's_blood.png" height="30"> [Tyrant's Blood](https://bdolytics.com/alchemy/market/6352) → <img src="/images/icons/golden_hand_elixir.png" height="30"> [Golden Hand Elixir](https://bdolytics.com/alchemy/market/674) / <img src="/images/icons/elixir_of_detection.png" height="30"> [Elixir of Detection](https://bdolytics.com/alchemy/market/698)
+<img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> <img src="/images/icons/tyrant's_blood.png" height="30"> [Tyrant's Blood](https://bdolytics.com/alchemy/market/6352) -> <img src="/images/icons/golden_hand_elixir.png" height="30"> [Golden Hand Elixir](https://bdolytics.com/alchemy/market/674) / <img src="/images/icons/elixir_of_detection.png" height="30"> [Elixir of Detection](https://bdolytics.com/alchemy/market/698)
 
-<img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) → <img src="/images/icons/clown's_blood.png" height="30"> [Clown's Blood](https://bdolytics.com/alchemy/market/6353) → <img src="/images/icons/grim_reaper's_elixir.png" height="30"> [Grim Reaper's Elixir](https://bdolytics.com/alchemy/market/712) / <img src="/images/icons/elixir_of_draining.png" height="30"> [Elixir of Draining](https://bdolytics.com/alchemy/market/676)
+<img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> <img src="/images/icons/clown's_blood.png" height="30"> [Clown's Blood](https://bdolytics.com/alchemy/market/6353) -> <img src="/images/icons/grim_reaper's_elixir.png" height="30"> [Grim Reaper's Elixir](https://bdolytics.com/alchemy/market/712) / <img src="/images/icons/elixir_of_draining.png" height="30"> [Elixir of Draining](https://bdolytics.com/alchemy/market/676)
 
-<img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) → <img src="/images/icons/sinner's_blood.png" height="30"> [Sinner's Blood](https://bdolytics.com/alchemy/market/6354) → <img src="/images/icons/elixir_of_carnage.png" height="30"> [Elixir of Carnage](https://bdolytics.com/alchemy/market/718) / <img src="/images/icons/elixir_of_perforation.png" height="30"> [Elixir of Perforation](https://bdolytics.com/alchemy/market/680)
+<img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> <img src="/images/icons/sinner's_blood.png" height="30"> [Sinner's Blood](https://bdolytics.com/alchemy/market/6354) -> <img src="/images/icons/elixir_of_carnage.png" height="30"> [Elixir of Carnage](https://bdolytics.com/alchemy/market/718) / <img src="/images/icons/elixir_of_perforation.png" height="30"> [Elixir of Perforation](https://bdolytics.com/alchemy/market/680)
 
-<img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) → <img src="/images/icons/wise_man's_blood.png" height="30"> [Wise Man's Blood](https://bdolytics.com/alchemy/market/6355) → <img src="/images/icons/elixir_of_death.png" height="30"> [Elixir of Death](https://bdolytics.com/alchemy/market/686) / <img src="/images/icons/elixir_of_sky.png" height="30"> [Elixir of Sky](https://bdolytics.com/alchemy/market/720)
+<img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> <img src="/images/icons/wise_man's_blood.png" height="30"> [Wise Man's Blood](https://bdolytics.com/alchemy/market/6355) -> <img src="/images/icons/elixir_of_death.png" height="30"> [Elixir of Death](https://bdolytics.com/alchemy/market/686) / <img src="/images/icons/elixir_of_sky.png" height="30"> [Elixir of Sky](https://bdolytics.com/alchemy/market/720)
+
+Some of these recipes can be further crafted into draughts: <img src="/images/icons/verdure_draught.png" height="30"> [Verdure Draught](https://bdolytics.com/processing/market/791), <img src="/images/icons/beast's_draught.png" height="30"> [Beast's Draught](https://bdolytics.com/processing/market/792), <img src="/images/icons/giant's_draught.png" height="30"> [Giant's Draught](https://bdolytics.com/processing/market/793), <img src="/images/icons/savage_draught.png" height="30"> [Savage Draught](https://bdolytics.com/processing/market/794), <img src="/images/icons/celerity_draught.png" height="30"> [Celerity Draught](https://bdolytics.com/processing/market/796), <img src="/images/icons/unbridled_celerity_draught.png" height="30"> [Unbridled Celerity Draught](https://bdolytics.com/processing/market/797)
+The draught crafts is simple alchemy and gives only a sliver of alchemy EXP and their main prupose is to liquidate the elixirs.
+You can use ibellab's essence, bought from material vendors, to craft 10 draughts at once.
 
 Use <https://bdolytics.com/alchemy/market> to find recipes.
 The table can be sorted and also filtered via the search field.
 
-You'll occasionally see very profitable recipes, for example when an adventure log is released that needs alchemy items.
-In that case you should consider prioritizing profit over EXP.
+
+
+
 
 
 
