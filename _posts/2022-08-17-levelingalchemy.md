@@ -17,7 +17,7 @@ I'll compare alchemy to cooking since they're fairly similar.
 - Alchemy mastery has almost 0 effect on EXP
 - Alchemy is notorious for having EXP memers who are ready to throw away billions of silver to level alchemy for the memes.
 
-## How to get Materials
+## How to Get Materials for Alchemy
 - Traces: nodes / pre-order
 - Fruit of x: hoe gathering / farming / pre-order
 - Saps: gathering (sapping) / pre-order
@@ -140,9 +140,11 @@ By having bottlenecks like fruits, traces etc., you'll be able to form recipe ch
 
 The classic recipe chains are:
 
-- <img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> <img src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
+- Recipe: <img src="/images/icons/teancious_origin_of_life.png" height="30"> [Tenacious Origin of Life](https://docs.google.com/spreadsheets/d/1mz_NnRBVHC6r6MQqf8abfYaZh547lntqcnkjnwJfXCU/edit?usp=sharing) bla <img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302)
 
-- <img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> <img src="/images/icons/tyrant's_blood.png" height="30"> [Tyrant's Blood](https://bdolytics.com/alchemy/market/6352) -> <img src="/images/icons/golden_hand_elixir.png" height="30"> [Golden Hand Elixir](https://bdolytics.com/alchemy/market/674)
+- Recipe: <img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) bla <img src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
+
+- Recipe: <img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> <img src="/images/icons/tyrant's_blood.png" height="30"> [Tyrant's Blood](https://bdolytics.com/alchemy/market/6352) -> <img src="/images/icons/golden_hand_elixir.png" height="30"> [Golden Hand Elixir](https://bdolytics.com/alchemy/market/674)
 
 - <img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> <img src="/images/icons/clown's_blood.png" height="30"> [Clown's Blood](https://bdolytics.com/alchemy/market/6353) -> <img src="/images/icons/grim_reaper's_elixir.png" height="30"> [Grim Reaper's Elixir](https://bdolytics.com/alchemy/market/712) / <img src="/images/icons/elixir_of_draining.png" height="30"> [Elixir of Draining](https://bdolytics.com/alchemy/market/676)
 
