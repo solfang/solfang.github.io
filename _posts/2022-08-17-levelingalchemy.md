@@ -35,7 +35,8 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 <https://bdolytics.com/> - it has all the tools you need :)
 
 
-<img align="left" src="/files/cooktldr_2022/icon_milk.png" height="30"> # Five Methods to Level Alchemy:
+<img align="left" src="/files/cooktldr_2022/icon_milk.png" height="30"> 
+# Five Methods to Level Alchemy:
 
 
 ## 1) Reagents -  "low EXP, low effort"
