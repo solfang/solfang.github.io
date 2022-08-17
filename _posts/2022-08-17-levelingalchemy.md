@@ -39,19 +39,34 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 
 
 ## 1) Reagents -  "low EXP, low effort"
-- Recipes: <img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301), <img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302)
+- Recipes: 
+
+<img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301)
+
+<img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302)
 - EXP: 400
 - Bottlenecks: None
 - Level requirement: beginner 1
 
-The  <img src="/images/icons/pickled_vegetables.png" height="30"> Pickled Vegetables equivalent of alchemy. Except that it's less profitable and less EXP. Welcome to alchemy :)
-Purified water can be bought from the general goods vendor at Sandgrain Bazaar.
+The  <img src="/images/icons/pickled_vegetables.png" height="30"> [Pickled Vegetables] (https://bdolytics.com/cooking/market/9202) equivalent of alchemy. Except that it's less profitable and less EXP. Welcome to alchemy :)
+<img src="/images/icons/purified_water.png" height="30"> Purified Water can be bought from the general goods vendor at Sandgrain Bazaar.
 
 **If all you want is to reach artisan/master, don't bother with anything else but reagents**
 
 
 ## 2) T2 Bloods - "medium EXP, high cost"
-- Recipes: Sinner's Blood, Clown's Blood, Wise Man's Blood, Tyrant's Blood,  Legendary Beast Blood
+- Recipes: 
+
+[Sinner's Blood](https://bdolytics.com/alchemy/market/6354)
+
+[Clown's Blood](https://bdolytics.com/alchemy/market/6353)
+
+[Wise Man's Blood](https://bdolytics.com/alchemy/market/6355)
+
+[Tyrant's Blood](https://bdolytics.com/alchemy/market/6352)
+
+[Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
+
 - EXP: 800 
 - Bottlenecks: blood/traces/node mats
 - Level req: prof 1
