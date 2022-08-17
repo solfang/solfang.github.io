@@ -154,8 +154,21 @@ The classic recipe chains are:
 
 <img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> <img src="/images/icons/wise_man's_blood.png" height="30"> [Wise Man's Blood](https://bdolytics.com/alchemy/market/6355) -> <img src="/images/icons/elixir_of_death.png" height="30"> [Elixir of Death](https://bdolytics.com/alchemy/market/686) / <img src="/images/icons/elixir_of_sky.png" height="30"> [Elixir of Sky](https://bdolytics.com/alchemy/market/720)
 
-Some of these recipes can be further crafted into draughts: <img src="/images/icons/verdure_draught.png" height="30"> [Verdure Draught](https://bdolytics.com/processing/market/791), <img src="/images/icons/beast's_draught.png" height="30"> [Beast's Draught](https://bdolytics.com/processing/market/792), <img src="/images/icons/giant's_draught.png" height="30"> [Giant's Draught](https://bdolytics.com/processing/market/793), <img src="/images/icons/savage_draught.png" height="30"> [Savage Draught](https://bdolytics.com/processing/market/794), <img src="/images/icons/celerity_draught.png" height="30"> [Celerity Draught](https://bdolytics.com/processing/market/796), <img src="/images/icons/unbridled_celerity_draught.png" height="30"> [Unbridled Celerity Draught](https://bdolytics.com/processing/market/797)
-The draught crafts is simple alchemy and gives only a sliver of alchemy EXP and their main prupose is to liquidate the elixirs.
+Some of these recipes can be further crafted into draughts: 
+
+<img src="/images/icons/verdure_draught.png" height="30"> [Verdure Draught](https://bdolytics.com/processing/market/791)
+
+<img src="/images/icons/beast's_draught.png" height="30"> [Beast's Draught](https://bdolytics.com/processing/market/792)
+
+<img src="/images/icons/giant's_draught.png" height="30"> [Giant's Draught](https://bdolytics.com/processing/market/793)
+
+<img src="/images/icons/savage_draught.png" height="30"> [Savage Draught](https://bdolytics.com/processing/market/794)
+
+<img src="/images/icons/celerity_draught.png" height="30"> [Celerity Draught](https://bdolytics.com/processing/market/796)
+
+<img src="/images/icons/unbridled_celerity_draught.png" height="30"> [Unbridled Celerity Draught](https://bdolytics.com/processing/market/797)
+
+The draught craft is done by simple alchemy and gives only a sliver of alchemy EXP. The main benefit of drauhts is that they're an easy way to liquidate elixirs.
 You can use ibellab's essence, bought from material vendors, to craft 10 draughts at once.
 
 Use <https://bdolytics.com/alchemy/market> to find recipes.
