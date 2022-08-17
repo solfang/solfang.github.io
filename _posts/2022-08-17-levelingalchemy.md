@@ -41,16 +41,16 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 ## 1) Reagents -  "low EXP, low effort"
 - Recipes: 
 
-<img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301)
+<img align="left" src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301)
 
-<img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302)
+<img align="left" src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302)
 
 - EXP: 400
 - Bottlenecks: None
 - Level requirement: beginner 1
 
-The  <img src="/images/icons/pickled_vegetables.png" height="30"> [Pickled Vegetables](https://bdolytics.com/cooking/market/9202) equivalent of alchemy. Except that it's less profitable and less EXP. Welcome to alchemy :)
-<img src="/images/icons/purified_water.png" height="30"> Purified Water can be bought from the general goods vendor at Sandgrain Bazaar.
+The [Pickled Vegetables](https://bdolytics.com/cooking/market/9202) equivalent of alchemy. Except that it's less profitable and less EXP. Welcome to alchemy :)
+Purified Water can be bought from the general goods vendor at Sandgrain Bazaar.
 
 **If all you want is to reach artisan/master, don't bother with anything else but reagents**
 
@@ -71,7 +71,8 @@ The  <img src="/images/icons/pickled_vegetables.png" height="30"> [Pickled Veget
 - EXP: 800 
 - Bottlenecks: blood/traces/node mats
 - Level req: professional 1
-- bla <img src="/images/icons/sinner's_blood.png" height="30"> [Sinner's Blood](https://bdolytics.com/alchemy/market/6354) and <img src="/images/icons/clown's_blood.png" height="30"> [Clown's Blood](https://bdolytics.com/alchemy/market/6353) are the easiest to craft and used in many recipes.
+
+[Sinner's Blood](https://bdolytics.com/alchemy/market/6354) and [Clown's Blood](https://bdolytics.com/alchemy/market/6353) are the easiest to craft and used in many recipes.
 
 At the time of writing this, they are hella flooded on the market.
 That means you'll either have to use them in further alchemy recipes or let them stockpile in your storage.
@@ -81,7 +82,7 @@ In a way, you can buy alchemy EXP through these T2 bloods, although it's quite e
 
 
 ### Method A) Tenacious Origin of Life
-- Recipe: <img src="/images/icons/teancious_origin_of_life.png" height="30"> [Tenacious Origin of Life](https://docs.google.com/spreadsheets/d/1mz_NnRBVHC6r6MQqf8abfYaZh547lntqcnkjnwJfXCU/edit?usp=sharing)
+- Recipe: <img src="/images/icons/teancious_origin_of_life.png" height="30"> [Tenacious Origin of Life](https://docs.google.com/spreadsheets/d/1mz_NnRBVHC6r6MQqf8abfYaZh547lntqcnkjnwJfXCU/edit?usp=sharing) bla <img src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
 - EXP: 800 
 - Bottlenecks: None 
 - Level requirement: artisan 1
@@ -121,7 +122,7 @@ The recipe used to require purple flowers but nowadays any flower works.
 I have a hard time recommending anything because boxes with high EXP elixirs usually are a horrendous loss to craft.
 If you don't care about money then just pick a box with manageable bottlenecks and a high EXP elixir.
 
-The one elixir I can recommend is <img src="/images/icons/elixir_of_spells.png" height="30"> [Elixir of Spells](https://bdolytics.com/alchemy/market/692) (920 EXP), which goes into an artisan box and requires gathering maple sap.
+The one elixir I can recommend is [Elixir of Spells](https://bdolytics.com/alchemy/market/692) (920 EXP), which goes into an artisan box and requires gathering maple sap.
 
 See <https://bdolytics.com/alchemy/imperial> for a list of alchemy imperial boxes.
 
@@ -170,26 +171,7 @@ Use <https://bdolytics.com/alchemy/market> to find recipes.
 The table can be sorted and also filtered via the search field.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Some quotes from my old post on leveling alchemy that I like:
-A wise :bear: once said:
 
 `Alchemy is a skill were you should not focus on crafts for XP but just crafts for $$. You can easily lose bills going for guru or make bills. I always recommend to people after master alchemy unless they have billions of silver they want to throw away just focus on making things that are profitable and the xp will come.` - Bearist
 
