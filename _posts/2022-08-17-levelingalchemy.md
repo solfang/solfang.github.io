@@ -37,7 +37,7 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 # Five Methods to Level Alchemy:
 
 
-## 1) Reagents -  "low EXP, low effort"
+## 1) Reagents -  "The Pickled Vegetables of alchemy"
 - Recipes: 
 
 <img align="left" src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301)
@@ -54,7 +54,7 @@ Purified Water can be bought from the general goods vendor at Sandgrain Bazaar.
 **If all you want is to reach artisan/master, don't bother with anything else but reagents**
 
 
-## 2) T2 Bloods - "medium EXP, high cost"
+## 2) T2 Bloods - "EXP at a price"
 - Recipes: 
 
 <img align="left" src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
@@ -75,9 +75,9 @@ Purified Water can be bought from the general goods vendor at Sandgrain Bazaar.
 
 At the time of writing this, they are hella flooded on the market.
 That means you'll either have to use them in further alchemy recipes or let them stockpile in your storage.
-In a way, you can buy alchemy EXP through these T2 bloods, although it's quite expensive (somewhere around 100 mil/H in material cost).
+In a way, you can buy alchemy EXP through these T2 bloods, although it's quite expensive if you just stockpile them (somewhere around 100 mil/H in material cost).
 
-## 3) Gather-heavy methods - "EXP+profit but active"
+## 3) Gather-heavy methods - "EXP + cash - sanity"
 
 
 ### Method A) Tenacious Origin of Life
@@ -117,7 +117,7 @@ The recipe used to require purple flowers, but nowadays, purple/yellow/sky blue 
 
 **Con**: lots of gathering required for each craft
 
-## 4) Imperial Alchemy - "has seen better times"
+## 4) Imperial Alchemy - "Has seen better times"
 I have a hard time recommending anything because boxes with high EXP elixirs usually are a horrendous loss to craft.
 If you don't care about money then just pick a box with manageable bottlenecks and a high EXP elixir.
 
