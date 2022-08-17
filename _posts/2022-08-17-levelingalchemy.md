@@ -39,7 +39,7 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 
 
 ## 1) Reagents -  "low EXP, low effort"
-- Recipes: <img src="/images/icons/clear_liquid_reagent.png" height="30"> Clear Liquid Reagent, <img src="/images/icons/pure_powder_reagent.png" height="30"> Pure Powder Reagent
+- Recipes: <img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301), <img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302)
 - EXP: 400
 - Bottlenecks: None
 - Level requirement: beginner 1
