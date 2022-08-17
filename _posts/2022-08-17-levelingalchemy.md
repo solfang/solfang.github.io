@@ -48,13 +48,13 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 - Bottlenecks: None
 - Level requirement: beginner 1
 
-The [Pickled Vegetables](https://bdolytics.com/cooking/market/9202) equivalent of alchemy. Except that it's less profitable and less EXP. Welcome to alchemy :)
+The [Pickled Vegetables](https://bdolytics.com/cooking/market/9202) equivalent of alchemy (low effort spammable EXP). Except that it's less profitable and less EXP. Welcome to alchemy :)
 Purified Water can be bought from the general goods vendor at Sandgrain Bazaar.
 
 **If all you want is to reach artisan/master, don't bother with anything else but reagents**
 
 
-## 2) T2 Bloods - "EXP at a price"
+## 2) T2 Bloods - "Perfect to burn a hole in your wallet"
 - Recipes: 
 
 <img align="left" src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
@@ -77,7 +77,7 @@ At the time of writing this, they are hella flooded on the market.
 That means you'll either have to use them in further alchemy recipes or let them stockpile in your storage.
 In a way, you can buy alchemy EXP through these T2 bloods, although it's quite expensive if you just stockpile them (somewhere around 100 mil/H in material cost).
 
-## 3) Gather-heavy methods - "EXP + cash - sanity"
+## 3) Gather-heavy methods - "EXP + silver - sanity"
 
 
 ### Method A) Tenacious Origin of Life
@@ -129,7 +129,7 @@ See <https://bdolytics.com/alchemy/imperial> for a list of alchemy imperial boxe
 
 **Con**: opportunity cost compared to doing cooking imperials
 
-### 5) Market Alchemy - "Preorder and pray"
+## 5) Market Alchemy - "Preorder and pray"
 **The method**:
 1. Slap a pre-order on any fruit, trace and sap in existence.
 2. Wait for pre-orders to fill.
