@@ -48,7 +48,10 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 - Bottlenecks: None
 - Level requirement: beginner 1
 
-The [Pickled Vegetables](https://bdolytics.com/cooking/market/9202) equivalent of alchemy (low effort spammable EXP). Except that it's less profitable and less EXP. Welcome to alchemy :)
+The [Pickled Vegetables](https://bdolytics.com/cooking/market/9202) equivalent of alchemy (low effort spammable EXP). Except that they are less profit and EXP than Pickled Vegetables. Welcome to alchemy :)
+
+Reagents are usually profitable to craft, especially considering the random procs (gold bars, caphras stones etc.), and you'll have no problems selling them on the market.
+
 Purified Water can be bought from the general goods vendor at Sandgrain Bazaar.
 
 **If all you want is to reach artisan/master, don't bother with anything else but reagents**
