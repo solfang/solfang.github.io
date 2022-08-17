@@ -58,7 +58,7 @@ The  <img src="/images/icons/pickled_vegetables.png" height="30"> [Pickled Veget
 ## 2) T2 Bloods - "medium EXP, high cost"
 - Recipes: 
 
-<img align="left" src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
+<img style="float: right;" src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
 
 <img align="left" src="/images/icons/tyrant's_blood.png" height="30"> [Tyrant's Blood](https://bdolytics.com/alchemy/market/6352)
 
@@ -72,7 +72,7 @@ The  <img src="/images/icons/pickled_vegetables.png" height="30"> [Pickled Veget
 - Bottlenecks: blood/traces/node mats
 - Level req: professional 1
 
-<img src="/images/icons/sinner's_blood.png" height="30"> [Sinner's Blood](https://bdolytics.com/alchemy/market/6354) and <img src="/images/icons/clown's_blood.png" height="30"> [Clown's Blood](https://bdolytics.com/alchemy/market/6353) are the easiest to craft and used in many recipes.
+<img style="float: right;" src="/images/icons/sinner's_blood.png" height="30"> [Sinner's Blood](https://bdolytics.com/alchemy/market/6354) and <img style="float" src="/images/icons/clown's_blood.png" height="30"> [Clown's Blood](https://bdolytics.com/alchemy/market/6353) are the easiest to craft and used in many recipes.
 At the time of writing this, they are hella flooded on the market.
 That means you'll either have to use them in further alchemy recipes or let them stockpile in your storage.
 In a way, you can buy alchemy EXP through these T2 bloods, although it's quite expensive (somewhere around 100 mil/H in material cost).
@@ -139,7 +139,7 @@ By having bottlenecks like fruits, traces etc., you'll be able to form recipe ch
 
 The classic recipe chains are:
 
-<img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> <img src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351) -> <img src="/images/icons/elixir_of_assassination.png" height="30"> [Elixir of Assassination](https://bdolytics.com/alchemy/market/696) / <img src="/images/icons/elixir_of_frenzy.png" height="30"> [Elixir of Frenzy](https://bdolytics.com/alchemy/market/672)
+<img style="float" src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> <img style="float" src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351) -> <img style="float" src="/images/icons/elixir_of_assassination.png" height="30"> [Elixir of Assassination](https://bdolytics.com/alchemy/market/696) / <img style="float" src="/images/icons/elixir_of_frenzy.png" height="30"> [Elixir of Frenzy](https://bdolytics.com/alchemy/market/672)
 
 <img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> <img src="/images/icons/tyrant's_blood.png" height="30"> [Tyrant's Blood](https://bdolytics.com/alchemy/market/6352) -> <img src="/images/icons/golden_hand_elixir.png" height="30"> [Golden Hand Elixir](https://bdolytics.com/alchemy/market/674) / <img src="/images/icons/elixir_of_detection.png" height="30"> [Elixir of Detection](https://bdolytics.com/alchemy/market/698)
 
