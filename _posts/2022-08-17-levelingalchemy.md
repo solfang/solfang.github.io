@@ -144,7 +144,7 @@ By having bottlenecks like fruits, traces etc. you'll be able to form recipe cha
 
 The classic recipe chains are:
 
-<img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) → <img src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351) → <img src="/images/icons/elixir_of_assassination.png" height="30"> [Elixir of Assassination](https://bdolytics.com/alchemy/market/696) / <img src="/images/icons/elixir_of_frenzy" height="30"> [Elixir of Frenzy](https://bdolytics.com/alchemy/market/672)
+<img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) **→** <img src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351) → <img src="/images/icons/elixir_of_assassination.png" height="30"> [Elixir of Assassination](https://bdolytics.com/alchemy/market/696) / <img src="/images/icons/elixir_of_frenzy.png" height="30"> [Elixir of Frenzy](https://bdolytics.com/alchemy/market/672)
 
 <img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) → <img src="/images/icons/tyrant's_blood.png" height="30"> [Tyrant's Blood](https://bdolytics.com/alchemy/market/6352) → <img src="/images/icons/golden_hand_elixir.png" height="30"> [Golden Hand Elixir](https://bdolytics.com/alchemy/market/674) / <img src="/images/icons/elixir_of_detection.png" height="30"> [Elixir of Detection](https://bdolytics.com/alchemy/market/698)
 
@@ -160,7 +160,7 @@ The table can be sorted and also filtered via the search field.
 You'll occasionally see very profitable recipes, for example when an adventure log is released that needs alchemy items.
 In that case you should consider prioritizing profit over EXP.
 
-!TODO: mention draughts and maybe give the recipe
+
 
 
 
