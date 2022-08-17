@@ -17,18 +17,13 @@ I'll compare alchemy to cooking since they're fairly similar.
 - Alchemy mastery has almost 0 effect on EXP
 - Alchemy is notorious for having EXP memers who are ready to throw away billions of silver to level alchemy for the memes.
 
-## Why you should still level alchemy
-- Crafting your own elixirs
-- Purifying lightstones (requires guru 1)
-- Memes
-
 ## How to get Materials
 - Traces: nodes / pre-order
 - Fruit of x: hoe gathering / farming / pre-order
 - Saps: gathering (sapping) / pre-order
 - Purified water: general goods vendor at Sandgrain Bazaar (5k silver)
-- Herbs: gathering / market / Herb vendor, e.g. Nieves in Calpheon (500-575 silver)
-- Mushrooms: Mushroom vendor Brandio in Calpheon (950-1k silver)
+- Herbs: gathering / market / herb vendors, e.g. Nieves in Calpheon (500-575 silver)
+- Mushrooms: farming/ market / Mushroom vendor Brandio in Calpheon (950-1k silver)
 
 ## EXP Buffs
 - Recommended: seafood cron meal, verdure draught
@@ -41,7 +36,7 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 
 ## The approach to leveling alchemy
 1. Acknowledge that you most likely will have to deal with bottlenecks
-2. Try to find chains of recipes, for example clear liquid reagent -> legendary beast's blood -> oil of regeneration -> 
+2. Try to find chains of recipes, for example ![](/files/cooktldr_2022/icon_milk.png) `Clear Liquid Reagent` → `Legendary Beast's Blood` → `Oil of Regeneration` → `Elixir of Frenzy`
 
 
 # Five Methods to Level Alchemy:
