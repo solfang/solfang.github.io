@@ -48,7 +48,7 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 - Bottlenecks: None
 - Level requirement: beginner 1
 
-The  <img src="/images/icons/pickled_vegetables.png" height="30"> [Pickled Vegetables] (https://bdolytics.com/cooking/market/9202) equivalent of alchemy. Except that it's less profitable and less EXP. Welcome to alchemy :)
+The  <img src="/images/icons/pickled_vegetables.png" height="30"> [Pickled Vegetables](https://bdolytics.com/cooking/market/9202) equivalent of alchemy. Except that it's less profitable and less EXP. Welcome to alchemy :)
 <img src="/images/icons/purified_water.png" height="30"> Purified Water can be bought from the general goods vendor at Sandgrain Bazaar.
 
 **If all you want is to reach artisan/master, don't bother with anything else but reagents**
@@ -57,54 +57,63 @@ The  <img src="/images/icons/pickled_vegetables.png" height="30"> [Pickled Veget
 ## 2) T2 Bloods - "medium EXP, high cost"
 - Recipes: 
 
-[Sinner's Blood](https://bdolytics.com/alchemy/market/6354)
+<img src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
 
-[Clown's Blood](https://bdolytics.com/alchemy/market/6353)
+<img src="/images/icons/tyrant's_blood.png" height="30"> [Tyrant's Blood](https://bdolytics.com/alchemy/market/6352)
 
-[Wise Man's Blood](https://bdolytics.com/alchemy/market/6355)
+<img src="/images/icons/clown's_blood.png" height="30"> [Clown's Blood](https://bdolytics.com/alchemy/market/6353)
 
-[Tyrant's Blood](https://bdolytics.com/alchemy/market/6352)
+<img src="/images/icons/sinner's_blood.png" height="30"> [Sinner's Blood](https://bdolytics.com/alchemy/market/6354)
 
-[Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
+<img src="/images/icons/wise_man's_blood.png" height="30"> [Wise Man's Blood](https://bdolytics.com/alchemy/market/6355)
 
 - EXP: 800 
 - Bottlenecks: blood/traces/node mats
-- Level req: prof 1
+- Level req: professional 1
 
-Sinner's blood and clown's blood are the easiest to craft and used in many recipes.
-Though at the time of writing this, they are hella flooded on the market.
-Crafting them just for EXP without
-
+<img src="/images/icons/sinner's_blood.png" height="30"> [Sinner's Blood](https://bdolytics.com/alchemy/market/6354) and <img src="/images/icons/clown's_blood.png" height="30"> [Clown's Blood](https://bdolytics.com/alchemy/market/6353) are the easiest to craft and used in many recipes.
+At the time of writing this, they are hella flooded on the market.
+That means you'll either have to use them in further alchemy recipes or let them stockpile in your storage.
+In a way, you can buy alchemy EXP through these T2 bloods, although it's quite expensive (somewhere around 100 mil/H in material cost).
 
 ## 3) Gather-heavy methods - "EXP+profit but active"
+
+
+<img align="left" src="/files/cooktldr_2022/teancious_origin_of_life.png"> 
+
 ### Method A) Tenacious Origin of Life
+- Recipe: <img src="/images/icons/teancious_origin_of_life.png" height="30"> [Tenacious Origin of Life](https://docs.google.com/spreadsheets/d/1mz_NnRBVHC6r6MQqf8abfYaZh547lntqcnkjnwJfXCU/edit?usp=sharing)
 - EXP: 800 
 - Bottlenecks: None 
-- Level requirement: art1
+- Level requirement: artisan 1
 
-**The strategy**: Gather wild herbs (at Behr), turn the herbs into Tenacious Origin of Life, turn the fruits into oils.
+**The method**: Gather wild herbs (at Behr), turn the herbs into Tenacious Origin of Life, turn the fruits into oils.
 
 **Pro**: great way to level gathering + alchemy while profiting
 
 **Con**: Crafting Tenacious Origin of Life is __very active__: you can only do a few minutes of crafts at a time since the herbs are heavy.
 
-### Method B) Metal Solvent
-- EXP: 800
-- Bottlenecks: rough stone, sometimes trace of savagery
-- Level requirement: prof 1
+<img align="left" src="/files/cooktldr_2022/metal_solvent.png"> 
 
-**The strategy:** Gather rough stone at Pilgrim's Haven, turn the rough stone into metal solvent.
+### Method B) Metal Solvent
+- Recipe: <img src="/images/icons/metal_solvent.png" height="30"> [Metal Solvent](https://bdolytics.com/alchemy/market/4076)
+- EXP: 800
+- Bottlenecks: rough stone
+- Level requirement: professional 1
+
+**The method:** Gather rough stone at Pilgrim's Haven, turn the rough stone into metal solvent.
 
 **Pro**: great way to level gathering + alchemy while profiting
 
+<img align="left" src="/files/cooktldr_2022/spirit_perfume_elixir.png"> 
+
 ### Method C) Spirit Perfume Elixir
+- Recipe: <img src="/images/icons/spirit_perfume_elixir.png" height="30">  [Spirit Perfume Elixir](https://bdolytics.com/alchemy/market/781) 
 - EXP: 2000
 - Bottlenecks: lots
 - Level requirement: skilled 1
 
-**The method**: <https://www.youtube.com/watch?v=LDDI2DaLlII>
-
-**Rotations**: <https://bit.ly/GatheringRotations>
+**The method**: Gather tons of stuff and craft spirit perfume elixirs. See [this video](https://www.youtube.com/watch?v=LDDI2DaLlII) and a list of [gathering rotations](https://bit.ly/GatheringRotations)
 
 The recipe used to require purple flowers but nowadays any flower works.
 
@@ -116,9 +125,9 @@ The recipe used to require purple flowers but nowadays any flower works.
 I have a hard time recommending anything because boxes with high EXP elixirs usually are a horrendous loss to craft.
 If you don't care about money then just pick a box with manageable bottlenecks and a high EXP elixir.
 
-The one elixir I can recommend is Elixir of Spells (920 EXP), which requires gathering maple sap.
+The one elixir I can recommend is <img src="/images/icons/elixir_of_spells.png" height="30"> [Elixir of Spells](https://bdolytics.com/alchemy/market/692) (920 EXP), which goes into an artisan box and requires gathering maple sap.
 
-See <https://bdolytics.com/alchemy/imperial>
+See <https://bdolytics.com/alchemy/imperial> for a list of alchemy imperial boxes.
 
 **Pro**: guaranteed demand from the NPC
 
