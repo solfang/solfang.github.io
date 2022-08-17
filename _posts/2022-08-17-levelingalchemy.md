@@ -22,7 +22,7 @@ If you still feel like leveling alchemy, this post can hopefully provide guidanc
 - <img src="/images/icons/ash_sap.png" height="30"> **Saps**: gathering (sapping) / pre-order
 - <img src="/images/icons/purified_water.png" height="30"> **Purified Water**: general goods vendor at Sandgrain Bazaar (5k silver)
 - <img src="/images/icons/sunrise_herb.png" height="30"> **Herbs**: gathering / market / herb vendors, e.g. Nieves in Calpheon (500-575 silver)
-- <img src="/images/icons/mushroom.png" height="30"> **Mushrooms**: farming/ market / Mushroom vendor Brandio in Calpheon (950-1k silver)
+- <img src="/images/icons/mushroom.png" height="30"> **Mushrooms**: farming/ market / mushroom vendor Brandio in Calpheon (950-1k silver)
 
 ## EXP Buffs
 - Recommended: seafood cron meal, verdure draught
@@ -90,7 +90,7 @@ In a way, you can buy alchemy EXP through these T2 bloods, although it's quite e
 
 **Pro**: great way to level gathering + alchemy while profiting
 
-**Con**: Crafting Tenacious Origin of Life is __very active__: you can only do a few minutes of crafts at a time since the herbs are heavy.
+**Con**: Crafting Tenacious Origin of Life is _very active_: you can only do a few minutes of crafts at a time since the herbs are heavy.
 
 
 ### Method B) Metal Solvent
