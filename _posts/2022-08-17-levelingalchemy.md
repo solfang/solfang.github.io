@@ -35,24 +35,24 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 <https://bdolytics.com/> - it has all the tools you need :)
 
 
-<img align="left" src="/files/cooktldr_2022/icon_milk.png" height="30"> 
 # Five Methods to Level Alchemy:
 
 
 ## 1) Reagents -  "low EXP, low effort"
-Pure Powder / Clear Liquid Reagent
+- Recipes: <src="/files/cooktldr_2022/clear_liquid_reagent.png" height="30"> Clear Liquid Reagent, <src="/files/cooktldr_2022/pure_powder_reagent.png" height="30"> Pure Powder Reagent
 - EXP: 400
 - Bottlenecks: None
 - Level requirement: beginner 1
 
-The pickled vegetables equivalent of alchemy. Except that it's less profitable and less EXP. Welcome to alchemy :)
+The  <src="/files/cooktldr_2022/pickled_vegetables.png" height="30"> Pickled Vegetables equivalent of alchemy. Except that it's less profitable and less EXP. Welcome to alchemy :)
+Purified water can be bought from the general goods vendor at Sandgrain Bazaar.
 
 **If all you want is to reach artisan/master, don't bother with anything else but reagents**
 
 
 ## 2) T2 Bloods - "medium EXP, high cost"
-Sinner/Clown's/Wise man's/Tyrant's/Legendary Beast Blood
-EXP: 800 
+- Recipes: Sinner's Blood, Clown's Blood, Wise Man's Blood, Tyrant's Blood,  Legendary Beast Blood
+- EXP: 800 
 - Bottlenecks: blood/traces/node mats
 - Level req: prof 1
 
