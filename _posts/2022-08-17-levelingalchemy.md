@@ -58,15 +58,15 @@ The  <img src="/images/icons/pickled_vegetables.png" height="30"> [Pickled Veget
 ## 2) T2 Bloods - "medium EXP, high cost"
 - Recipes: 
 
-<img src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
+<img align="left" src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
 
-<img src="/images/icons/tyrant's_blood.png" height="30"> [Tyrant's Blood](https://bdolytics.com/alchemy/market/6352)
+<img align="left" src="/images/icons/tyrant's_blood.png" height="30"> [Tyrant's Blood](https://bdolytics.com/alchemy/market/6352)
 
-<img src="/images/icons/clown's_blood.png" height="30"> [Clown's Blood](https://bdolytics.com/alchemy/market/6353)
+<img align="left" src="/images/icons/clown's_blood.png" height="30"> [Clown's Blood](https://bdolytics.com/alchemy/market/6353)
 
-<img src="/images/icons/sinner's_blood.png" height="30"> [Sinner's Blood](https://bdolytics.com/alchemy/market/6354)
+<img align="left" src="/images/icons/sinner's_blood.png" height="30"> [Sinner's Blood](https://bdolytics.com/alchemy/market/6354)
 
-<img src="/images/icons/wise_man's_blood.png" height="30"> [Wise Man's Blood](https://bdolytics.com/alchemy/market/6355)
+<img align="left" src="/images/icons/wise_man's_blood.png" height="30"> [Wise Man's Blood](https://bdolytics.com/alchemy/market/6355)
 
 - EXP: 800 
 - Bottlenecks: blood/traces/node mats
@@ -80,8 +80,6 @@ In a way, you can buy alchemy EXP through these T2 bloods, although it's quite e
 ## 3) Gather-heavy methods - "EXP+profit but active"
 
 
-<img align="left" src="/images/icons/teancious_origin_of_life.png"> 
-
 ### Method A) Tenacious Origin of Life
 - Recipe: <img src="/images/icons/teancious_origin_of_life.png" height="30"> [Tenacious Origin of Life](https://docs.google.com/spreadsheets/d/1mz_NnRBVHC6r6MQqf8abfYaZh547lntqcnkjnwJfXCU/edit?usp=sharing)
 - EXP: 800 
@@ -94,7 +92,6 @@ In a way, you can buy alchemy EXP through these T2 bloods, although it's quite e
 
 **Con**: Crafting Tenacious Origin of Life is __very active__: you can only do a few minutes of crafts at a time since the herbs are heavy.
 
-<img align="left" src="/images/icons/metal_solvent.png"> 
 
 ### Method B) Metal Solvent
 - Recipe: <img src="/images/icons/metal_solvent.png" height="30"> [Metal Solvent](https://bdolytics.com/alchemy/market/4076)
@@ -105,8 +102,6 @@ In a way, you can buy alchemy EXP through these T2 bloods, although it's quite e
 **The method:** Gather rough stone at Pilgrim's Haven, turn the rough stone into metal solvent.
 
 **Pro**: great way to level gathering + alchemy while profiting
-
-<img align="left" src="/images/icons/spirit_perfume_elixir.png"> 
 
 ### Method C) Spirit Perfume Elixir
 - Recipe: <img src="/images/icons/spirit_perfume_elixir.png" height="30">  [Spirit Perfume Elixir](https://bdolytics.com/alchemy/market/781) 
