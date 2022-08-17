@@ -143,15 +143,15 @@ By having bottlenecks like fruits, traces etc., you'll be able to form recipe ch
 The classic recipe chains are:
 
 
-- [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351) -> [Elixir of Assassination](https://bdolytics.com/alchemy/market/696) / [Elixir of Frenzy](https://bdolytics.com/alchemy/market/672)
+- [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351) -> [Oil of Regeneration](https://bdolytics.com/alchemy/market/6601) ->  [Elixir of Assassination](https://bdolytics.com/alchemy/market/696) / [Elixir of Frenzy](https://bdolytics.com/alchemy/market/672)
 
-- [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> [Tyrant's Blood](https://bdolytics.com/alchemy/market/6352) -> [Golden Hand Elixir](https://bdolytics.com/alchemy/market/674) / [Elixir of Detection](https://bdolytics.com/alchemy/market/698)
+- [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> [Tyrant's Blood](https://bdolytics.com/alchemy/market/6352) -> [Oil of Storms](https://bdolytics.com/alchemy/market/6602) -> [Golden Hand Elixir](https://bdolytics.com/alchemy/market/674) / [Elixir of Detection](https://bdolytics.com/alchemy/market/698)
 
-- [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> [Clown's Blood](https://bdolytics.com/alchemy/market/6353) -> [Grim Reaper's Elixir](https://bdolytics.com/alchemy/market/712) / [Elixir of Draining](https://bdolytics.com/alchemy/market/676)
+- [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> [Clown's Blood](https://bdolytics.com/alchemy/market/6353) -> [Oil of Fortitude](https://bdolytics.com/alchemy/market/6603) -> [Grim Reaper's Elixir](https://bdolytics.com/alchemy/market/712) / [Elixir of Draining](https://bdolytics.com/alchemy/market/676)
 
-- [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> [Sinner's Blood](https://bdolytics.com/alchemy/market/6354) -> [Elixir of Carnage](https://bdolytics.com/alchemy/market/718) / [Elixir of Perforation](https://bdolytics.com/alchemy/market/680)
+- [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> [Sinner's Blood](https://bdolytics.com/alchemy/market/6354) -> [Oil of Corruption](https://bdolytics.com/alchemy/market/6604) -> [Elixir of Carnage](https://bdolytics.com/alchemy/market/718) / [Elixir of Perforation](https://bdolytics.com/alchemy/market/680)
 
-- [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> [Wise Man's Blood](https://bdolytics.com/alchemy/market/6355) -> [Elixir of Death](https://bdolytics.com/alchemy/market/686) / [Elixir of Sky](https://bdolytics.com/alchemy/market/720)
+- [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> [Wise Man's Blood](https://bdolytics.com/alchemy/market/6355) -> [Oil of Tranquility](https://bdolytics.com/alchemy/market/6605) -> [Elixir of Death](https://bdolytics.com/alchemy/market/686) / [Elixir of Sky](https://bdolytics.com/alchemy/market/720)
 
 Some of these recipes can be further crafted into draughts: 
 
