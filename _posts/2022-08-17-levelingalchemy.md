@@ -140,17 +140,16 @@ By having bottlenecks like fruits, traces etc., you'll be able to form recipe ch
 
 The classic recipe chains are:
 
-- Recipe: <img src="/images/icons/teancious_origin_of_life.png" height="30"> [Tenacious Origin of Life](https://docs.google.com/spreadsheets/d/1mz_NnRBVHC6r6MQqf8abfYaZh547lntqcnkjnwJfXCU/edit?usp=sharing) bla <img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302)
 
-- Recipe: <img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) bla <img src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
+- [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351) -> [Elixir of Assassination](https://bdolytics.com/alchemy/market/696) / [Elixir of Frenzy](https://bdolytics.com/alchemy/market/672)
 
-- Recipe: <img src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> <img src="/images/icons/tyrant's_blood.png" height="30"> [Tyrant's Blood](https://bdolytics.com/alchemy/market/6352) -> <img src="/images/icons/golden_hand_elixir.png" height="30"> [Golden Hand Elixir](https://bdolytics.com/alchemy/market/674)
+- [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> [Tyrant's Blood](https://bdolytics.com/alchemy/market/6352) -> [Golden Hand Elixir](https://bdolytics.com/alchemy/market/674) / [Elixir of Detection](https://bdolytics.com/alchemy/market/698)
 
-- <img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> <img src="/images/icons/clown's_blood.png" height="30"> [Clown's Blood](https://bdolytics.com/alchemy/market/6353) -> <img src="/images/icons/grim_reaper's_elixir.png" height="30"> [Grim Reaper's Elixir](https://bdolytics.com/alchemy/market/712) / <img src="/images/icons/elixir_of_draining.png" height="30"> [Elixir of Draining](https://bdolytics.com/alchemy/market/676)
+- [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> [Clown's Blood](https://bdolytics.com/alchemy/market/6353) -> [Grim Reaper's Elixir](https://bdolytics.com/alchemy/market/712) / [Elixir of Draining](https://bdolytics.com/alchemy/market/676)
 
-- <img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> <img src="/images/icons/sinner's_blood.png" height="30"> [Sinner's Blood](https://bdolytics.com/alchemy/market/6354) -> <img src="/images/icons/elixir_of_carnage.png" height="30"> [Elixir of Carnage](https://bdolytics.com/alchemy/market/718) / <img src="/images/icons/elixir_of_perforation.png" height="30"> [Elixir of Perforation](https://bdolytics.com/alchemy/market/680)
+- [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> [Sinner's Blood](https://bdolytics.com/alchemy/market/6354) -> [Elixir of Carnage](https://bdolytics.com/alchemy/market/718) / [Elixir of Perforation](https://bdolytics.com/alchemy/market/680)
 
-- <img src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> <img src="/images/icons/wise_man's_blood.png" height="30"> [Wise Man's Blood](https://bdolytics.com/alchemy/market/6355) -> <img src="/images/icons/elixir_of_death.png" height="30"> [Elixir of Death](https://bdolytics.com/alchemy/market/686) / <img src="/images/icons/elixir_of_sky.png" height="30"> [Elixir of Sky](https://bdolytics.com/alchemy/market/720)
+- [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301) -> [Wise Man's Blood](https://bdolytics.com/alchemy/market/6355) -> [Elixir of Death](https://bdolytics.com/alchemy/market/686) / [Elixir of Sky](https://bdolytics.com/alchemy/market/720)
 
 Some of these recipes can be further crafted into draughts: 
 
