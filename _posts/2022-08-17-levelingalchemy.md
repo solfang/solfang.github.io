@@ -5,17 +5,22 @@ published: true
 tags: BDO
 ---
 
-**There's no way around it: Alchemy is pretty screwed, and this is coming from a g36 alchemist.**
+There's no way around it: Alchemy is pretty screwed, and this is coming from a g36 alchemist.
 
 If you still feel like leveling alchemy, this post can hopefully provide guidance.
 
 
-## Why Alchemy is Hard to Level
+## Why Alchemy is Difficult to Level
 I'll compare alchemy to cooking since they're fairly similar.
 - Almost every recipe is bottlenecked by either traces, fruits, saps or even node materials like spirit's leaf or bloody tree knot.
 - Low demand for alchemy products
 - Alchemy mastery has almost 0 effect on EXP
 - Alchemy is notorious for having EXP memers who are ready to throw away billions of silver to level alchemy for the memes.
+
+## Why you should still level alchemy
+- Crafting your own elixirs
+- Purifying lightstones (requires guru 1)
+- Memes
 
 ## How to get Materials
 - Traces: nodes / pre-order
@@ -28,10 +33,15 @@ I'll compare alchemy to cooking since they're fairly similar.
 ## EXP Buffs
 - Recommended: seafood cron meal, verdure draught
 - Optional: Guild buff, perfume of swiftness, book of life, book of old moon, birthday cake
-For a full list of EXP buffs see: https://bdolytics.com/alchemy/experience
+
+For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 
 ## Helpful Tools
-https://bdolytics.com/ - it has all the tools you need :)
+<https://bdolytics.com/> - it has all the tools you need :)
+
+## The approach to leveling alchemy
+1. Acknowledge that you most likely will have to deal with bottlenecks
+2. Try to find chains of recipes, for example clear liquid reagent -> legendary beast's blood -> oil of regeneration -> 
 
 
 # Five Methods to Level Alchemy:
@@ -53,7 +63,10 @@ EXP: 800
 - Bottlenecks: blood/traces/node mats
 - Level req: prof 1
 
-The easiest ones to craft are Sinner's Blood and Clown's Blood but they are unsellable at the time of writing this.
+Sinner's blood and clown's blood are the easiest to craft and used in many recipes.
+Though at the time of writing this, they are hella flooded on the market.
+Crafting them just for EXP without
+
 
 ## 3) Gather-heavy methods - "EXP+profit but active"
 ### Method A) Tenacious Origin of Life
@@ -81,9 +94,9 @@ The easiest ones to craft are Sinner's Blood and Clown's Blood but they are unse
 - Bottlenecks: lots
 - Level requirement: skilled 1
 
-**The method**: https://www.youtube.com/watch?v=LDDI2DaLlII
+**The method**: <https://www.youtube.com/watch?v=LDDI2DaLlII>
 
-**Rotations**: https://bit.ly/GatheringRotations
+**Rotations**: <https://bit.ly/GatheringRotations>
 
 The recipe used to require purple flowers but nowadays any flower works.
 
@@ -97,7 +110,7 @@ If you don't care about money then just pick a box with manageable bottlenecks a
 
 The one elixir I can recommend is Elixir of Spells (920 EXP), which requires gathering maple sap.
 
-See https://bdolytics.com/alchemy/imperial
+See <https://bdolytics.com/alchemy/imperial>
 
 **Pro**: guaranteed demand from the NPC
 
@@ -109,8 +122,12 @@ See https://bdolytics.com/alchemy/imperial
 2. Wait for pre-orders to fill.
 3. Crafts fruits into oils, traces into bloods, oils+traces+saps into elixirs.
 
-Use https://bdolytics.com/alchemy/market to find recipes.
-The table can be sorted, and filtered via the search field.
+Use <https://bdolytics.com/alchemy/market> to find recipes.
+The table can be sorted and also filtered via the search field.
+
+It helps if you have an understanding of the alchemy market, e.g. what creates demand for alchemy products (at the time of writing this it's PVP players who need elixirs and adventure logs).
+Bottleneck materials like fruits are used in very profitable recipes so all EXP memes aside you should consider
+
 
 ## Some quotes from my old post on leveling alchemy that I like:
 A wise :bear: once said:
