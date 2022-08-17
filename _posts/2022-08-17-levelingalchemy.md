@@ -39,12 +39,12 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 
 
 ## 1) Reagents -  "low EXP, low effort"
-- Recipes: <src="/images/icons/clear_liquid_reagent.png" height="30"> Clear Liquid Reagent, <src="/images/icons/pure_powder_reagent.png" height="30"> Pure Powder Reagent
+- Recipes: <img src="/images/icons/clear_liquid_reagent.png" height="30"> Clear Liquid Reagent, <img src="/images/icons/pure_powder_reagent.png" height="30"> Pure Powder Reagent
 - EXP: 400
 - Bottlenecks: None
 - Level requirement: beginner 1
 
-The  <src="/images/icons/pickled_vegetables.png" height="30"> Pickled Vegetables equivalent of alchemy. Except that it's less profitable and less EXP. Welcome to alchemy :)
+The  <img src="/images/icons/pickled_vegetables.png" height="30"> Pickled Vegetables equivalent of alchemy. Except that it's less profitable and less EXP. Welcome to alchemy :)
 Purified water can be bought from the general goods vendor at Sandgrain Bazaar.
 
 **If all you want is to reach artisan/master, don't bother with anything else but reagents**
