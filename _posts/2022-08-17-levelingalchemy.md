@@ -72,7 +72,7 @@ The  <img src="/images/icons/pickled_vegetables.png" height="30"> [Pickled Veget
 - Bottlenecks: blood/traces/node mats
 - Level req: professional 1
 
-<img style="float: right;" src="/images/icons/sinner's_blood.png" height="30"> [Sinner's Blood](https://bdolytics.com/alchemy/market/6354) and <img style="float" src="/images/icons/clown's_blood.png" height="30"> [Clown's Blood](https://bdolytics.com/alchemy/market/6353) are the easiest to craft and used in many recipes.
+![](/images/icons/sinner's_blood.png) [Sinner's Blood](https://bdolytics.com/alchemy/market/6354) and ![](/images/icons/clown's_blood.png) height="30"> [Clown's Blood](https://bdolytics.com/alchemy/market/6353) are the easiest to craft and used in many recipes.
 At the time of writing this, they are hella flooded on the market.
 That means you'll either have to use them in further alchemy recipes or let them stockpile in your storage.
 In a way, you can buy alchemy EXP through these T2 bloods, although it's quite expensive (somewhere around 100 mil/H in material cost).
