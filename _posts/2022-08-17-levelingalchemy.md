@@ -11,19 +11,18 @@ If you still feel like leveling alchemy, this post can hopefully provide guidanc
 
 
 ## Why Alchemy is Difficult to Level
-I'll compare alchemy to cooking since they're fairly similar.
-- Almost every recipe is bottlenecked by either traces, fruits, saps or even node materials like spirit's leaf or bloody tree knot.
+- Almost every recipe is bottlenecked by either traces, fruits, saps or even node materials like spirit's leaf or bloody tree knot
 - Low demand for alchemy products
 - Alchemy mastery has almost 0 effect on EXP
-- Alchemy is notorious for having EXP memers who are ready to throw away billions of silver to level alchemy for the memes.
+- Alchemy is notorious for attracting people who are ready to throw away billions of silver to level alchemy for the memes.
 
 ## How to Get Materials for Alchemy
-- Traces: nodes / pre-order
-- Fruit of x: hoe gathering / farming / pre-order
-- Saps: gathering (sapping) / pre-order
-- Purified water: general goods vendor at Sandgrain Bazaar (5k silver)
-- Herbs: gathering / market / herb vendors, e.g. Nieves in Calpheon (500-575 silver)
-- Mushrooms: farming/ market / Mushroom vendor Brandio in Calpheon (950-1k silver)
+- <img align="left" src="/images/icons/trace_of_the_earth.png" height="30"> Traces: nodes / pre-order
+- <img align="left" src="/images/icons/fruit_of_nature.png" height="30"> Fruit of x: hoe gathering / farming / pre-order
+- <img align="left" src="/images/icons/ash_sap.png" height="30"> Saps: gathering (sapping) / pre-order
+- <img align="left" src="/images/icons/purified_water.png" height="30"> Purified water: general goods vendor at Sandgrain Bazaar (5k silver)
+- <img align="left" src="/images/icons/sunrise_herb.png" height="30"> Herbs: gathering / market / herb vendors, e.g. Nieves in Calpheon (500-575 silver)
+- <img align="left" src="/images/icons/mushroom.png" height="30"> Mushrooms: farming/ market / Mushroom vendor Brandio in Calpheon (950-1k silver)
 
 ## EXP Buffs
 - Recommended: seafood cron meal, verdure draught
@@ -107,12 +106,12 @@ In a way, you can buy alchemy EXP through these T2 bloods, although it's quite e
 ### Method C) Spirit Perfume Elixir
 - Recipe: <img src="/images/icons/spirit_perfume_elixir.png" height="30">  [Spirit Perfume Elixir](https://bdolytics.com/alchemy/market/781) 
 - EXP: 2000
-- Bottlenecks: lots
+- Bottlenecks: dead tree essence, fruit of nature, loopy tree sap, colored flowers
 - Level requirement: skilled 1
 
 **The method**: Gather tons of stuff and craft spirit perfume elixirs. See [this video](https://www.youtube.com/watch?v=LDDI2DaLlII) and a list of [gathering rotations](https://bit.ly/GatheringRotations)
 
-The recipe used to require purple flowers but nowadays any flower works.
+The recipe used to require purple flowers, but nowadays, purple/yellow/sky blue work as well.
 
 **Pro**: very profitable, high EXP per craft
 
@@ -130,13 +129,13 @@ See <https://bdolytics.com/alchemy/imperial> for a list of alchemy imperial boxe
 
 **Con**: opportunity cost compared to doing cooking imperials
 
-### 5) Market alchemy - "Preorder and pray"
+### 5) Market Alchemy - "Preorder and pray"
 **The method**:
 1. Slap a pre-order on any fruit, trace and sap in existence.
 2. Wait for pre-orders to fill.
 3. Crafts fruits into oils, traces into bloods, oils+traces+saps into elixirs.
 
-By having bottlenecks like fruits, traces etc., you'll be able to form recipe chains all the way up to T3 elixirs, which in total is solid EXP.
+By having bottlenecks like fruits, traces etc., you'll be able to form recipe chains all the way up to T3 elixirs, which in total is great EXP.
 
 The classic recipe chains are:
 
