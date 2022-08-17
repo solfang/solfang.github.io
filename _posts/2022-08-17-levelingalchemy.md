@@ -39,8 +39,10 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 2. Try to find chains of recipes, for example ![](/files/cooktldr_2022/icon_milk.png) `Clear Liquid Reagent` → `Legendary Beast's Blood` → `Oil of Regeneration` → `Elixir of Frenzy`
 bla
 
-2. Try to find chains of recipes, for example <img align="right" src="/files/cooktldr_2022/icon_milk.png">`Clear Liquid Reagent` → `Legendary Beast's Blood` → `Oil of Regeneration` → `Elixir of Frenzy`
+2. Try to find chains of recipes, for example <img src="/files/cooktldr_2022/icon_milk.png">`Clear Liquid Reagent` → `Legendary Beast's Blood` → `Oil of Regeneration` → `Elixir of Frenzy`
 
+
+2. Try to find chains of recipes, for example <img src="/files/cooktldr_2022/icon_milk.png" height="30">`Clear Liquid Reagent` → `Legendary Beast's Blood` → `Oil of Regeneration` → `Elixir of Frenzy`
 
 
 # Five Methods to Level Alchemy:
