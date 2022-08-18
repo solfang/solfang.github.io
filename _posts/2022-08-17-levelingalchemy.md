@@ -11,10 +11,8 @@ If you still feel like leveling alchemy, this post can hopefully provide guidanc
 
 
 ## Why Alchemy is Difficult to Level
-- Almost every recipe is bottlenecked by either traces, fruits, saps or even node materials like spirit's leaf or bloody tree knot
-- Low demand for alchemy products
-- Alchemy mastery has almost 0 effect on EXP
-- Alchemy is notorious for attracting people who are ready to throw away billions of silver to level alchemy for the memes.
+
+[BDO - Should You do Alchemy? Rant (Biceptimus)](https://www.youtube.com/watch?v=aTJrc4foUhI)
 
 ## How to Get Materials for Alchemy
 - <img src="/images/icons/trace_of_the_earth.png" height="30"> **Traces**: nodes / pre-order
@@ -99,7 +97,7 @@ In a way, you can buy alchemy EXP through these T2 bloods, although it's quite e
 ### Method B) Metal Solvent
 - Recipe: <img src="/images/icons/metal_solvent.png" height="30"> [Metal Solvent](https://bdolytics.com/alchemy/market/4076)
 - EXP: 800
-- Bottlenecks: rough stone
+- Bottlenecks: rough stone, potentially trace of savagery
 - Level requirement: professional 1
 
 **The method:** Gather rough stone at Pilgrim's Haven, turn the rough stone into metal solvent.
