@@ -29,8 +29,9 @@ If you still feel like leveling alchemy, this post can hopefully provide guidanc
 For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 
 ## Helpful Tools
-<https://bdolytics.com/> - it has all the tools you need :)
 
+- Profit calculator: https://bdolytics.com/alchemy/market
+- EXP calculator: https://bdolytics.com/alchemy/experience
 
 # Five Methods to Level Alchemy:
 
