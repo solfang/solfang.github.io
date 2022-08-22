@@ -30,8 +30,8 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 
 ## Helpful Tools
 
-- Profit calculator: https://bdolytics.com/alchemy/market
-- EXP calculator: https://bdolytics.com/alchemy/experience
+- Profit calculator: <https://bdolytics.com/alchemy/market>
+- EXP calculator: <https://bdolytics.com/alchemy/experience<
 
 # Five Methods to Level Alchemy:
 
