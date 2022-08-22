@@ -166,7 +166,7 @@ Some of these recipes can be further crafted into draughts:
 
 <img align="left" src="/images/icons/unbridled_celerity_draught.png" height="30"> [Unbridled Celerity Draught](https://bdolytics.com/processing/market/797)
 
-The draught craft is done by simple alchemy and gives only a sliver of alchemy EXP. The main benefit of drauhts is that they're an easy way to liquidate elixirs.
+The draught craft is done by simple alchemy and gives only a sliver of alchemy EXP. The main benefit of draughts is that they're an easy way to liquidate elixirs.
 You can use ibellab's essence, bought from material vendors, to craft 10 draughts at once.
 
 Use <https://bdolytics.com/alchemy/market> to find recipes.
