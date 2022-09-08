@@ -34,6 +34,11 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 - Profit calculator: <https://bdolytics.com/alchemy/market>
 - EXP calculator: <https://bdolytics.com/alchemy/experience>
 
+## How to get utensils
+
+- Advanced utensils: Craft in a T4 tool workshop, for example Duvencrune 11-1. They require polished stone (processed from rough stone) and usable scantling (processed from logs).
+- Supreme utensils: [Liana's daily quest](https://grumpygreen.cricket/liana/#:~:text=or%20Onion%20x50.-,Liana%E2%80%99s%20Daily%20Alchemy%20Quests,-Quest%20Name%3A) -> They only cost 100 seals!
+
 # Five Methods to Level Alchemy:
 
 
@@ -56,6 +61,7 @@ Purified Water can be bought from the general goods vendor at Sandgrain Bazaar.
 
 **If all you want is to reach artisan/master, don't bother with anything else but reagents**
 
+**Tip:** Can be crafted overnight on a supreme or traditional utensil.
 
 ## 2) T2 Bloods - "Perfect to burn a hole in your wallet"
 - Recipes: 
@@ -157,7 +163,7 @@ The one elixir I can recommend is [Elixir of Spells](https://bdolytics.com/alche
 
 See <https://bdolytics.com/alchemy/imperial> for a list of alchemy imperial boxes.
 
-**Pro**: guaranteed demand from the NPC
+**Pro**: guaranteed demand from the NPC. Handing in boxes yields imperial seals and 100 seals can be exchanged for a supreme alchemy utensil.
 
 **Con**: opportunity cost compared to doing cooking imperials
 
