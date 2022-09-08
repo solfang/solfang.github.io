@@ -53,7 +53,7 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 - **Bottlenecks**: None
 - **Level requirement**: beginner 1
 
-The [Pickled Vegetables](https://bdolytics.com/cooking/market/9202) equivalent of alchemy (low effort spammable EXP). Except that they are less profit and EXP than Pickled Vegetables. Welcome to alchemy :)
+The [Pickled Vegetables](https://bdolytics.com/cooking/market/9202) equivalent of alchemy: low effort spammable EXP. Except that they are less profit and less EXP than Pickled Vegetables. Welcome to alchemy :)
 
 Reagents are usually profitable to craft, especially considering the random procs (gold bars, caphras stones etc.), and you'll have no problems selling them on the market.
 
@@ -99,7 +99,7 @@ Sinner's Blood can be crafted into:
 - [Worker's Elixir](https://bdolytics.com/alchemy/market/724) - requires ash sap
 - [Oil of Corruption](https://bdolytics.com/alchemy/market/6604) - requires fruit of the sun -> see full recipe chain below
 
-As you can see, there is no 'easy' way to offload T2 bloods. Next to the bottlenecks above, you'll want to keep an eye out for the market volume of these elixirs using <https://bdolytics.com/alchemy/market>. Elixirs like demihuman hunt tend to sell well while others have very limited volume.
+As you can see, there is no 'easy' way to offload T2 bloods. Next to the bottlenecks above, you'll want to keep an eye on the market volume of these elixirs using <https://bdolytics.com/alchemy/market>. Elixirs like demihuman hunt tend to sell well while others have very limited volume.
 
 
 ## 3) Gather-heavy methods - "EXP + silver - sanity"
@@ -111,7 +111,7 @@ As you can see, there is no 'easy' way to offload T2 bloods. Next to the bottlen
 - **Bottlenecks**: None 
 - **Level requirement**: artisan 1
 
-**The method**: Gather wild herbs at Behr, turn the herbs into Tenacious Origin of Life and turn the fruits into oils. Alternatively, you can avoid any gathering by buying the herbs from a vendor, which comes out to a ~70 mil/h loss.
+**The method**: Gather wild herbs at Behr, turn the herbs into Tenacious Origin of Life and turn the fruits into oils
 
 **Liquidation:** Sell the Tenacious Origins of Life to any vendor. Sell the oils on the market or use in further recipes.
 
@@ -119,6 +119,7 @@ As you can see, there is no 'easy' way to offload T2 bloods. Next to the bottlen
 
 **Con**: Crafting Tenacious Origin of Life is _very active_: you can only do a few minutes of crafts at a time since the herbs are heavy. You can use 'bunch of ...', e.g. bunch of silver azaleas to lower the weight requirement. 17 bunches replace 50 white herbs in the recipe.
 
+**Alternative:** You can avoid any gathering by buying the herbs from a vendor, for example Nieves in Calpheon, which comes out to a ~70 mil/h loss.
 
 ### Method B) Metal Solvent
 - **Recipe**: <img src="/images/icons/metal_solvent.png" height="30"> [Metal Solvent](https://bdolytics.com/alchemy/market/4076)
@@ -144,14 +145,14 @@ As you can see, there is no 'easy' way to offload T2 bloods. Next to the bottlen
 
 - Loopy tree sap: [Loopy Tree Forest](https://youtu.be/B-TLLJs636w) (loopy tree sap + dead tree essence)
 - Dead tree essence: [Garmoth's Nest](https://youtu.be/ucCUibM1B0g)
-- Fruit of nature: 1) farm [magical dalvenia alrea](https://docs.google.com/spreadsheets/d/15_GdYRdKj-ocUyypo5WLT5fThDiKa5bzOfSoH3lhwPg/edit?usp=sharing) or [magical purple mushroom](https://docs.google.com/spreadsheets/d/15_GdYRdKj-ocUyypo5WLT5fThDiKa5bzOfSoH3lhwPg/edit?usp=sharing) 2) [Liana's daily quest](https://grumpygreen.cricket/liana/#:~:text=or%20Onion%20x50.-,Liana%E2%80%99s%20Daily%20Alchemy%20Quests,-Quest%20Name%3A) 3) Hoe gathering, wich includes the flowers.
+- Fruit of nature: 1) farm [magical dalvenia alrea](https://docs.google.com/spreadsheets/d/15_GdYRdKj-ocUyypo5WLT5fThDiKa5bzOfSoH3lhwPg/edit?usp=sharing) or magical purple mushroom 2) [Liana's daily quest](https://grumpygreen.cricket/liana/#:~:text=or%20Onion%20x50.-,Liana%E2%80%99s%20Daily%20Alchemy%20Quests,-Quest%20Name%3A) 3) Hoe gathering, wich includes flowers.
 - Flowers: (violet/purple pink/yellow/blue/sky blue): [Lake Flondor](https://youtu.be/0BiKsg1aKLA). The recipe works with any of these flowers.
 
 **Liquidation:** Sell the spirit perfume elixirs to the market.
 
 **Pro**: very profitable, high EXP per craft
 
-**Con**: lots of gathering required for each craft. Also, fruit of nature will be a hard bottleneck.
+**Con**: Lots of gathering required for each craft. Also, fruit of nature will be a hard bottleneck.
 
 **Tip**: Since spirit perfume elixirs always proc 1 (mastery has no effect), use silver embroidered clothes for the extra EXP.
 
