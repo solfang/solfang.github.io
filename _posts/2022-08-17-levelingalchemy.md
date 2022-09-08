@@ -17,7 +17,7 @@ Last updated: 08.09.2022
 
 ## How to Get Materials for Alchemy
 - <img src="/images/icons/trace_of_the_earth.png" height="30"> **Traces**: nodes / pre-order
-- <img src="/images/icons/fruit_of_nature.png" height="30"> **Fruit of x**: hoe gathering / farming / pre-order
+- <img src="/images/icons/fruit_of_nature.png" height="30"> **Fruit of x**: hoe gathering / farming / pre-order / [Liana's daily quest](https://grumpygreen.cricket/liana/#:~:text=or%20Onion%20x50.-,Liana%E2%80%99s%20Daily%20Alchemy%20Quests,-Quest%20Name%3A)
 - <img src="/images/icons/ash_sap.png" height="30"> **Saps**: gathering (sapping) / pre-order
 - <img src="/images/icons/purified_water.png" height="30"> **Purified Water**: general goods vendor at Sandgrain Bazaar (5k silver)
 - <img src="/images/icons/sunrise_herb.png" height="30"> **Herbs**: gathering / market / herb vendors, e.g. Nieves in Calpheon (500-575 silver)
