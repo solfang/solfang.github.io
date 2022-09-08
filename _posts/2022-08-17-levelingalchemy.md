@@ -120,11 +120,13 @@ As you can see, there is no 'easy' way to offload T2 bloods. Next to the bottlen
 - Bottlenecks: rough stone, potentially trace of savagery
 - Level requirement: professional 1
 
-**The method:** Gather rough stone at Pilgrim's Haven, turn the rough stone into metal solvent. There's one caveat: without maids, gathering at pilgrim's will not be a nice experience.
+**The method:** Gather rough stone at Pilgrim's Haven, turn the rough stone into metal solvent.
 
 **Liquidation:** Sell the metal solvent to the market or use it to craft pure crystals (pure icon crystal, pure copper crystal etc.) via processing.
 
 **Pro**: great way to level gathering + alchemy while profiting
+
+**Con**: Dependent on having high weight and maids. Without maids, gathering at pilgrim's will not be a nice experience.
 
 ### Method C) Spirit Perfume Elixir
 - Recipe: <img src="/images/icons/spirit_perfume_elixir.png" height="30">  [Spirit Perfume Elixir](https://bdolytics.com/alchemy/market/781) 
