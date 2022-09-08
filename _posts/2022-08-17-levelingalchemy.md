@@ -81,18 +81,19 @@ That means you'll have two options:
 A) accept the loss (somewhere around 100 mil/H in material cost) and let them stockpile in your storage, hoping that they become more useful in the future.
 
 B) Use them in further alchemy recipes.
-[Clown's Blood](https://bdolytics.com/alchemy/market/6353) can be crafted into:
+
+Clown's Blood can be crafted into:
 - [Elixir of Shock](https://bdolytics.com/alchemy/market/762) - requires cedar sap
 - [EXP Elixir](https://bdolytics.com/alchemy/market/714) - requires pine sap
 - [Elixir of Human Hunt](https://bdolytics.com/alchemy/market/670) - requires maple sap
 - [Oil of Fortitude](https://bdolytics.com/alchemy/market/6603) - requires fruit of nature -> see full recipe chain below
 
-[Sinner's Blood](https://bdolytics.com/alchemy/market/6354) can be crafted into:
+Sinner's Blood can be crafted into:
 - [Elixir of Demihuman Hunt](https://bdolytics.com/alchemy/market/678) - requires fir sap
 - [Worker's Elixir](https://bdolytics.com/alchemy/market/724) - requires ash sap
 - [Oil of Corruption](https://bdolytics.com/alchemy/market/6604) - requires fruit of the sun -> see full recipe chain below
 
-As you can see, there is no 'easy' method to offload T2 bloods. Pick your poison. Next to the bottlenecks above, you'll want to keep an eye out for the market volume of these elixirs using <https://bdolytics.com/alchemy/market>. Elixirs like demihuman tend to sell well while others have very limited volume.
+As you can see, there is no 'easy' way to offload T2 bloods. Next to the bottlenecks above, you'll want to keep an eye out for the market volume of these elixirs using <https://bdolytics.com/alchemy/market>. Elixirs like demihuman hunt tend to sell well while others have very limited volume.
 
 
 ## 3) Gather-heavy methods - "EXP + silver - sanity"
@@ -104,13 +105,13 @@ As you can see, there is no 'easy' method to offload T2 bloods. Pick your poison
 - Bottlenecks: None 
 - Level requirement: artisan 1
 
-**The method**: Gather wild herbs at Behr, turn the herbs into Tenacious Origin of Life and turn the fruits into oils (sell on the market or use in further recipes). Alternatively, you can avoid any gathering by buying the herbs from a vendor, which comes out to a ~70 mil/h loss.
+**The method**: Gather wild herbs at Behr, turn the herbs into Tenacious Origin of Life and turn the fruits into oils. Alternatively, you can avoid any gathering by buying the herbs from a vendor, which comes out to a ~70 mil/h loss.
 
-**Liquidation:** Sell the Tenacious Origins of Life to any vendor.
+**Liquidation:** Sell the Tenacious Origins of Life to any vendor. Sell the oils on the market or use in further recipes.
 
 **Pro**: great way to level gathering + alchemy while profiting
 
-**Con**: Crafting Tenacious Origin of Life is _very active_: you can only do a few minutes of crafts at a time since the herbs are heavy.
+**Con**: Crafting Tenacious Origin of Life is _very active_: you can only do a few minutes of crafts at a time since the herbs are heavy. You can use 'bunch of ...', e.g. bunch of silver azaleas to lower the weight requirement. 17 bunches replace 50 white herbs in the recipe.
 
 
 ### Method B) Metal Solvent
@@ -131,15 +132,20 @@ As you can see, there is no 'easy' method to offload T2 bloods. Pick your poison
 - Bottlenecks: dead tree essence, fruit of nature, loopy tree sap, colored flowers
 - Level requirement: skilled 1
 
-**The method**: Gather tons of stuff and craft spirit perfume elixirs. See [this video](https://www.youtube.com/watch?v=LDDI2DaLlII) and a list of [gathering rotations](https://bit.ly/GatheringRotations)
+**The method**: Gather tons of stuff and craft spirit perfume elixirs. Gather spots:
 
-The recipe used to require purple flowers, but nowadays, purple/yellow/sky blue work as well.
+- Loopy tree sap: [Loopy Tree Forest](https://youtu.be/B-TLLJs636w) (loopy tree sao + dead tree essence)
+- Dead tree essence: [Garmoth's Nest](https://youtu.be/ucCUibM1B0g)
+- Fruit of nature: farm magical dalvenia Alrea or magical purple mushroom
+- Flowers: (violet/purple pink/yellow/blue/sky blue): [Lake Flondor](https://youtu.be/0BiKsg1aKLA). The recipe works with any of these flowers.
 
 **Liquidation:** Sell the spirit perfume elixirs to the market.
 
 **Pro**: very profitable, high EXP per craft
 
 **Con**: lots of gathering required for each craft
+
+**Tip**: Since spirit perfume elixirs always proc 1 (mastery has no effect), use silver embroidered clothes for the extra EXP.
 
 ## 4) Imperial Alchemy - "Has seen better times"
 I have a hard time recommending anything because boxes with high EXP elixirs usually are a horrendous loss to craft.
@@ -159,10 +165,9 @@ See <https://bdolytics.com/alchemy/imperial> for a list of alchemy imperial boxe
 2. Wait for pre-orders to fill.
 3. Crafts fruits into oils, traces into bloods, oils+traces+saps into elixirs.
 
-By having bottlenecks like fruits, traces etc., you'll be able to form recipe chains all the way up to T3 elixirs, which in total is great EXP.
+Having bottleneck materials like fruits, traces etc. enables you to form recipe chains all the way up to T3 elixirs, which in total is a lot of EXP.
 
 The classic recipe chains are:
-
 
 - [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302) -> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351) -> [Oil of Regeneration](https://bdolytics.com/alchemy/market/6601) ->  [Elixir of Assassination](https://bdolytics.com/alchemy/market/696) / [Elixir of Frenzy](https://bdolytics.com/alchemy/market/672)
 
