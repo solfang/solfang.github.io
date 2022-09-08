@@ -9,6 +9,7 @@ There's no way around it: Alchemy is pretty screwed, and this is coming from a g
 
 If you still feel like leveling alchemy, this post can hopefully provide guidance.
 
+Last updated: 08.09.2022
 
 ## Why Alchemy is Difficult to Level
 
@@ -90,6 +91,8 @@ In a way, you can buy alchemy EXP through these T2 bloods, although it's quite e
 
 **The method**: Gather wild herbs at Behr, turn the herbs into Tenacious Origin of Life (sell to any vendor) and turn the fruits into oils (sell on the market or use in further recipes). Alternatively, you can avoid any gathering by buying the herbs from a vendor, which comes out to a ~70 mil/h loss.
 
+**Liquidation:** Sell the Tenacious Origins of Life to any vendor.
+
 **Pro**: great way to level gathering + alchemy while profiting
 
 **Con**: Crafting Tenacious Origin of Life is _very active_: you can only do a few minutes of crafts at a time since the herbs are heavy.
@@ -101,7 +104,9 @@ In a way, you can buy alchemy EXP through these T2 bloods, although it's quite e
 - Bottlenecks: rough stone, potentially trace of savagery
 - Level requirement: professional 1
 
-**The method:** Gather rough stone at Pilgrim's Haven, turn the rough stone into metal solvent.
+**The method:** Gather rough stone at Pilgrim's Haven, turn the rough stone into metal solvent. 
+
+**Liquidation:** Sell the metal solvent to the market or use it to craft pure crystals (pure icon crystal, pure copper crystal etc.) via processing.
 
 **Pro**: great way to level gathering + alchemy while profiting
 
@@ -114,6 +119,8 @@ In a way, you can buy alchemy EXP through these T2 bloods, although it's quite e
 **The method**: Gather tons of stuff and craft spirit perfume elixirs. See [this video](https://www.youtube.com/watch?v=LDDI2DaLlII) and a list of [gathering rotations](https://bit.ly/GatheringRotations)
 
 The recipe used to require purple flowers, but nowadays, purple/yellow/sky blue work as well.
+
+**Liquidation:** Sell the spirit perfume elixirs to the market.
 
 **Pro**: very profitable, high EXP per craft
 
