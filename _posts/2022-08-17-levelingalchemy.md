@@ -23,35 +23,35 @@ Last updated: 08.09.2022
 - <img src="/images/icons/sunrise_herb.png" height="30"> **Herbs**: gathering / market / herb vendors, e.g. Nieves in Calpheon (500-575 silver)
 - <img src="/images/icons/mushroom.png" height="30"> **Mushrooms**: farming/ market / mushroom vendor Brandio in Calpheon (950-1k silver)
 
-## How to get Utensils
+## How to Get Utensils
 
-- Advanced utensils: Craft in a T4 tool workshop, for example Duvencrune 11-1. They require polished stone (processed from rough stone) and usable scantling (processed from logs).
-- Supreme utensils: [Liana's daily quest](https://grumpygreen.cricket/liana/#:~:text=or%20Onion%20x50.-,Liana%E2%80%99s%20Daily%20Alchemy%20Quests,-Quest%20Name%3A) -> They only cost 100 seals!
+- **Advanced utensils**: Craft in a T4 tool workshop, for example Duvencrune 11-1. They require polished stone (processed from rough stone) and usable scantling (processed from logs).
+- **Supreme utensils**: [Liana's daily quest](https://grumpygreen.cricket/liana/#:~:text=or%20Onion%20x50.-,Liana%E2%80%99s%20Daily%20Alchemy%20Quests,-Quest%20Name%3A) -> They only cost 100 seals!
 
 ## EXP Buffs
-- Recommended: seafood cron meal, verdure draught
-- Optional: Guild buff, perfume of swiftness, book of life, book of old moon, birthday cake
+- **Recommended**: seafood cron meal, verdure draught
+- **Optional**: Guild buff, perfume of swiftness, book of life, book of old moon, birthday cake
 
 For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 
 ## Helpful Tools
 
-- Profit calculator: <https://bdolytics.com/alchemy/market>
-- EXP calculator: <https://bdolytics.com/alchemy/experience>
+- **Profit calculator**: <https://bdolytics.com/alchemy/market>
+- **EXP calculator**: <https://bdolytics.com/alchemy/experience>
 
 # Five Methods to Level Alchemy:
 
 
 ## 1) Reagents -  "The Pickled Vegetables of alchemy"
-- Recipes: 
+- **Recipes**: 
 
 <img align="left" src="/images/icons/clear_liquid_reagent.png" height="30"> [Clear Liquid Reagent](https://bdolytics.com/alchemy/market/5301)
 
 <img align="left" src="/images/icons/pure_powder_reagent.png" height="30"> [Pure Powder Reagent](https://bdolytics.com/alchemy/market/5302)
 
-- EXP: 400
-- Bottlenecks: None
-- Level requirement: beginner 1
+- **EXP**: 400
+- **Bottlenecks**: None
+- **Level requirement**: beginner 1
 
 The [Pickled Vegetables](https://bdolytics.com/cooking/market/9202) equivalent of alchemy (low effort spammable EXP). Except that they are less profit and EXP than Pickled Vegetables. Welcome to alchemy :)
 
@@ -64,7 +64,7 @@ Purified Water can be bought from the general goods vendor at Sandgrain Bazaar.
 **Tip:** Can be crafted overnight on a supreme or traditional utensil.
 
 ## 2) T2 Bloods - "Help, I'm drowning in clown's blood"
-- Recipes: 
+- **Recipes**: 
 
 <img align="left" src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
 
@@ -76,9 +76,9 @@ Purified Water can be bought from the general goods vendor at Sandgrain Bazaar.
 
 <img align="left" src="/images/icons/wise_man's_blood.png" height="30"> [Wise Man's Blood](https://bdolytics.com/alchemy/market/6355)
 
-- EXP: 800 
-- Bottlenecks: blood/traces/node mats
-- Level req: professional 1
+- **EXP**: 800 
+- **Bottlenecks**: blood/traces/node mats
+- **Level requirement**: professional 1
 
 [Sinner's Blood](https://bdolytics.com/alchemy/market/6354) and [Clown's Blood](https://bdolytics.com/alchemy/market/6353) are the easiest to craft and used in many recipes.
 At the time of writing this, they are hella flooded on the market.
@@ -106,10 +106,10 @@ As you can see, there is no 'easy' way to offload T2 bloods. Next to the bottlen
 
 
 ### Method A) Tenacious Origin of Life
-- Recipe: <img src="/images/icons/teancious_origin_of_life.png" height="30"> [Tenacious Origin of Life](https://docs.google.com/spreadsheets/d/1mz_NnRBVHC6r6MQqf8abfYaZh547lntqcnkjnwJfXCU/edit?usp=sharing)
-- EXP: 800 
-- Bottlenecks: None 
-- Level requirement: artisan 1
+- **Recipe**: <img src="/images/icons/teancious_origin_of_life.png" height="30"> [Tenacious Origin of Life](https://docs.google.com/spreadsheets/d/1mz_NnRBVHC6r6MQqf8abfYaZh547lntqcnkjnwJfXCU/edit?usp=sharing)
+- **EXP**: 800 
+- **Bottlenecks**: None 
+- **Level requirement**: artisan 1
 
 **The method**: Gather wild herbs at Behr, turn the herbs into Tenacious Origin of Life and turn the fruits into oils. Alternatively, you can avoid any gathering by buying the herbs from a vendor, which comes out to a ~70 mil/h loss.
 
@@ -121,10 +121,10 @@ As you can see, there is no 'easy' way to offload T2 bloods. Next to the bottlen
 
 
 ### Method B) Metal Solvent
-- Recipe: <img src="/images/icons/metal_solvent.png" height="30"> [Metal Solvent](https://bdolytics.com/alchemy/market/4076)
-- EXP: 800
-- Bottlenecks: rough stone, potentially trace of savagery
-- Level requirement: professional 1
+- **Recipe**: <img src="/images/icons/metal_solvent.png" height="30"> [Metal Solvent](https://bdolytics.com/alchemy/market/4076)
+- **EXP**: 800
+- **Bottlenecks**: rough stone, potentially trace of savagery
+- **Level requirement**: professional 1
 
 **The method:** Gather rough stone at Pilgrim's Haven, turn the rough stone into metal solvent.
 
@@ -135,10 +135,10 @@ As you can see, there is no 'easy' way to offload T2 bloods. Next to the bottlen
 **Con**: Dependent on having high weight and maids. Without maids, gathering at pilgrim's will not be a nice experience.
 
 ### Method C) Spirit Perfume Elixir
-- Recipe: <img src="/images/icons/spirit_perfume_elixir.png" height="30">  [Spirit Perfume Elixir](https://bdolytics.com/alchemy/market/781) 
-- EXP: 2000
-- Bottlenecks: dead tree essence, fruit of nature, loopy tree sap, colored flowers
-- Level requirement: skilled 1
+- **Recipe**: <img src="/images/icons/spirit_perfume_elixir.png" height="30">  [Spirit Perfume Elixir](https://bdolytics.com/alchemy/market/781) 
+- **EXP**: 2000
+- **Bottlenecks**: dead tree essence, fruit of nature, loopy tree sap, colored flowers
+- **Level requirement**: skilled 1
 
 **The method**: Gather tons of stuff and craft spirit perfume elixirs. Gather spots:
 
