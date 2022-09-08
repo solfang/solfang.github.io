@@ -89,7 +89,7 @@ In a way, you can buy alchemy EXP through these T2 bloods, although it's quite e
 - Bottlenecks: None 
 - Level requirement: artisan 1
 
-**The method**: Gather wild herbs at Behr, turn the herbs into Tenacious Origin of Life (sell to any vendor) and turn the fruits into oils (sell on the market or use in further recipes). Alternatively, you can avoid any gathering by buying the herbs from a vendor, which comes out to a ~70 mil/h loss.
+**The method**: Gather wild herbs at Behr, turn the herbs into Tenacious Origin of Life and turn the fruits into oils (sell on the market or use in further recipes). Alternatively, you can avoid any gathering by buying the herbs from a vendor, which comes out to a ~70 mil/h loss.
 
 **Liquidation:** Sell the Tenacious Origins of Life to any vendor.
 
