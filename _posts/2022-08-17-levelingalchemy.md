@@ -23,6 +23,11 @@ Last updated: 08.09.2022
 - <img src="/images/icons/sunrise_herb.png" height="30"> **Herbs**: gathering / market / herb vendors, e.g. Nieves in Calpheon (500-575 silver)
 - <img src="/images/icons/mushroom.png" height="30"> **Mushrooms**: farming/ market / mushroom vendor Brandio in Calpheon (950-1k silver)
 
+## How to get Utensils
+
+- Advanced utensils: Craft in a T4 tool workshop, for example Duvencrune 11-1. They require polished stone (processed from rough stone) and usable scantling (processed from logs).
+- Supreme utensils: [Liana's daily quest](https://grumpygreen.cricket/liana/#:~:text=or%20Onion%20x50.-,Liana%E2%80%99s%20Daily%20Alchemy%20Quests,-Quest%20Name%3A) -> They only cost 100 seals!
+
 ## EXP Buffs
 - Recommended: seafood cron meal, verdure draught
 - Optional: Guild buff, perfume of swiftness, book of life, book of old moon, birthday cake
@@ -33,11 +38,6 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 
 - Profit calculator: <https://bdolytics.com/alchemy/market>
 - EXP calculator: <https://bdolytics.com/alchemy/experience>
-
-## How to get utensils
-
-- Advanced utensils: Craft in a T4 tool workshop, for example Duvencrune 11-1. They require polished stone (processed from rough stone) and usable scantling (processed from logs).
-- Supreme utensils: [Liana's daily quest](https://grumpygreen.cricket/liana/#:~:text=or%20Onion%20x50.-,Liana%E2%80%99s%20Daily%20Alchemy%20Quests,-Quest%20Name%3A) -> They only cost 100 seals!
 
 # Five Methods to Level Alchemy:
 
