@@ -134,9 +134,9 @@ As you can see, there is no 'easy' way to offload T2 bloods. Next to the bottlen
 
 **The method**: Gather tons of stuff and craft spirit perfume elixirs. Gather spots:
 
-- Loopy tree sap: [Loopy Tree Forest](https://youtu.be/B-TLLJs636w) (loopy tree sao + dead tree essence)
+- Loopy tree sap: [Loopy Tree Forest](https://youtu.be/B-TLLJs636w) (loopy tree sap + dead tree essence)
 - Dead tree essence: [Garmoth's Nest](https://youtu.be/ucCUibM1B0g)
-- Fruit of nature: 1) farm magical dalvenia alrea or magical purple mushroom 2) [Liana's daily quest](https://grumpygreen.cricket/liana/#:~:text=or%20Onion%20x50.-,Liana%E2%80%99s%20Daily%20Alchemy%20Quests,-Quest%20Name%3A) 3) Hoe gathering, wich includes the flowers.
+- Fruit of nature: 1) farm {magical dalvenia alrea](https://docs.google.com/spreadsheets/d/15_GdYRdKj-ocUyypo5WLT5fThDiKa5bzOfSoH3lhwPg/edit?usp=sharing) or [magical purple mushroom](https://docs.google.com/spreadsheets/d/15_GdYRdKj-ocUyypo5WLT5fThDiKa5bzOfSoH3lhwPg/edit?usp=sharing) 2) [Liana's daily quest](https://grumpygreen.cricket/liana/#:~:text=or%20Onion%20x50.-,Liana%E2%80%99s%20Daily%20Alchemy%20Quests,-Quest%20Name%3A) 3) Hoe gathering, wich includes the flowers.
 - Flowers: (violet/purple pink/yellow/blue/sky blue): [Lake Flondor](https://youtu.be/0BiKsg1aKLA). The recipe works with any of these flowers.
 
 **Liquidation:** Sell the spirit perfume elixirs to the market.
