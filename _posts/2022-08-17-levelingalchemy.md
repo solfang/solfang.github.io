@@ -26,7 +26,7 @@ Last updated: 08.09.2022
 ## How to Get Utensils
 
 - **Advanced utensils**: Craft in a T4 tool workshop, for example Duvencrune 11-1. They require polished stone (processed from rough stone) and usable scantling (processed from logs).
-- **Supreme utensils**: [Liana's daily quest](https://grumpygreen.cricket/liana/#:~:text=or%20Onion%20x50.-,Liana%E2%80%99s%20Daily%20Alchemy%20Quests,-Quest%20Name%3A) -> They only cost 100 seals!
+- **Supreme utensils**: Imperial alchemy seals: 100 seals = 1 supreme!
 
 ## EXP Buffs
 - **Recommended**: seafood cron meal, verdure draught
