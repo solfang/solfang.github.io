@@ -63,7 +63,7 @@ Purified Water can be bought from the general goods vendor at Sandgrain Bazaar.
 
 **Tip:** Can be crafted overnight on a supreme or traditional utensil.
 
-## 2) T2 Bloods - "Perfect to burn a hole in your wallet"
+## 2) T2 Bloods - "Help, I'm drowning in clown's blood"
 - Recipes: 
 
 <img align="left" src="/images/icons/legendary_beast's_blood.png" height="30"> [Legendary Beast Blood](https://bdolytics.com/alchemy/market/6351)
