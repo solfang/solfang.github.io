@@ -75,10 +75,25 @@ Purified Water can be bought from the general goods vendor at Sandgrain Bazaar.
 - Level req: professional 1
 
 [Sinner's Blood](https://bdolytics.com/alchemy/market/6354) and [Clown's Blood](https://bdolytics.com/alchemy/market/6353) are the easiest to craft and used in many recipes.
-
 At the time of writing this, they are hella flooded on the market.
-That means you'll either have to use them in further alchemy recipes or let them stockpile in your storage.
-In a way, you can buy alchemy EXP through these T2 bloods, although it's quite expensive if you just stockpile them (somewhere around 100 mil/H in material cost).
+That means you'll have two options:
+
+A) accept the loss (somewhere around 100 mil/H in material cost) and let them stockpile in your storage, hoping that they become more useful in the future.
+
+B) Use them in further alchemy recipes.
+[Clown's Blood](https://bdolytics.com/alchemy/market/6353) can be crafted into:
+- [Elixir of Shock](https://bdolytics.com/alchemy/market/762) - requires cedar sap
+- [EXP Elixir](https://bdolytics.com/alchemy/market/714) - requires pine sap
+- [Elixir of Human Hunt](https://bdolytics.com/alchemy/market/670) - requires maple sap
+- [Oil of Fortitude](https://bdolytics.com/alchemy/market/6603) - requires fruit of nature -> see full recipe chain below
+
+[Sinner's Blood](https://bdolytics.com/alchemy/market/6354) can be crafted into:
+- [Elixir of Demihuman Hunt](https://bdolytics.com/alchemy/market/678) - requires fir sap
+- [Worker's Elixir](https://bdolytics.com/alchemy/market/724) - requires ash sap
+- [Oil of Corruption](https://bdolytics.com/alchemy/market/6604) - requires fruit of the sun -> see full recipe chain below
+
+As you can see, there is no 'easy' method to offload T2 bloods. Pick your poison. Next to the bottlenecks above, you'll want to keep an eye out for the market volume of these elixirs using <https://bdolytics.com/alchemy/market>. Elixirs like demihuman tend to sell well while others have very limited volume.
+
 
 ## 3) Gather-heavy methods - "EXP + silver - sanity"
 
@@ -104,7 +119,7 @@ In a way, you can buy alchemy EXP through these T2 bloods, although it's quite e
 - Bottlenecks: rough stone, potentially trace of savagery
 - Level requirement: professional 1
 
-**The method:** Gather rough stone at Pilgrim's Haven, turn the rough stone into metal solvent. 
+**The method:** Gather rough stone at Pilgrim's Haven, turn the rough stone into metal solvent. There's one caveat: without maids, gathering at pilgrim's will not be a nice experience.
 
 **Liquidation:** Sell the metal solvent to the market or use it to craft pure crystals (pure icon crystal, pure copper crystal etc.) via processing.
 
