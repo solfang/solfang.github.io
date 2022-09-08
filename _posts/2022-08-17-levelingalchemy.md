@@ -12,7 +12,7 @@ If you still feel like leveling alchemy, this post can hopefully provide guidanc
 
 ## Why Alchemy is Difficult to Level
 
-[BDO - Should You do Alchemy? Rant (Biceptimus)](https://www.youtube.com/watch?v=aTJrc4foUhI)
+{% include youtube.html id="aTJrc4foUhI" %}
 
 ## How to Get Materials for Alchemy
 - <img src="/images/icons/trace_of_the_earth.png" height="30"> **Traces**: nodes / pre-order
@@ -31,7 +31,7 @@ For a full list of EXP buffs see: <https://bdolytics.com/alchemy/experience>
 ## Helpful Tools
 
 - Profit calculator: <https://bdolytics.com/alchemy/market>
-- EXP calculator: <https://bdolytics.com/alchemy/experience<
+- EXP calculator: <https://bdolytics.com/alchemy/experience>
 
 # Five Methods to Level Alchemy:
 
