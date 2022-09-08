@@ -136,14 +136,14 @@ As you can see, there is no 'easy' way to offload T2 bloods. Next to the bottlen
 
 - Loopy tree sap: [Loopy Tree Forest](https://youtu.be/B-TLLJs636w) (loopy tree sao + dead tree essence)
 - Dead tree essence: [Garmoth's Nest](https://youtu.be/ucCUibM1B0g)
-- Fruit of nature: farm magical dalvenia Alrea or magical purple mushroom
+- Fruit of nature: 1) farm magical dalvenia alrea or magical purple mushroom 2) [Liana's daily quest](https://grumpygreen.cricket/liana/#:~:text=or%20Onion%20x50.-,Liana%E2%80%99s%20Daily%20Alchemy%20Quests,-Quest%20Name%3A) 3) Hoe gathering, wich includes the flowers.
 - Flowers: (violet/purple pink/yellow/blue/sky blue): [Lake Flondor](https://youtu.be/0BiKsg1aKLA). The recipe works with any of these flowers.
 
 **Liquidation:** Sell the spirit perfume elixirs to the market.
 
 **Pro**: very profitable, high EXP per craft
 
-**Con**: lots of gathering required for each craft
+**Con**: lots of gathering required for each craft. Also, fruit of nature will be a hard bottleneck.
 
 **Tip**: Since spirit perfume elixirs always proc 1 (mastery has no effect), use silver embroidered clothes for the extra EXP.
 
