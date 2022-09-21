@@ -13,7 +13,7 @@ This is your BDO Processing helpdesk. If you have any questions about processing
 
 Before we start, let's look at what role processing takes in the BDO lifeskill-verse. Processing is what's known as 'refining' in other games. That means taking raw materials and refining them into higher-tier materials that can then be used for further production, like cooking, trading or workshops. Therefore it sits between your worker empire, which provides raw materials, and other lifeskills which then use the refined materials. On top of that, processing is super simple to get into and a low effort lifeskill that allows to be afk from your PC from anywhere to a few minutes to a few hours. Now that you know what processing is all about, let's get started.
 
-## 1. how to process? (processing window + mentiona  few procesing categories from that window etc.) (Basics)
+## 1. how to process? (General)
 - a. Open the processing window (L key)
 - b. Select a processing type 
 - c. Input the materials
@@ -62,14 +62,14 @@ Mass processing lets you process mutltiple items at once but it takes 10x longer
 If you have a processing stone, the 'Mass Process' button will appear in the processing menu.
 Mass processing only works on stackable items. For example, you can't mass heat weapons because they take up 1 inventory slot each.
 
-## 5. What does processing mastery do? ? (Mastery)
+## 5. What does processing mastery do? (Mastery)
 Processing mastery increases the number of batches you can process through mass processing.
 [chart]
 For example, at [] mastery, mass processing takes 10x longer but also does 10 crafts at once, so it's the same speed as regular processing.
 At [] mastery, you can do [] crafts at once, meaning you process [] times faster.
 That also means you should mass process any recipe that allows mass procesing. There is no drawback to mass processing.
 
-## 6. How much mastery do I need?? (Mastery)
+## 6. How much mastery do I need? (Mastery)
 Processing mastery lets you process items at a faster rate. But you are still limited by weight. That means it's sufficient to get enough mastery so that you barely run out of weight whenever you check back on your processing.
 
 ## 7. How long does it take to process materials? (General)
@@ -87,7 +87,7 @@ The classical processing chains are:
 Besides that, there are lots of other recipes. For reference, see <https://bdocodex.com/us/mrecipes/>
 !put first part into a table
 
-## 8. Why can't I chop plyoowd / heat pure crystals? (General)
+## 9. Why can't I chop plyoowd / heat pure crystals? (General)
 You are missing knowledge. You can confirm that you are missing knowledge by going to the knowledge tab (H) and going to Lifeskills -> Certificates.
 For example, plywood (T3) requires chopping: beginner and pure crystals (T4) require heating: skilled.
 Once you have the knowledge, entries for chopping:beginner, chopping:skilled etc. will show up there.
@@ -114,7 +114,7 @@ You can find the quest via the in-game quest menu in the 'Suggested tab' (1) und
 
 **If you struggle with these quests at any point please let me know and I will update the guide**
 
-## 7. What gear do I need for processing?
+## 10. What gear do I need for processing?
 You technically need no gear at all to process. Gear can help as follows:
 - Loggia/Techton/Manos Processing stone: mastery (there used to be one stone for each processing type but they merged them into a single stone)
 - Loggia/Carta/Manos mastery clothes: mastery / Silver embroidered clothes: processing EXP and success rate
@@ -122,11 +122,11 @@ You technically need no gear at all to process. Gear can help as follows:
 - Artifacts:  Processing Mastery (10) / Processing Success Rate (5%) / Processing EXP (5%). I recommend procesing mastery or success rate.
 - Lightstones: [image: clangclang.pmg]
 
-## 8. How do I get processing artifacts?
+## 11. How do I get processing artifacts?
 Processing artifacts are obtained randomly at a low chance from handing in imperial cooking boxes.
 You can put lightstones into any artifact, so a posible alternative is using life EXP or life mastery artifacts.
 
-## 9. Do I need the pearl shop costume (Venecil Dress/Karki Suit)?
+## 12. Do I need the pearl shop costume (Venecil Dress/Karki Suit)?
 The pearl shop costume lets you process from storage. If you have all parts of the processing costume equipped, the storage keeper offers an additional 'Process' button. This does not work with storage containers.
 It also offers 3% processing success rate.
 Effectively, the processing costume will let you process for much longer, but this depends on the item you're processing.
@@ -135,29 +135,68 @@ But keep in mind that recipes like flour and dough the processing costume does n
 
 Ultimatively, it's up to you to decide whether the convenience of being able to stay afk for longer is worth spending pearls on.
 
-## 10. Should I use mastery or silver embroidered (SE) clothes? 
+## 13. Should I use mastery or silver embroidered (SE) clothes? 
 
 The trade-off is this:
 Mastery clothes increase procssing mastery, which lets you process at a faster rate.
 SE clothes give procesing EXP and increase the processing success rate, which also lets you process at a faster rate but only if your processing succes rate is not already 100%.
+
 And this is the catch. It's very easy to get 100% success rate with mastery clothes, for example base (67%) + seafood cron meal (10%) + 1 artifact (5%) + verdure draught (20%) will get you there.
 Therefore:
 
-**For profit:** Always use mastery clothes. The extra mastery is more valuable than success rate.
-**For EXP:**: Use mastery clothes unles you've done the math. SE clothes start to perform mastery clothes once you approach the cap of 2k mastery with mastery clothes. You can check which clothes result in more EXP using [this sheet](https://docs.google.com/spreadsheets/d/1Yv9-k7hShtmZ6oPZCmLu8C-eGJLgPkg7wvaIkJ_eres/edit#gid=268682067).
+- **For profit:** Always use mastery clothes. The extra mastery is more valuable than success rate.
+- **For EXP:**: Use mastery clothes unles you've done the math. You can check which clothes result in more EXP using [this sheet](https://docs.google.com/spreadsheets/d/1Yv9-k7hShtmZ6oPZCmLu8C-eGJLgPkg7wvaIkJ_eres/edit#gid=268682067).
 
 
+## 14. How to level processing?  (Leveling)
 
-(for income, for EXP) -> 90% of the time use mastery clothes -> Maybe just tease this and link to further info
-## 11. what can I process? + what does it go into (cooking, trading, workshops etc.)-> show processing chains
-## 12. How to level processing? + mention early leveleving (flax thread into flax fabric(?)) + explain EXP bug and the strategy (read Groroshi post to prepare)
-see https://discord.com/channels/371035077037129729/371698012793077762/971001520017510461 + maybe give credit
+**Early levels (until artisan)**
+1. Heat flax into flax thread until professional
+2. Grind flax thread into flax fabric until artisan
 
-## 13 Which EXP buffs should I use?
-## 14. How to make money with processing? + how much money is it + my honest opinion on it
-## 15. What about that 3 bil/H recipe on bdolytics?
-Bonus question: : How do I increase my max weight?
+**Artisan+**
+There are a few ways to level processing on a larger scale. I want to highlight one very convenient strategy:
+- **The method:** 1) Buy timber 2) Chop it into planks→plywood→ship repair material (SRM) 3) Vendor the SRM. (4k silver each).
+- **Which timber works?** Any, as of 2022.
+- **Why this works:** timber→planks is 200 EXP. Planks→plywood is 500 EXP. Chopping timber into planks also has a 5% chance to directly proc plywood. When mass processing timber→planks and you proc at least one plywood in the batch (high chance every at lower mastery), the game mistakenly adds the EXP from the plywood proc to the whole batch. That means you get the plank EXP (200) and the plywood EXP (500) for a total of 700 EXP for all crafts in the batch. It's technically a bug but the developers haven't bothered fixing it for years. Full explanation by Goroshi: https://cdn.discordapp.com/attachments/589711952234676224/1022215657368080464/unknown.png
+Therefore:
+- Timber→planks with the bug (same goes for ore→shards): 700 EXP
+- Planks→plywood (same goes for shards→ingots): 500 EXP
+- Plywood→SRM: 1000 EXP.
+- timber→plywood (partial chain): 660 EXP 
+- timber→SRM (full chain): 728 EXP
 
-# Maybe put category of questions in bracket e.g. 'How do I get processing artifacts? (Gear)'
+SRM has two roles in this strategy. It's very high EXP and it can be offloaded by selling it to a vendor.
+- **How much money does it cost?** 540 silver is the break-even point for buying timber. You will slightly profit if you buy timber below that price. But realistically,buying timber above 540 silver will only lose a small amount of money.
 
-!Write blogpost 
+For all your EXP needs, here is a link to [Bearist's Processing EXP Calculator](https://docs.google.com/spreadsheets/d/1KqP9lgTK0bDulLJ_JcILG4tn0iWrh5JkY1WHaitSxHo/edit?usp=sharing).
+
+## 15. How to make money with processing? (Moneymaking)
+The markets with high demand are:
+- plywood / ingots for crates -> these are fairly heavy
+- flour/dough/cheese for cooking -> these are lightweight
+You can check processing profits on [bdolytics](https://bdolytics.com/processing/market). Some processing products have very low demand so I recommend sorting by daily volume.
+If the profits seem very lackluster, you're not doing anything wrong. Processing profits are very low compared to other lifeskills at the time of writing this.
+
+## 16. What about that 3 bil/H recipe on bdolytics? (Moneymaking)
+
+[nichemarket2.png]
+
+This is a screenshot from <https://bdolytics.com/processing/market>.
+Processing is 3 bil? I have to get on that! Where's the catch?
+Processing away from the common market ('niche market processing') has three very prominent problems:
+- Limited demand: In this screenshot, dawn fallen silk would net abour 3 bil/H silver. But it only has 220 units sold a day. In an hour of processing at 2k mastery, you could product 25k dawn fallen silk, that is enough to fully supply the market for almost 2 weeks.
+- Limited supply: Pure mythril crystal is also insanely profitable but there is very limited supply of mythril (ore, shards or ingots).
+- Razor-thin margins. A slight change in input material prices can easily make these recipes go from +3 bil/H to -3 bil/H.
+
+Niche market processing means dealing with these problems:
+- You can address supply problems by pre-ordering items or crafting/gathering them yourself.
+- Increase your profit avenues by crafting and selling multiple items at once to not oversupply the market.
+- Forming product chains can be a good way to secure margins, for example turning metal solvent into pure crystal (where the saved tax on the metal solvent can be difference between turning a profit on the craft or not).
+It also requires frequently listing an re-listing items.
+
+A good way to look at niche market processing is not profit per hour but profit per headache. I used to do niche market processing back in the day but have not bothered with it in years. Make of that what you will :)
+
+## Bonus question (or regular question depending on if I ned another question): How do I increase my max weight?
+
+# When the post is done talk to thell/mods about what to do with processing resources (just link post or re-structure resources / fill in 'mising' info)
