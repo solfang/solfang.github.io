@@ -113,7 +113,7 @@ As you can see, there is no 'easy' way to offload T2 bloods. Next to the bottlen
 
 **The method**: Gather wild herbs at Behr, turn the herbs into Tenacious Origin of Life and turn the fruits into oils
 
-**Liquidation:** Sell the Tenacious Origins of Life to any vendor. Sell the oils on the market or use in further recipes.
+**Liquidation:** Sell the Tenacious Origins of Life to any vendor. Sell the oils on the market or use in further recipes. [Profit Calculator](https://docs.google.com/spreadsheets/d/1mz_NnRBVHC6r6MQqf8abfYaZh547lntqcnkjnwJfXCU/edit?usp=sharing).
 
 **Pro**: great way to level gathering + alchemy while profiting
 
