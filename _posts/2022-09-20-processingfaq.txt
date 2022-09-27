@@ -82,10 +82,11 @@ The process time depends on the item you're procecssing.
 
 ## 7. What can I process? (General)
 The classical processing chains are:
-- Ore (T1) → Melted Shard  (T2) → Ingot (T3) → Pure Crystal (T4). Example: iron ore → melted iron shard → iron ingot → pure iron crystal
-- Timber (T1) → Planks  (T2) → Plywood (T3) → Sturdy Plywood (T4). Example: ash timber → ash plank → ash plywood → sturdy ash plywood
-- Leather (T1) → Hide  (T2) → Fine Hide (T3) → Supreme Hide (T4). Example: rhino hide → tough hide → fine tough hide → supreme rough hide
-- Plume (T1) → Feather  (T2) → Fancy Feather (T3) → Supreme Fancy Feather (T4). Example: Soft kuku bird plume → lightweight plume → fine lightweight plume → supreme lightweight plume 
+- Ore: iron ore (T1) → melted iron shard (T2) → iron ingot (T3) → pure iron crystal (T4)
+- Timber: ash timber (T1) → ash plank (T2) → ash plywood (T3) → sturdy ash plywood (T4)
+- Hide: rhino hide (T1) → tough hide (T2) → fine tough hide (T3) → supreme rough hide
+- Feathers: Soft kuku bird plume (T1) → lightweight plume (T2) → fine lightweight plume (T3) → supreme lightweight plume (T4)
+- Rough ruby (T1) → Gem  (T2) → Resplendent Gem (T3) → Blood Ruby (T4)
 Besides that, there are lots of other recipes. For reference, see <https://bdocodex.com/us/mrecipes/>
 !put first part into a table
 
@@ -105,7 +106,7 @@ You can find the quest via the in-game quest menu in the 'Suggested tab' (1) und
 [Video guide](https://www.youtube.com/watch?v=TvmMImSGl88)
 
 **Skilled knowledge**
-Starting quest:[Processing] Excellent Magnate
+Starting quest: [Processing] Excellent Magnate
 Starting NPC: Villager next to the blacksmith in Keplan (the quest menu will lead you there)
 Requirements: Gathering skilled 10 AND processing skilled 5 AND all 6 pieces of beginner knowledge (shaking, drying, filtering, grinding, heating, chopping) 
 You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Skilled Paradim'. Make sure check the quest requirements (2) and that you have all quests enabled (3).
@@ -165,11 +166,12 @@ Therefore:
 - Timber→planks with the bug (same goes for ore→shards): 700 EXP
 - Planks→plywood (same goes for shards→ingots): 500 EXP
 - Plywood→SRM: 1000 EXP.
-- timber→plywood (partial chain): 660 EXP 
-- timber→SRM (full chain): 728 EXP
+- Timber→plywood (partial chain): 660 EXP 
+- Timber→SRM (full chain): 728 EXP
 
 SRM has two roles in this strategy. It's very high EXP and it can be offloaded by selling it to a vendor.
 - **How much money does it cost?** 540 silver is the break-even point for buying timber. You will slightly profit if you buy timber below that price. But realistically,buying timber above 540 silver will only lose a small amount of money.
+
 
 For all your EXP needs, here is a link to [Bearist's Processing EXP Calculator](https://docs.google.com/spreadsheets/d/1KqP9lgTK0bDulLJ_JcILG4tn0iWrh5JkY1WHaitSxHo/edit?usp=sharing).
 
