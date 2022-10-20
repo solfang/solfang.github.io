@@ -84,74 +84,41 @@ Also note that you can process 10 items at once at the lowest possible mastery b
 
 **Therefore, mass processing is *always at least as good or better than regular processing*.**
 
-| Mastery | Batches |
-|:-------:|:-------:|
-|    2    |    10   |
-|    20   |    11   |
-|    40   |    12   |
-|    60   |    13   |
-|    80   |    14   |
-|   100   |    15   |
-|   120   |    16   |
-|   140   |    17   |
-|   160   |    18   |
-|   180   |    19   |
-|   200   |    20   |
-|   220   |    21   |
-|   240   |    22   |
-|   260   |    23   |
-|   280   |    24   |
-|   300   |    25   |
-|   320   |    26   |
-|   340   |    27   |
-|   360   |    28   |
-|   380   |    29   |
-|   400   |    30   |
-|   420   |    31   |
-|   440   |    32   |
-|   460   |    33   |
-|   480   |    34   |
-|   500   |    35   |
-|   520   |    36   |
-|   540   |    37   |
-|   560   |    38   |
-|   580   |    39   |
-|   600   |    40   |
-|   620   |    41   |
-|   640   |    42   |
-|   660   |    43   |
-|   680   |    45   |
-|   700   |    47   |
-|   720   |    49   |
-|   740   |    51   |
-|   760   |    53   |
-|   780   |    57   |
-|   810   |    60   |
-|   840   |    64   |
-|   870   |    68   |
-|   900   |    72   |
-|   930   |    76   |
-|   960   |    80   |
-|   990   |    85   |
-|   1020  |    90   |
-|   1060  |    96   |
-|   1100  |   112   |
-|   1140  |   118   |
-|   1180  |   124   |
-|   1220  |   130   |
-|   1260  |   137   |
-|   1300  |   144   |
-|   1350  |   154   |
-|   1400  |   162   |
-|   1450  |   170   |
-|   1500  |   178   |
-|   1550  |   186   |
-|   1600  |   194   |
-|   1650  |   203   |
-|   1700  |   212   |
-|   1800  |   222   |
-|   1900  |   235   |
-|   2000  |   250   |
+| Mastery | Batches | Mastery | Batches |
+|:-------:|:-------:|:-------:|:-------:|
+|    2    |    10   |   660   |    43   |
+|    20   |    11   |   680   |    45   |
+|    40   |    12   |   700   |    47   |
+|    60   |    13   |   720   |    49   |
+|    80   |    14   |   740   |    51   |
+|   100   |    15   |   760   |    53   |
+|   120   |    16   |   780   |    57   |
+|   140   |    17   |   810   |    60   |
+|   160   |    18   |   840   |    64   |
+|   180   |    19   |   870   |    68   |
+|   200   |    20   |   900   |    72   |
+|   220   |    21   |   930   |    76   |
+|   240   |    22   |   960   |    80   |
+|   260   |    23   |   990   |    85   |
+|   280   |    24   |   1020  |    90   |
+|   300   |    25   |   1060  |    96   |
+|   320   |    26   |   1100  |   112   |
+|   340   |    27   |   1140  |   118   |
+|   360   |    28   |   1180  |   124   |
+|   380   |    29   |   1220  |   130   |
+|   400   |    30   |   1260  |   137   |
+|   420   |    31   |   1300  |   144   |
+|   440   |    32   |   1350  |   154   |
+|   460   |    33   |   1400  |   162   |
+|   480   |    34   |   1450  |   170   |
+|   500   |    35   |   1500  |   178   |
+|   520   |    36   |   1550  |   186   |
+|   540   |    37   |   1600  |   194   |
+|   560   |    38   |   1650  |   203   |
+|   580   |    39   |   1700  |   212   |
+|   600   |    40   |   1800  |   222   |
+|   620   |    41   |   1900  |   235   |
+|   640   |    42   |   2000  |   250   |
 
 Table: mastery brackets and mass processing batches. Note that processing mastery brackets are not evenly spaced out every 50 mastery like in other lifeskills but they vary from 20 to 100 mastery.
 
@@ -193,9 +160,9 @@ One caveat: A certain processing level is required for some recipes to cap out t
 | Gem (T2)                                 | Ruby                      | Grinding       |     1-4    |    2.5   |    Artisan 1   | 500/1000 |   9/80  | -                   |
 | Resplendent Gem (T3)                     | Resplendent Ruby          | Grinding       |     1-3    |     2    |    Skilled 1   |   1000   |   9/80  | Grinding: Beginner  |
 | Special Gem (T4)                         | Blood Ruby                | Shaking        |     1-2    |    1.5   |  Apprentice 1  |   2000   |   6/80  |   Shaking: Skilled  |
-| Usable Scantling (T2)                         |                           | Chopping       |     1-4    |    2.5   |    Artisan 6   | 500/1000 |   6/60  | -                   |
-| Standardized Timber Square (T3)               |                           | Chopping       |     1-3    |     2    | Professional 6 |   1000   |   6/60  | Chopping: Beginner   |
-| Sturdy Timber Square (T4)                    |                           | Heating        |     1-3    |     2    |    Artisan 1   |   1500   |   6/60  | Heating. Skilled    |
+| Usable Scantling (T2)                    |                           | Chopping       |     1-4    |    2.5   |    Artisan 6   | 500/1000 |   6/60  | -                   |
+| Standardized Timber Square (T3)          |                           | Chopping       |     1-3    |     2    | Professional 6 |   1000   |   6/60  | Chopping: Beginner   |
+| Sturdy Timber Square (T4)                |                           | Heating        |     1-3    |     2    |    Artisan 1   |   1500   |   6/60  | Heating. Skilled    |
 | Cream                                    |                           | Shaking        |     1-4    |    2.5   |    Skilled 1   |    150   |   6/60  | -                   |
 | Butter                                   |                           | Shaking        |     1-4    |    2.5   |    Skilled 1   |    150   |   6/60  | -                   |
 | Cheese                                   |                           | Drying         |     1-4    |    2.5   |    Skilled 1   |    300   |   9/60  | -                   |
@@ -213,9 +180,8 @@ One caveat: A certain processing level is required for some recipes to cap out t
 | Party Elixirs                            | [Party] Defense Elixir    | Simple Alchemy |     1-2    |    1.8   |   Beginner 1   |     0    |    6    | -                   |
 | Blue Elixirs                             | Elixir of Steel Defense   | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    6    |  -                  |
 | Black Gem                                |                           | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    9    |  -                  |
-| Concentrated Magical Black Gem                   |                           | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    9    |  -                  |
+| Concentrated Magical Black Gem           |                           | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    9    |  -                  |
 | Caphras Stone                            |                           | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    6    |  -                  |
-
 
 **Notes about the table**
 
@@ -235,7 +201,8 @@ The example below shows that you need [Art6+](https://cdn.discordapp.com/attachm
 
 The processing time depends on the item you're procecssing and of course on whether you use regular or mass processing,
 
-I listed the processing times of common items in the table above. A processing time of 6/60 reads: regular processing takes 6 seconds, mass processing takes 60 seonds.
+I listed the processing times of common items in the [table](#info-on-common-processing-recipes) above. A processing time of 6/60 reads: regular processing takes 6 seconds, mass processing takes 60 seonds.
+
 
 Most recipes take 6/60 or 9/90 seconds but there are some obscurities, like zinc, brass and bronze taking 80 seconds when mass processed. Don't ask me why :)
 
@@ -246,7 +213,7 @@ The main demand for processing products comes from three areas of the game:
 - **Cooking**: flour, dough, cheese, cream, butter
 - **Workshops** (furniture, ships, fishing rods etc.): T4 plywood/metals/hides/feathers/gems
 
-Also check out the table above for common recipes.
+Also check out the [table](#info-on-common-processing-recipes above for common recipes.
 
 [bdolytics](https://bdolytics.com/processing/market) features a list of processing recipes.
 
@@ -283,7 +250,7 @@ You can get the knowledge entries through a quest chain.
 
 # Gear
 
-## 11. What gear do I need for processing?
+## 11. What gear do I need?
 You technically don't need any gear to process. Though gear massively helps with processing by giving you the ability to mass process, increase mastery and success rate:
 
 - <!-- db_item-768088-0 --> / <!-- db_item-/768087-0 --> / <!-- db_item-768086-0 -->: mastery (there used to be one stone for each processing type but they were merged into a single stone)
@@ -292,7 +259,7 @@ You technically don't need any gear to process. Though gear massively helps with
 - Artifacts: <!-- db_item-735372-0 --> (10 mastery) / <!-- db_item-735354-0 --> (5% success rate) / <!-- db_item-735361-0 --> (5% EXP)
 - Lightstones: <img width="700" src="/files/processing_faq/clangclang.png">
 
-In terms of clothes and processing stone just get whatever your budget allows and what you need to reach sufficient processing mastery (see question 6).
+In terms of clothes and processing stone just get whatever your budget allows and what you need to reach sufficient processing mastery [question 6](#6-how-much-processing-mastery-do-i-need).
 
 ## 12. How do I get processing artifacts?
 You can get them by handing in imperial cooking boxes. Processing artifacts drop from imperial cooking turn-ins, together with cooking artifacts. The chance to get an artifact is quite low (expect one maybe every 5-10 turn-ins) so it might take a while until you get the artifact you want.
