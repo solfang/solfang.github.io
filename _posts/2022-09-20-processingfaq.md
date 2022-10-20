@@ -29,7 +29,7 @@ After a few seconds, one of three things will happen:
 2) The message `Processing is not going as planned` appears → Your character will re-try the craft and no materials are lost.
 3) The message `It is not working at all` appears → That means you input the wrong items and no materials are lost either. You can find the correct recipe to craft an item via the in-game crafting nodes (F2→Crafting notes)  or [bdolytics](https://bdolytics.com/).
 
-<img width="300" src="/files/processing_faq/process_outcomes.jpg">
+<img width="450" src="/files/processing_faq/process_outcomes.jpg">
 
 ## 2. How can I stop processing from failing?
 
@@ -131,6 +131,12 @@ So here's my advice: Get your processing mastery to a point where you will barel
 
 ## 7. How many items does a craft yield and what affects it?
 
+### Craft yield
+
+Most recipes yield 1-4 items (2.5 on average). Exceptions to that tend to occur for high-tier recipes like T4 crafts as well as simple alchemy/processing, manufacturing etc., where recipes tend to yield 1 item per craft. 
+The [table](#info-on-common-processing-recipes) below includes proc rates as well as other info for common processing recipes.
+You can also check proc rates by going to a [specific recipe](https://bdolytics.com/en/EU/processing/market/4651) on bdolytics.
+
 ### What affects the proc rate?
 **Proc rate is fixed and neither affected by mastery nor by whether you're regular or mass processing. 
 One caveat: A certain processing level is required for some recipes to cap out the proc rate:**
@@ -227,7 +233,7 @@ You can get the knowledge entries through a quest chain.
 - **Requirements**: apprentice 4 gathering OR have completed [[Processing] In Search of Higher Processing Knowledge...](https://bdolytics.com/en/NA/db/quest/2100/22)
 - You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Training Paradigm'. Make sure that you fulfill the quest requirements (2) and have all quests enabled (3).
 
-<img width="700" src="/files/processing_faq/questbeginner2.png">
+<img width="1000" src="/files/processing_faq/questbeginner2.png">
 
 [Video guide](https://www.youtube.com/watch?v=TvmMImSGl88)
 
@@ -236,9 +242,6 @@ You can get the knowledge entries through a quest chain.
 - **Starting NPC**: Villager next to the blacksmith in Keplan (the waypoint button in the quest menu will lead you there)
 - **Requirements**: Gathering skilled 10 AND processing skilled 5 AND all 6 pieces of beginner knowledge (shaking, drying, filtering, grinding, heating, chopping) 
 - You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Skilled Paradim'. Make sure that you fulfill the quest requirements (2) and have all quests enabled (3). 
-
-
-<img width="700" src="/files/processing_faq/questskilled2.png">
 
 [Video guide](https://youtu.be/TvmMImSGl88?t=168)
 
@@ -283,7 +286,7 @@ Mastery clothes and silver embroidered (SE) processing clothes have different be
 - **Mastery clothes**: increase processing mastery, which boosts the number of batches you can process at once, effectively letting you process at a faster rate.
 - **SE clothes**: give processing EXP and increase the processing success rate, which also lets you process at a faster rate. Though you won't see any benefit if you success rate is already at 100%. It's very easy to reach 100% success rate with mastery clothes, for example base (67%) + seafood cron meal (10%) + 1 artifact (5%) + verdure draught (20%). In practice, the success rate is only useful when you don't have all buffs running.
 
-<img width="700" src="/files/processing_faq/clothes_collage.png">
+<img width="600" src="/files/processing_faq/clothes_collage.png">
 
 Therefore:
 - **For profit:** Always use mastery clothes. The extra mastery brackets are more valuable than success rate 99% of the time.
