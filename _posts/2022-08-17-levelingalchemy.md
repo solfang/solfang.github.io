@@ -21,7 +21,9 @@ Last updated: 08.09.2022
 - <img src="/images/icons/ash_sap.png" height="30"> **Saps**: gathering (sapping) / pre-order
 - <img src="/images/icons/purified_water.png" height="30"> **Purified Water**: general goods vendor at Sandgrain Bazaar (5k silver)
 - <img src="/images/icons/sunrise_herb.png" height="30"> **Herbs**: gathering / market / herb vendors, e.g. Nieves in Calpheon (500-575 silver)
-- <img src="/images/icons/mushroom.png" height="30"> **Mushrooms**: farming/ market / mushroom vendor Brandio in Calpheon (950-1k silver)
+- <img src="/images/icons/mushroom.png" height="30"> **Mushrooms**: farming/ market / mushroom vendor Brandio in Calpheon (he doesn't have all mushrooms!)
+
+<img align="left" src="/files/levelingalchemy/mushroomvendor.png">
 
 ## How to Get Utensils
 
