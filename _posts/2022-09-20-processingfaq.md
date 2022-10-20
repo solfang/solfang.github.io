@@ -241,13 +241,13 @@ If you are not processing for a specific purpose and just want to make silver, c
 #TODO: adapt reference number
 
 ## 10. Why can't I chop plyoowd / heat pure crystals?
-You are missing knowledge.
+**You are missing knowledge.**
 
 To chop planks into plywood (t4) you need `chopping: beginner`, to chop plywood into sturdy plywood (T4) you need `heating: skilled`. Similarly for metal, hides, feathers and gemstones.
 You can get the knowledge entries through a quest chain. 
 
 ### Beginner knowledge
-- Starting quest: [[Processing] Learning Higher Processing Skills](https://bdocodex.com/us/quest/2100/28/)
+- Starting quest: [[Processing] Learning Higher Processing Skills](https://bdolytics.com/en/NA/db/quest/2100/28)
 - Starting NPC: Ficy in Heidel
 - Requirements: apprentice 4 gathering 
 - You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Training Paradigm'. Make sure that you fulfill the quest requirements (2) and have all quests enabled (3).
@@ -257,7 +257,7 @@ You can get the knowledge entries through a quest chain.
 [Video guide](https://www.youtube.com/watch?v=TvmMImSGl88)
 
 ### Skilled knowledge
-- Starting quest: [Processing] Excellent Magnate
+- Starting quest: [[Processing] Excellent Magnate](https://bdolytics.com/en/NA/db/quest/3208/1)
 - Starting NPC: Villager next to the blacksmith in Keplan (the waypoint button in the quest menu will lead you there)
 - Requirements: Gathering skilled 10 AND processing skilled 5 AND all 6 pieces of beginner knowledge (shaking, drying, filtering, grinding, heating, chopping) 
 - You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Skilled Paradim'. Make sure that you fulfill the quest requirements (2) and have all quests enabled (3). 
