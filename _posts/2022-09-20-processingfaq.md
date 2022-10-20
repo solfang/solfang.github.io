@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BDO - Processing Helpdesk 18 questions 18 answers
+title: BDO - Processing FAQ - 20 commonly asked questions answered
 published: true
 tags: BDO
 ---
@@ -29,7 +29,7 @@ After a few seconds, one of three things will happen:
 2) The message `Processing is not going as planned.` appears → Your character will re-try the craft (no materials are lost).
 3) The message `It is not working at all.` appears → You input the wrong items (no materials are lost). the correct recipe to craft an item can usually be found in the item description of the input items or the produced item.
 
-<img align="left" src="/files/processing_faq/process_outcomes.jpg">
+<img width="300" src="/files/processing_faq/process_outcomes.jpg">
 
 ## 2. How can I stop processing from failing?
 
@@ -74,7 +74,6 @@ That means mass processing is *always at least as good or better than regular pr
 
 | Mastery | Batches |
 |:-------:|:-------:|
-
 |    2    |    10   |
 |    20   |    11   |
 |    40   |    12   |
@@ -151,7 +150,7 @@ Having higher processing mastery lets you process items at a faster rate. But yo
 
 # Recipes, Proc Rates and Process Times
 
-## 6. How many items does a craft yield and what affects it?
+## 7. How many items does a craft yield and what affects it?
 
 ### What affects the proc rate?
 There are a few aspect:
@@ -202,10 +201,15 @@ There are a few aspect:
 | Caphras Stone                            |                           | Simple Alchemy |      1     |     1    |   Beginner 6   |     0    |    6    |                     |
 
 Table: Average procs and level required for common processing recipes. To keep this list short I included only common recipes.
+
 Level Req: Level required to gain the maximum proc rate
+
 EXP: Processing EXP. when two values are shown, the first one indicates the regular proc (e.g. ash plank) and the second one the rare proc (e.g. ash plywood)
+
 Time: regular processing / mass processing time in seconds
+
 \* Metal times: Zinc, Brass, Bronze: 6/60 |  Gold, Plat, Silver, Mythril: 9/80 | Others: 9/90
+
 Source for the data: Daz' sheets, Bdocodex, bdolytics, in-game testing for the times
 
 # TODO: proofread this table
@@ -216,14 +220,14 @@ Since the table does not include all items, here's how to look up this info your
 The example below shows that you need Art6+ to get max procs on ash [ash plank processing](https://cdn.discordapp.com/attachments/589711952234676224/704016039742013460/unknown.png): https://bdocodex.com/us/mrecipe/585/ -  
 (note: the last bracket seems to be missing in the current version of bdocodex)
 
-## 7. How long does it take to process materials?
+## 8. How long does it take to process materials?
 
 The process time depends on the item you're procecssing and of course on whether you use regular or mass processing, which takes 10x longer than regular processing.
 I listed the processing times of common items in the table above. A processing time of 6/60 reads: regular processing takes 6 seconds, mass processing takes 60 seonds.
 Most recipes take 6/60 or 9/90 seconds but there are some obscurities, like zinc, brass and bronze taking 80 seconds when mass processed. Don't ask me why :)
 I've personally tested the processing times in the table as we don't have access to the processing times via the game files. 
 
-## 8. What can I process?
+## 9. What can I process?
 
 The main demand for processing products comes from three areas of the game:
 - trading: plywoods and ingots
@@ -235,31 +239,30 @@ Also check out the table above for common recipes.
 If you are not processing for a specific purpose and just want to make silver, check out question !TODO where I got more into detail on moneymaking.
 #TODO: adapt reference number
 
-## 9. Why can't I chop plyoowd / heat pure crystals?
+## 10. Why can't I chop plyoowd / heat pure crystals?
 You are missing knowledge.
 
-To chop planks into plywood (t4) you need `chopping: beginner`, to chop plywood into sturdy plywood (T4) you need `heating: skilled`. The same goes for the T3 and T4 recipes of metal, hides, feathers and gemstones.
+To chop planks into plywood (t4) you need `chopping: beginner`, to chop plywood into sturdy plywood (T4) you need `heating: skilled`. You'll need the corresponding knowledge for the T3 and T4 recipes of metal, hides, feathers and gemstones.
 You can get the knowledge entries through a quest chain. 
 
 ### Beginner knowledge
-Starting quest: [[Processing] Learning Higher Processing Skills](https://bdocodex.com/us/quest/2100/28/)
-Starting NPC: Ficy in Heidel
-Requirements: apprentice 4 gathering 
-You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Training Paradigm'. 
-*Note: Make sure that you fulfill the quest requirements (2) and have all quests enabled (3).*
+- Starting quest: [[Processing] Learning Higher Processing Skills](https://bdocodex.com/us/quest/2100/28/)
+- Starting NPC: Ficy in Heidel
+- Requirements: apprentice 4 gathering 
+- You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Training Paradigm'. Make sure that you fulfill the quest requirements (2) and have all quests enabled (3).
 
-<img align="left" src="/files/processing_faq/questbeginner2.png">
+<img width="400" src="/files/processing_faq/questbeginner2.png">
 
 [Video guide](https://www.youtube.com/watch?v=TvmMImSGl88)
 
 ### Skilled knowledge
-Starting quest: [Processing] Excellent Magnate
-Starting NPC: Villager next to the blacksmith in Keplan (the waypoint button in the quest menu will lead you there)
-Requirements: Gathering skilled 10 AND processing skilled 5 AND all 6 pieces of beginner knowledge (shaking, drying, filtering, grinding, heating, chopping) 
-You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Skilled Paradim'. 
-*Note: Make sure that you fulfill the quest requirements (2) and have all quests enabled (3).*
+- Starting quest: [Processing] Excellent Magnate
+- Starting NPC: Villager next to the blacksmith in Keplan (the waypoint button in the quest menu will lead you there)
+- Requirements: Gathering skilled 10 AND processing skilled 5 AND all 6 pieces of beginner knowledge (shaking, drying, filtering, grinding, heating, chopping) 
+- You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Skilled Paradim'. Make sure that you fulfill the quest requirements (2) and have all quests enabled (3). 
 
-<img align="left" src="/files/processing_faq/questskilled2.png">
+
+<img width="400" src="/files/processing_faq/questskilled2.png">
 
 [Video guide](https://youtu.be/TvmMImSGl88?t=168)
 
@@ -267,26 +270,24 @@ You can find the quest via the in-game quest menu in the 'Suggested tab' (1) und
 
 # Gear
 
-## 10. What gear do I need for processing?
+## 11. What gear do I need for processing?
 You technically don't need any gear to process. Though gear massively helps with processing by giving you the ability to mass process, increase mastery and success rate:
 
 - <!-- db_item-768088-0 --> / <!-- db_item-/768087-0 --> / <!-- db_item-768086-0 -->: mastery (there used to be one stone for each processing type but they were merged into a single stone)
 - <!-- db_item-705514-0 --> / <!-- db_item-705516-0 --> / <!-- db_item-705518-0 -->: mastery / Silver embroidered clothes: processing EXP and success rate
 - <!-- db_item-705503-0 --> / <!-- db_item-705507-0 --> / <!-- db_item-705511-0 -->: mastery
 - Artifacts: <!-- db_item-735372-0 --> (10 mastery) / <!-- db_item-735354-0 --> (5% success rate) / <!-- db_item-735361-0 --> (5% EXP)
-- Lightstones: <img align="left" src="/files/processing_faq/clangclang.png">
+- Lightstones: <img width="400" src="/files/processing_faq/clangclang.png">
 
 In terms of clothes and processing stone just get whatever your budget allows and what you need to reach sufficient processing mastery (see question 6).
 
-## 11. How do I get processing artifacts?
+## 12. How do I get processing artifacts?
 You can get them by handing in imperial cooking boxes. Processing artifacts drop from imperial cooking turn-ins, together with cooking artifacts. The chance to get an artifact is quite low (expect one maybe every 5-10 turn-ins) so it might take a while until you get the artifact you want.
 You don't need to worry about having perfect artifacts though. While working on getting processing artifacts, you can still go for a lightstone set by using general-purpose artifacts like <!-- db_item-735351-0 -->  or <!-- db_item-735352-0 --> as placeholders. Once you get the processing artifacts, you can then extract the lightstones at a blacksmith with a lightstone extraction tool.
 
-## 12. Do I need the pearl shop costume (Venecil Dress/Karki Suit)?
+## 13. Do I need the pearl shop costume (Venecil Dress/Karki Suit)?
 
 <!-- db_item-603044-0 --> and <!-- db_item-560024-0 --> can only be bought from the pearl shop, give 3% success rate and will let you process from storage. Note that you can only process from storage keepers, not storage containers.
-
-<img align="left" src="/files/processing_faq/venecilbutton.png">
 
 When using a processing costume, the processed materials will go into your character's inventory. That means your character will only stop processing once you go overweight. 
 Effectively, the processing costume lets you stay afk for longer (~2 times longer as without the costume) before refreshing your processing. BUT the processing costume will not increase your afk time on some recipes where the output materials are heavier than the input, like  four, dough, cream, butter and cheese.
@@ -294,7 +295,7 @@ Effectively, the processing costume lets you stay afk for longer (~2 times longe
 In the end, the processing costume is purely a convenience item.
 It's up to you to decide whether the convenience of being able to stay afk for longer is worth spending pearls on.
 
-## 13. Should I use mastery or silver embroidered clothes? 
+## 14. Should I use mastery or silver embroidered clothes? 
 
 TLDR: Just use mastery clothes :)
 
@@ -310,7 +311,7 @@ Therefore:
 
 # Leveling and Moneymaking
 
-## 14. How to level processing?
+## 15. How to level processing?
 
 ### Beginner to Professional
 *Heat* <!-- db_item-5802-0 --> into <!-- db_item-5852-0 -->
@@ -347,7 +348,7 @@ The EXP bug is not specific to timber, it applies to all materials with a direct
 
 For all your EXP needs, here is a link to [Bearist's Processing EXP Calculator](https://docs.google.com/spreadsheets/d/1KqP9lgTK0bDulLJ_JcILG4tn0iWrh5JkY1WHaitSxHo/edit?usp=sharing).
 
-## 15. Which EXP buffs can I run while leveling processing?
+## 16. Which EXP buffs can I run while leveling processing?
 
 Decide based on which buffs you have access to and which buffs are reasonable to use.
 
@@ -384,7 +385,7 @@ Decide based on which buffs you have access to and which buffs are reasonable to
 
 Table: EXP buffs as of October 2022
 
-## 15. How to make money with processing?
+## 17. How to make money with processing?
 
 Processing has two main marktets:
 - Crate materials: plywood and ingots
@@ -396,9 +397,9 @@ You can check processing profits on [bdolytics](https://bdolytics.com/processing
 
 **Pro tip**: Do yourself a favor and sort by `Daily Volume`. If you sort by `Silver/Hour`, you'll get a best-off parade of all items with exceptional profit but extreme downsides/bottlenecks, which require special attention (see the next question).
 
-## 16. What about that 3 bil/H recipe on bdolytics?
+## 18. What about that 3 bil/H recipe on bdolytics?
 
-<img align="left" src="/files/processing_faq/nichemarket2.png">
+<img width="300" src="/files/processing_faq/nichemarket2.png">
 
 This is a screenshot from <https://bdolytics.com/processing/market>.
 
@@ -425,11 +426,11 @@ That's why I tend to look at niche market processing not as `profit per hour` bu
 
 # Other
 
-## 17 Help, I can't equip a processing stone on my season character D:
+## 19. Help, I can't equip a processing stone on my season character D:
 
 Tough luck. We can only hope that PA fixes this in the future.
 
-## 18 How do I increase my weight for processing?
+## 20. How do I increase my weight for processing?
 
 - Pearl shop and loyalty weight
 - <!-- db_item-9691-0 -->: 100 LT / <!-- db_item-9642-0 -->: 300 LT
