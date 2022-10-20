@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BDO - Processing Helpdesk: 18 questions, 18 answers
-published: false
+published: true
 tags: BDO
 ---
 
