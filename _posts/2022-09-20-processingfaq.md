@@ -5,8 +5,11 @@ published: false
 tags: BDO
 ---
 
+# TODO: simplify wordy sentences into only key ideas, especially in bullet points
 # TODO: grammarly + proofread
+# note: guide looks like it's lacking images. Try to imagien what it will look like when bdolytics icons are in and where an image is needed
 # TODO: re-do numbering based on added questions and adapt title
+# Clear todos in text
 Heya, I'm Summer and I made this post to answer commonly asked questions about processing.
 It's essentially a processing guide but this format is a bit nicer to `ctrl+f` in case you are looking for a specific topic.
 
@@ -146,17 +149,18 @@ Table: mastery brackets and mass processing batches
 ## 6. How much processing mastery do I need for processing?
 
 In other lifskills, more mastery is always better. This applies to processing only to some extent.
-Having higher processing mastery lets you process items at a faster rate. But you are still limited by weight. That means if your processing mastery is suffiently high, your character will run out of weight before you check back on your processing.  Increasing processing mastery further won't change that. So here's my advice: Get your processing mastery to a point where you barely run out of weight whenever you check back on your processing (on whateve recipe you commonly process).
+Having higher processing mastery lets you process items at a faster rate. But you are still limited by weight. That means if your processing mastery is suffiently high, your character will run out of weight before you check back on your processing.  Increasing processing mastery further won't change that. 
+
+So here's my advice: Get your processing mastery to a point where you barely run out of weight whenever you check back on your processing (on whateve recipe you commonly process).
 
 # Recipes, Proc Rates and Process Times
 
 ## 7. How many items does a craft yield and what affects it?
 
 ### What affects the proc rate?
-There are a few aspect:
-- The following processing types have fixed rates and are not affected by processing level:  Simple alchemy, simple cooking, imperial cuisine, imperial alchemy, guild processing, manufacturing.
-- Other recipes *cap out at a certain processing level*. For example, timber caps out at artisan 6 and ore at master 1. You can look up the maximum required level on bdocodex on the same page where you would look up the proc rate. Once you're master 1, you'll have the maximum proc rate on 99% of items (one exception I know of are jade coral ingots which require guru 1).
-- **Proc rate is neither affected by mastery nor by whether you're regular or mass processing.**
+**Proc rate is neither affected by mastery nor by whether you're regular or mass processing. A certain processing level is required for some recipes to cap out the proc rate.**
+- *Shaking, grinding, chopping, drying, filtering, heating* cap out at a certain processing level. For example, timber caps out at artisan 6 and ore at master 1. Once you're master 1, you'll have the maximum proc rate on 99% of items (one exception I know of are jade coral ingots which require guru 1).
+- *Simple alchemy, simple cooking, imperial cuisine, imperial alchemy, guild processing, manufacturing*: Have fixed rates and are not affected by processing level:  
 
 ### Info on common processing recipes
 
@@ -202,15 +206,13 @@ There are a few aspect:
 
 Table: Average procs and level required for common processing recipes. To keep this list short I included only common recipes.
 
-Level Req: Level required to gain the maximum proc rate
+**Notes about the table**
 
-EXP: Processing EXP. when two values are shown, the first one indicates the regular proc (e.g. ash plank) and the second one the rare proc (e.g. ash plywood)
-
-Time: regular processing / mass processing time in seconds
-
-\* Metal times: Zinc, Brass, Bronze: 6/60 |  Gold, Plat, Silver, Mythril: 9/80 | Others: 9/90
-
-Source for the data: Daz' sheets, Bdocodex, bdolytics, in-game testing for the times
+- Level Req: Level required to gain the maximum proc rate
+- EXP: Processing EXP. when two values are shown, the first one indicates the regular proc (e.g. ash plank) and the second one the rare proc (e.g. ash plywood)
+- Time: regular processing / mass processing time in seconds
+- \* Metal times: Zinc, Brass, Bronze: 6/60 |  Gold, Plat, Silver, Mythril: 9/80 | Others: 9/90
+- Source for the data: Daz' sheets, Bdocodex, bdolytics, in-game testing for the times
 
 # TODO: proofread this table
 
@@ -225,7 +227,6 @@ The example below shows that you need Art6+ to get max procs on ash [ash plank p
 The process time depends on the item you're procecssing and of course on whether you use regular or mass processing, which takes 10x longer than regular processing.
 I listed the processing times of common items in the table above. A processing time of 6/60 reads: regular processing takes 6 seconds, mass processing takes 60 seonds.
 Most recipes take 6/60 or 9/90 seconds but there are some obscurities, like zinc, brass and bronze taking 80 seconds when mass processed. Don't ask me why :)
-I've personally tested the processing times in the table as we don't have access to the processing times via the game files. 
 
 ## 9. What can I process?
 
@@ -242,7 +243,7 @@ If you are not processing for a specific purpose and just want to make silver, c
 ## 10. Why can't I chop plyoowd / heat pure crystals?
 You are missing knowledge.
 
-To chop planks into plywood (t4) you need `chopping: beginner`, to chop plywood into sturdy plywood (T4) you need `heating: skilled`. You'll need the corresponding knowledge for the T3 and T4 recipes of metal, hides, feathers and gemstones.
+To chop planks into plywood (t4) you need `chopping: beginner`, to chop plywood into sturdy plywood (T4) you need `heating: skilled`. Similarly for metal, hides, feathers and gemstones.
 You can get the knowledge entries through a quest chain. 
 
 ### Beginner knowledge
@@ -251,7 +252,7 @@ You can get the knowledge entries through a quest chain.
 - Requirements: apprentice 4 gathering 
 - You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Training Paradigm'. Make sure that you fulfill the quest requirements (2) and have all quests enabled (3).
 
-<img width="400" src="/files/processing_faq/questbeginner2.png">
+<img width="700" src="/files/processing_faq/questbeginner2.png">
 
 [Video guide](https://www.youtube.com/watch?v=TvmMImSGl88)
 
@@ -262,7 +263,7 @@ You can get the knowledge entries through a quest chain.
 - You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Skilled Paradim'. Make sure that you fulfill the quest requirements (2) and have all quests enabled (3). 
 
 
-<img width="400" src="/files/processing_faq/questskilled2.png">
+<img width="700" src="/files/processing_faq/questskilled2.png">
 
 [Video guide](https://youtu.be/TvmMImSGl88?t=168)
 
@@ -277,7 +278,7 @@ You technically don't need any gear to process. Though gear massively helps with
 - <!-- db_item-705514-0 --> / <!-- db_item-705516-0 --> / <!-- db_item-705518-0 -->: mastery / Silver embroidered clothes: processing EXP and success rate
 - <!-- db_item-705503-0 --> / <!-- db_item-705507-0 --> / <!-- db_item-705511-0 -->: mastery
 - Artifacts: <!-- db_item-735372-0 --> (10 mastery) / <!-- db_item-735354-0 --> (5% success rate) / <!-- db_item-735361-0 --> (5% EXP)
-- Lightstones: <img width="400" src="/files/processing_faq/clangclang.png">
+- Lightstones: <img width="700" src="/files/processing_faq/clangclang.png">
 
 In terms of clothes and processing stone just get whatever your budget allows and what you need to reach sufficient processing mastery (see question 6).
 
@@ -297,13 +298,13 @@ It's up to you to decide whether the convenience of being able to stay afk for l
 
 ## 14. Should I use mastery or silver embroidered clothes? 
 
-TLDR: Just use mastery clothes :)
+**TLDR: Just use mastery clothes :)**
 
 Mastery clothes and silver embroidered (SE) processing clothes have different beenfits:
 - Mastery clothes increase processing mastery, which boosts the number of batches you can process at once, effectively letting you process at a faster rate.
 - SE clothes give procesing EXP and increase the processing success rate, which also lets you process at a faster rate. Though you won't see any benefit if you success rate is already at 100%. It's very easy to reach 100% success rate with mastery clothes, for example base (67%) + seafood cron meal (10%) + 1 artifact (5%) + verdure draught (20%). That means in practice, the success rate is only useful when you don't have all buffs running.
 
-<img align="left" src="/files/processing_faq/clothes_collage.png">
+<img <img width="700" src="/files/processing_faq/clothes_collage.png">
 
 Therefore:
 - **For profit:** Always use mastery clothes. The extra mastery brackets are more valuable than success rate 99% of the time.
@@ -317,7 +318,7 @@ Therefore:
 *Heat* <!-- db_item-5802-0 --> into <!-- db_item-5852-0 -->
 
 ### Professional to Artisan
-*Grind* <!-- db_item-5852-0 -->d into <!-- db_item-5856-0 -->
+*Grind* <!-- db_item-5852-0 --> into <!-- db_item-5856-0 -->
 
 ### Artisan+ (to guru 50 if you want)
 There are a few ways to level processing on a larger scale. One of these has becomethe 'go-to' method for leveling processing because it's effective, fairly straightforward and doesn't require selling materials on the market.
@@ -325,9 +326,9 @@ You may have already heard about it as the 'timber' or 'ship repair material' me
 
 **The method:** 
 
-1) Buy any cheap timber
-2) Chop timber→planks→plywood→ship repair material (SRM) 
-3) Sell the SRM to any NPC (vendors for 4k silver each)
+1. Buy any cheap timber
+2. Chop timber→planks→plywood→ship repair material (SRM) 
+3. Sell the SRM to any NPC (vendors for 4k silver each)
  
 **Why this works:** 
 
@@ -342,9 +343,13 @@ This leads to the following effective EXP rates:
 
 The EXP bug is not specific to timber, it applies to all materials with a direct T3 proc on T1→T2 recipes, like ore, feathers and hide. It does *not* work for fabrics because the processing type switches from T1→T2 (heating) and T2→T3 (grinding) which means T1→T2 can not proc T3 materials.
 
-**How much money does it cost?** You can break even on the costs when buying timber below 540 silver. But I wouldn't stress too much about the price. Timber bought below 1000 silver will lose you 'only' ~5-20 mil/H depending on your mastery.
+**How much money does it cost?** 
 
-**Can I level processing while profiting by processing?** You sure can. Consider processing ore into ingots and timber into plywood, which will be slightly less EXP/H than the timber→SRM route but can be profitable depending on market prices. You can check <https://bdolytics.com/processing/market> for processing profits.
+You can break even on the costs when buying timber below 540 silver. But I wouldn't stress too much about the price. Timber bought below 1000 silver will lose you 'only' ~5-20 mil/H depending on your mastery.
+
+**Can I level processing while profiting** 
+
+You sure can. Consider processing ore into ingots and timber into plywood, which will be slightly less EXP/H than the timber→SRM route but can be profitable depending on market prices. You can check <https://bdolytics.com/processing/market> for processing profits.
 
 For all your EXP needs, here is a link to [Bearist's Processing EXP Calculator](https://docs.google.com/spreadsheets/d/1KqP9lgTK0bDulLJ_JcILG4tn0iWrh5JkY1WHaitSxHo/edit?usp=sharing).
 
