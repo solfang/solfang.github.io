@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BDO - Processing Helpdesk: 18 questions, 18 answers
+title: BDO - Processing Helpdesk 18 questions 18 answers
 published: true
 tags: BDO
 ---
@@ -20,7 +20,7 @@ Enjoy :)
 3. Input the materials
 4. Press 'Start' or 'Mass Process' (more on mass processing in question 5)
 
-<video muted autoplay controls>
+<video width="640" height="360" muted autoplay controls>
     <source src="/files/processing_faq/howtoprocess.mp4" type="video/mp4">
 </video>
 
@@ -29,7 +29,7 @@ After a few seconds, one of three things will happen:
 2) The message `Processing is not going as planned.` appears → Your character will re-try the craft (no materials are lost).
 3) The message `It is not working at all.` appears → You input the wrong items (no materials are lost). the correct recipe to craft an item can usually be found in the item description of the input items or the produced item.
 
-[](/files/processing_faq/process_outcomes.jpg)
+<img align="left" src="/files/processing_faq/process_outcomes.jpg">
 
 ## 2. How can I stop processing from failing?
 
@@ -74,6 +74,7 @@ That means mass processing is *always at least as good or better than regular pr
 
 | Mastery | Batches |
 |:-------:|:-------:|
+
 |    2    |    10   |
 |    20   |    11   |
 |    40   |    12   |
@@ -140,6 +141,7 @@ That means mass processing is *always at least as good or better than regular pr
 |   1800  |   222   |
 |   1900  |   235   |
 |   2000  |   250   |
+
 Table: mastery brackets and mass processing batches
 
 ## 6. How much processing mastery do I need for processing?
@@ -198,11 +200,12 @@ There are a few aspect:
 | Black Gem                                |                           | Simple Alchemy |      1     |     1    |   Beginner 4   |     0    |    9    |                     |
 | Concentrated Black Gem                   |                           | Simple Alchemy |      1     |     1    |   Beginner 5   |     0    |    9    |                     |
 | Caphras Stone                            |                           | Simple Alchemy |      1     |     1    |   Beginner 6   |     0    |    6    |                     |
+
 Table: Average procs and level required for common processing recipes. To keep this list short I included only common recipes.
 Level Req: Level required to gain the maximum proc rate
 EXP: Processing EXP. when two values are shown, the first one indicates the regular proc (e.g. ash plank) and the second one the rare proc (e.g. ash plywood)
 Time: regular processing / mass processing time in seconds
-* Metal times: Zinc, Brass, Bronze: 6/60 |  Gold, Plat, Silver, Mythril: 9/80 | Others: 9/90
+\* Metal times: Zinc, Brass, Bronze: 6/60 |  Gold, Plat, Silver, Mythril: 9/80 | Others: 9/90
 Source for the data: Daz' sheets, Bdocodex, bdolytics, in-game testing for the times
 
 # TODO: proofread this table
@@ -245,7 +248,7 @@ Requirements: apprentice 4 gathering
 You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Training Paradigm'. 
 *Note: Make sure that you fulfill the quest requirements (2) and have all quests enabled (3).*
 
-[](/files/processing_faq/questbeginner2.png]
+<img align="left" src="/files/processing_faq/questbeginner2.png">
 
 [Video guide](https://www.youtube.com/watch?v=TvmMImSGl88)
 
@@ -256,7 +259,7 @@ Requirements: Gathering skilled 10 AND processing skilled 5 AND all 6 pieces of 
 You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Skilled Paradim'. 
 *Note: Make sure that you fulfill the quest requirements (2) and have all quests enabled (3).*
 
-[](/files/processing_faq/questskilled2.png]
+<img align="left" src="/files/processing_faq/questskilled2.png">
 
 [Video guide](https://youtu.be/TvmMImSGl88?t=168)
 
@@ -271,7 +274,7 @@ You technically don't need any gear to process. Though gear massively helps with
 - <!-- db_item-705514-0 --> / <!-- db_item-705516-0 --> / <!-- db_item-705518-0 -->: mastery / Silver embroidered clothes: processing EXP and success rate
 - <!-- db_item-705503-0 --> / <!-- db_item-705507-0 --> / <!-- db_item-705511-0 -->: mastery
 - Artifacts: <!-- db_item-735372-0 --> (10 mastery) / <!-- db_item-735354-0 --> (5% success rate) / <!-- db_item-735361-0 --> (5% EXP)
-- Lightstones: [](/files/processing_faq/clangclang.png]
+- Lightstones: <img align="left" src="/files/processing_faq/clangclang.png">
 
 In terms of clothes and processing stone just get whatever your budget allows and what you need to reach sufficient processing mastery (see question 6).
 
@@ -283,7 +286,7 @@ You don't need to worry about having perfect artifacts though. While working on 
 
 <!-- db_item-603044-0 --> and <!-- db_item-560024-0 --> can only be bought from the pearl shop, give 3% success rate and will let you process from storage. Note that you can only process from storage keepers, not storage containers.
 
-[](/files/processing_faq/venecilbutton.png]
+<img align="left" src="/files/processing_faq/venecilbutton.png">
 
 When using a processing costume, the processed materials will go into your character's inventory. That means your character will only stop processing once you go overweight. 
 Effectively, the processing costume lets you stay afk for longer (~2 times longer as without the costume) before refreshing your processing. BUT the processing costume will not increase your afk time on some recipes where the output materials are heavier than the input, like  four, dough, cream, butter and cheese.
@@ -299,7 +302,7 @@ Mastery clothes and silver embroidered (SE) processing clothes have different be
 - Mastery clothes increase processing mastery, which boosts the number of batches you can process at once, effectively letting you process at a faster rate.
 - SE clothes give procesing EXP and increase the processing success rate, which also lets you process at a faster rate. Though you won't see any benefit if you success rate is already at 100%. It's very easy to reach 100% success rate with mastery clothes, for example base (67%) + seafood cron meal (10%) + 1 artifact (5%) + verdure draught (20%). That means in practice, the success rate is only useful when you don't have all buffs running.
 
-[](/files/processing_faq/clothes_collage.png)
+<img align="left" src="/files/processing_faq/clothes_collage.png">
 
 Therefore:
 - **For profit:** Always use mastery clothes. The extra mastery brackets are more valuable than success rate 99% of the time.
@@ -379,6 +382,8 @@ Decide based on which buffs you have access to and which buffs are reasonable to
 | Lara's Warm Black Tea             |    30%    | Event                            |
 | Special Coconut Juice             |    10%    | Event                            |
 
+Table: EXP buffs as of October 2022
+
 ## 15. How to make money with processing?
 
 Processing has two main marktets:
@@ -387,13 +392,13 @@ Processing has two main marktets:
 
 Those recipes give stable profits. By far not all processing markets are like that. There is a set of sub-markets feeding into workshops, manos gear crafting that are characterized by rather low demand and fluctuating prices.
 
-You can check processing profits on [bdolytics](https://bdolytics.com/processing/market).
+You can check processing profits on [bdolytics](https://bdolytics.com/processing/market). And make sure to enter your processing mastery in the settings.
 
 **Pro tip**: Do yourself a favor and sort by `Daily Volume`. If you sort by `Silver/Hour`, you'll get a best-off parade of all items with exceptional profit but extreme downsides/bottlenecks, which require special attention (see the next question).
 
 ## 16. What about that 3 bil/H recipe on bdolytics?
 
-[](/files/processing_faq/nichemarket2.png]
+<img align="left" src="/files/processing_faq/nichemarket2.png">
 
 This is a screenshot from <https://bdolytics.com/processing/market>.
 
