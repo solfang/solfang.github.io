@@ -1,6 +1,7 @@
 ---
 layout: post
 title: BDO - Processing FAQ - 20 commonly asked questions answered
+description: The ultimate processing FAQ
 published: true
 tags: BDO
 ---
@@ -58,7 +59,7 @@ Example: processing *timber* into *planks*:
 - Regular processing: 6 second cratf time, 1 craft at a time
 - Mass processing: 60 seconds craft time, 10+ crafts at a time
 
-As you can see,  mass processinghas higher throughput than regular processing when processing  more than 10 batches at once. Processing mastery increases the number of batches (see question 5).
+As you can see,  mass processinghas higher throughput than regular processing when processing  more than 10 batches at once. Processing mastery increases the number of batches (see [question 5](#5-what-does-processing-mastery-do)).
 
 You need a processing stone to get access to the 'Mass Process' button in the processing menu.
 Note that mass processing does not work with simple alchemy/cooking, imperial alchemy/cooking, guild processing and manufacturing.
@@ -249,7 +250,7 @@ Also check out the table above for common recipes.
 
 [bdolytics](https://bdolytics.com/processing/market) features a list of processing recipes.
 
-If you are not processing for a specific purpose and just want to make silver, check out question 17.
+If you are not processing for a specific purpose and just want to make silver, check out [question 17](#17-how-to-make-money-with-processing).
 
 ## 10. Why can't I chop plyoowd / heat pure crystals?
 **You are missing knowledge.**
