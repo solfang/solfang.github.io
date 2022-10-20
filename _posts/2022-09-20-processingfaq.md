@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: BDO - Processing FAQ - 20 commonly asked questions answered
@@ -22,7 +21,7 @@ Enjoy :)
 1. Open the processing window (L key)
 2. Select a processing type 
 3. Input the materials
-4. Press 'Start' or 'Mass Process' (more on mass processing in question 5)
+4. Press 'Start' or 'Mass Process' (more on mass processing in [question 5](#5-what-does-processing-mastery-do))
 
 <video width="640" height="360" muted autoplay controls>
     <source src="/files/processing_faq/howtoprocess.mp4" type="video/mp4">
