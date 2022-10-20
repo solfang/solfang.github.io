@@ -1,7 +1,8 @@
+
 ---
 layout: post
 title: BDO - Processing FAQ - 20 commonly asked questions answered
-published: false
+published: true
 tags: BDO
 ---
 
@@ -10,14 +11,14 @@ tags: BDO
 # note: guide looks like it's lacking images. Try to imagien what it will look like when bdolytics icons are in and where an image is needed
 # TODO: re-do numbering based on added questions and adapt title
 # Clear todos in text
-Heya, I'm Summer and I made this post to answer commonly asked questions about processing.
-It's essentially a processing guide but this format is a bit nicer to `ctrl+f` in case you are looking for a specific topic.
+Heya, I'm Summer and I made this post to help you find the answer to commonly asked questions about processing.
+It's essentially a processing guide but the FAQ-style format is a bit nicer to `ctrl+f` in case you are looking for a specific topic.
 
 Enjoy :)
 
 # Basics
 
-## 1. how to process?
+## 1. How to process?
 1. Open the processing window (L key)
 2. Select a processing type 
 3. Input the materials
@@ -29,16 +30,17 @@ Enjoy :)
 
 After a few seconds, one of three things will happen:
 1) The craft succeeds
-2) The message `Processing is not going as planned.` appears → Your character will re-try the craft (no materials are lost).
-3) The message `It is not working at all.` appears → You input the wrong items (no materials are lost). the correct recipe to craft an item can usually be found in the item description of the input items or the produced item.
+2) The message `Processing is not going as planned` appears → Your character will re-try the craft and no materials are lost.
+3) The message `It is not working at all` appears → That means you input the wrong items and no materials are lost either. You can find the correct recipe to craft an item via the in-game crafting nodes (F2→Crafting notes)  or [bdolytics](https://bdolytics.com/).
 
 <img width="300" src="/files/processing_faq/process_outcomes.jpg">
 
 ## 2. How can I stop processing from failing?
 
-Even if you input the right materials, the message `Processing is not going as planned.` can appear, which means your character has to re-try to the craft (no materials are lost).
-The chance of this happening is tied to your processing success rate. The success rate starts out at 67%. With a success rate of 100% you'll never fail crafts. Here's how to increase your sucess rate:
+Even if you input the right materials, the message `Processing is not going as planned` can appear, which means your character has to re-try to the craft.
+The chance of this happening is tied to your processing success rate, which is 67% at its base. With a success rate of 100% rate, crafts always succeed given that you input the right recipe.
 
+Here's how to increase your sucess rate:
 - <!-- db_item-603044-0 --> / <!-- db_item-560024-0 --> (pearl shop costume) 3%  
 - <!-- db_item-14026-0 --> 6%-40% (applied to the base success rate so actually 4%-27%)
 - <!-- db_item-9691-0 --> 10% for 2 hours / <!-- db_item-9642-0 --> +15% for 10 hours
@@ -47,33 +49,40 @@ The chance of this happening is tied to your processing success rate. The succes
 - Clang! Clang! Lightstone set: 20%   (<!-- db_item-764016-0 --> <!-- db_item-764008-0 --> <!-- db_item-762006-0 --> <!-- db_item-766101-0 -->)
 - <!-- db_item-735354-0 --> 5% each
 
-You may have heard that the success rate *can not* reach 100%. According to tests by the lifeskill community, it's almost certain that the success rate *can* reach 100%. However, certain items have different success rate than indicated in the item description. This potentially includes verdure draught and the Clang! Clang! set. So to get 100% it helps to overstack success rate buffs by a few percent.
+You may have heard that the success rate *can not* reach 100%. According to tests by the lifeskill community, we're almost certain that the success rate *can* reach 100%. However, some items seem to have a different success rate than indicated in the item description. This includes silver embroidered clothes and potentially verdure draught and the Clang! Clang! set. So to get 100% it helps to overstack success rate buffs by a few percent.
 
 # Mass Processing and Mastery
 
 ## 3. What is mass processing?
-Mass processing lets you process mutltiple items at once but it takes 10x longer than regular processing.
-For example, processing timber into planks takes 6 seconds with regular processing and 60 seconds with mass processing.
+Mass processing lets you process mutltiple batches of items at once. The flipside is that mass processing takes 10x longer than regular processing.
+Example: processing *timber* into *planks*:
+- Regular processing: 6 second cratf time, 1 craft at a time
+- Mass processing: 60 seconds craft time, 10+ crafts at a time
+
+As you can see,  mass processinghas higher throughput than regular processing when processing  more than 10 batches at once. Processing mastery increases the number of batches (see question 5).
+
 You need a processing stone to get access to the 'Mass Process' button in the processing menu.
 Note that mass processing does not work with simple alchemy/cooking, imperial alchemy/cooking, guild processing and manufacturing.
-Also, it only works on stackable items. For example, you can't mass heat weapons because they take up 1 inventory slot each.
+Also, it only works on stackable items. For example, you can't mass dry fish because they take up 1 inventory slot each.
 
 ## 4. Can I mass-process black gems/caphras stones/party elixirs/blue elixirs/draughts/cron meals/imperial boxes?
 
 Not directly through the mass process system. But you can add specific items to the recipe that unlock alternative '10x' recipes:
 - Caphras stones, black gems, concentrated magical black gems: <!-- db_item-4901-0 -->
-- party and blue elxiris, draughts: <!-- db_item-4986-0 --> (buy at materials vendors)
-- cron meals: <!-- db_item-820015-0 --> (buy at cooking NPCs)
-- imperial cooking/alchemy boxes: <!-- db_item-8198-0 --> (buy at old moon managers. Using it requires having completed a [quest](https://youtu.be/x02GMajBFqU))
+- Party and blue elxiris, draughts: <!-- db_item-4986-0 --> (buy at materials vendors)
+- Cron meals: <!-- db_item-820015-0 --> (buy at cooking NPCs)
+- Imperial cooking/alchemy boxes: <!-- db_item-8198-0 --> (buy at old moon managers. Using it requires having completed a [quest](https://youtu.be/x02GMajBFqU))
 
 You can check these recipes in the in-game crafting notes (F2→Crafting notes in the top right or shift+LMB on any item in your inventory).
 
 ## 5. What does processing mastery do?
 
-Processing mastery increases the number of items you can process at once through mass processing.
-For example, with 1020 mastery you can process 90 items at once, which ends up being 9 times faster than regular processing.
-Also note that at the lowest possible mastery bracket, you can process 10 items at once. Since you also take 10x longer than regular processing, it's the same seed at regular processing.
-That means mass processing is *always at least as good or better than regular processing*.
+Processing mastery increases the number of crafts ('batches') you can perform at once through mass processing.
+For example, with 1020 mastery you can perform 90 crafts at once at 10x higher craft time, which ends up being 9 times faster than regular processing.
+
+Also note that you can process 10 items at once at the lowest possible mastery bracket. 10 crafts at once and 10x higher craft time evens out to be the same speed as regular processing. And that's at virtually 0 mastery. The more mastery you have, the more mass processing starts to outperform regular processing.
+
+**Therefore, mass processing is *always at least as good or better than regular processing*.**
 
 | Mastery | Batches |
 |:-------:|:-------:|
@@ -144,35 +153,38 @@ That means mass processing is *always at least as good or better than regular pr
 |   1900  |   235   |
 |   2000  |   250   |
 
-Table: mastery brackets and mass processing batches
+Table: mastery brackets and mass processing batches. Note that processing mastery brackets are not evenly spaced out every 50 mastery like in other lifeskills but they vary from 20 to 100 mastery.
 
 ## 6. How much processing mastery do I need for processing?
 
-In other lifskills, more mastery is always better. This applies to processing only to some extent.
+In other lifskills, more mastery is always better. That only applies to processing to some extent.
 Having higher processing mastery lets you process items at a faster rate. But you are still limited by weight. That means if your processing mastery is suffiently high, your character will run out of weight before you check back on your processing.  Increasing processing mastery further won't change that. 
 
-So here's my advice: Get your processing mastery to a point where you barely run out of weight whenever you check back on your processing (on whateve recipe you commonly process).
+Also, processing mastery scales fairly linear and there are no major breakpoints.
+
+So here's my advice: Get your processing mastery to a point where you will barely run out of weight whenever you check back on your processing (on whateve recipe you commonly process).
 
 # Recipes, Proc Rates and Process Times
 
 ## 7. How many items does a craft yield and what affects it?
 
 ### What affects the proc rate?
-**Proc rate is neither affected by mastery nor by whether you're regular or mass processing. A certain processing level is required for some recipes to cap out the proc rate.**
+**Proc rate is fixed and neither affected by mastery nor by whether you're regular or mass processing. 
+One caveat: A certain processing level is required for some recipes to cap out the proc rate:**
 - *Shaking, grinding, chopping, drying, filtering, heating* cap out at a certain processing level. For example, timber caps out at artisan 6 and ore at master 1. Once you're master 1, you'll have the maximum proc rate on 99% of items (one exception I know of are jade coral ingots which require guru 1).
-- *Simple alchemy, simple cooking, imperial cuisine, imperial alchemy, guild processing, manufacturing*: Have fixed rates and are not affected by processing level:  
+- *Simple alchemy, simple cooking, imperial cuisine, imperial alchemy, guild processing, manufacturing*: Have fixed rates and are not affected by processing level.
 
 ### Info on common processing recipes
 
-| Recipe                                   | Example                   | Process Type   | Proc Range | Proc Avg |    Level Req   |   EXP    |   Time  | Required Knowledge  |
+| Recipe                                   | Example                   | Process Type   | Proc Range | Proc Avg |    Level Req.  |   EXP    |   Time  | Required Knowledge  |
 |------------------------------------------|---------------------------|----------------|:----------:|:--------:|:--------------:|:--------:|:-------:|---------------------|
 | Plank (T2)                               | Ash Plank                 | Chopping       |     1-4    |    2.5   |    Artisan 6   |  200/500 |   6/60  | -                   |
 | Plywood (T3)                             | Ash Plywood               | Chopping       |     1-4    |    2.5   | Professional 6 |    500   |   6/60  | Chopping: Beginner  |
 | Sturdy Plywood (T4)                      | Sturdy Ash Plywood        | Heating        |     1-3    |     2    |  Professonal 1 |   1000   |   6/60  | Heating: Skilled    |
-| Melted Shard (T2)                        | Melted Iron Shard         | Heating        |     1-4    |    2.5   |    Master 1    |  200/500 |   9/90  |                     |
+| Melted Shard (T2)                        | Melted Iron Shard         | Heating        |     1-4    |    2.5   |    Master 1    |  200/500 |   9/90  | -                   |
 | Ingot (T3)                               | Iron Ingot                | Heating        |     1-4    |    2.5   |    Artisan 1   |    500   | varies* | Heating: Beginner   |
 | Pure Crystal (T4)                        | Pure Iron Crystal         | Heating        |     1-3    |     2    |  Professonal 1 |   1000   |   6/60  | Heating: Skilled    |
-| Hide (T2)                                | Tough Hide                | Drying         |     1-4    |    2.5   |    Skilled 1   |    200   |   9/90  | -                   |
+| Hide (T2)                                | Tough Hide                | Drying         |     1-4    |    2.5   |    Professonal 1  |  200/500 |   9/90  | -                   |
 | Fine Hide (T3)                           | Fine Tough Hide           | Drying         |     1-4    |    2.5   |    Skilled 1   |    500   |   9/80  | Drying: Beginner    |
 | Supreme Hide (T4)                        | Supreme Tough Hide        | Shaking        |     1-3    |     2    |  Apprentice 1  |   1000   |   9/80  |   Shaking: Skilled  |
 | Feather (T2)                             | Lightweight Plume         | Filtering      |     1-4    |    2.5   |  Professonal 6 |  200/500 |   6/60  | -                   |
@@ -181,64 +193,64 @@ So here's my advice: Get your processing mastery to a point where you barely run
 | Gem (T2)                                 | Ruby                      | Grinding       |     1-4    |    2.5   |    Artisan 1   | 500/1000 |   9/80  | -                   |
 | Resplendent Gem (T3)                     | Resplendent Ruby          | Grinding       |     1-3    |     2    |    Skilled 1   |   1000   |   9/80  | Grinding: Beginner  |
 | Special Gem (T4)                         | Blood Ruby                | Shaking        |     1-2    |    1.5   |  Apprentice 1  |   2000   |   6/80  |   Shaking: Skilled  |
+| Usable Scantling (T2)                         |                           | Chopping       |     1-4    |    2.5   |    Artisan 6   | 500/1000 |   6/60  | -                   |
+| Standardized Timber Square (T3)               |                           | Chopping       |     1-3    |     2    | Professional 6 |   1000   |   6/60  | Chopping: Beginner   |
+| Sturdy Timber Square (T4)                    |                           | Heating        |     1-3    |     2    |    Artisan 1   |   1500   |   6/60  | Heating. Skilled    |
 | Cream                                    |                           | Shaking        |     1-4    |    2.5   |    Skilled 1   |    150   |   6/60  | -                   |
 | Butter                                   |                           | Shaking        |     1-4    |    2.5   |    Skilled 1   |    150   |   6/60  | -                   |
 | Cheese                                   |                           | Drying         |     1-4    |    2.5   |    Skilled 1   |    300   |   9/60  | -                   |
 | Flour                                    |                           | Grinding       |     1-4    |    2.5   | Professional 1 |    70    |   6/60  | -                   |
-| Dough                                    |                           | Shaking        |     1-4    |    2.5   |    Skilled 1   |    150   |   6/60  |                     |
+| Dough                                    |                           | Shaking        |     1-4    |    2.5   |    Skilled 1   |    150   |   6/60  | -                   |
 | T2 Fabrics                               | Flax Thread               | Heating        |     1-4    |    2.5   |    Artisan 1   |    500   |   6/60  | -                   |
 | T3 Fabrics                               | Flax Fabric               | Grinding       |     1-4    |    2.5   | Professional 1 |   1000   |   6/60  | -                   |
 | Black Stone Powder (BSA)                 |                           | Grinding       |    40-60   |    50    |    Artisan 1   |    80    |   9/80  | -                   |
 | Black Stone Powder (BSW)                 |                           | Grinding       |   60-100   |    80    |    Artisan 1   |    80    |   9/80  | -                   |
 | Purified Water (from bag of muddy water) |                           | Filtering      |     1-4    |    2.5   |    Artisan 1   |    300   |   6/60  | -                   |
-| Usable Scantling                         |                           | Chopping       |     1-4    |    2.5   |    Artisan 6   | 500/1000 |   6/60  | -                   |
-| Standardized Timber Square               |                           | Chopping       |     1-3    |     2    | Professional 6 |   1000   |   6/60  | -                   |
-| Sturdy Timber Square                     |                           | Heating        |     1-3    |     2    |    Artisan 1   |   1500   |   6/60  | Heating. Skilled    |
 | Ship Repair Material                     |                           | Chopping       |     1-3    |     2    |    Artisan 1   |   1000   |   6/60  | -                   |
 | Polished Stone                           |                           | Grinding       |     1-4    |    2.5   |    Artisan 1   |    500   |   6/60  | -                   |
-| Cron Meals                               | Simple Cron Meal          | Simple Cooking |      1     |     1    |   Beginner 1   |     0    |    6    |                     |
-| Draughts                                 | Verdure Draught           | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    6    |                     |
-| Party Elixirs                            | [Party] Defense Elixir    | Simple Alchemy |     1-2    |    1.8   |   Beginner 2   |     0    |    6    |                     |
-| Blue Elixirs                             | Elixir of Steel Defense   | Simple Alchemy |      1     |     1    |   Beginner 3   |     0    |    6    |                     |
-| Black Gem                                |                           | Simple Alchemy |      1     |     1    |   Beginner 4   |     0    |    9    |                     |
-| Concentrated Black Gem                   |                           | Simple Alchemy |      1     |     1    |   Beginner 5   |     0    |    9    |                     |
-| Caphras Stone                            |                           | Simple Alchemy |      1     |     1    |   Beginner 6   |     0    |    6    |                     |
+| Cron Meals                               | Simple Cron Meal          | Simple Cooking |      1     |     1    |   Beginner 1   |     0    |    6    | -                   |
+| Draughts                                 | Verdure Draught           | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    6    | -                   |
+| Party Elixirs                            | [Party] Defense Elixir    | Simple Alchemy |     1-2    |    1.8   |   Beginner 1   |     0    |    6    | -                   |
+| Blue Elixirs                             | Elixir of Steel Defense   | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    6    |  -                  |
+| Black Gem                                |                           | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    9    |  -                  |
+| Concentrated Magical Black Gem                   |                           | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    9    |  -                  |
+| Caphras Stone                            |                           | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    6    |  -                  |
 
-Table: Average procs and level required for common processing recipes. To keep this list short I included only common recipes.
 
 **Notes about the table**
 
-- Level Req: Level required to gain the maximum proc rate
-- EXP: Processing EXP. when two values are shown, the first one indicates the regular proc (e.g. ash plank) and the second one the rare proc (e.g. ash plywood)
-- Time: regular processing / mass processing time in seconds
+- **Level Req**: Level required to gain the maximum proc rate
+- **EXP**: Processing EXP. when two values are shown, the first one indicates the regular proc (e.g. ash plank) and the second one the rare proc (e.g. ash plywood)
+- **Time**: regular processing / mass processing time in seconds
 - \* Metal times: Zinc, Brass, Bronze: 6/60 |  Gold, Plat, Silver, Mythril: 9/80 | Others: 9/90
 - Source for the data: Daz' sheets, Bdocodex, bdolytics, in-game testing for the times
 
-# TODO: proofread this table
-
 Since the table does not include all items, here's how to look up this info yourself:
-1. go to the [recipe page](https://cdn.discordapp.com/attachments/589711952234676224/704015738180075680/unknown.png) for that item on <https://bdocodex.com/> (This page is different from the item's page!): 
+1. Go to the [recipe page](https://cdn.discordapp.com/attachments/589711952234676224/704015738180075680/unknown.png) for that item on [bdocodex](https://bdocodex.com/) (This page is different from the item's page!): 
 2. Look at the product groups at the bottom of the page. Each product product group represents a certain proc rate and is tied to a certain processing level.
-The example below shows that you need Art6+ to get max procs on ash [ash plank processing](https://cdn.discordapp.com/attachments/589711952234676224/704016039742013460/unknown.png): https://bdocodex.com/us/mrecipe/585/ -  
+The example below shows that you need [Art6+](https://cdn.discordapp.com/attachments/589711952234676224/704016039742013460/unknown.png) to get max procs on ash [ash plank processing](https://bdocodex.com/us/mrecipe/585/ ) .
 (note: the last bracket seems to be missing in the current version of bdocodex)
 
 ## 8. How long does it take to process materials?
 
-The process time depends on the item you're procecssing and of course on whether you use regular or mass processing, which takes 10x longer than regular processing.
+The processing time depends on the item you're procecssing and of course on whether you use regular or mass processing,
+
 I listed the processing times of common items in the table above. A processing time of 6/60 reads: regular processing takes 6 seconds, mass processing takes 60 seonds.
+
 Most recipes take 6/60 or 9/90 seconds but there are some obscurities, like zinc, brass and bronze taking 80 seconds when mass processed. Don't ask me why :)
 
 ## 9. What can I process?
 
 The main demand for processing products comes from three areas of the game:
-- trading: plywoods and ingots
-- cooking: flour, dough, cheese, cream, butter
-- workshops (furniture, ships, fishing rods etc.): T4 plywood/metals/hides/feathers/gems
+- **Trading**: plywood and ingots
+- **Cooking**: flour, dough, cheese, cream, butter
+- **Workshops** (furniture, ships, fishing rods etc.): T4 plywood/metals/hides/feathers/gems
+
 Also check out the table above for common recipes.
 
-<https://bdolytics.com/processing/market> features a list of processing recipes.
-If you are not processing for a specific purpose and just want to make silver, check out question !TODO where I got more into detail on moneymaking.
-#TODO: adapt reference number
+[bdolytics](https://bdolytics.com/processing/market) features a list of processing recipes.
+
+If you are not processing for a specific purpose and just want to make silver, check out question 17.
 
 ## 10. Why can't I chop plyoowd / heat pure crystals?
 **You are missing knowledge.**
@@ -351,7 +363,9 @@ You can break even on the costs when buying timber below 540 silver. But I would
 
 You sure can. Consider processing ore into ingots and timber into plywood, which will be slightly less EXP/H than the timber→SRM route but can be profitable depending on market prices. You can check <https://bdolytics.com/processing/market> for processing profits.
 
-For all your EXP needs, here is a link to [Bearist's Processing EXP Calculator](https://docs.google.com/spreadsheets/d/1KqP9lgTK0bDulLJ_JcILG4tn0iWrh5JkY1WHaitSxHo/edit?usp=sharing).
+For a list of processing recipes and their EXP, see [bdolytics](https://bdolytics.com/en/EU/processing/market).
+
+Also here is a link to [Bearist's Processing EXP Calculator](https://docs.google.com/spreadsheets/d/1KqP9lgTK0bDulLJ_JcILG4tn0iWrh5JkY1WHaitSxHo/edit?usp=sharing).
 
 ## 16. Which EXP buffs can I run while leveling processing?
 
