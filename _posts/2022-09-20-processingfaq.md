@@ -208,18 +208,30 @@ I listed the processing times of common items in the [table](#info-on-common-pro
 
 Most recipes take 6/60 or 9/90 seconds but there are some obscurities, like zinc, brass and bronze taking 80 seconds when mass processed. Don't ask me why :)
 
-## 9. What can I process?
+## 9. How long can I afk process for?
 
-The main demand for processing products comes from three areas of the game:
-- **Trading**: plywood and ingots
-- **Cooking**: flour, dough, cheese, cream, butter
-- **Workshops** (furniture, ships, fishing rods etc.): T4 plywood/metals/hides/feathers/gems
+It depends on the materials you're processing. Here's the weight of common materials:
 
-lara out the [table](#info-on-common-processing-recipes) above for common recipes.
+| Item                                 | Weight (LT) |
+|--------------------------------------|-------------|
+| Timber                               |         0.5 |
+| Ore, Gems, Stone                     |         0.3 |
+| Hide, Fabric, Feathers, Flour, Dough |         0.1 |
+| Cheese, Cream, Butter                |        0.01 |
 
-[bdolytics](https://bdolytics.com/processing/market) features a list of processing recipes.
+On bdolytics you can check how long you can process for before running out of weight:
+1. Open the **settings** and enter your `weight`, `fairy feather steps level`, `processing mastery`, `success rate` and whether your have the `processing costume` (more on the processing costume in [question 13](#13-do-i-need-the-pearl-shop-costume)
+2. Go to the **recipe page** of the item you want to process.
+3. Go to the **WEIGHT** tab.
+4. Read the **Max. Crafts** and input it as the **craft quantity**.
+5. Go back to the **INPUT&OUTPUT** tab and check the **time**.
 
-If you are not processing for a specific purpose and just want to make silver, check out [question 17](#17-how-to-make-money-with-processing).
+<video width="640" height="360" muted autoplay controls>
+    <source src="/files/processing_faq/howto_weight.mp4" type="video/mp4">
+</video>
+
+Some items are so light that you can process them for multiple hours or even overnight. 
+Common recipes for **overnight processing** are <!-- profit_processing-9061-0 -->, <!-- profit_processing-9062-0 --> and <!-- profit_processing-9063-0 -->.
 
 ## 10. Why can't I chop plyoowd / heat pure crystals?
 **You are missing knowledge.**
@@ -267,7 +279,7 @@ You can get them by handing in imperial cooking boxes. Processing artifacts drop
 
 You don't need to worry about having perfect artifacts. While working on getting processing artifacts, you can still run a lightstone set by using general-purpose artifacts like <!-- db_item-735351-0 -->  or <!-- db_item-735352-0 --> as placeholders. Once you get the processing artifacts, you can then extract the lightstones at a blacksmith with a lightstone extraction tool and slot them into the new artifacts.
 
-## 13. Do I need the pearl shop costume (Venecil Dress/Karki Suit)?
+## 13. Do I need the pearl shop costume?
 
 <!-- db_item-603044-0 --> and <!-- db_item-560024-0 --> can only be bought from the pearl shop, give 3% success rate and will let you process from storage. Note that you can only process from storage keepers, not storage containers.
 
