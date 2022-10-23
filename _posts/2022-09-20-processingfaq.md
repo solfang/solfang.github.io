@@ -7,10 +7,29 @@ published: true
 tags: BDO
 ---
 
+*Last updated: 23/10/2022*
+
 Heya, I'm Summer and I made this post to help you find the answer to commonly asked questions about processing.
-It's essentially a processing guide but the FAQ-style format is a bit nicer to `ctrl+f` in case you are looking for a specific topic.
+It's essentially a processing guide but the FAQ-style format is a bit nicer to `ctrl+f` in case you are looking for info on a specific topic.
 
 Enjoy :)
+
+## Pre-face - for very interested readers :) 
+**What is processing?**
+In BDO, processing sits between your worker empire, which procuces raw materials that are then refined through processing and used in further activites such as trading, cooking and workshops. You can even form elaborate recipe chains, like gathering <!-- db_item-4006-0 --> -> <!-- db_item-4076-0 --> (alchemy) -> <!-- db_item-4053-0 --> (processing) -> <!-- db_item-16162-0 --> (workshops). If you include the sub-chain for the alchemy utensils and ingots, it gets even crazier.
+Processing is also a fairly low effort and beginner-friendly lifeskill. It doesn't take a whole lot ot get started. You can start processing without any gear at all. If you're looking to make money or process higher-tier recipes, you'll need a bit of gear and certain knowledge entries.
+!TODO: link all [] questions
+
+
+**The state of processing**
+Processing has seen better times. This is partly because some of the activities it feeds into, like trading and workshops, have seen better times too :). While being low effort and good for afk-ing, the moneymaking potential has fallen behind comparable lifskills like bartering and cooking. Procesing used to be a solid moneymaker, nowadays its main appeal is being low-effort and afk-able. You can take a look at [Eminent's processing guide](https://grumpygreen.cricket/bdo-processing-guide-eminent/) for a glimpse of what processed used to look like. The guide is fairly outdated by now but it's worth a read simply for the witty remarks and honest advice by Eminent. Heck, he even talks about how not to conflate trading with proessing, which is still so relevant today that I included a question about it in this guide ([Question X]).
+
+With the game being out for over 5 years, the processing market has become fairly stable. If you want to earn money, you have a few recipes at your disposal [qestion x] and the supply/demand for those recipes is so stable that sharing them won't negatively affect the market. Beyond that, finding recipes has never been easier with tools like [bdolytics](https://bdolytics.com/en/EU/processing/market). Aside from the main markets, a few niche markets with exceptionally low demand or supply make processing a lifeskill with a fair bit of depth and you're free to explore those markets on your own (see question [] for pointers).
+
+Over the years, we've been able to streamline 
+
+
+
 
 # Basics
 
@@ -34,7 +53,7 @@ After a few seconds, one of three things will happen:
 ## 2. How can I stop processing from failing?
 
 Even if you input the right materials, the message `Processing is not going as planned` can appear, which means your character has to re-try to the craft.
-The chance of this happening is tied to your processing success rate, which is 67% at its base. With a success rate of 100% rate, crafts always succeed given that you input the right recipe.
+The chance of this happening is tied to your **processing success rate**, which is 67% at base. With a success rate of 100% rate, crafts always succeed given that you input the right recipe.
 
 Here's how to increase your sucess rate:
 - <!-- db_item-603044-0 --> / <!-- db_item-560024-0 --> (pearl shop costume) 3%  
@@ -50,14 +69,15 @@ You may have heard that the success rate *can not* reach 100%. According to test
 # Mass Processing and Mastery
 
 ## 3. What is mass processing?
-Mass processing lets you process mutltiple batches of items at once. The flipside is that mass processing takes 10x longer than regular processing.
+Mass processing lets you process **mutltiple batches of items** at once. The flipside is that mass processing **takes 10x longer** than regular processing.
 Example: processing *timber* into *planks*:
 - Regular processing: 6 second cratf time, 1 craft at a time
 - Mass processing: 60 seconds craft time, 10+ crafts at a time
 
-As you can see,  mass processinghas higher throughput than regular processing when processing  more than 10 batches at once. Processing mastery increases the number of batches (see [question 5](#5-what-does-processing-mastery-do)).
+As you can see,  mass processing has higher throughput than regular processing when processing  more than 10 batches at once. Processing mastery increases the number of batches (see [question 5](#5-what-does-processing-mastery-do)).
 
-You need a processing stone to get access to the 'Mass Process' button in the processing menu.
+You need a **processing stone** to get access to the 'Mass Process' button in the processing menu.
+
 Note that mass processing does not work with simple alchemy/cooking, imperial alchemy/cooking, guild processing and manufacturing.
 Also, it only works on stackable items. For example, you can't mass dry fish because they take up 1 inventory slot each.
 
@@ -74,7 +94,7 @@ You can check these recipes in the in-game crafting notes (F2→Crafting notes i
 ## 5. What does processing mastery do?
 
 Processing mastery increases the number of crafts ('batches') you can perform at once through mass processing.
-For example, with 1020 mastery you can perform 90 crafts at once at 10x higher craft time, which ends up being 9 times faster than regular processing.
+For example, with 1020 mastery you can perform 90 crafts at once, which at 10x higher craft time ends up being 9 times faster than regular processing.
 
 Also note that you can process 10 items at once at the lowest possible mastery bracket. 10 crafts at once and 10x higher craft time evens out to be the same speed as regular processing. And that's at virtually 0 mastery. The more mastery you have, the more mass processing starts to outperform regular processing.
 
@@ -120,12 +140,13 @@ Table: mastery brackets and mass processing batches. Note that processing master
 
 ## 6. How much processing mastery do I need for processing?
 
-In other lifskills, more mastery is always better. That only applies to processing to some extent.
-Having higher processing mastery lets you process items at a faster rate. But you are still limited by weight. That means if your processing mastery is suffiently high, your character will run out of weight before you check back on your processing.  Increasing processing mastery further won't change that. 
+In other lifeskills, more mastery is always better. That only applies to processing to some extent.
+Having higher processing mastery lets you process items at a faster rate but weight is still limiting factor. If your processing mastery is suffiently high, your character will run out of weight before you check back on your processing.  Increasing processing mastery further won't change that. 
 
-Also, processing mastery scales fairly linear and there are no major breakpoints.
+On top of that, processing mastery scales fairly linear and there are no major breakpoints.
 
-So here's my advice: Get your processing mastery to a point where you will barely run out of weight whenever you check back on your processing (on whateve recipe you commonly process).
+So here's my advice: 
+**Get your processing mastery to a point where you will barely run out of weight whenever you check back on your processing (on whichever recipe you commonly process).**
 
 # Recipes, Proc Rates and Process Times
 
@@ -133,13 +154,12 @@ So here's my advice: Get your processing mastery to a point where you will barel
 
 ### Craft yield
 
-Most recipes yield 1-4 items (2.5 on average). Exceptions to that tend to occur for high-tier recipes like T4 crafts as well as simple alchemy/processing, manufacturing etc., where recipes tend to yield 1 item per craft. 
+Most recipes yield **1-4 items** (2.5 on average). Exceptions to that tend to occur for high-tier recipes like T4 crafts as well as simple alchemy/processing, manufacturing etc., where recipes tend to yield 1 item per craft. 
 The [table](#info-on-common-processing-recipes) below includes proc rates as well as other info for common processing recipes.
 You can also check proc rates by going to a [specific recipe](https://bdolytics.com/en/EU/processing/market/4651) on bdolytics.
 
 ### What affects the proc rate?
-**Proc rate is fixed and neither affected by mastery nor by whether you're regular or mass processing. 
-One caveat: A certain processing level is required for some recipes to cap out the proc rate:**
+**Proc rate is fixed and neither affected by mastery nor by whether you're regular or mass processing. Caveat: A certain processing level is required for some recipes to cap out the proc rate:**
 - *Shaking, grinding, chopping, drying, filtering, heating* cap out at a certain processing level. For example, timber caps out at artisan 6 and ore at master 1. Once you're master 1, you'll have the maximum proc rate on 99% of items (one exception I know of are jade coral ingots which require guru 1).
 - *Simple alchemy, simple cooking, imperial cuisine, imperial alchemy, guild processing, manufacturing*: Have fixed rates and are not affected by processing level.
 
@@ -199,18 +219,10 @@ Since the table does not include all items, here's how to look up this info your
 The example below shows that you need [Art6+](https://cdn.discordapp.com/attachments/589711952234676224/704016039742013460/unknown.png) to get max procs on ash [ash plank processing](https://bdocodex.com/us/mrecipe/585/ ) .
 (note: the last bracket seems to be missing in the current version of bdocodex)
 
-## 8. How long does it take to process materials?
 
-The processing time depends on the item you're procecssing and of course on whether you use regular or mass processing,
+## 8. How long can I afk process for?
 
-I listed the processing times of common items in the [table](#info-on-common-processing-recipes) above. A processing time of 6/60 reads: regular processing takes 6 seconds, mass processing takes 60 seonds.
-
-
-Most recipes take 6/60 or 9/90 seconds but there are some obscurities, like zinc, brass and bronze taking 80 seconds when mass processed. Don't ask me why :)
-
-## 9. How long can I afk process for?
-
-It depends on the materials you're processing. Here's the weight of common materials:
+It depends on the materials you're processing. This list shows the weight of common materials:
 
 | Item                                 | Weight (LT) |
 |--------------------------------------|-------------|
@@ -220,7 +232,7 @@ It depends on the materials you're processing. Here's the weight of common mater
 | Cheese, Cream, Butter                |        0.01 |
 
 On bdolytics you can check how long you can process for before running out of weight:
-1. Open the **settings** and enter your `weight`, `fairy feather steps level`, `processing mastery`, `success rate` and whether your have the `processing costume` (more on the processing costume in [question 13](#13-do-i-need-the-pearl-shop-costume)
+1. Open the **settings** and enter your `weight`, `fairy feather steps level`, `processing mastery`, `success rate` and whether your have the `processing costume` (more on the processing costume in [question 13](#13-do-i-need-the-pearl-shop-costume))
 2. Go to the **recipe page** of the item you want to process.
 3. Go to the **WEIGHT** tab.
 4. Read the **Max. Crafts** and input it as the **craft quantity**.
@@ -231,19 +243,22 @@ On bdolytics you can check how long you can process for before running out of we
 </video>
 
 Some items are so light that you can process them for multiple hours or even overnight. 
+
 Common recipes for **overnight processing** are <!-- profit_processing-9061-0 -->, <!-- profit_processing-9062-0 --> and <!-- profit_processing-9063-0 -->.
 
-## 10. Why can't I chop plyoowd / heat pure crystals?
+## 9. Why can't I chop plyoowd / heat pure crystals?
 **You are missing knowledge.**
 
-To chop planks into plywood (t4) you need `chopping: beginner`, to chop plywood into sturdy plywood (T4) you need `heating: skilled`. Similarly for metal, hides, feathers and gemstones.
+To chop planks into plywood (t4) you need `chopping: beginner`. To chop plywood into sturdy plywood (T4) you need `heating: skilled`. Similarly for metal, hides, feathers and gemstones.
 You can get the knowledge entries through a quest chain. 
 
 ### Beginner knowledge
 - **Starting quest**: [[Processing] Learning Higher Processing Skills](https://bdolytics.com/en/NA/db/quest/2100/28)
-- **Starting NPC**: Ficy in Heidel
-- **Requirements**: apprentice 4 gathering OR have completed [[Processing] In Search of Higher Processing Knowledge...](https://bdolytics.com/en/NA/db/quest/2100/22)
-- You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Training Paradigm'. Make sure that you fulfill the quest requirements (2) and have all quests enabled (3).
+- **Starting NPC**: [Ficy](https://bdolytics.com/en/EU/db/npc/50210/1) in Heidel
+- **Requirements**: `apprentice 4 gathering` OR have completed [[Processing] In Search of Higher Processing Knowledge...](https://bdolytics.com/en/NA/db/quest/2100/22)
+
+You can find the quest via the in-game quest menu in the 'Suggested' tab (1) under `[Life][Certificate] Training Paradigmv. 
+Make sure that you fulfill the quest requirements (2) and have all quests enabled (3).
 
 <img width="1000" src="/files/processing_faq/questbeginner2.png">
 
@@ -251,35 +266,43 @@ You can get the knowledge entries through a quest chain.
 
 ### Skilled knowledge
 - **Starting quest**: [[Processing] Excellent Magnate](https://bdolytics.com/en/NA/db/quest/3208/1)
-- **Starting NPC**: Villager next to the blacksmith in Keplan (the waypoint button in the quest menu will lead you there)
-- **Requirements**: Gathering skilled 10 AND processing skilled 5 AND all 6 pieces of beginner knowledge (shaking, drying, filtering, grinding, heating, chopping) 
-- You can find the quest via the in-game quest menu in the 'Suggested tab' (1) under '[Life][Certificate] Skilled Paradim'. Make sure that you fulfill the quest requirements (2) and have all quests enabled (3). 
+- **Starting NPC**: [Villager](https://bdolytics.com/en/NA/db/npc/578/432) next to the blacksmith in Keplan (the waypoint button in the 'Suggested' tab will lead you there)
+- **Requirements**: `Gathering skilled 10` AND `processing skilled 5` AND `all 6 pieces of beginner knowledge` (shaking, drying, filtering, grinding, heating, chopping) 
+
+You can find the quest via the in-game quest menu in the 'Suggested tab' under `[Life][Certificate] Skilled Paradim`. 
+Make sure that you fulfill the quest requirements and have all quests enabled. 
 
 [Video guide](https://youtu.be/TvmMImSGl88?t=168)
 
-**If you feel like this section is missing info required to obtain the knowledge, please let me know and I will update the guide**
+## Help, I can't see the quest!
+Possible Reasons:
+- You don't have all quests enabled: see the image above
+- You already have the knowledge: check the knowledge tab (H) -> `Life Skill` -> `Certificates`
+- You have already accecpted the quest: check your quest tab (O)
+
+**If you are struggling to obtain the knowledge and would like to share additional info with the readers of this guide to make their journey easier, please let me know and I will update the guide.**
 
 # Gear
 
-## 11. What gear do I need?
+## 10. What gear do I need?
 You technically don't need any gear to process. Though gear massively helps with processing by giving you the ability to mass process, increase mastery and success rate:
 
 - <!-- db_item-768088-0 --> / <!-- db_item-/768087-0 --> / <!-- db_item-768086-0 -->: mastery (there used to be one stone for each processing type but they were merged into a single stone)
 - <!-- db_item-705514-0 --> / <!-- db_item-705516-0 --> / <!-- db_item-705518-0 -->: mastery / <!-- db_item-14026-0 --> : processing EXP and success rate
 - <!-- db_item-705503-0 --> / <!-- db_item-705507-0 --> / <!-- db_item-705511-0 -->: mastery
 - Artifacts: <!-- db_item-735372-0 --> (10 mastery) / <!-- db_item-735354-0 --> (5% success rate) / <!-- db_item-735361-0 --> (5% EXP)
-- Lightstones: 
+- Lightstones (image from Garmoth): 
 
 <img width="700" src="/files/processing_faq/clangclang.png">
 
 In terms of clothes and processing stone I recommend to get whatever your budget allows and what you need to reach sufficient processing mastery (see [question 6](#6-how-much-processing-mastery-do-i-need)).
 
-## 12. How do I get processing artifacts?
+## 11. How do I get processing artifacts?
 You can get them by handing in imperial cooking boxes. Processing artifacts drop from imperial cooking turn-ins, together with cooking artifacts. The chance to get an artifact is quite low (expect one maybe every 5-10 turn-ins) so it might take a while until you get the artifact you want.
 
 You don't need to worry about having perfect artifacts. While working on getting processing artifacts, you can still run a lightstone set by using general-purpose artifacts like <!-- db_item-735351-0 -->  or <!-- db_item-735352-0 --> as placeholders. Once you get the processing artifacts, you can then extract the lightstones at a blacksmith with a lightstone extraction tool and slot them into the new artifacts.
 
-## 13. Do I need the pearl shop costume?
+## 12. Do I need the pearl shop costume?
 
 <!-- db_item-603044-0 --> and <!-- db_item-560024-0 --> can only be bought from the pearl shop, give 3% success rate and will let you process from storage. Note that you can only process from storage keepers, not storage containers.
 
@@ -290,13 +313,13 @@ BUT the processing costume will not increase the afk time on recipes where the o
 In the end, the processing costume is purely a convenience item.
 It's up to you to decide whether the convenience of being able to stay afk for longer is worth spending pearls on.
 
-## 14. Should I use mastery or silver embroidered clothes? 
+## 13. Should I use mastery or silver embroidered clothes? 
 
 **TLDR: Just use mastery clothes :)**
 
 Mastery clothes and silver embroidered (SE) processing clothes have different beenfits:
 - **Mastery clothes**: increase processing mastery, which boosts the number of batches you can process at once, effectively letting you process at a faster rate.
-- **SE clothes**: give processing EXP and increase the processing success rate, which also lets you process at a faster rate. Though you won't see any benefit if you success rate is already at 100%. It's very easy to reach 100% success rate with mastery clothes, for example base (67%) + seafood cron meal (10%) + 1 artifact (5%) + verdure draught (20%). In practice, the success rate is only useful when you don't have all buffs running.
+- **SE clothes**: give processing EXP and increase the processing success rate, which also lets you process at a faster rate. Though you won't see any benefit if you success rate is already at 100%. It's very easy to reach 100% success rate with mastery clothes, for example base (67%) + seafood cron meal (10%) + Clang !Clang! lightstone set (20%) + verdure draught (20%). In practice, the success rate is only useful when you don't have all buffs running.
 
 <img width="600" src="/files/processing_faq/clothes_collage.png">
 
@@ -306,7 +329,7 @@ Therefore:
 
 # Leveling and Moneymaking
 
-## 15. How do I level processing?
+## 14. How do I level processing?
 
 ### Beginner to Professional
 
@@ -346,6 +369,9 @@ The EXP bug is not specific to timber, it applies to all materials with a direct
 You can break even on the costs when buying timber below 540 silver. 
 But I wouldn't stress too much about the price. Timber bought below 1000 silver will lose you 'only' ~5-20 mil/H depending on your mastery.
 
+**Any downsides?**
+Timber is heavy, which leads to extremely low afk times. Even with the a maxed out weight setup, you're looking at no more than 15 minutes of afk time. Besides this issue, the timber->SRM method is unique because it has high supply, easy liquidization and breaks even on the costs. You can find lighter recipes that in turn struggle with e.g. supply or liquidation. Any recipe with a T1->T3 proc can be used in a powerleveling strategy. People have done for example gemstones and hides in the past but you'll want to work out the feasibility of those methods on your own :)
+
 **Can I level processing and profit?** 
 
 You sure can. Consider processing ore into ingots and timber into plywood, which will be slightly less EXP/H than the timber→SRM route but can be profitable depending on market prices. 
@@ -354,7 +380,7 @@ You can check [bdolytics](https://bdolytics.com/processing/market) for processin
 
 Also here is a link to [Bearist's Processing EXP Calculator](https://docs.google.com/spreadsheets/d/1KqP9lgTK0bDulLJ_JcILG4tn0iWrh5JkY1WHaitSxHo/edit?usp=sharing).
 
-## 16. Which EXP buffs can I run while leveling processing?
+## 15. Which EXP buffs can I run while leveling processing?
 
 Here is a list of all buffs as of October 2022.
 I would pick buffs based on which ones you have access to and which buffs are reasonable to use.
@@ -391,7 +417,7 @@ I would pick buffs based on which ones you have access to and which buffs are re
 | Special Coconut Juice             |    10%    | Event                            |
 
 
-## 17. How to make money with processing?
+## 16. How to make money with processing?
 
 Processing has two main marktets:
 - Crate materials: plywood and ingots
@@ -401,7 +427,21 @@ Those recipes give stable profits. By far not all processing markets are like th
 
 You can check processing profits on [bdolytics](https://bdolytics.com/processing/market). Make sure to enter your processing mastery in the settings.
 
-**Pro tip**: Do yourself a favor and sort by `Daily Volume`. If you sort by `Silver/Hour`, you'll get a best-off parade of all items with exceptional profit but extreme downsides/bottlenecks, which require special attention (see the next question).
+**Pro tip**: Do yourself a favor and sort by `Daily Volume`. If you sort by `Silver/Hour`, you'll get a best-off parade of all items with exceptional profit but extreme downsides/bottlenecks, which require special attention (see question [TODO]]
+
+## 17. Do I have to combine processing with trading to make it profitable?
+
+You'll often see titles like 
+
+`Trading in 36 billion worth of crates!`
+
+ or 
+ 
+`$43 Billion Crates Traded In 1 Hour`
+
+Processing ofen gets bunched together
+
+
 
 ## 18. What about that 3 bil/H recipe on bdolytics?
 
