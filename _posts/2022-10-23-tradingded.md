@@ -3,9 +3,6 @@ Title: Trading is dead! Or is it?
 
 Disclaimer: This is not a guide on how to set up a trade empire. Rather, I aim to give you realistic expectations for how much profit can be made with trading, outline the required setup and my recommendations for which playstyle trading can make sense.
 
-# Outline: TODO
-
-
 # People make billions with trading! Or do they?
 
 You'll sometimes see players talk about huge crate turn-ins such as (taken from YT video titles):
@@ -34,7 +31,7 @@ As you can see,  a Calpheon Timber Crate traded from Grana into Valencia sells f
 
 Processing the timber into planks and then into plywood increases their value by an *additional* `125,601 silver (29.4% of the crate sale)`. At this point, you could sell the plywood to the market and still get `82.7%` of the crate sale. 
 
-The last `17.3%` are added once you pack the crates and sell them at Valencia, which requires getting workers with the +3 crate packing skill (produce crates 4x faster than regular workers) maintaining the workshops (CP, worker food), transporting the crates (this is a massive cost, requiring either your active time or using the NPC transport function) and turning in the crates.
+The last `73,947 (17.3%)` are added once you pack the crates and sell them at Valencia, which requires getting workers with the +3 crate packing skill (produce crates 4x faster than regular workers) maintaining the workshops (CP, worker food), transporting the crates (this is a massive cost, requiring either your time or using the NPC transport function) and turning in the crates.
 
 Notice something? That `17.3%` profit from trading is awfully close to the `~15.5%` you would have to pay when selling the plywood. **Effectively, by packing materials into crates you get to save on the market tax.** 
 
@@ -83,7 +80,7 @@ When slowly building up a stack of crates over weeks or even months, all the mon
 
 Incidentally, some people like trading for this exact same reason: it freezes their money so they can't gamble it away while going for an upgrade. Whenever they have saved enough money for their next upgrade, they do a trade-in and buy the item.
 
-You could also bring up the argument that locking away silver for long periods of time is essentially an investment. While the risk of the 'crate investment' not paying off is fairly low (it can happen when your crates get destroyed during transport or you forget to connect nodes), there are far more profitable, yet sometimes riskier, investments. Investing money can be as simple as buying materials for your next cooking/alchemy/enchancing sessions while they're cheap, assuming that they will be more expensive once you need them. I hope you get the idea.
+You could also bring up the argument that locking away silver for long periods of time is essentially an investment. While the risk of the 'crate investment' not paying off is fairly low (it can happen when your crates get destroyed during transport or you forget to connect nodes), the return also isn't great: in the above example we got `17.3%`, which will be far less once you include the workshop maintenance and transport cost etc. There are far more profitable, yet sometimes riskier, investments. Investing money can be as simple as buying materials for your next cooking/alchemy/enchancing sessions while they're cheap, assuming that they will be more expensive once you need them. I hope you get the idea.
 
 # So when should I consider trading?
 
@@ -113,7 +110,7 @@ You might say: I don't need to process my own crate materials, I can buy them st
 
 ### Trading is for you if you...
 - Process a lot and have developed a reasonably sized worker empire 
-- OR:  Process a lot and can't rely on the marketplace to liquidate materials, for example because you **don't run a Value Pack**
+- OR: Can't rely on the marketplace to liquidate materials, for example because you **don't run a Value Pack**
 - OR: simply enjoy running a crate empire and are not too concerned about profits :)
 
 ### Running a crate empire means...
@@ -140,8 +137,6 @@ I didn't know where else to put it,  but I have a hypthesis about trading. A few
 My (slightly cynical) hypothesis about trading:
 
 `Across the whole playerbase, the total profit gained by crate trading is (close to) 0. All profit that is being created by successful crate turn-ins is evened out by botched turn-ins, failed transports, or people who buy horrendously overpriced materials.`
-
-
 
 
 ## Resources

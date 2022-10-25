@@ -15,13 +15,14 @@ It's essentially a processing guide but the FAQ-style format is a bit nicer to `
 Enjoy :)
 
 ## Pre-face - for very interested readers :) 
-**What is processing?**
+
+### What is processing?
 In BDO, processing sits between your worker empire, which procuces raw materials that are then refined through processing and used in further activites such as trading, cooking and workshops. You can even form elaborate recipe chains, like gathering <!-- db_item-4006-0 --> -> <!-- db_item-4076-0 --> (alchemy) -> <!-- db_item-4053-0 --> (processing) -> <!-- db_item-16162-0 --> (workshops). If you include the sub-chain for the alchemy utensils and ingots, it gets even crazier.
 Processing is also a fairly low effort and beginner-friendly lifeskill. It doesn't take a whole lot ot get started. You can start processing without any gear at all. If you're looking to make money or process higher-tier recipes, you'll need a bit of gear and certain knowledge entries.
 !TODO: link all [] questions
 
 
-**The state of processing**
+### The state of processing
 Processing has seen better times. This is partly because some of the activities it feeds into, like trading and workshops, have seen better times too :). While being low effort and good for afk-ing, the moneymaking potential has fallen behind comparable lifskills like bartering and cooking. Procesing used to be a solid moneymaker, nowadays its main appeal is being low-effort and afk-able. You can take a look at [Eminent's processing guide](https://grumpygreen.cricket/bdo-processing-guide-eminent/) for a glimpse of what processed used to look like. The guide is fairly outdated by now but it's worth a read simply for the witty remarks and honest advice by Eminent. Heck, he even talks about how not to conflate trading with proessing, which is still so relevant today that I included a question about it in this guide ([Question X]).
 
 With the game being out for over 5 years, the processing market has become fairly stable. If you want to earn money, you have a few recipes at your disposal [qestion x] and the supply/demand for those recipes is so stable that sharing them won't negatively affect the market. Beyond that, finding recipes has never been easier with tools like [bdolytics](https://bdolytics.com/en/EU/processing/market). Aside from the main markets, a few niche markets with exceptionally low demand or supply make processing a lifeskill with a fair bit of depth and you're free to explore those markets on your own (see question [] for pointers).
@@ -53,18 +54,20 @@ After a few seconds, one of three things will happen:
 ## 2. How can I stop processing from failing?
 
 Even if you input the right materials, the message `Processing is not going as planned` can appear, which means your character has to re-try to the craft.
-The chance of this happening is tied to your **processing success rate**, which is 67% at base. With a success rate of 100% rate, crafts always succeed given that you input the right recipe.
+The chance of this happening is tied to your **processing success rate**, which is 70%* at base With a success rate of 100% rate, crafts always succeed given that you input the right recipe.
 
 Here's how to increase your sucess rate:
 - <!-- db_item-603044-0 --> / <!-- db_item-560024-0 --> (pearl shop costume) 3%  
-- <!-- db_item-14026-0 --> 6%-40% (applied to the base success rate so actually 4%-27%)
+- <!-- db_item-14026-0 --> 6%-40% (applied to the base success rate so actually 4%-28%)
 - <!-- db_item-9691-0 --> 10% for 2 hours / <!-- db_item-9642-0 --> +15% for 10 hours
 - <!-- db_item-791-0 --> 20% for 15 mins
 - Alchemy stone: <!-- db_item-45280-0 --> or <!-- db_item-45302-0 --> 11% / <!-- db_item-45284-0 --> 14%
-- Clang! Clang! Lightstone set: 20%   (<!-- db_item-764016-0 --> <!-- db_item-764008-0 --> <!-- db_item-762006-0 --> <!-- db_item-766101-0 -->)
+- [[Clang!Clang!] Lightstone set]: 20% 
 - <!-- db_item-735354-0 --> 5% each
 
-You may have heard that the success rate *can not* reach 100%. According to tests by the lifeskill community, we're almost certain that the success rate *can* reach 100%. However, some items seem to have a different success rate than indicated in the item description. This includes silver embroidered clothes and potentially verdure draught and the Clang! Clang! set. So to get 100% it helps to overstack success rate buffs by a few percent.
+You may have heard that the success rate *can not* reach 100%. According to tests by the lifeskill community, we're almost certain that the success rate *can* reach 100%. However, some items seem to have a different success rate than indicated in the item description. This includes silver embroidered clothes and potentially verdure draught and the [[Clang!Clang!]] set. So to get 100% it helps to overstack success rate buffs by a few percent.
+
+\* *We used to think that the base success rate is 67% but a recent source shows it to be 70%. Unfortunately, testing success rate is extremely tedious so we have no definite indication towards either one \*shrug\*.*
 
 # Mass Processing and Mastery
 
@@ -165,52 +168,56 @@ You can also check proc rates by going to a [specific recipe](https://bdolytics.
 
 ### Info on common processing recipes
 
-| Recipe                                   | Example                   | Process Type   | Proc Range | Proc Avg |    Level Req.  |   EXP    |   Time  | Required Knowledge  |
-|------------------------------------------|---------------------------|----------------|:----------:|:--------:|:--------------:|:--------:|:-------:|---------------------|
-| Plank (T2)                               | Ash Plank                 | Chopping       |     1-4    |    2.5   |    Artisan 6   |  200/500 |   6/60  | -                   |
-| Plywood (T3)                             | Ash Plywood               | Chopping       |     1-4    |    2.5   | Professional 6 |    500   |   6/60  | Chopping: Beginner  |
-| Sturdy Plywood (T4)                      | Sturdy Ash Plywood        | Heating        |     1-3    |     2    |  Professonal 1 |   1000   |   6/60  | Heating: Skilled    |
-| Melted Shard (T2)                        | Melted Iron Shard         | Heating        |     1-4    |    2.5   |    Master 1    |  200/500 |   9/90  | -                   |
-| Ingot (T3)                               | Iron Ingot                | Heating        |     1-4    |    2.5   |    Artisan 1   |    500   | varies* | Heating: Beginner   |
-| Pure Crystal (T4)                        | Pure Iron Crystal         | Heating        |     1-3    |     2    |  Professonal 1 |   1000   |   6/60  | Heating: Skilled    |
-| Hide (T2)                                | Tough Hide                | Drying         |     1-4    |    2.5   |    Professonal 1  |  200/500 |   9/90  | -                   |
-| Fine Hide (T3)                           | Fine Tough Hide           | Drying         |     1-4    |    2.5   |    Skilled 1   |    500   |   9/80  | Drying: Beginner    |
-| Supreme Hide (T4)                        | Supreme Tough Hide        | Shaking        |     1-3    |     2    |  Apprentice 1  |   1000   |   9/80  |   Shaking: Skilled  |
-| Feather (T2)                             | Lightweight Plume         | Filtering      |     1-4    |    2.5   |  Professonal 6 |  200/500 |   6/60  | -                   |
-| Fine Feather (T3)                        | Fine Lightweight Plume    | Filtering      |     1-4    |    2.5   |    Skilled 6   |    500   |   9/80  | Filtering: Beginner |
-| Supreme Feather (T4)                     | Supreme Lightweight Plume | Shaking        |     1-3    |     2    |  Apprentice 1  |   1000   |   9/80  |   Shaking: Skilled  |
-| Gem (T2)                                 | Ruby                      | Grinding       |     1-4    |    2.5   |    Artisan 1   | 500/1000 |   9/80  | -                   |
-| Resplendent Gem (T3)                     | Resplendent Ruby          | Grinding       |     1-3    |     2    |    Skilled 1   |   1000   |   9/80  | Grinding: Beginner  |
-| Special Gem (T4)                         | Blood Ruby                | Shaking        |     1-2    |    1.5   |  Apprentice 1  |   2000   |   6/80  |   Shaking: Skilled  |
-| Usable Scantling (T2)                    |                           | Chopping       |     1-4    |    2.5   |    Artisan 6   | 500/1000 |   6/60  | -                   |
-| Standardized Timber Square (T3)          |                           | Chopping       |     1-3    |     2    | Professional 6 |   1000   |   6/60  | Chopping: Beginner   |
-| Sturdy Timber Square (T4)                |                           | Heating        |     1-3    |     2    |    Artisan 1   |   1500   |   6/60  | Heating. Skilled    |
-| Cream                                    |                           | Shaking        |     1-4    |    2.5   |    Skilled 1   |    150   |   6/60  | -                   |
-| Butter                                   |                           | Shaking        |     1-4    |    2.5   |    Skilled 1   |    150   |   6/60  | -                   |
-| Cheese                                   |                           | Drying         |     1-4    |    2.5   |    Skilled 1   |    300   |   9/60  | -                   |
-| Flour                                    |                           | Grinding       |     1-4    |    2.5   | Professional 1 |    70    |   6/60  | -                   |
-| Dough                                    |                           | Shaking        |     1-4    |    2.5   |    Skilled 1   |    150   |   6/60  | -                   |
-| T2 Fabrics                               | Flax Thread               | Heating        |     1-4    |    2.5   |    Artisan 1   |    500   |   6/60  | -                   |
-| T3 Fabrics                               | Flax Fabric               | Grinding       |     1-4    |    2.5   | Professional 1 |   1000   |   6/60  | -                   |
-| Black Stone Powder (BSA)                 |                           | Grinding       |    40-60   |    50    |    Artisan 1   |    80    |   9/80  | -                   |
-| Black Stone Powder (BSW)                 |                           | Grinding       |   60-100   |    80    |    Artisan 1   |    80    |   9/80  | -                   |
-| Purified Water (from bag of muddy water) |                           | Filtering      |     1-4    |    2.5   |    Artisan 1   |    300   |   6/60  | -                   |
-| Ship Repair Material                     |                           | Chopping       |     1-3    |     2    |    Artisan 1   |   1000   |   6/60  | -                   |
-| Polished Stone                           |                           | Grinding       |     1-4    |    2.5   |    Artisan 1   |    500   |   6/60  | -                   |
-| Cron Meals                               | Simple Cron Meal          | Simple Cooking |      1     |     1    |   Beginner 1   |     0    |    6    | -                   |
-| Draughts                                 | Verdure Draught           | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    6    | -                   |
-| Party Elixirs                            | [Party] Defense Elixir    | Simple Alchemy |     1-2    |    1.8   |   Beginner 1   |     0    |    6    | -                   |
-| Blue Elixirs                             | Elixir of Steel Defense   | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    6    |  -                  |
-| Black Gem                                |                           | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    9    |  -                  |
-| Concentrated Magical Black Gem           |                           | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    9    |  -                  |
-| Caphras Stone                            |                           | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    6    |  -                  |
+| Recipe                                   | Example                     | Process Type   | Proc Range | Proc Avg |   Level Req.   |    EXP   |  Time  | Required Knowledge  |
+|------------------------------------------|-----------------------------|----------------|:----------:|:--------:|:--------------:|:--------:|:------:|---------------------|
+| Plank (T2)                               | Ash Plank                   | Chopping       |     1-4    |    2.5   |    Artisan 6   |  200/500 |  6/60  | -                   |
+| Plywood (T3)                             | Ash Plywood                 | Chopping       |     1-4    |    2.5   | Professional 6 |    500   |  6/60  | Chopping: Beginner  |
+| Sturdy Plywood (T4)                      | Sturdy Ash Plywood          | Heating        |     1-3    |     2    |  Professonal 1 |   1000   |  6/60  | Heating: Skilled    |
+| Melted Shard (T2)                        | Melted Iron Shard           | Heating        |     1-4    |    2.5   |    Master 1    |  200/500 |  9/90* | -                   |
+| Ingot (T3)                               | Iron Ingot, Vanadium Ingot  | Heating        |     1-4    |    2.5   |    Artisan 1   |    500   |  9/90* | Heating: Beginner   |
+| Precious Ingot (T3)                      | Gold, Plat, Silver, Mythril | Heating        |     1-4    |    2.5   |    Artisan 1   |    800   | 9/80** | Heating: Beginner   |
+| Mixed Ingot (T3)                         | Brass, Bronze, Steel        | Heating        |     1-4    |    2.5   |    Artisan 1   |    800   |  6/60  | Heating: Beginner   |
+| Pure Crystal (T4)                        | Pure Iron Crystal           | Heating        |     1-3    |     2    |  Professonal 1 |   1000   |  6/60  | Heating: Skilled    |
+| Precious Pure Crystal (T4)               | Gold, Plat, Silver, Mythril | Heating        |     1-3    |     2    |  Professonal 1 |   1500   |  6/60  | Heating: Skilled    |
+| Hide (T2)                                | Tough Hide                  | Drying         |     1-4    |    2.5   |  Professonal 1 |  200/500 |  9/90  | -                   |
+| Fine Hide (T3)                           | Fine Tough Hide             | Drying         |     1-4    |    2.5   |    Skilled 1   |    500   |  9/80  | Drying: Beginner    |
+| Supreme Hide (T4)                        | Supreme Tough Hide          | Shaking        |     1-3    |     2    |  Apprentice 1  |   1000   |  9/80  |   Shaking: Skilled  |
+| Feather (T2)                             | Lightweight Plume           | Filtering      |     1-4    |    2.5   |  Professonal 6 |  200/500 |  6/60  | -                   |
+| Fine Feather (T3)                        | Fine Lightweight Plume      | Filtering      |     1-4    |    2.5   |    Skilled 6   |    500   |  9/80  | Filtering: Beginner |
+| Supreme Feather (T4)                     | Supreme Lightweight Plume   | Shaking        |     1-3    |     2    |  Apprentice 1  |   1000   |  9/80  |   Shaking: Skilled  |
+| Gem (T2)                                 | Ruby                        | Grinding       |     1-4    |    2.5   |    Artisan 1   | 500/1000 |  9/80  | -                   |
+| Resplendent Gem (T3)                     | Resplendent Ruby            | Grinding       |     1-3    |     2    |    Skilled 1   |   1000   |  9/80  | Grinding: Beginner  |
+| Special Gem (T4)                         | Blood Ruby                  | Shaking        |     1-2    |    1.5   |  Apprentice 1  |   2000   |  6/80  |   Shaking: Skilled  |
+| Usable Scantling (T2)                    |                             | Chopping       |     1-4    |    2.5   |    Artisan 6   | 500/1000 |  6/60  | -                   |
+| Standardized Timber Square (T3)          |                             | Chopping       |     1-3    |     2    | Professional 6 |   1000   |  6/60  | Chopping: Beginner  |
+| Sturdy Timber Square (T4)                |                             | Heating        |     1-3    |     2    |    Artisan 1   |   1500   |  6/60  | Heating. Skilled    |
+| Cream                                    |                             | Shaking        |     1-4    |    2.5   |    Skilled 1   |    150   |  6/60  | -                   |
+| Butter                                   |                             | Shaking        |     1-4    |    2.5   |    Skilled 1   |    150   |  6/60  | -                   |
+| Cheese                                   |                             | Drying         |     1-4    |    2.5   |    Skilled 1   |    300   |  9/60  | -                   |
+| Flour                                    |                             | Grinding       |     1-4    |    2.5   | Professional 1 |    70    |  6/60  | -                   |
+| Dough                                    |                             | Shaking        |     1-4    |    2.5   |    Skilled 1   |    150   |  6/60  | -                   |
+| Thread/Yarn (T2)                         | Flax Thread                 | Heating        |     1-4    |    2.5   |    Artisan 1   |    500   |  6/60  | -                   |
+| Fabric/Wool/Silk (T3)                    | Flax Fabric                 | Grinding       |     1-4    |    2.5   | Professional 1 |   1000   |  6/60  | -                   |
+| Black Stone Powder (BSA)                 |                             | Grinding       |    40-60   |    50    |    Artisan 1   |    80    |  9/80  | -                   |
+| Black Stone Powder (BSW)                 |                             | Grinding       |   60-100   |    80    |    Artisan 1   |    80    |  9/80  | -                   |
+| Purified Water (from bag of muddy water) |                             | Filtering      |     1-4    |    2.5   |    Artisan 1   |    300   |  6/60  | -                   |
+| Ship Repair Material                     |                             | Chopping       |     1-3    |     2    |    Artisan 1   |   1000   |  6/60  | -                   |
+| Polished Stone                           |                             | Grinding       |     1-4    |    2.5   |    Artisan 1   |    500   |  6/60  | -                   |
+| Cron Meal                                | Simple Cron Meal            | Simple Cooking |      1     |     1    |   Beginner 1   |     0    |    6   | -                   |
+| Draught                                  | Verdure Draught             | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    6   | -                   |
+| Party Elixir                             | [Party] Defense Elixir      | Simple Alchemy |     1-2    |    1.8   |   Beginner 1   |     0    |    6   | -                   |
+| Blue Elixir                              | Elixir of Steel Defense     | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    6   | -                   |
+| Black Gem                                |                             | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    9   | -                   |
+| Concentrated Magical Black Gem           |                             | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    9   | -                   |
+| Caphras Stone                            |                             | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    6   | -                   |
 
 **Notes about the table**
 
 - **Level Req**: Level required to gain the maximum proc rate
 - **EXP**: Processing EXP. when two values are shown, the first one indicates the regular proc (e.g. ash plank) and the second one the rare proc (e.g. ash plywood)
 - **Time**: regular processing / mass processing time in seconds
-- \* Metal times: Zinc, Brass, Bronze: 6/60 |  Gold, Plat, Silver, Mythril: 9/80 | Others: 9/90
+- \* Zinc shards/ingots take 6/60 seconds. Ores are a huge mess in general.
+- \*\* Some 9s recipes seem to take 80 seconds when mass processed. Don't ask me why.
 - Source for the data: Daz' sheets, Bdocodex, bdolytics, in-game testing for the times
 
 Since the table does not include all items, here's how to look up this info yourself:
@@ -285,19 +292,44 @@ Possible Reasons:
 # Gear
 
 ## 10. What gear do I need?
-You technically don't need any gear to process. Though gear massively helps with processing by giving you the ability to mass process, increase mastery and success rate:
+You technically don't need any gear to process. Though gear massively helps with processing by giving you the ability to mass process, increase mastery and success rate.
+Note that all processing stones have been unified into one.
+Here are my *personal* gear recommendations, aimed at silver efficiency:
 
-- <!-- db_item-768088-0 --> / <!-- db_item-/768087-0 --> / <!-- db_item-768086-0 -->: mastery (there used to be one stone for each processing type but they were merged into a single stone)
-- <!-- db_item-705514-0 --> / <!-- db_item-705516-0 --> / <!-- db_item-705518-0 -->: mastery / <!-- db_item-14026-0 --> : processing EXP and success rate
-- <!-- db_item-705503-0 --> / <!-- db_item-705507-0 --> / <!-- db_item-705511-0 -->: mastery
-- Artifacts: <!-- db_item-735372-0 --> (10 mastery) / <!-- db_item-735354-0 --> (5% success rate) / <!-- db_item-735361-0 --> (5% EXP)
-- Lightstones (image from Garmoth): 
+### Beginenr
+- <!-- db_item-768088-18 -->
+- <!-- db_item-705514-18 -->
 
-<img width="700" src="/files/processing_faq/clangclang.png">
+### Intermediate
+- <!-- db_item-768087-19 -->
+- <!-- db_item-705514-19 --> / <!-- db_item-705516-19 --> (buy/pre-order on the market)
+- any of  <!-- db_item-735372-0 --> / <!-- db_item-735361-0 -->  / <!-- db_item-735354-0 --> / <!-- db_item-735351-0 --> / <!-- db_item-735352-0 -->
+- [[Clang!Clang!]](https://bdolytics.com/en/EU/db/lightstoneset/167) Lightstone set: 20% success rate, 13% EXP, +25 processing mastery, +50 LT - including the lightstone effects
+ - <!-- db_item-764016-0 -->
+ - <!-- db_item-764008-0 -->
+ - <!-- db_item-762006-0 -->
+ - <!-- db_item-766101-0 -->
 
-In terms of clothes and processing stone I recommend to get whatever your budget allows and what you need to reach sufficient processing mastery (see [question 6](#6-how-much-processing-mastery-do-i-need)).
+### Advanced
+- <!-- db_item-768086-19 -->
+- <!-- db_item-705516-19 --> / <!-- db_item-705518-19 --> (depending on your budget)
+- <!-- db_item-735372-0 --> / <!-- db_item-735361-0 --> / <!-- db_item-735354-0 --> 
+- [[Clang!Clang!]](https://bdolytics.com/en/EU/db/lightstoneset/167) Lightstone set
 
-## 11. How do I get processing artifacts?
+**Which artifacts to run?**
+
+In theory, the [[Clang!Clang!]](https://bdolytics.com/en/EU/db/lightstoneset/167) set (20%) and seafood cron meal (10%) together with the base success rate (70%) should get you to 100%. But as the [[Clang!Clang!]](https://bdolytics.com/en/EU/db/lightstoneset/167) set seems to give less sucess rate than indicated, you will need to add a verdure draught or success rate artifact to reach 100%.
+In general, I would prioritize mastery artifacts (if it makes you hit a bracket) > success rate (if you don't have 100%) > EXP.
+
+**Buy or enhance gear?**
+
+Lifeskill gear is usually cheaper to buy than to enhance yourself. You can check mastery gear enhance costs using [this sheet](https://docs.google.com/spreadsheets/d/1Me9wRktno6DDB4-of9tUx-SoaA-ezHK_w1BhwvXRrmA/edit?usp=sharing).
+
+**How much mastery is enough?**
+
+Refer to question 6](#6-how-much-processing-mastery-do-i-need)) :)
+
+## 11. How can I get processing artifacts?
 You can get them by handing in imperial cooking boxes. Processing artifacts drop from imperial cooking turn-ins, together with cooking artifacts. The chance to get an artifact is quite low (expect one maybe every 5-10 turn-ins) so it might take a while until you get the artifact you want.
 
 You don't need to worry about having perfect artifacts. While working on getting processing artifacts, you can still run a lightstone set by using general-purpose artifacts like <!-- db_item-735351-0 -->  or <!-- db_item-735352-0 --> as placeholders. Once you get the processing artifacts, you can then extract the lightstones at a blacksmith with a lightstone extraction tool and slot them into the new artifacts.
@@ -319,7 +351,7 @@ It's up to you to decide whether the convenience of being able to stay afk for l
 
 Mastery clothes and silver embroidered (SE) processing clothes have different beenfits:
 - **Mastery clothes**: increase processing mastery, which boosts the number of batches you can process at once, effectively letting you process at a faster rate.
-- **SE clothes**: give processing EXP and increase the processing success rate, which also lets you process at a faster rate. Though you won't see any benefit if you success rate is already at 100%. It's very easy to reach 100% success rate with mastery clothes, for example base (67%) + seafood cron meal (10%) + Clang !Clang! lightstone set (20%) + verdure draught (20%). In practice, the success rate is only useful when you don't have all buffs running.
+- **SE clothes**: give processing EXP and increase the processing success rate, which also lets you process at a faster rate. Though you won't see any benefit if you success rate is already at 100%. It's very easy to reach 100% success rate with mastery clothes, for example base (70%) + seafood cron meal (10%) + [[Clang!Clang!] Lightstone set](https://bdolytics.com/en/EU/db/lightstoneset/167) (20%) + verdure draught (20%). In practice, the success rate is only useful when you don't have all buffs running.
 
 <img width="600" src="/files/processing_faq/clothes_collage.png">
 
@@ -431,17 +463,9 @@ You can check processing profits on [bdolytics](https://bdolytics.com/processing
 
 ## 17. Do I have to combine processing with trading to make it profitable?
 
-You'll often see titles like 
+**Short answer**: No. It can make sense to pack processed materials into crates for certain playstyles (No Value Pack / processing a lot). I consider trading an optional step on top of processing, which gives a bit of extra profit and requires a deceivingly high amount of work.
 
-`Trading in 36 billion worth of crates!`
-
- or 
- 
-`$43 Billion Crates Traded In 1 Hour`
-
-Processing ofen gets bunched together
-
-
+**Long answer**: See my [post](TODO: insert link to trading guide) on this topic.
 
 ## 18. What about that 3 bil/H recipe on bdolytics?
 
@@ -482,7 +506,12 @@ That's how it is unfortunately. We can only hope that PA fixes it in the future.
 - <!-- db_item-9691-0 -->: 100 LT / <!-- db_item-9642-0 -->: 300 LT
 - <!-- db_item-791-0 -->: 200 LT
 - 4x <!-- db_item-15665-0 --> or <!-- db_item-15662-0 --> in mainhand and sub-weapon: 150 LT + 60 LT if you run HAN crystals
-- Clang! Clang! lightstone set: 30 LT
+- [[Clang!Clang!] Lightstone set]: 30 LT
 - Alchemy stone: varies (spirit stone doesn't give weight!)
 
-**Thanks for reading. If you have suggestions, corrections, please write a message to Summer#8727 or @ me in the Lifskill Discord.**
+## Feedback is always welcome!
+
+Thanks for reading. If you have suggestions, corrections or further questions, here are some way in which you can reach out to me:
+- Leave a comment below this guide.
+- Leave an (anonymous) response on the [feedback form](https://forms.gle/ea2RZ6DvXAHQLnv76).
+- Write a message to Summer#8727 or @ me in the Lifskill Discord.
