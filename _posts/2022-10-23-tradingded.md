@@ -1,4 +1,10 @@
-Title: Trading is dead! Or is it?
+---
+layout: post
+title:  Trading is dead! Or is it?
+published: false
+tags: BDO
+---
+
 ------------------------------------
 
 Disclaimer: This is not a guide on how to set up a trade empire. Rather, I aim to give you realistic expectations for how much profit can be made with trading, outline the required setup and my recommendations for which playstyle trading can make sense.
