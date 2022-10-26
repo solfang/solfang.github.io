@@ -7,6 +7,9 @@ tags: BDO
 
 Last updated: 23.02.2021
 
+**Heads-up:**
+Parts of this post are fairly outdated now, i.e. bdodae has been replaced by bdolytics and the price cap on many items such as milk, eggs and rough stone has been lifted which no longer makes them a bottleneck. There are only a handful of items left where it's useful to calculate the true value because the market price is not sufficient, e.g. Snake/scorp/lion meat, bracken, rainbow mushrooms, fruits for alchemy and traces. Having said that, the key concepts shown in this post are still very much valid (and I think true values are still one of the most interesting concepts  when it comes to profit min-maxing since they're the natural conclusion of other concepts like profit separation and valuing your time properly). Maybe I'll get around to updating this guide someday. Am working on other things like YouTube and more beginner-oriented written guides. So read at your own risk :)
+
 This post is aimed at:  
 Established players who are interested in item valuation, not so much at beginners. I'll try to break down the concepts in an easy-to-grasp manner but it definitely helps if you have thought about the topic of item valuation before.
 

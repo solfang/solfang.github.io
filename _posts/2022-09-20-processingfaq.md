@@ -294,9 +294,9 @@ Possible Reasons:
 ## 10. What gear do I need?
 You technically don't need any gear to process. Though gear massively helps with processing by giving you the ability to mass process, increase mastery and success rate.
 Note that all processing stones have been unified into one.
-Here are my *personal* gear recommendations, aimed at silver efficiency:
+Here are my *personal* gear recommendations, aimed at silver efficiency. Feel free to go for a different setup as you see fit.
 
-### Beginenr
+### Beginner
 - <!-- db_item-768088-18 -->
 - <!-- db_item-705514-18 -->
 
@@ -327,7 +327,7 @@ Lifeskill gear is usually cheaper to buy than to enhance yourself. You can check
 
 **How much mastery is enough?**
 
-Refer to question 6](#6-how-much-processing-mastery-do-i-need)) :)
+Refer to [question 6](#6-how-much-processing-mastery-do-i-need)
 
 ## 11. How can I get processing artifacts?
 You can get them by handing in imperial cooking boxes. Processing artifacts drop from imperial cooking turn-ins, together with cooking artifacts. The chance to get an artifact is quite low (expect one maybe every 5-10 turn-ins) so it might take a while until you get the artifact you want.
