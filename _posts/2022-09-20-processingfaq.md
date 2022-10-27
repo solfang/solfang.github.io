@@ -450,13 +450,69 @@ I would pick buffs based on which ones you have access to and which buffs are re
 
 ## 16. How to make money with processing?
 
-Processing has two main marktets:
-- Crate materials: plywood and ingots
-- Cooking materials: flour/dough/cheese/cream/butter
+First of all, how can processing even be profitable when one <!-- db_item-7001-0 --> is worth `~1500 silver` the <!-- db_item-7101-0 --> it's being processed into is also worth `~1500 silver`? Well, most recipe produce 1-4 items per craft, or 2.5 on average. So 1 craft of <!-- db_item-7001-0 --> into <!-- db_item-7101-0 --> costs `~1500 silver` and produces a value of `2.5*`1500=3750 silver (minus tax)`.
+
+### Processing Markets
+
+There are three main markets for processing: 
+
+| Supplies                     | Materials                                                                    | Info                                                              |
+|------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Crates / Alch stone upgrades | Plywood, ingots                                                              | High supply, high demand, stable profits                          |
+| Cooking                      | Flour, dough, chese, cream, butter                                           | High supply, high demand, stable profits                          |
+| Workshops                    | Sturdy plywood, pure crystals, special gems, supreme hides, supreme feathers | Low supply and/or low demand, high profit potential but unstable  |
+
+The first two markets are where you'll find consistent profit. The various workshop sub-markets (ship/wagon/fishing rod etc. workshops) can be much more profitable but are not beginner friendly at all. More on them in question [TODO].
+
+### The market processing table
+
+You can check processing profits on [bdolytics](https://bdolytics.com/processing/market)
+
+<src="/files/processing_faq/processingmarket_ann.png>
+
+the table can be a bit overwhelming at first, so I'll explain the displayed info a bit (columns that are most important in my eyes are highlighted):
+- Name: Name of the recipe
+- Favourite: Lets you *bookmark* recipes by clicking on the heart icon
+- **Silver/H**: Profit of one hour of processing when buying the materials and selling the product to the market (will adapt based on how you customized the recipe)
+- Market Price: Market price of the product
+- Price Change: `(((CURRENT_PRICE - SEVEN_DAY_PRICE) / SEVEN_DAY_PRICE) * 100) AS PRICE`
+- **Daily Volume**: Number of items sold per day, averaged over the past 7 days
+- Volume Change: `((((CURRENT_TRADES - SEVEN_DAY_TRADES) / 7) - ((SEVEN_DAY_TRADES - FOURTEEN_DAY_TRADES) / 7)) / (GREATEST((SEVEN_DAY_TRADES - FOURTEEN_DAY_TRADES), 1) / 7)* 100) AS VOLUME_CHANGE`
+- **Experience**: Experience per craft. If two numbers are given, e.g. 200/500 it refers to the main result (200 EXP) and rare proc (500 EXP).
+ 
+Additionally, you can **sort** the table by one or more columns and **search** for specific items through the search bar. For example, if you search for 'ash plank', bdolytics will show the entry for <!-- db_item-4651-0 --> as well as all items it can be processed into, like <!-- db_item-4652-0 --> and <!-- db_item-4688-0 -->
+ 
+## Okay and how do I find profitable recipes?
+My recommendation:
+1. **Sort** the table by `Daily Volume`, as shown in the image above. This will bring up mostly items from the first two markets (crates/alchemy stones, cooking). Importantly, by picking items with high volume you ensure that you are able to sell the materials you process.
+2. 
+
+
+ 
+
+
+ we'll only focus on the most important features:
+
+**1 Setup**
+
+**Searching for items**
+
+
+
+**Notable Columns**
+- Silver/Hour 
+- Daily Volume: how many of the product get sold a day
+- Experience
+
+
+### TLDR
+1. Pick a recipe with sufficient supply
+
+
 
 Those recipes give stable profits. By far not all processing markets are like that. There is a set of sub-markets feeding into workshops, manos gear crafting that are characterized by rather low demand and fluctuating prices.
 
-You can check processing profits on [bdolytics](https://bdolytics.com/processing/market). Make sure to enter your processing mastery in the settings.
+. Make sure to enter your processing mastery in the settings.
 
 **Pro tip**: Do yourself a favor and sort by `Daily Volume`. If you sort by `Silver/Hour`, you'll get a best-off parade of all items with exceptional profit but extreme downsides/bottlenecks, which require special attention (see question [TODO]]
 
