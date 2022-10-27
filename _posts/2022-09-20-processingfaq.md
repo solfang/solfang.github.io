@@ -462,9 +462,9 @@ There are three main markets for processing:
 
 The first two markets are where you'll find consistent profit. The various workshop sub-markets (ship/wagon/fishing rod etc. workshops) can be much more profitable but are not beginner friendly at all. I'll go more into detail on those markets in question [TODO].
 
-### Where to start? -> Processing worker materials
+### Where to start?
 
-It's usually not a bad idea to process materials your workers brought in. For example, you can process iron into melted iron shards to produce cooking or alchemy utensils or process flour and dough for cooking. Processing materials brought in by workers is usually profitable though I recommend checking the profit on bdolytics regardless. You can also check which material goes into which processing recipe through bdolytics as shown below. Note that if you process at lot, you will need to buy materials off the market.
+It's usually not a bad idea to process materials your workers brought in. For example, you can process <!-- db_item-4001-0 --> into <!-- db_item-4051-0 --> to produce <!-- db_item-3719-0 --> or <!-- db_item-3703-0 -->. You could also process your own	<!-- db_item-6656-0 --> for alchemy	or <!-- db_item-7105-0 --> or <!-- db_item-7205-0 --> for cooking (side note: try to avoid processing wheat dough for your own usage, as it is less valuable than other doughs). Processing materials brought in by workers is usually profitable though I recommend checking the profit on bdolytics regardless. You can also check which material goes into which processing recipe through bdolytics as shown below. Note that if you process at lot, you will need to buy materials off the market.
 
 ### The market processing table
 
