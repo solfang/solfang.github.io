@@ -472,7 +472,7 @@ It's usually not a bad idea to process materials your workers brought in. Nevert
 
 You can check processing profits and additional info on the [bdolytics processing table](https://bdolytics.com/processing/market).
 
-<img src="/files/processing_faq/processingmarket.png>
+<img src="/files/processing_faq/processingmarket.png">
 
 The table can be a bit overwhelming at first, so I'll explain the displayed info a bit. Columns I consider most important are highlighted.
 - Name: Name of the recipe
@@ -486,7 +486,7 @@ The table can be a bit overwhelming at first, so I'll explain the displayed info
  
 Additionally, you can **sort** the table by one or more columns and **search** for specific items through the search bar. For example, if you search for 'ash plank', bdolytics will show the entry for <!-- db_item-4651-0 --> as well as all items it can be processed into, like <!-- db_item-4652-0 --> and <!-- db_item-4688-0 -->
 
-<img src="/files/processing_faq/processingmarket_search.png>
+<img src="/files/processing_faq/processingmarket_search.png">
 
 ### Pitfalls
 
@@ -496,9 +496,9 @@ There are a few pitfalls when choosing recipes, though they are relatively easy 
 
 2. **Not checking the input materials:** Processing <!-- db_item-6656-0 --> is highly profitable looks profitable on paper but the input material, <!-- db_item-6653-0 --> is not available on the market. In this case, you can swap the <!-- db_item-6653-0 --> for <!-- db_item-6657-0 -->, which has a much higher supply.
 
-<img src="/files/processing_faq/purifiedwater.png>
+<img src="/files/processing_faq/purifiedwater.png">
 
-<img src="/files/processing_faq/water_swap.png>
+<img src="/files/processing_faq/water_swap.png">
 
 ## 17. Do I have to combine processing with trading to make it profitable?
 
