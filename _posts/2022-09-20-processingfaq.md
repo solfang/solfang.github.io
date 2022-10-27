@@ -466,15 +466,15 @@ The first two markets are where you'll find consistent profit. The various works
 
 ### Processing worker mats
 
-You can get a smooth start into processing by processing materials your workers brought in. Processing worker-supplied materials is usually profitable but it's worth nevertheless checking profits on bdolytics. If you process at lot, you will need to buy materials off the market.
+It's usually not a bad idea to process materials your workers brought in. Nevertheless, I recommend checking profits on bdolytics. You can also check which material goes into which processing recipe though bdolytics as shown below. Note that if you process at lot, you will need to buy materials off the market.
 
 ### The market processing table
 
-You can check processing profits on [bdolytics](https://bdolytics.com/processing/market)
+You can check processing profits and additional info on the [bdolytics processing table](https://bdolytics.com/processing/market).
 
-<src="/files/processing_faq/processingmarket_ann.png>
+<img src="/files/processing_faq/processingmarket.png>
 
-the table can be a bit overwhelming at first, so I'll explain the displayed info a bit (columns that are most important in my eyes are highlighted):
+The table can be a bit overwhelming at first, so I'll explain the displayed info a bit. Columns I consider most important are highlighted.
 - Name: Name of the recipe
 - Favourite: Lets you *bookmark* recipes by clicking on the heart icon
 - **Silver/H**: Profit of one hour of processing when buying the materials and selling the product to the market (will adapt based on how you customized the recipe)
@@ -482,19 +482,23 @@ the table can be a bit overwhelming at first, so I'll explain the displayed info
 - Price Change: `Current Market Price` compared to the `Market Price 7 days before`
 - **Daily Volume**: Number of items sold per day, averaged over the past 7 days
 - Volume Change: `Current Daily Volume` compared to the `Daily Volume 7 days before`
-- **Experience**: Experience per craft. If two numbers are given, e.g. 200/500 it refers to the main result (200 EXP) and rare proc (500 EXP).
+- **Experience**: Experience per craft. If two numbers are given, e.g. 200/500 it refers to the main result and rare proc.
  
 Additionally, you can **sort** the table by one or more columns and **search** for specific items through the search bar. For example, if you search for 'ash plank', bdolytics will show the entry for <!-- db_item-4651-0 --> as well as all items it can be processed into, like <!-- db_item-4652-0 --> and <!-- db_item-4688-0 -->
 
+<img src="/files/processing_faq/processingmarket_search.png>
+
 ### Pitfalls
+
+There are a few pitfalls when choosing recipes, though they are relatively easy to avoid:
 
 1. **Picking a recipe with low daily volume:** While it can make sense to process low volume items, those usually require special attention (see question [TODO]). I recommend sticking to high volume items such as materials for crates/alchemy stones and cooking.
 
 2. **Not checking the input materials:** Processing <!-- db_item-6656-0 --> is highly profitable looks profitable on paper but the input material, <!-- db_item-6653-0 --> is not available on the market. In this case, you can swap the <!-- db_item-6653-0 --> for <!-- db_item-6657-0 -->, which has a much higher supply.
 
-<src="/files/processing_faq/purifiedwater.png>
+<img src="/files/processing_faq/purifiedwater.png>
 
-<src="/files/processing_faq/water_swap.png>
+<img src="/files/processing_faq/water_swap.png>
 
 ## 17. Do I have to combine processing with trading to make it profitable?
 
