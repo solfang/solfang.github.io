@@ -450,8 +450,6 @@ I would pick buffs based on which ones you have access to and which buffs are re
 
 ## 16. How to make money with processing?
 
-First of all, how can processing even be profitable when one <!-- db_item-7001-0 --> is worth `~1500 silver` the <!-- db_item-7101-0 --> it's being processed into is also worth `~1500 silver`? Well, most recipe produce 1-4 items per craft, or 2.5 on average. So 1 craft of <!-- db_item-7001-0 --> into <!-- db_item-7101-0 --> costs `~1500 silver` and produces a value of `2.5*`1500=3750 silver (minus tax)`.
-
 ### Processing Markets
 
 There are three main markets for processing: 
@@ -462,11 +460,11 @@ There are three main markets for processing:
 | Cooking                      | Flour, dough, chese, cream, butter                                           | High supply, high demand, stable profits                          |
 | Workshops                    | Sturdy plywood, pure crystals, special gems, supreme hides, supreme feathers | Low supply and/or low demand, high profit potential but unstable  |
 
-The first two markets are where you'll find consistent profit. The various workshop sub-markets (ship/wagon/fishing rod etc. workshops) can be much more profitable but are not beginner friendly at all. More on them in question [TODO].
+The first two markets are where you'll find consistent profit. The various workshop sub-markets (ship/wagon/fishing rod etc. workshops) can be much more profitable but are not beginner friendly at all. I'll go more into detail on those markets in question [TODO].
 
-### Processing worker mats
+### Where to start? -> Processing worker materials
 
-It's usually not a bad idea to process materials your workers brought in. Nevertheless, I recommend checking profits on bdolytics. You can also check which material goes into which processing recipe though bdolytics as shown below. Note that if you process at lot, you will need to buy materials off the market.
+It's usually not a bad idea to process materials your workers brought in. For example, you can process iron into melted iron shards to produce cooking or alchemy utensils or process flour and dough for cooking. Processing materials brought in by workers is usually profitable though I recommend checking the profit on bdolytics regardless. You can also check which material goes into which processing recipe through bdolytics as shown below. Note that if you process at lot, you will need to buy materials off the market.
 
 ### The market processing table
 
