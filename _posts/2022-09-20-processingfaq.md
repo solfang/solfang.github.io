@@ -158,7 +158,7 @@ So here's my advice:
 
 Most recipes yield **1-4 items** (2.5 on average). Exceptions to that tend to occur for high-tier recipes like T4 crafts as well as simple alchemy/processing, manufacturing etc., where recipes tend to yield 1 item per craft. 
 The [table](#info-on-common-processing-recipes) below includes proc rates as well as other info for common processing recipes.
-You can also check proc rates by going to a [specific recipe](https://bdolytics.com/en/EU/processing/market/4651) on bdolytics.
+You can also check proc rates by going to a [specific recipe](https://bdolytics.com/processing/market/4651) on bdolytics.
 
 ### What affects the proc rate?
 **Proc rate is fixed and neither affected by mastery nor by whether you're regular or mass processing. Caveat: A certain processing level is required for some recipes to cap out the proc rate:**
@@ -452,19 +452,21 @@ I would pick buffs based on which ones you have access to and which buffs are re
 
 ### Processing Markets
 
-There are three main markets for processing: 
+### Where to start?
 
-| Supplies                     | Materials                                                                    | Info                                                              |
+It's usually not a bad idea to process materials your workers brought in. For example, you can process <!-- db_item-4001-0 --> into <!-- db_item-4051-0 --> to produce <!-- db_item-3719-0 --> or <!-- db_item-3703-0 -->. You could also process your own	<!-- db_item-6656-0 --> for alchemy	or <!-- db_item-7105-0 --> or <!-- db_item-7205-0 --> for cooking (side note: try to avoid processing wheat dough for your own usage, as it's less valuable than other doughs). Processing materials brought in by workers is usually profitable though I recommend checking the profit on bdolytics regardless. You can also check what certain materials can be processed into through bdolytics as shown below. Note that if you process at lot, you will need to buy materials off the market. If intend to process items for the market, you'll want gain a basic understanding of which materials are in demand and what they go into.
+
+The processing market can be roughly divided into three groups based on what crates demand for materials.
+There are three 'main markets' for processing: 
+
+| Demand from                  | Materials                                                                    | Info                                                              |
 |------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | Crates / Alch stone upgrades | Plywood, ingots                                                              | High supply, high demand, stable profits                          |
 | Cooking                      | Flour, dough, chese, cream, butter                                           | High supply, high demand, stable profits                          |
 | Workshops                    | Sturdy plywood, pure crystals, special gems, supreme hides, supreme feathers | Low supply and/or low demand, high profit potential but unstable  |
 
-The first two markets are where you'll find consistent profit. The various workshop sub-markets (ship/wagon/fishing rod etc. workshops) can be much more profitable but are not beginner friendly at all. I'll go more into detail on those markets in question [TODO].
+The first two groups are where you'll find consistent profit. The various workshop sub-markets (ship/wagon/fishing rod etc. workshops) can be much more profitable but are not beginner friendly at all. I'll go more into detail on those markets in question [TODO].
 
-### Where to start?
-
-It's usually not a bad idea to process materials your workers brought in. For example, you can process <!-- db_item-4001-0 --> into <!-- db_item-4051-0 --> to produce <!-- db_item-3719-0 --> or <!-- db_item-3703-0 -->. You could also process your own	<!-- db_item-6656-0 --> for alchemy	or <!-- db_item-7105-0 --> or <!-- db_item-7205-0 --> for cooking (side note: try to avoid processing wheat dough for your own usage, as it is less valuable than other doughs). Processing materials brought in by workers is usually profitable though I recommend checking the profit on bdolytics regardless. You can also check which material goes into which processing recipe through bdolytics as shown below. Note that if you process at lot, you will need to buy materials off the market.
 
 ### The market processing table
 
