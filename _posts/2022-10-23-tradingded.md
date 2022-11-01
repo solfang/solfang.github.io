@@ -48,7 +48,7 @@ In this example I used EU prices and m10 trading. An auto-updating version of th
 Note that this sheet is more of a gimmick to show my point about trading profits. To calculate profits for yourself, I recommend using Wolf's trader sheet in the [simple](https://docs.google.com/spreadsheets/d/1trCwiImMtzuM-OWOUnNiMxwKwoRdIgjLIWu-an0-m9k/edit?usp=sharing) or [full](https://docs.google.com/spreadsheets/d/1DEazVbmu-cFtLUndWRfj6D1a21W-FKEr-VbBHBCOqyc/edit?usp=sharing) version.
 
 **We conclude:**
-**Trading is an optional step on top of processing, which gives a bit of extra profit and requires extra work:**
+**Trading is an optional step on top of processing, which gives a bit of extra profit and requires a fair bit of extra work:**
 - Initial setup: Getting artisan 2 trading and +3 packers (this can take a while!)
 - Maintenance: Feed crate workers, supply materials
 - Transporting: Maintain a node connection and managing trade wagons or afk ride/ship crates

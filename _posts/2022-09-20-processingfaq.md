@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BDO - Processing FAQ - 20 commonly asked questions answered
+title: BDO - Processing FAQ - 20 Commonly Asked Questions Answered
 description: The ultimate processing FAQ
 published: false
 tags: BDO
@@ -8,20 +8,20 @@ tags: BDO
 
 *Last updated: 23/10/2022*
 
-Heya, I'm Summer and I made this post to help you find the answer to commonly asked questions about processing.
-It's essentially a processing guide but the FAQ-style format is a bit nicer to `ctrl+f` in case you are looking for info on a specific topic.
+Heya, I'm Summer and I made this post to help you out with any questions you may have about processing.
+It's essentially a processing guide but the FAQ-style format is a bit nicer to `ctrl+f` in case you are looking for specific info.
 
 Enjoy :)
 
-## Pre-face - for very interested readers :) 
+## Preface - for very interested readers :) 
 
 ### What is processing?
-Porcessing is about taking raw materials, for example produced by your worker empire and refining them for use in further activities like trading, cooking and workshops. Processing is also fairly low effort and it doesn't take a whole lot to get started. One of the coolest things about processing is that once you get further into it you can form elaborate recipe chains, like <!-- db_item-4006-0 --> -> <!-- db_item-4076-0 --> (alchemy) -> <!-- db_item-4053-0 --> (processing) -> <!-- db_item-16162-0 --> (workshops).
+Porcessing is about taking raw materials, for example produced by your worker empire, and refining them for use in further activities like trading, cooking and workshops. Processing is also fairly low effort and doesn't take a whole lot to get started. One of the coolest things about processing is that once you get further into it you can form elaborate recipe chains together with other lifeskills, like <!-- db_item-4006-0 --> -> <!-- db_item-4076-0 --> (alchemy) -> <!-- db_item-4053-0 --> (processing) -> <!-- db_item-16162-0 --> (workshops).
 
 ### The state of processing
-Processing for profit has seen better times. This is partly because some of the activities it feeds into, like trading and workshops, have seen better times too :). The moneymaking potential has fallen behind comparable lifskills like bartering and cooking. Nowadays, its main appeal is being low-effort and afk-able. 
+Processing for profit has seen better times. This is partly because some of the activities it feeds into, like trading and workshops, have seen better times too. The moneymaking potential has noticeably fallen behind comparable lifskills like bartering and cooking. Nowadays, the main appeal of processing is being low effort and afk-able. 
 
-On the bright side, the processing market has become fairly stable. If you want to earn money, you have a few recipes at your disposal [question x] and the supply/demand for those recipes is so stable that sharing them won't negatively affect the market. Beyond that, finding recipes has never been easier with tools like [bdolytics](https://bdolytics.com/en/EU/processing/market). Aside from the main markets, a few niche markets with exceptionally low demand or supply make processing a lifeskill with a fair bit of depth and you're free to explore those markets on your own (see question [] for pointers).
+On the bright side, leveling processing is fairly straight-forward ([question x]). To earn money, you have a few recipes at your disposal ([question x]). Processing markets are fairly stable, which means I can share some for-profit recipes with you without negatively impacting the market. Beyond that, finding recipes has never been easier with tools like [bdolytics](https://bdolytics.com/en/EU/processing/market).
 
 # Basics
 
@@ -39,6 +39,7 @@ After a few seconds, one of three things will happen:
 1) The craft succeeds
 2) The message `Processing is not going as planned` appears → Your character will re-try the craft and no materials are lost.
 3) The message `It is not working at all` appears → Either you input the wrong materials or something else went wrong, for example you're missing knowledge. Not materials are lost when this happens. You can find the correct recipe to craft an item via the in-game crafting nodes (F2→Crafting notes) or [bdolytics](https://bdolytics.com/).
+4) The message `Insufficient ingredients to continue processing` appears: You got the recipe right but don't have enough materials for a full craft.
 
 <img width="450" src="/files/processing_faq/process_outcomes.jpg">
 
@@ -68,7 +69,7 @@ Example: processing *timber* into *planks*:
 - Regular processing: 6 second craft time, 1 craft at a time
 - Mass processing: 60 seconds craft time, 10+ crafts at a time
 
-As you can see,  mass processing has higher throughput than regular processing when processing  more than 10 batches at once. Processing mastery increases the number of batches (see [question 5](#5-what-does-processing-mastery-do)).
+As you can see, mass processing has higher throughput than regular processing when processing  more than 10 batches at once. Processing mastery increases the number of batches (see [question 5](#5-what-does-processing-mastery-do)).
 
 You need a **processing stone** to get access to the 'Mass Process' button in the processing menu.
 
@@ -92,9 +93,10 @@ You can check these recipes in the in-game crafting notes (F2→Crafting notes i
 Processing mastery increases the number of crafts ('batches') you can perform at once through mass processing.
 For example, with `1020 mastery` you can perform `90 crafts` at once, which at 10x higher craft time ends up being `90/10=9` times faster than regular processing.
 
-Also note that you can process 10 items at once at the lowest possible mastery bracket. At this mastery bracket, mass processing and regular procesing have the same throughput. The more mastery you have, the more mass processing starts to outperform regular processing.
+Also note that at the lowest possible mastery bracket you can process 10 items at once, which has to the same throughput as regular processing. The more mastery you have, the more mass processing starts to outperform regular processing.
 
 We conclude:
+
 **If a recipe can be mass processed you should mass process it**
 
 | Mastery | Batches | Mastery | Batches |
@@ -249,7 +251,10 @@ Some items are so light that you can process them for multiple hours or even ove
 Common recipes for **overnight processing** are <!-- profit_processing-9061-0 -->, <!-- profit_processing-9062-0 --> and <!-- profit_processing-9063-0 -->.
 
 ## 9. Why can't I chop plyoowd / heat pure crystals?
-**You are missing knowledge.**
+
+<span style="color:blue">**You are missing knowledge.** some *blue* text</span>.
+
+
 
 To chop planks into plywood (T3) you need `chopping: beginner`. To heat ingots into pure crystals (T4) you need `heating: skilled` and so on. You can get the knowledge entries through a quest chain. 
 
@@ -491,7 +496,7 @@ There are a few pitfalls when choosing recipes:
 
 1. **Picking a recipe with low daily volume:** While it can make sense to process low volume items, those usually require special attention (see question [TODO]). I recommend sticking to high volume items such as materials for crates/alchemy stones and cooking. To make this easier, I first sort the processing table by `Daily Volume` before going through the `Silver/Hour` of the recipes.
 
-2. **Not checking the input materials:** Processing <!-- db_item-6656-0 --> looks very profitable on paper. Though <!-- db_item-6653-0 --> has a red mark next to it indicating that it is not available on the market. In this case, you can swap the <!-- db_item-6653-0 --> for <!-- db_item-6657-0 -->, which has a much higher supply. Though swapping input materials isn't possible for all recipes.
+2. **Not checking the input materials:** Processing <!-- db_item-6656-0 --> looks very profitable on paper. Though <!-- db_item-6653-0 --> has a red mark next to it indicating that it's not available on the market. In this case, you can swap the <!-- db_item-6653-0 --> for <!-- db_item-6657-0 -->, which has a much higher supply. Though swapping input materials isn't possible for all recipes and some recipes will always have bottlenecks.
 
 <img src="/files/processing_faq/purifiedwater.png">
 
@@ -499,7 +504,7 @@ There are a few pitfalls when choosing recipes:
 
 ## 17. Do I have to combine processing with trading to make it profitable?
 
-**Short answer**: No. It can make sense to pack processed materials into crates for certain playstyles (No Value Pack / processing a lot). I consider trading an optional step on top of processing, which gives a bit of extra profit and requires a deceivingly high amount of work.
+**Short answer**: No. It can make sense to pack processed materials into crates for certain playstyles, for example when you process a lot or have no Value Pack. Turning in a fat stack of crates for billions of silver is satisfying but trading in itself is not a huge moneymaker. Realistically, trading is an optional step on top of processing, which gives a bit of extra profit and requires a fair bit of of work.
 
 **Long answer**: See my [post](TODO: insert link to trading guide) on this topic.
 
@@ -515,18 +520,18 @@ Let's look at three examples:
 
 1. <!-- profit_processing-5865 -->: `3 bil/H` looks pretty good, huh? But take a look at the daily volume. `220` units sold a day. In an hour of processing at 2k mastery, you could produce `25k` dawn fallen silk, which is enough to fully supply the market for almost two weeks. Therefore you should take the `3 bil/H` figure with a huge grain of salt. Effectively what it means is: any time spent on this recipe is very much worth it but this time is heavily limited. -> **Problem 1: Limited demand**
 
-2. <!-- profit_processing-4264 -->: Mythril ingots, mythril shards and mythril ore needed to craft pure mythril crystals are extremely hard to come by. Pre-orders fill slowly and there is no way to gather them efficiently. The question now becomes whether the profit is still worth it considering the effort it takes to get the materials.  -> **Problem 2: Limited supply**
+2. <!-- profit_processing-4264 -->: Mythril ingots, mythril shards and mythril ore are needed to craft pure mythril crystals and are extremely hard to come by. Pre-orders fill slowly and there is no way to gather them efficiently. To while the recipe is profitable, the real question is whether the profit is worth the effort of getting the materials.  -> **Problem 2: Limited supply**
 
 3. Since supply and/or demand for those items is so small, prices tend to fluctuate a lot. Unfortunately, a slight change in input material or product price can easily make these recipes go from `+3 bil/H` to `-3 bil/H` -> **Problem 3: Price fluctuations and razor-thin margins**
 
 Niche market processing means researching recipes on your own and dealing with the inherent difficulties of these recipes:
 - Dealing with problem 1: Expand your profit avenues by crafting and selling multiple items at once to not oversupply the market.
 - Dealing with problem 2: You can address supply problems by pre-ordering items or crafting/gathering them yourself.
-- Dealing with problem 3: Forming product chains can be a good way to stabilize margins, for example turning metal solvent into pure crystal, where the saved tax on the metal solvent can be difference between turning a profit on the craft or not.
+- Dealing with problem 3: Forming product chains can be a good way to stabilize margins, for example turning metal solvent into pure crystal, where the saved tax on the metal solvent can be the difference between turning a profit on the craft or not.
 
 I hope this outlines why niche market processing is a lot more difficult to get into than processing for the common markets.
 To get into niche market processing, you'll be spending initial time on research and then time each day checking prices and listing/re-listing items.
-The time spent processing and managing your sales can far exceed what you could make through other activities. But I personally find it quite stressful.
+The return on the time spent processing and managing your sales can far exceed what you could make through other activities. But I personally find it quite stressful.
 
 That's why I tend to look at niche market processing not as `profit per hour` but `profit per headache`. Make of that what you will :)
 
@@ -534,7 +539,7 @@ That's why I tend to look at niche market processing not as `profit per hour` bu
 
 ## 19. Help, I can't equip a processing stone on my season character D:
 
-That's how it is unfortunately. We can only hope that PA fixes it in the future.
+Season characters cannot equip any gear that gives mastery, processing stones inclued. We can only hope that PA fixes ths in the future.
 
 ## 20. How do I increase my weight for processing?
 
@@ -543,11 +548,13 @@ That's how it is unfortunately. We can only hope that PA fixes it in the future.
 - <!-- db_item-791-0 -->: 200 LT
 - 4x <!-- db_item-15665-0 --> or <!-- db_item-15662-0 --> in mainhand and sub-weapon: 150 LT + 60 LT if you run HAN crystals
 - [[Clang!Clang!] Lightstone set]: 30 LT
-- Alchemy stone: varies (spirit stone doesn't give weight!)
+- Alchemy stone: varies (spirit stones don't give weight!)
 
 ## Feedback is always welcome!
 
-Thanks for reading. If you have suggestions, corrections or further questions, here are some way in which you can reach out to me:
+Thanks for reading :) 
+
+If you have questions, corrections or suggestions, here are some ways in which you can reach out to me:
 - Leave a comment below this guide.
-- Leave an (anonymous) response on the [feedback form](https://forms.gle/ea2RZ6DvXAHQLnv76).
-- Write a message to Summer#8727 or @ me in the Lifskill Discord.
+- Leave an (anonymous) response on the [feedback form](https://forms.gle/ea2RZ6DvXAHQLnv76) (If you want me to get back to you please leave contact information)
+- Write a message to Summer#8727 or @ me in the Lifeskill Discord.
