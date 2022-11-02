@@ -13,13 +13,13 @@ Disclaimer: This is not a guide on how to set up a trade empire. I rather aim to
 
 You'll sometimes see players talk about huge crate turn-ins such as (taken from YT video titles):
 
-<img src="/files/processing_faq/youtube1.png">
+<img src="/files/tradingded/youtube1.png">
 
-<img src="/files/processing_faq/youtube2.png">
+<img src="/files/tradingded/youtube2.png">
 
-<img src="/files/processing_faq/youtube3.png">
+<img src="/files/tradingded/youtube3.png">
 
-<img src="/files/processing_faq/youtube4.png">
+<img src="/files/tradingded/youtube4.png">
  
 and probably start to wonder how trading can generate this insane amount of money.
 So let's break it down.
@@ -35,7 +35,7 @@ People commonly mix up different income streams for trading, more than in any ot
 
 Let's break down the income streams with an example: the renown <!-- db_item-55840-0 -->
 
-<img src="/files/processing_faq/trading_profit.png">
+<img src="/files/tradingded/trading_profit.png">
 
 As you can see,  a <!-- db_item-55840-0 --> traded from Grana into Valencia with master 10 trading sells for `427,157` silver. But how much of that value was created by trading? 5 birch, 5 fir and 5 cedar plywood are required to craft the crate. When processing from raw materials, that is 37 birch, fir and cedar  timber (7.4 timber per plywood) which have been brought in by your worker empire. The unprocessed timber would sell for `227,609 silver (53.3% of the crate sale)`. 
 
