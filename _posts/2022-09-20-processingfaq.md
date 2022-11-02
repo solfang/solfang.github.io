@@ -550,5 +550,5 @@ Thanks for reading :)
 
 If you have questions, corrections or suggestions, here are some ways in which you can reach out to me:
 - Leave a comment below this guide.
-- Leave an (anonymous) response on the [feedback form](https://forms.gle/ea2RZ6DvXAHQLnv76) (If you want me to get back to you please leave contact information)
+- Leave an (anonymous) response on the [feedback form](https://forms.gle/ea2RZ6DvXAHQLnv76)
 - Write a message to Summer#8727 or @ me in the Lifeskill Discord.
