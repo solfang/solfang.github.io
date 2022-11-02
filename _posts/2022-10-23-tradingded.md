@@ -123,9 +123,9 @@ You might say: I don't need to process my own crate materials, I can buy them st
 - You only process casually or not at all (see [Problem #1](#problem-1-why-should-i-even-process-crate-materials))
 - Locking up silver for weeks/months significantly slows down your progression or is not a good investment in other ways (see [Problem #2](#problem-2-frozen-money))
 
-## Closing Thoughts
+## Closing thoughts
 
-People have been mixing trading profits with other sources for as long as trading has been around. I highly recommend reading this [post](https://www.reddit.com/r/blackdesertonline/comments/8knbu6/current_state_of_crates/dz94nv5/?context=3) on the topic  by Goroshi, who is one of the topranked trader's in the world (depending on when you read this probably *the* top ranked trader). 
+People have been mixing trading profits with other sources for as long as trading has been around. I highly recommend reading this [post](https://www.reddit.com/r/blackdesertonline/comments/8knbu6/current_state_of_crates/dz94nv5/?context=3) on the topic  by Goroshi, who is one of the top-ranked trader's in the world (depending on when you read this probably *the* top ranked trader). 
 
 Also while this post is rather profit-oriented, don't forget that we're playing this game to have fun. I still hope I could give you realistic expectations of what you're getting into with trading and not be fooled by those who claim to make spectacular profits.
 
