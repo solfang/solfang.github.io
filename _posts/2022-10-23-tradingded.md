@@ -7,15 +7,19 @@ tags: BDO
 
 ------------------------------------
 
-Disclaimer: This is not a guide on how to set up a trade empire. Rather, I aim to give you realistic expectations for how much profit can be made with trading, outline the required setup and my recommendations for which playstyle trading can make sense.
+Disclaimer: This is not a guide on how to set up a trade empire. I rather aim to give you realistic expectations of what you're getting into with trading. I'll be looking at the moneymaking potential, roughly outline the required setup and show for which playstyle trading can make sense.
 
 # People make billions with trading! Or do they?
 
 You'll sometimes see players talk about huge crate turn-ins such as (taken from YT video titles):
 
-`Trading in 36 billion worth of crates!`
- or 
- `$43 Billion Crates Traded In 1 Hour`
+<img src="/files/processing_faq/youtube1.png">
+
+<img src="/files/processing_faq/youtube2.png">
+
+<img src="/files/processing_faq/youtube3.png">
+
+<img src="/files/processing_faq/youtube4.png">
  
 and probably start to wonder how trading can generate this insane amount of money.
 So let's break it down.
@@ -25,23 +29,23 @@ What some people refer to as *trading* or a *crate empire* actually consist of m
 2. Processing
 3. Trading (crate making and turn-in)
 
-When you see someone talk about a trade-turn in, keep in mind that those crates have been produced over weeks or even months. And the money from those crates comes from a mix of worker empire, processing and trading. 
+When you see someone talk about a trade turn-in, keep in mind that the money from those crates comes from a mix of worker empire, processing and trading. And the crates have been produced over weeks or even months.
 
-The big problem I see with the statements above: Those numbers only refer to the value gained and tell us nothing about the profit. For comparison, cooking Valencia meals can easily create`2b mil/H` of **value**, which if you look closer turns out ot be `low` or even `negative` **profit**. Therefore, cooks talk about cooking income in  in terms of profit rather than in  terms of value. So why don't traders do it? Well, they should.  But it's just so convenient to see the whole process of running a worker empire, processing materials, making crates and turning them in as one interconnected activity.
+People commonly mix up different income streams for trading, more than in any other lifeskills. The big problem in my eyes is that those numbers only refer to the value gained and tell us nothing about the profit. For comparison, let's look at cooking, where materials from workers, processing and farming all come together. Cooking Valencia meals can easily create multiple bil/H of **value**. But if you look closer, the cooking **profit** is significantly lower and can even be negative. That's why cooks talk about cooking income in terms of profit rather than in terms of value. So why don't traders do it? I get it, turning in 30+ bil of crates is satisfying. But if you're interested in getting into trading, you should be aware of the different income streams and the activities involved.
 
-To show you that properly separating profits can give us some very interesting insights, let's do a profit breakdown of the renown<!-- db_item-55840-0 -->:
+Let's break down the income streams with an example: the renown <!-- db_item-55840-0 -->
 
 <img src="/files/processing_faq/trading_profit.png">
 
-As you can see,  a Calpheon Timber Crate traded from Grana into Valencia sells for `427,157` silver. But how much of that value was created by trading? The 5 birch, 5 fir and 5 cedar plywood require 37 timber each (7.4 timber per plywood), which have been brought in by your worker empire. The unprocessed timber would sell for `227,609 silver (53.3% of the crate sale)`. 
+As you can see,  a <!-- db_item-55840-0 --> traded from Grana into Valencia with master 10 trading sells for `427,157` silver. But how much of that value was created by trading? 5 birch, 5 fir and 5 cedar plywood are required to craft the crate. When processing from raw materials, that is 37 birch, fir and cedar  timber (7.4 timber per plywood) which have been brought in by your worker empire. The unprocessed timber would sell for `227,609 silver (53.3% of the crate sale)`. 
 
-Processing the timber into planks and then into plywood increases their value by an *additional* `125,601 silver (29.4% of the crate sale)`. At this point, you could sell the plywood to the market and still get `82.7%` of the crate sale. 
+Processing the timber into planks and then plywood increases their value by an *additional* `125,601 silver (29.4%)`. 
 
-The last `73,947 (17.3%)` are added once you pack the crates and sell them at Valencia, which requires getting workers with the +3 crate packing skill (produce crates 4x faster than regular workers) maintaining the workshops (CP, worker food), transporting the crates (this is a massive cost, requiring either your time or using the NPC transport function) and turning in the crates.
+At this point, you could sell the plywood to the market and still get `82.7%` of the crate sale. 
 
-Notice something? That `17.3%` profit from trading is awfully close to the `~15.5%` you would have to pay when selling the plywood. **Effectively, by packing materials into crates you get to save on the market tax.** 
+The last `73,947 silver (17.3%)` are added once you pack the crates and sell them at Valencia, which requires getting crate packers, ideally with the +3 crate packing skill (pack 4 crates at once), maintaining the workshops, transporting the crates and turning in the crates. Transporting crates is not cheap, requiring either your time or using the rather costly NPC transport function.
 
-Depending on your server's prices, trading profits can fall above or below `15.5%` mark, but since the crate material market is entirely player-driven, **prices will always balance so that trading is worth barely more than selling the materials**.
+Notice something? That `17.3%` profit from trading is awfully close to the `~15.5%` you would have to pay when selling the plywood. In this example, by packing materials into crates you get to save on the market tax. Since the crate material market is fully player-driven, material prices will always balance so that trading is only slightly more profitable than selling the crate materials to the market. If it wasn't, high level traders could keep buying crate materials off the market, which would eventually bring the prices back down.
 
 In this example I used EU prices and m10 trading. An auto-updating version of the breakdown can be found [here](https://docs.google.com/spreadsheets/d/1LjIsGf5V6gCrsTuvotx18ZYfPIVS6kOjvK-vmdOojtk/edit?usp=sharing). 
 
@@ -95,7 +99,7 @@ To be fair, trading has seen a few QoL improvements which make it significantly 
 Trading can look quite nice if you're looking to liquidate processing materials without interacting with the market. That can be either because you don't run a **Value Pack** or you simply dislike interacting with the market.  
 If you regularly run a Value Pack, you should bring a fairly progressed account. This includes an established worker empire, say 350 CP and mostly prof+ workers, and a fair level of gear progression to not slow down your progress by freezing up money in crates. 
 
-Besides that, you'll want to process a lot to keep your workshops from idling. For reference, a +3 crate worker can produce `4 crates x 5 crates per hour x 16 hours = 320 crates per day`. For a Calpheon Timber Crate, you're looking at `320 * 5 * 3 = 4800 plywood`, which requires ~50 minutes of processing at 1500 processing mastery. The more crates you produces a day, the more crates the cost for upkeeping the node connection will spread on, which means lower cost per crate.
+Besides that, you'll want to process a lot to keep your workshops from idling. For reference, a +3 crate worker can produce `4 crates x 5 crates per hour x 16 hours = 320 crates per day`. For a <!-- db_item-55840-0 -->, you're looking at `320 * 5 * 3 = 4800 plywood`, which requires ~50 minutes of processing at 1500 processing mastery. The more crates you produces a day, the more crates the cost for upkeeping the node connection will spread on, which means lower cost per crate.
 
 
 
