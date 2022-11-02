@@ -1,9 +1,5 @@
 ---
-layout: post
-title: BDO - Processing FAQ - 20 Commonly Asked Questions Answered
-description: The ultimate processing FAQ
-published: false
-tags: BDO
+title: Processing FAQ - 20 Commonly Asked Questions Answered
 ---
 
 *Last updated: 23/10/2022*
