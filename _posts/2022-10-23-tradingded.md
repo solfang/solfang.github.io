@@ -133,7 +133,7 @@ Also while this post is rather profit-oriented, don't forget that we're playing 
 
 - Wolf's trader sheet:  [simple](https://docs.google.com/spreadsheets/d/1trCwiImMtzuM-OWOUnNiMxwKwoRdIgjLIWu-an0-m9k/edit?usp=sharing) and [full](https://docs.google.com/spreadsheets/d/1DEazVbmu-cFtLUndWRfj6D1a21W-FKEr-VbBHBCOqyc/edit?usp=sharing) version.
 - Moonbreaker's [Trading EXP calculator](https://docs.google.com/spreadsheets/d/10btGIjV_Do8VtOdFPles5se0kydV4Z_esnhwUSe_dIQ/edit?usp=sharing)
-
+- [Bdolytics](https://bdolytics.com/) for processing profits
 
 ## Feedback is always welcome!
 
