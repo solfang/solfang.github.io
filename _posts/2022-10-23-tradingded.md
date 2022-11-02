@@ -25,9 +25,9 @@ and probably start to wonder how trading can generate this insane amount of mone
 So let's break it down.
 
 What some people refer to as *trading* or a *crate empire* actually consists of multiple parts:
-1. Worker nodes
-2. Processing
-3. Trading (crate making and turn-in)
+1. **Worker nodes**
+2. **Processing**
+3. **Trading (crate making and turn-in)**
 
 When you see someone talk about a trade turn-in, keep in mind that the money from those crates comes from a mix of worker empire, processing and trading. And the crates have been produced over weeks or even months.
 
@@ -45,7 +45,7 @@ At this point, you could sell the plywood to the market and still get `82.7%` of
 
 The last `73,947 silver (17.3%)` are added once you pack the crates and sell them at Valencia, which requires getting crate packers, ideally with the +3 crate packing skill (pack 4 crates at once), maintaining the workshops, transporting the crates and turning in the crates. Transporting crates is not cheap, requiring either your time or using the rather costly NPC transport function.
 
-Notice something? That `17.3%` profit from trading is awfully close to the `~15.5%` you would have to pay when selling the plywood. In this example, by packing materials into crates you get to save on the market tax. Since the crate material market is fully player-driven, **material prices will always balance so that trading is only slightly more profitable than selling the crate materials to the market**. If it wasn't, high level-traders could keep buying crate materials off the market, which would eventually bring the prices back up.
+Notice something? That `17.3%` profit from trading is awfully close to the `~15.5%` you would have to pay when selling the plywood. By packing materials into crates you get to save on the market tax in this example. While trading profits can fluctuate a bit, they will generally stay a small part of the overall crate profit. Since the crate material market is fully player-driven, **material prices will always balance so that trading is only slightly more profitable than selling the crate materials to the market**. If it wasn't, high level-traders could keep buying crate materials off the market, which would eventually bring the prices back up.
 
 In this example, I used EU prices. An auto-updating version of the breakdown can be found [here](https://docs.google.com/spreadsheets/d/1LjIsGf5V6gCrsTuvotx18ZYfPIVS6kOjvK-vmdOojtk/edit?usp=sharing). Note that this sheet is more of a gimmick to show my point about trading profits. To calculate profits for yourself, I recommend using Wolf's trader sheet in the [simple](https://docs.google.com/spreadsheets/d/1trCwiImMtzuM-OWOUnNiMxwKwoRdIgjLIWu-an0-m9k/edit?usp=sharing) or [full](https://docs.google.com/spreadsheets/d/1DEazVbmu-cFtLUndWRfj6D1a21W-FKEr-VbBHBCOqyc/edit?usp=sharing) version.
 
