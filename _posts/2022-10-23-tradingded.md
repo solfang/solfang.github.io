@@ -8,13 +8,13 @@ Disclaimer: This is not a guide on how to set up a trade empire. I aim to give y
 
 You'll sometimes see players talk about huge crate turn-ins such as (taken from YT video titles):
 
-<img src="/content/files/summer_tradingded/youtube1.png">
+<img src="/content/guides/files/summer_tradingded/youtube1.png">
 
-<img src="/content/files/summer_tradingded/youtube2.png">
+<img src="/content/guides/files/summer_tradingded/youtube2.png">
 
-<img src="/content/files/summer_tradingded/youtube3.png">
+<img src="/content/guides/files/summer_tradingded/youtube3.png">
 
-<img src="/content/files/summer_tradingded/youtube4.png">
+<img src="/content/guides/files/summer_tradingded/youtube4.png">
  
 and probably start to wonder how trading can generate this insane amount of money.
 So let's break it down.
@@ -30,7 +30,7 @@ People commonly mix up different income streams for trading, more than in any ot
 
 Let's break down the income streams with an example: the renown <!-- db_item-55840-0 -->
 
-<img src="/content/files/summer_tradingded/trading_profit.png">
+<img src="/content/guides/files/summer_tradingded/trading_profit.png">
 
 As you can see,  a <!-- db_item-55840-0 --> traded from Grana into Valencia with master 10 trading sells for `427,157` silver. But how much of that value was created by trading? 5 birch, 5 fir and 5 cedar plywood are required to craft the crate. When processing from raw materials, that is 37 birch, fir and cedar timber (7.4 timber per plywood) brought in by your worker empire. The unprocessed timber would sell for `227,609 silver (53.3% of the crate sale)`. 
 
@@ -78,7 +78,7 @@ Besides, you may decide to spend your time on a different lifeskill entirely, li
 
 ## Problem #2: Frozen Money
 
-<img src="/content/files/summer_tradingded/frozen_money.jpg">
+<img src="/content/guides/files/summer_tradingded/frozen_money.jpg">
 
 When slowly building up a stack of crates over weeks or even months, all the money that goes into producing those crates gets frozen until you turn them in. If you're early in your gear progression, where upgrades are still fairly cheap, freezing billions worth of materials may significantly slow down your progress. For established players who are looking at tens of billions for their next upgrade, this is not so much of an issue. 
 
