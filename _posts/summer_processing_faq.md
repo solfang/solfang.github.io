@@ -28,7 +28,7 @@ On the bright side, leveling processing is fairly straight-forward ([question 14
 4. Press 'Start' or 'Mass Process' (more on mass processing in [question 5](#5-what-does-processing-mastery-do))
 
 <video width="640" height="360" muted autoplay controls>
-    <source src="/content/guides/files/summer_processing_faq/howtoprocess.mp4" type="video/mp4">
+    <source src="/guides/files/summer_processing_faq/howtoprocess.mp4" type="video/mp4">
 </video>
 
 After a few seconds, one of flour things will happen:
@@ -37,7 +37,7 @@ After a few seconds, one of flour things will happen:
 3) The message `It is not working at all` appears → Either you input the wrong materials or something else went wrong, for example you're missing knowledge. No materials are lost when this happens. You can find the correct recipe to craft an item via the in-game crafting nodes (F2→Crafting notes) or [bdolytics](https://bdolytics.com/).
 4) The message `Insufficient ingredients to continue processing` appears: You got the recipe right but don't have enough materials for a full craft.
 
-<img width="450" src="/content/guides/files/summer_processing_faq/process_outcomes.jpg">
+<img width="450" src="/guides/files/summer_processing_faq/process_outcomes.jpg">
 
 ## 2. How can I stop processing from failing?
 
@@ -82,7 +82,7 @@ Since those recipes require simple cooking, simple alchemy etc. mass processing 
 
 You can check these recipes in the in-game crafting notes (F2→Crafting notes in the top right or shift+LMB on any item in your inventory).
 
-<img src="/content/guides/files/summer_processing_faq/caphras_recipe.png">
+<img src="/guides/files/summer_processing_faq/caphras_recipe.png">
 
 ## 5. What does processing mastery do?
 
@@ -240,7 +240,7 @@ On bdolytics you can check how long you can process for before running out of we
 5. Go back to the **INPUT&OUTPUT** tab and check the **time**.
 
 <video width="640" height="360" muted autoplay controls>
-    <source src="/content/guides/files/summer_processing_faq/howto_weight.mp4" type="video/mp4">
+    <source src="/guides/files/summer_processing_faq/howto_weight.mp4" type="video/mp4">
 </video>
 
 Some items are so light that you can process them for multiple hours or even overnight. 
@@ -263,7 +263,7 @@ To chop planks into plywood (T3) you need `chopping: beginner`. To heat ingots i
 You can find the quest via the in-game quest menu in the 'Suggested' tab (1) under `[Life][Certificate] Training Paradigm`. 
 Make sure that you fulfill the quest requirements (2) and have all quests enabled (3).
 
-<img width="1000" src="/content/content/guides/files/summer_processing_faq/questbeginner2.png">
+<img width="1000" src="/guides/files/summer_processing_faq/questbeginner2.png">
 
 ### Skilled Knowledge
 - **Rewarded knowledge**: `Shaking: Skilled, Grinding: Skilled, Chopping: Skilled, Drying: Skilled, Filtering: Skilled, Heating: Skilled`
@@ -344,7 +344,7 @@ Mastery clothes and silver embroidered (SE) processing clothes have different be
 - **Mastery clothes** increase processing mastery, which boosts the number of batches you can process at once. This effectively lets you process at a faster rate.
 - **SE clothes** give processing EXP and increase the processing success rate, which also lets you process at a faster rate. However, you won't see any benefit if you success rate is already at 100%. It's very easy to reach 100% success rate with mastery clothes, for example base (70%) + seafood cron meal (10%) + [[Clang!Clang!] Lightstone set](https://bdolytics.com/db/lightstoneset/167) (20%) + verdure draught (20%). In practice, the success rate is only useful when you don't have all buffs running.
 
-<img width="600" src="/content/content/guides/files/summer_processing_faq/clothes_collage.png">
+<img width="600" src="/guides/files/summer_processing_faq/clothes_collage.png">
 
 Therefore:
 - **For profit:** Always use mastery clothes. The extra mastery brackets are more valuable than success rate 99% of the time.
@@ -464,7 +464,7 @@ The first two groups, crates/alch stone mats and cooking, are where you'll find 
 
 You can check processing profits and additional info with the [bdolytics processing table](https://bdolytics.com/processing/market).
 
-<img src="/content/guides/files/summer_processing_faq/processingmarket.png">
+<img src="/guides/files/summer_processing_faq/processingmarket.png">
 
 The table can be a bit overwhelming at first, so I'll explain the info it shows.
 - **Name**: Name of the recipe
@@ -478,7 +478,7 @@ The table can be a bit overwhelming at first, so I'll explain the info it shows.
  
 Additionally, you can **sort** the table by one or more columns and **search** for specific items through the search bar. For example, if you search for <!-- db_item-4651-0 -->, bdolytics will show the entry for <!-- db_item-4651-0 --> as well as all items it can be processed into, like <!-- db_item-4652-0 --> and <!-- db_item-4688-0 -->
 
-<img src="/content/guides/files/summer_processing_faq/processingmarket_search.png">
+<img src="/guides/files/summer_processing_faq/processingmarket_search.png">
 
 ### Pitfalls
 
@@ -488,9 +488,9 @@ There are a few pitfalls when choosing recipes:
 
 2. **Not checking the input materials:** Processing <!-- db_item-6656-0 --> looks very profitable on paper. Though <!-- db_item-6653-0 --> has a red mark next to it indicating that it's not available on the market. In this case, you can swap the <!-- db_item-6653-0 --> for <!-- db_item-6657-0 -->, which has a much higher supply. Though swapping input materials isn't possible for all recipes and some recipes will always have bottlenecks.
 
-<img src="/content/guides/files/summer_processing_faq/purifiedwater.png">
+<img src="/guides/files/summer_processing_faq/purifiedwater.png">
 
-<img src="/content/guides/files/summer_processing_faq/water_swap.png">
+<img src="/guides/files/summer_processing_faq/water_swap.png">
 
 ## 17. Do I have to combine processing with trading to make it profitable?
 
@@ -500,7 +500,7 @@ There are a few pitfalls when choosing recipes:
 
 ## 18. What about that 3 bil/H recipe on bdolytics?
 
-<img src="/content/guides/files/summer_processing_faq/nichemarket2.png">
+<img src="/guides/files/summer_processing_faq/nichemarket2.png">
 
 This is a screenshot from <https://bdolytics.com/processing/market>.
 
