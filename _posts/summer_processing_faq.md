@@ -1,5 +1,13 @@
 ---
 title: Processing FAQ - 20 Commonly Asked Questions Answered
+head:
+  image: /guides/summer_processing_faq/thumbnail.png
+author:
+  name: Summer
+  avatar: https://yt3.ggpht.com/5iMEYzZd9s2ey6I9BIffvTSnuO_4hc9VXU4VxPxTud4OOyu-0vX5Y-WWhL463Olk8zZmiGudrQ=s88-c-k-c0x00ffffff-no-rj
+  link: https://www.youtube.com/channel/UCPCDg8Ib5VVrwCF0gGcqEmQ
+date: 2022-11-09
+lang: en
 ---
 
 *Last updated: 23/10/2022*
@@ -12,12 +20,12 @@ Enjoy :)
 ## Preface - for very interested readers :) 
 
 ### What is processing?
-Processing is about taking raw materials, for example produced by your worker empire, and refining them for use in further activities like trading, cooking and workshops. Processing is also fairly low effort and doesn't take a whole lot to get started. One of the coolest things about processing is that once you get further into it you can form elaborate recipe chains together with other lifeskills, like <!-- db_item-4006-0 --> -> <!-- db_item-4076-0 --> (alchemy) -> <!-- db_item-4053-0 --> (processing) -> <!-- db_item-16162-0 --> (workshops).
+Processing is about taking raw materials, for example produced by your worker empire, and refining them for use in further activities like trading, cooking and workshops. It's a low effort lifeskill and doesn't take a whole lot to get started. One of the coolest things about processing is that once you get further into it you can form elaborate recipe chains to craft valuable items, like <!-- db_item-4006-0 --> (gathering) -> <!-- db_item-4076-0 --> (alchemy) -> <!-- db_item-4053-0 --> (processing) -> <!-- db_item-16162-0 --> (workshops).
 
 ### The state of processing
 Processing for profit has seen better times, partly because some of the activities it feeds into, like trading and workshops, have seen better times too. The moneymaking potential has noticeably fallen behind comparable lifskills like bartering and cooking. Nowadays, the main appeal of processing is being low effort and afk-able. 
 
-On the bright side, leveling processing is fairly straight-forward ([question 14](#14-how-do-i-level-processing)). To earn money, you have a few recipes at your disposal ([question 16](#16-how-to-make-money-with-processing)). Processing markets these days are stable for the most part, which means I can share some for-profit recipes with you without negatively impacting the market. Beyond that, finding recipes has never been easier with tools like [bdolytics](https://bdolytics.com/en/EU/processing/market).
+On the bright side, leveling processing is fairly straight-forward ([question 14](#14-how-do-i-level-processing)). To earn money, you have a few recipes at your disposal ([question 16](#16-how-to-make-money-with-processing)). Processing markets these days are stable for the most part, which means I can share some for-profit recipes with you without negatively impacting the market. Beyond that, finding recipes has never been easier with tools like [bdolytics](/processing/market).
 
 # Basics
 
@@ -25,71 +33,69 @@ On the bright side, leveling processing is fairly straight-forward ([question 14
 1. Open the processing window (L key)
 2. Select a processing type 
 3. Input the materials
-4. Press 'Start' or 'Mass Process' (more on mass processing in [question 5](#5-what-does-processing-mastery-do))
+4. Press 'Start' or 'Mass Process' (more on mass processing in [question 4](#4-what-does-processing-mastery-do))
 
 <video width="640" height="360" muted autoplay controls>
     <source src="/guides/files/summer_processing_faq/howtoprocess.mp4" type="video/mp4">
 </video>
 
-After a few seconds, one of flour things will happen:
-1) The craft succeeds
-2) The message `Processing is not going as planned` appears → Your character will re-try the craft and no materials are lost.
-3) The message `It is not working at all` appears → Either you input the wrong materials or something else went wrong, for example you're missing knowledge. No materials are lost when this happens. You can find the correct recipe to craft an item via the in-game crafting nodes (F2→Crafting notes) or [bdolytics](https://bdolytics.com/).
-4) The message `Insufficient ingredients to continue processing` appears: You got the recipe right but don't have enough materials for a full craft.
+Processing can have the follow outcomes:
+| Message                                           | Meaning                                                                                                             |
+|---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| `Processing has succeeded`                        | The craft succeeds.                                                                                                 |
+| `Processing is not going as planned`              | The craft has 'missed' and will be re-tried. (see [question 2](#2-how-can-i-stop-processing-from-failing))          |
+| `It is not working at all`                        | You input the wrong recipe or are missing knowledge ([question 9](#9-why-cant-i-chop-plyoowd--heat-pure-crystals)). |
+| `Insufficient ingredients to continue processing` | You got the recipe right but don't have enough materials for a full craft.                                          |
 
-<img width="450" src="/guides/files/summer_processing_faq/process_outcomes.jpg">
+Don't worry, materials will only be consumed if the craft succeeds.
 
 ## 2. How can I stop processing from failing?
 
-Even if you input the right materials, the message `Processing is not going as planned` can appear, which means your character has to re-try the craft.
+Even if you meet all conditions to succeed the craft, the message `Processing is not going as planned` can appear and your character has to re-try the craft.
 The chance of this happening depends on your **processing success rate**, which is 70%* at base and goes up to 100%.
 
 Here's how to increase your success rate:
-- <!-- db_item-603044-0 --> / <!-- db_item-560024-0 --> (pearl shop costume): 3%  
-- <!-- db_item-14026-0 --> 6%-40% (applied to the base success rate so actually 4%-28%)
-- <!-- db_item-9691-0 --> 10% for 2 hours / <!-- db_item-9642-0 --> +15% for 10 hours
-- <!-- db_item-791-0 --> 20% for 15 mins
-- Alchemy stone: <!-- db_item-45280-0 --> or <!-- db_item-45302-0 --> 11% / <!-- db_item-45284-0 --> 14%
-- [[Clang!Clang!]](https://bdolytics.com/db/lightstoneset/167) Lightstone set: 20% 
-- <!-- db_item-735354-0 --> 5% each
+| Category           | Item                                                  | Success Rate |
+|--------------------|-------------------------------------------------------|--------------|
+| Pearl Shop Costume | <!-- db_item-603044-0 --> / <!-- db_item-560024-0 --> |      3%      |
+| Clothes            | <!-- db_item-14026-0 -->                              |    6%-40%    |
+| Food               | <!-- db_item-9691-0 --> (2 hours)                     |      10%     |
+|                    | <!-- db_item-9642-0 --> (10 hours)                    |      15%     |
+| Elixir/Draught     | <!-- db_item-791-0 --> (15 mins)                      |      20%     |
+| Alchemy Stone      | <!-- db_item-45302-0 -->                              |      11%     |
+|                    | <!-- db_item-45280-0 -->                              |      11%     |
+|                    | <!-- db_item-45284-0 -->                              |      14%     |
+| Artifcats          | <!-- db_item-735354-0 -->                             | 5%, up to 2x |
+| Lightstone Set     | <!-- db_lightstoneset-167-0 -->                       |      20%     |
 
-You may have heard that the success rate *cannot* reach 100%. According to tests by the lifeskill community, we're almost certain that the success rate *can* reach 100%. However, some items seem to have a different success rate than indicated in the item description. This includes <!-- db_item-14026-0 --> and potentially <!-- db_item-791-0 --> and the [[Clang!Clang!]](https://bdolytics.com/db/lightstoneset/167) set. So to get 100% it helps to overstack success rate buffs by a few percent.
+Items in the same category don't stack.
 
-\*\*We used to think that the base success rate is 67% but a recent source shows it to be 70%. Unfortunately, testing success rate is extremely tedious so we have no definite way of telling which is correct.
+You may have heard that the success rate *cannot* reach 100%. According to tests by the lifeskill community, we're almost certain that the success rate **can** reach 100%. However, some items seem to have a different success rate than indicated in the item description. This includes <!-- db_item-14026-0 -->, the <!-- db_lightstoneset-167-0 --> set and potentially <!-- db_item-791-0 -->. So to get 100% it helps to overstack success rate buffs by a few percent.
+
+\**We used to think that the base success rate is 67% but a recent source shows it to be 70%. Unfortunately, testing success rate is extremely tedious so we have no definite way of telling which is correct.*
 
 # Mass Processing and Mastery
 
 ## 3. What is mass processing?
-Mass processing lets you process **mutltiple batches of items** at once. On the flipside, that mass processing **takes 10x longer** than regular processing.
+Mass processing lets you process **mutltiple batches of items** at once. It also **takes 10x longer** than regular processing.
 Example: processing *timber* into *planks*:
 - Regular processing: 6 second craft time, 1 craft at a time
 - Mass processing: 60 seconds craft time, 10+ crafts at a time
 
-As you can see, mass processing has higher throughput than regular processing when processing more than 10 batches at once. Processing mastery increases the number of batches (see [question 5](#5-what-does-processing-mastery-do)).
+The number of mass processing crafts depends on your mastery ([question 4](#4-what-does-processing-mastery-do)).
 
-You need a **processing stone** to get access to the 'Mass Process' button in the processing menu.
+You need a <!-- db_item-768088-0 --> / <!-- db_item-768087-0 --> / <!-- db_item-768086-0 --> to get access to the 'Mass Process' button in the processing menu.
 
 Note that mass processing only works with *Shaking, Grinding, Chopping, Drying, Filtering, Heating*.
 Also, it only works on stackable items. For example, you can't mass dry fish because they take up 1 inventory slot each.
 
-## 4. Can I mass-process black gems/caphras stones/party elixirs/blue elixirs/draughts/cron meals/imperial boxes?
 
-Since those recipes require simple cooking, simple alchemy etc. mass processing does not work. But you can add specific items to the recipe that unlock alternative `10x` recipes:
-- Caphras stones, black gems, concentrated magical black gems: <!-- db_item-4901-0 -->
-- Party and blue elixirs, draughts: <!-- db_item-4986-0 --> (buy at materials vendors, requires skilled 1 processing)
-- Cron meals: <!-- db_item-820015-0 --> (buy at cooking NPCs)
-- Imperial cooking/alchemy boxes: <!-- db_item-8198-0 --> (buy at old moon managers. Using it requires having completed a [quest](https://youtu.be/x02GMajBFqU))
-
-You can check these recipes in the in-game crafting notes (F2→Crafting notes in the top right or shift+LMB on any item in your inventory).
-
-<img src="/guides/files/summer_processing_faq/caphras_recipe.png">
-
-## 5. What does processing mastery do?
+## 4. What does processing mastery do?
 
 Processing mastery increases the number of crafts ('batches') you can perform at once through mass processing.
-For example, with `1020 mastery` you can perform `90 crafts` at once, which at 10x higher craft time ends up being `90/10=9` times faster than regular processing.
+For example, with `1020 mastery` you can perform `90 crafts` at once. At 10x higher craft time this ends up being `90/10=9` times faster than regular processing.
 
-Also note that at the lowest possible mastery bracket you can process 10 items at once, which has to the same throughput as regular processing. The more mastery you have, the more mass processing starts to outperform regular processing.
+Also note that at the lowest possible mastery bracket you can process 10 items at once, which has the same throughput as regular processing. The more mastery you have, the more mass processing starts to outperform regular processing.
 
 We conclude:
 
@@ -133,7 +139,8 @@ We conclude:
 
 *Table: mastery brackets and mass processing batches. Note that processing mastery brackets are not evenly spaced out at every 50 mastery like in other lifeskills but they vary from 20 to 100 mastery.*
 
-## 6. How much processing mastery do I need for processing?
+
+## 5. How much processing mastery do I need for processing?
 
 In other lifeskills, more mastery is always better. That only applies to processing to a certain point.
 Having higher processing mastery lets you process items at a faster rate but weight is still a limiting factor. With high enough mastery your character will run out of weight before you check back on your processing. Increasing processing mastery beyond that point will let you be done faster but it won't increase the number of materials you can process in one afk session. On top of that, processing mastery scales fairly linear and there are no major breakpoints.
@@ -141,6 +148,29 @@ Having higher processing mastery lets you process items at a faster rate but wei
 So here's my advice: 
 
 **Get your processing mastery to a point where you will barely run out of weight whenever you check back on your processing (on whichever recipe you commonly process).**
+
+## 6. Why can't I mass process this item?
+
+Mass processing does not work on certain processing types. For these types the game provides alternative recipes to process 10 items at once:
+| Processing Type  | Recipe                                                                      | Item                      | How to obtain    | Requirement                                                           |
+|------------------|-----------------------------------------------------------------------------|---------------------------|------------------|-----------------------------------------------------------------------|
+| Simple Alchemy   | <!-- db_item-721003-0 -->, <!-- db_item-5000-0 -->, <!-- db_item-4987-0 --> | <!-- db_item-4901-0 -->   | Central Market   | -                                                                     |
+| Simple Alchemy   | Party Elixirs, Blue Elixirs, Draughts                                       | <!-- db_item-4986-0 -->   | Material Vendor  | Alchemy skilled 1                                                     |
+| Simple Cooking   | Cron Meals                                                                  | <!-- db_item-820015-0 --> | Cooking Vendor   | Cooking skilled 1                                                     |
+| Imperial Cuisine | Cooking Boxes                                                               | <!-- db_item-8198-0 -->   | Old Moon Manager | Cooking artisan 1, [knowledge](https://bdolytics.com/db/quest/2062/1) |
+| Imperial Alchemy | Medicine Boxes                                                              | <!-- db_item-8198-0 -->   | Old Moon Manager | Alchemy artisan 1, [knowledge](https://bdolytics.com/db/quest/2062/2) |
+
+<img src="/guides/files/summer_processing_faq/caphras_recipe.png">
+
+
+
+
+<!-- db_item-4986-0 -->
+<!-- db_item-4986-0 -->
+<!-- db_item-4986-0 -->
+<!-- db_item-4986-0 -->
+<!-- db_item-4986-0 -->
+<!-- db_item-4986-0 -->
 
 # Recipes, Proc Rates and Process Times
 
@@ -150,7 +180,7 @@ So here's my advice:
 
 Most recipes yield **1-4 items** (2.5 on average). Exceptions to that tend to occur for high-tier recipes like T4 crafts as well as simple alchemy/processing, manufacturing etc., where recipes often yield 1 item per craft. 
 The table below shows proc rates as well as other info for common processing recipes.
-You can also check proc rates by going to a [specific recipe](https://bdolytics.com/processing/market/4651) on bdolytics and comparing the output materials to the number of crafts.
+You can also check proc rates by going to a [specific recipe](/processing/market/4651) on bdolytics and comparing the output materials to the number of crafts.
 
 ### What affects the proc rate?
 **Proc rate is fixed and neither affected by mastery nor by whether you're regular or mass processing, with one exception: Getting maximum procs requires a certain processing level for some recipes.**
@@ -244,7 +274,7 @@ On bdolytics you can check how long you can process for before running out of we
 </video>
 
 Some items are so light that you can process them for multiple hours or even overnight. 
-Common recipes for **overnight processing** are <!-- profit_processing-9061-0 -->, <!-- profit_processing-9062-0 --> and <!-- profit_processing-9063-0 -->.
+Common recipes for **overnight processing** are <!-- profit_processing-9061 -->, <!-- profit_processing-9062 --> and <!-- profit_processing-9063 -->.
 
 ## 9. Why can't I chop plyoowd / heat pure crystals?
 
@@ -254,9 +284,9 @@ To chop planks into plywood (T3) you need `chopping: beginner`. To heat ingots i
 
 ### Beginner Knowledge
 - **Rewarded knowledge**: `Shaking: Beginner, Grinding: Beginner, Chopping: Beginner, Drying: Beginner, Filtering: Beginner, Heating: Beginner`
-- **Starting quest**: [[Processing] Learning Higher Processing Skills](https://bdolytics.com/db/quest/2100/28)
-- **Starting NPC**: [Ficy](https://bdolytics.com/en/EU/db/npc/50210/1) in Heidel
-- **Requirements**: `apprentice 4 gathering` OR have completed [[Processing] In Search of Higher Processing Knowledge...](https://bdolytics.com/db/quest/2100/22)
+- **Starting quest**: <!-- db_quest-2100-28 -->
+- **Starting NPC**: <!-- db_npc-50210-1 --> in Heidel
+- **Requirements**: `apprentice 4 gathering` OR have completed <!-- db_quest-2100-22 -->
 
 [Video guide](https://www.youtube.com/watch?v=TvmMImSGl88)
 
@@ -267,8 +297,8 @@ Make sure that you fulfill the quest requirements (2) and have all quests enable
 
 ### Skilled Knowledge
 - **Rewarded knowledge**: `Shaking: Skilled, Grinding: Skilled, Chopping: Skilled, Drying: Skilled, Filtering: Skilled, Heating: Skilled`
-- **Starting quest**: [[Processing] Excellent Magnate](https://bdolytics.com/db/quest/3208/1)
-- **Starting NPC**: [Villager](https://bdolytics.com/db/npc/578/432) next to the blacksmith in Keplan (the waypoint button in the 'Suggested' tab will lead you there)
+- **Starting quest**: <!-- db_quest-3208-1 -->
+- **Starting NPC**: <!-- db_quest-578-432 --> next to the blacksmith in Keplan (the waypoint button in the 'Suggested' tab will lead you there)
 - **Requirements**: `Gathering skilled 10` AND `processing skilled 5` AND `all 6 pieces of beginner knowledge`
 
 [Video guide](https://youtu.be/TvmMImSGl88?t=168)
@@ -299,17 +329,17 @@ Here are my *personal* gear recommendations, aimed at silver efficiency. Feel fr
 - <!-- db_item-768087-19 -->
 - <!-- db_item-705514-19 --> / <!-- db_item-705516-19 --> (buy/pre-order on the market)
 - any of  <!-- db_item-735372-0 --> / <!-- db_item-735361-0 -->  / <!-- db_item-735354-0 --> / <!-- db_item-735351-0 --> / <!-- db_item-735352-0 -->
-- [[Clang!Clang!]](https://bdolytics.com/db/lightstoneset/167) Lightstone set: 20% success rate, 13% EXP, +25 processing mastery, +50 LT - including the lightstone effects
+- <!-- db_lightstoneset-167-0 --> Lightstone set: 20% success rate, 13% EXP, +25 processing mastery, +50 LT - including the lightstone effects
 
 ### Advanced
 - <!-- db_item-768086-19 -->
 - <!-- db_item-705516-19 --> / <!-- db_item-705518-19 --> (depending on your budget)
 - <!-- db_item-735372-0 --> / <!-- db_item-735361-0 --> / <!-- db_item-735354-0 --> 
-- [[Clang!Clang!]](https://bdolytics.com/db/lightstoneset/167) Lightstone set
+- <!-- db_lightstoneset-167-0 --> Lightstone set
 
 ### Which artifacts should I use?
 
-In theory, the [[Clang!Clang!]](https://bdolytics.com/db/lightstoneset/167) set (20%) and seafood cron meal (10%) together with the base success rate (70%) should get you to 100%. But as the [[Clang!Clang!]](https://bdolytics.com/db/lightstoneset/167) set seems to give less success rate than indicated, you will need to add a verdure draught or success rate artifact to reach 100%.
+In theory, the <!-- db_lightstoneset-167-0 --> set (20%) and seafood cron meal (10%) together with the base success rate (70%) should get you to 100%. But as the <!-- db_lightstoneset-167-0 --> set seems to give less success rate than indicated, you will need to add a verdure draught or success rate artifact to reach 100%.
 In general, I would prioritize **mastery artifacts** (if it makes you hit a bracket) **>** **success rate** (if you don't have 100%) **>** **EXP**.
 
 ### Buy or enhance gear?
@@ -318,7 +348,7 @@ Lifeskill gear is usually cheaper to buy than to enhance yourself. You can check
 
 ### How much mastery is enough?
 
-Refer to [question 6](#6-how-much-processing-mastery-do-i-need-for-processing)
+Refer to [question 5](#5-how-much-processing-mastery-do-i-need-for-processing)
 
 ## 11. How can I get processing artifacts?
 Processing artifacts drop from **imperial cooking turn-ins**, together with cooking artifacts. The chance to get an artifact is quite low (expect one maybe every 5-10 turn-ins) so it might take a while until you get the artifact you want.
@@ -342,7 +372,7 @@ It's up to you to decide whether the convenience of being able to stay afk for l
 
 Mastery clothes and silver embroidered (SE) processing clothes have different benefits:
 - **Mastery clothes** increase processing mastery, which boosts the number of batches you can process at once. This effectively lets you process at a faster rate.
-- **SE clothes** give processing EXP and increase the processing success rate, which also lets you process at a faster rate. However, you won't see any benefit if you success rate is already at 100%. It's very easy to reach 100% success rate with mastery clothes, for example base (70%) + seafood cron meal (10%) + [[Clang!Clang!] Lightstone set](https://bdolytics.com/db/lightstoneset/167) (20%) + verdure draught (20%). In practice, the success rate is only useful when you don't have all buffs running.
+- **SE clothes** give processing EXP and increase the processing success rate, which also lets you process at a faster rate. However, you won't see any benefit if you success rate is already at 100%. It's very easy to reach 100% success rate with mastery clothes, for example base (70%) + seafood cron meal (10%) + <!-- db_lightstoneset-167-0 --> (20%) + verdure draught (20%). In practice, the success rate is only useful when you don't have all buffs running.
 
 <img width="600" src="/guides/files/summer_processing_faq/clothes_collage.png">
 
@@ -398,7 +428,7 @@ Timber is heavy, which leads to extremely **low afk times**. Even with a maxed o
 
 You sure can. Consider processing ore into ingots and timber into plywood, which will be slightly less EXP/H than the timber→SRM route but can be profitable depending on market prices. 
 
-You can check [bdolytics](https://bdolytics.com/processing/market) for processing profits and EXP values.
+You can check [bdolytics](/processing/market) for processing profits and EXP values.
 
 Also here is a link to [Bearist's Processing EXP Calculator](https://docs.google.com/spreadsheets/d/1KqP9lgTK0bDulLJ_JcILG4tn0iWrh5JkY1WHaitSxHo/edit?usp=sharing).
 
@@ -462,7 +492,7 @@ The first two groups, crates/alch stone mats and cooking, are where you'll find 
 
 ### The market processing table
 
-You can check processing profits and additional info with the [bdolytics processing table](https://bdolytics.com/processing/market).
+You can check processing profits and additional info with the [bdolytics processing table](/processing/market).
 
 <img src="/guides/files/summer_processing_faq/processingmarket.png">
 
@@ -502,7 +532,7 @@ There are a few pitfalls when choosing recipes:
 
 <img src="/guides/files/summer_processing_faq/nichemarket2.png">
 
-This is a screenshot from <https://bdolytics.com/processing/market>.
+This is a screenshot from [the processing overview](/processing/market).
 
 `Processing is 3 bil/H?? I have to get on that! Where's the catch?`
 
@@ -537,7 +567,7 @@ Season characters can't equip any gear that gives mastery, processing stones inc
 - <!-- db_item-9691-0 -->: 100 LT / <!-- db_item-9642-0 -->: 300 LT
 - <!-- db_item-791-0 -->: 200 LT
 - 4x <!-- db_item-15665-0 --> or <!-- db_item-15662-0 --> in mainhand and sub-weapon: 150 LT + 60 LT if you run HAN crystals
-- [[Clang!Clang!] Lightstone set]: 30 LT
+- <!-- db_lightstoneset-167-0 -->: 30 LT
 - Alchemy stone: varies (spirit stones don't give weight!)
 
 ## Feedback is always welcome!
