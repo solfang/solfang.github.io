@@ -1,5 +1,5 @@
 ---
-title: Processing FAQ - 20 Commonly Asked Questions Answered
+title: Processing FAQ - Answsers to 20 Common Questions
 head:
   image: /guides/summer_processing_faq/thumbnail.png
 author:
@@ -86,14 +86,16 @@ The number of mass processing crafts depends on your mastery ([question 4](#4-wh
 
 You need a <!-- db_item-768088-0 --> / <!-- db_item-768087-0 --> / <!-- db_item-768086-0 --> to get access to the 'Mass Process' button in the processing menu.
 
-Note that mass processing only works with *Shaking, Grinding, Chopping, Drying, Filtering, Heating*.
-Also, it only works on stackable items. For example, you can't mass dry fish because they take up 1 inventory slot each.
-
-
 ## 4. What does processing mastery do?
 
 Processing mastery increases the number of crafts ('batches') you can perform at once through mass processing.
-For example, with `1020 mastery` you can perform `90 crafts` at once. At 10x higher craft time this ends up being `90/10=9` times faster than regular processing.
+For example, with `1020 mastery` you can perform `90 crafts` at once. 
+
+
+# marker. 
+#Tood: move tbale to q3 and change q4 to should I use mass processing? + lik to q6
+#todo: change mastery table from 3 to 2 cols
+At 10x higher craft time this ends up being `90/10=9` times faster than regular processing.
 
 Also note that at the lowest possible mastery bracket you can process 10 items at once, which has the same throughput as regular processing. The more mastery you have, the more mass processing starts to outperform regular processing.
 
@@ -140,10 +142,10 @@ We conclude:
 *Table: mastery brackets and mass processing batches. Note that processing mastery brackets are not evenly spaced out at every 50 mastery like in other lifeskills but they vary from 20 to 100 mastery.*
 
 
-## 5. How much processing mastery do I need for processing?
+## 5. How much processing mastery do I need?
 
 In other lifeskills, more mastery is always better. That only applies to processing to a certain point.
-Having higher processing mastery lets you process items at a faster rate but weight is still a limiting factor. With high enough mastery your character will run out of weight before you check back on your processing. Increasing processing mastery beyond that point will let you be done faster but it won't increase the number of materials you can process in one afk session. On top of that, processing mastery scales fairly linear and there are no major breakpoints.
+Having higher processing mastery lets you process items at a faster rate but weight is still a limiting factor. With high enough mastery it's possible that your character will run out of weight before checking back on your processing. Increasing processing mastery beyond that point won't increase the number of materials you can process in one afk session. Also processing mastery scales fairly linear. There are no major breakpoints.
 
 So here's my advice: 
 
@@ -151,26 +153,27 @@ So here's my advice:
 
 ## 6. Why can't I mass process this item?
 
-Mass processing does not work on certain processing types. For these types the game provides alternative recipes to process 10 items at once:
+Mass processing only works on stackable items. For example, you can't mass dry *fish* because they take up 1 inventory slot each.
+
+Also, it only works on *Shaking, Grinding, Chopping, Drying, Filtering, Heating*.
+
+There is no mass processing for *Simple Alchemy, Simple Cooking, Imperial Cuisine, Imperial Alchemy, Guild Processing, Manufacturing*.
+
+Some recipes have alternative '10x' versions where you can do 10 crafts at once by adding a certain item:
 | Processing Type  | Recipe                                                                      | Item                      | How to obtain    | Requirement                                                           |
 |------------------|-----------------------------------------------------------------------------|---------------------------|------------------|-----------------------------------------------------------------------|
 | Simple Alchemy   | <!-- db_item-721003-0 -->, <!-- db_item-5000-0 -->, <!-- db_item-4987-0 --> | <!-- db_item-4901-0 -->   | Central Market   | -                                                                     |
 | Simple Alchemy   | Party Elixirs, Blue Elixirs, Draughts                                       | <!-- db_item-4986-0 -->   | Material Vendor  | Alchemy skilled 1                                                     |
 | Simple Cooking   | Cron Meals                                                                  | <!-- db_item-820015-0 --> | Cooking Vendor   | Cooking skilled 1                                                     |
-| Imperial Cuisine | Cooking Boxes                                                               | <!-- db_item-8198-0 -->   | Old Moon Manager | Cooking artisan 1, [knowledge](https://bdolytics.com/db/quest/2062/1) |
-| Imperial Alchemy | Medicine Boxes                                                              | <!-- db_item-8198-0 -->   | Old Moon Manager | Alchemy artisan 1, [knowledge](https://bdolytics.com/db/quest/2062/2) |
+| Imperial Cuisine | Cooking Boxes                                                               | <!-- db_item-8198-0 -->   | Old Moon Manager | Cooking artisan 1, <!-- db_quest-2062-1 --> 							|
+| Imperial Alchemy | Medicine Boxes                                                              | <!-- db_item-8198-0 -->   | Old Moon Manager | Alchemy artisan 1, <!-- db_quest-2062-2 --> 							|
 
 <img src="/guides/files/summer_processing_faq/caphras_recipe.png">
 
+*Top: '10x' recipe*
+*Bottom: regular recipe*
 
-
-
-<!-- db_item-4986-0 -->
-<!-- db_item-4986-0 -->
-<!-- db_item-4986-0 -->
-<!-- db_item-4986-0 -->
-<!-- db_item-4986-0 -->
-<!-- db_item-4986-0 -->
+# <<<<<<<<<<<<<<<<Stopped here
 
 # Recipes, Proc Rates and Process Times
 
@@ -178,8 +181,7 @@ Mass processing does not work on certain processing types. For these types the g
 
 ### Craft yield
 
-Most recipes yield **1-4 items** (2.5 on average). Exceptions to that tend to occur for high-tier recipes like T4 crafts as well as simple alchemy/processing, manufacturing etc., where recipes often yield 1 item per craft. 
-The table below shows proc rates as well as other info for common processing recipes.
+Most recipes yield `1-4 items, ~2.5 on average`, but proc rates can vary between recipes. The table below shows proc rates as well as other info for common processing recipes.
 You can also check proc rates by going to a [specific recipe](/processing/market/4651) on bdolytics and comparing the output materials to the number of crafts.
 
 ### What affects the proc rate?
@@ -187,7 +189,7 @@ You can also check proc rates by going to a [specific recipe](/processing/market
 - *Shaking, Grinding, Chopping, Drying, Diltering, Heating* cap out at a certain processing level. For example, timber caps out at artisan 6 and ore at master 1. Once you're master 1, you'll have the maximum proc rate on 99% of recipes. A few recipes, like <!-- db_item-4269-0 --> require guru 1 for maximum procs.
 - *Simple Alchemy, Simple Cooking, Imperial Cuisine, Imperial Alchemy, Guild Processing, Manufacturing* recipes have fixed rates and are not affected by processing level. You can let your beginner 1 alt do these recipes without worrying about losing out on procs :)
 
-### Common processing recipes and basic info about them
+### Common processing recipes
 
 | Recipe                                   | Example                     | Process Type   | Proc Range | Proc Avg |   Level Req.   |    EXP   |  Time  | Required Knowledge  |
 |------------------------------------------|-----------------------------|----------------|:----------:|:--------:|:--------------:|:--------:|:------:|---------------------|
@@ -232,7 +234,7 @@ You can also check proc rates by going to a [specific recipe](/processing/market
 | Concentrated Magical Black Gem           |                             | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    9   | -                   |
 | Caphras Stone                            |                             | Simple Alchemy |      1     |     1    |   Beginner 1   |     0    |    6   | -                   |
 
-**Notes about the table**
+**Notes about this table**
 
 - **Level Req.**: Level required to gain the maximum proc rate
 - **EXP**: Processing EXP. when two values are shown, the first one indicates the regular proc (e.g. ash plank: 200 EXP) and the second one the rare proc (e.g. ash plywood: 500 EXP)
@@ -272,6 +274,8 @@ On bdolytics you can check how long you can process for before running out of we
 <video width="640" height="360" muted autoplay controls>
     <source src="/guides/files/summer_processing_faq/howto_weight.mp4" type="video/mp4">
 </video>
+
+### Overnight Processing
 
 Some items are so light that you can process them for multiple hours or even overnight. 
 Common recipes for **overnight processing** are <!-- profit_processing-9061 -->, <!-- profit_processing-9062 --> and <!-- profit_processing-9063 -->.
@@ -348,7 +352,7 @@ Lifeskill gear is usually cheaper to buy than to enhance yourself. You can check
 
 ### How much mastery is enough?
 
-Refer to [question 5](#5-how-much-processing-mastery-do-i-need-for-processing)
+Refer to [question 5](#5-how-much-processing-mastery-do-i-need)
 
 ## 11. How can I get processing artifacts?
 Processing artifacts drop from **imperial cooking turn-ins**, together with cooking artifacts. The chance to get an artifact is quite low (expect one maybe every 5-10 turn-ins) so it might take a while until you get the artifact you want.
@@ -442,7 +446,7 @@ I would pick buffs based on which ones you have access to and which buffs are re
 | Silver Embroidered Clothes        |   5%-40%  | Marketplace	                   |
 | Professional Clothes (Costume)    |    10%    | [Equipment Tailoring Coupon](https://youtu.be/uoLLDrEMYjY)       |
 | Mastery Accessories               | up to 75% | Marketplace	                   |
-| Lightstone Combo (incl. stones)   | 13% / 20% / 25% | MP                         |
+| Lightstone Combo (incl. stones)   | 13% / 20% / 25% | Marketplace                |
 | Artifacts                         |   3%/5%   | Lifeskilling                     |
 | Treant's Tear                     |    30%    | [Season quest](https://youtu.be/EIicdmajxGo)                     |
 | Caphras Journal of Nature         |    10%    | [Caphras Journal](https://youtu.be/wSxSf9blmOg)                  |
@@ -487,7 +491,7 @@ The processing market can roughly be divided into three groups based on what cre
 | Cooking                      | Flour, dough, cheese, cream, butter                                          | High supply, high demand, stable profits                          |
 | Workshops                    | Sturdy plywood, pure crystals, special gems, supreme hides, supreme feathers | Low supply and/or low demand, high profit potential but unstable  |
 
-The first two groups, crates/alch stone mats and cooking, are where you'll find consistent profit. The various materials for workshops (for example for ship, wagon and fishing rod workshops) can be much more profitable but are not beginner friendly at all. I'll go into more detail on those markets in [question 18](#18-what-about-that-3-bilh-recipe-on-bdolytics).
+The first two groups are where you'll find consistent profit. Recipes from the third group can be much more profitable but are not beginner friendly at all. I'll go into more detail on those markets in [question 18](#18-what-about-that-3-bilh-recipe-on-bdolytics).
 
 
 ### The market processing table
@@ -505,6 +509,8 @@ The table can be a bit overwhelming at first, so I'll explain the info it shows.
 - **Daily Volume**: Number of items sold per day, averaged over the past 7 days
 - **Volume Change**: `Current Daily Volume` compared to the `Daily Volume 7 days before`
 - **Experience**: Experience per craft. If two numbers are given, e.g. 200/500 it refers to the main result and rare proc
+ 
+**Sort and Filter**
  
 Additionally, you can **sort** the table by one or more columns and **search** for specific items through the search bar. For example, if you search for <!-- db_item-4651-0 -->, bdolytics will show the entry for <!-- db_item-4651-0 --> as well as all items it can be processed into, like <!-- db_item-4652-0 --> and <!-- db_item-4688-0 -->
 
@@ -526,7 +532,7 @@ There are a few pitfalls when choosing recipes:
 
 **Short answer**: No. It can make sense to pack processed materials into crates for certain playstyles, for example when you process a lot or have no Value Pack. Turning in a big stack of crates for billions of silver is satisfying but trading in itself is not a huge moneymaker. Realistically, trading is an optional step on top of processing, which gives a bit of extra profit and requires a fair bit of work.
 
-**Long answer**: See my [post](TODO: insert link to trading guide) on this topic.
+**Long answer**: See my [post](/guides/tradingded) on this topic.
 
 ## 18. What about that 3 bil/H recipe on bdolytics?
 
