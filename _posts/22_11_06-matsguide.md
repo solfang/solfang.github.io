@@ -1,4 +1,5 @@
 # What should I do with my materials?
+sheet: https://docs.google.com/spreadsheets/d/1DRewx7jCdkM-e84Jndua-zB3Don-a0Eq5oJZA5AtRrM/edit#gid=672185695
 
 Notes:
 - embed recipes as profit/H
