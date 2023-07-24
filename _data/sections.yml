@@ -16,12 +16,17 @@
 - name: Alchemy
   url: /topics/alchemy/
   icon: /files/icons/alchemy2.png
-  tag: ":alchemy"
+  tag: "alchemy"
 
 - name: Trading
   url: /topics/trading/
   icon: /files/icons/trading2.png
   tag: "trading"
+  
+- name: Nodes and Workers
+  url: /topics/nodes/
+  icon: /files/icons/training2.png
+  tag: "nodes"  
 
 - name: All Lifeskills
   url: /topics/lifeskills/
