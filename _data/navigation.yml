@@ -1,0 +1,18 @@
+- name: Home
+  link: /
+
+- name: Blog
+  link: /blog
+
+- name: About
+  link: /about
+
+- name: BDO
+  link: /bdo
+  submenu:
+    - name: Characters
+      link: /bdo/characters
+    - name: Items
+      link: /bdo/items
+    - name: Guides
+      link: /bdo/guides

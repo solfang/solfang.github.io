@@ -1,4 +1,10 @@
-# What should I do with my materials?
+---
+layout: post
+title: What should I do with my materials?
+published: true
+tags: cooking
+---
+
 sheet: https://docs.google.com/spreadsheets/d/1DRewx7jCdkM-e84Jndua-zB3Don-a0Eq5oJZA5AtRrM/edit#gid=672185695
 
 Notes:

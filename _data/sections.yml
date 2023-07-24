@@ -1,0 +1,34 @@
+- name: Cooking
+  url: /topics/cooking/
+  icon: /files/icons/cooking2.png
+  tag: "cooking"
+
+- name: Farming
+  url: /topics/farming/
+  icon: /files/icons/farming2.png
+  tag: "farming"
+
+- name: Processing
+  url: /topics/processing/
+  icon: /files/icons/processing2.png
+  tag: "processing"
+
+- name: Alchemy
+  url: /topics/alchemy/
+  icon: /files/icons/alchemy2.png
+  tag: ":alchemy"
+
+- name: Trading
+  url: /topics/trading/
+  icon: /files/icons/trading2.png
+  tag: "trading"
+
+- name: All Lifeskills
+  url: /topics/lifeskills/
+  icon: /files/icons/lifeskills2.png
+  tag: "lifeskills"
+
+- name: Misc
+  url: /topics/misc/
+  icon: /files/icons/misc2.png
+  tag: "misc"

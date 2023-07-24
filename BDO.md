@@ -1,0 +1,32 @@
+---
+layout: default
+title: Home
+---
+
+<style>
+  .large-text {
+    font-size: 36px; /* Adjust the font size as desired */
+  }
+  .post-count {
+    font-size: 20px; /* Set the font size for the post count */
+  }
+</style>
+
+<div class="icons-container">
+  {% for section in site.data.sections %}
+    <div class="icon">
+      <a href="{{ section.url }}">
+        <img src="{{ section.icon }}" alt="{{ section.name }}">
+        <span class="large-text">{{ section.name }}</span>
+        {% assign section_posts = site.posts | where: "tags", section.tag %}
+        {% if section_posts.size == 1 %}
+          (<span class="post-count">1 post</span>)
+        {% elsif section_posts.size > 1 %}
+          (<span class="post-count">{{ section_posts.size }} posts</span>)
+        {% endif %}
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+
