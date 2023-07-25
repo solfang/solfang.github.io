@@ -5,9 +5,8 @@ published: true
 type: video
 tags: nodes
 image: /files/thumbnails/artisanworkers.png
-excerpt: TODO
+excerpt: 3 Ways to get artisan workers
 post-date: 2023-07-15
 updated-date: 2023-07-15
+direct-link: https://www.youtube.com/watch?v=g6LjD11NMhw
 ---
-
-{% include youtube.html id="g6LjD11NMhw" %}

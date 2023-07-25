@@ -5,9 +5,9 @@ published: true
 type: video
 tags: processing
 image: /files/thumbnails/processingvid1.png
-excerpt: TODO
+excerpt: Surely there will be a part 2. Right, right...?
 post-date: 2023-06-04
 updated-date: 2023-06-04
+direct-link: https://www.youtube.com/watch?v=5yNzwEEVq-I
 ---
 
-{% include youtube.html id="5yNzwEEVq" %}

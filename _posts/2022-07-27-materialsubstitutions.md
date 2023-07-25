@@ -5,10 +5,8 @@ published: true
 type: video
 tags: cooking
 image: /files/thumbnails/materialsubstitutions.png
-excerpt: TODO
+excerpt: The story of how material substitutions were figured out
 post-date: 2022-07-27
 updated-date: 2022-07-27
+direct-link: https://www.youtube.com/watch?v=24UUMfHGfXI
 ---
-
-
-{% include youtube.html id="24UUMfHGfXI" %}

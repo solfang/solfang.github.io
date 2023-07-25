@@ -5,10 +5,8 @@ published: true
 type: video
 tags: farming
 image: /files/thumbnails/farmingforfruits.png
-excerpt: TODO
+excerpt: ...and more!
 post-date: 2023-04-19
 updated-date: 2023-04-19
+direct-link: https://www.youtube.com/watch?v=RFxt2P8TpKs
 ---
-
-
-{% include youtube.html id="RFxt2P8TpKs" %}

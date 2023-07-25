@@ -5,10 +5,8 @@ published: true
 type: video
 tags: lifeskills
 image: /files/thumbnails/preordermoney.png
-excerpt: TODO
+excerpt: I swear it's not clickbait
 post-date: 2023-03-25
 updated-date: 2023-03-25
+direct-link: https://www.youtube.com/watch?v=MXXfCC0l1m8
 ---
-
-
-{% include youtube.html id="MXXfCC0l1m8" %}

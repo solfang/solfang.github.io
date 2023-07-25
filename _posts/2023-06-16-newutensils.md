@@ -5,9 +5,8 @@ published: true
 type: video
 tags: cooking, alchemy
 image: /files/thumbnails/newutensils.png
-excerpt: TODO
+excerpt: Alch more so than cooking
 post-date: 2023-06-16
 updated-date: 2023-06-16
+direct-link: https://www.youtube.com/watch?v=vb71pdc8--k
 ---
-
-{% include youtube.html id="vb71pdc8--k" %}

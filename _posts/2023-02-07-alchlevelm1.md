@@ -5,9 +5,8 @@ published: true
 type: writeup
 tags: alchemy
 image: /files/thumbnails/alchlevelm1.png
-excerpt: TODO
+excerpt: I show how to level alchemy to master
 post-date: 2023-02-27
 updated-date: 2023-05-07
+direct-link: https://bdolytics.com/guides/alchemy-leveling-m1
 ---
-
-This guide is hosted over at [bdolytics](https://bdolytics.com/guides/alchemy-leveling-m1).

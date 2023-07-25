@@ -5,10 +5,8 @@ published: true
 type: video
 tags: farming
 image: /files/thumbnails/farminglevel.png
-excerpt: TODO
+excerpt: A step-by-step guide on how to level farming to artisan in a day
 post-date: 2022-10-08
 updated-date: 2022-10-08
+direct-link: https://www.youtube.com/watch?v=LrhCXa7ea58
 ---
-
-
-{% include youtube.html id="LrhCXa7ea58" %}

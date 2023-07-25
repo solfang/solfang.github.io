@@ -7,6 +7,7 @@ image: /images/paper%20review/shapenet_reordered.png
 tags: computer vision
 post-date: 2021-01-27
 updated-date: 2021-01-27
+direct-link: 
 ---
 
 In this post, we will review the paper [Morphing and Sampling Network for Dense Point Cloud Completion](https://ojs.aaai.org/index.php/AAAI/article/view/6827) presented by Liu et al. at the AAAI 2020 in New York.

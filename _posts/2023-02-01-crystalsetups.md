@@ -5,9 +5,10 @@ published: true
 type: cheatsheet
 tags: lifeskills
 image: /files/thumbnails/crystalsetups.png
-excerpt: TODO
+excerpt: An overview of common crystal setups for lifeskilling
 post-date: 2023-02-01
 updated-date: 2023-02-01
+direct-link: 
 ---
 
 [Link to the cheatsheet](https://cdn.discordapp.com/attachments/589711952234676224/1075117571554160691/LifeskillSetups.png)

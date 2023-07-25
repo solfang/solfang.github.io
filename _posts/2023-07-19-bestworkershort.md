@@ -5,9 +5,8 @@ published: true
 type: video
 tags: nodes
 image: /files/thumbnails/bestworkershort.png
-excerpt: TODO
+excerpt: "'Humans are trash' does NOT work as a title"
 post-date: 2023-07-19
 updated-date: 2023-07-19
+direct-link: https://www.youtube.com/watch?v=sEHK7cX4SIE
 ---
-
-{% include youtube.html id="sEHK7cX4SIE" %}

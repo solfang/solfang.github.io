@@ -5,10 +5,8 @@ published: true
 type: video
 tags: cooking
 image: /files/thumbnails/cookingvid4.png
-excerpt: TODO
+excerpt: Video 4 of my 2022 cooking series
 post-date: 2022-08-31
 updated-date: 2022-08-31
+direct-link: https://www.youtube.com/watch?v=V7ULkmebdAU
 ---
-
-
-{% include youtube.html id="V7ULkmebdAU" %}

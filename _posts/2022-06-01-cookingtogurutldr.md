@@ -5,9 +5,8 @@ published: true
 type: cheatsheet
 tags: cooking
 image: /files/thumbnails/cookingtogurutldr.png
-excerpt: TODO
+excerpt: The way to guru as handy cheatsheet (still valid as of 2023)
 post-date: 2022-06-01
 updated-date: 2022-06-01
+direct-link: http://bit.ly/CookTLDR2022
 ---
-
-[Link to the cheatsheet](http://bit.ly/CookTLDR2022)
