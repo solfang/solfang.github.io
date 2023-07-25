@@ -5,7 +5,7 @@ published: true
 type: spreadsheet
 tags: farming
 image: /files/thumbnails/sheets.png
-excerpt: TODO
+excerpt: Easily calculate farming profits and look up optimal farming spots
 post-date: 2018-04-17
 updated-date: 2023-07-10
 ---

@@ -25,9 +25,9 @@ layout: default
           {% endif %}
 		  <!-- Link to: a) post if it's a text-post b) the resource if it contains a direct link -->
 		  {% if post.direct-link %}
-		    <a href="{{ post.direct-link }}">{{ post.title }}</a>
+		    <a href="{{ post.direct-link }}" target="_blank">{{ post.title }}</a>
 		  {% else %}
-		    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		    <a href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{ post.title }}</a>
 		  {% endif %}
         </h1>
         <!-- Post thumbnail - sheets only have a logo so make it smaller -->
