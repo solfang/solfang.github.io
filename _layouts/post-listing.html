@@ -2,18 +2,17 @@
 layout: default
 ---
 
-
 <h1 style="text-align: left;">
-{{page.title}}
+{{ page.title }}
 </h1>
 
 <div class="posts">
-  {% assign sorted_posts = site.posts}
+  {% assign sorted_posts = site.posts %}
   {% for post in sorted_posts %}
     {% if post.tags contains page.tag or post.type == page.type %}
       <article class="post">
         <h1 style="text-align: left;">
-		<!-- Logo based on post type -->
+          <!-- Logo based on post type -->
           {% assign type_logo = post.type | downcase %}
           {% if type_logo == 'video' %}
             <img height="30" src="{{ site.baseurl }}/files/icons/video.png" alt="Video">
@@ -26,18 +25,18 @@ layout: default
           {% endif %}
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         </h1>
-		<!-- Post thumbnail - sheets only have a logo so make it smaller -->
+        <!-- Post thumbnail - sheets only have a logo so make it smaller -->
         {% if post.image %}
-			{% if post.type == "spreadsheet" %}
-			<img height="100" src="{{ site.baseurl }}{{ post.image }}" alt="Preview Image">
-			{% else %}
+          {% if post.type == "spreadsheet" %}
+            <img height="100" src="{{ site.baseurl }}{{ post.image }}" alt="Preview Image">
+          {% else %}
             <img height="180" src="{{ site.baseurl }}{{ post.image }}" alt="Preview Image">
-			{% endif %}
+          {% endif %}
         {% endif %}
         <div class="entry">
           {{ post.excerpt }}
         </div>
-		<div class="entry">
+        <div class="entry">
           <!-- Format the date as 'DD Month.short YYYY' -->
           <p>{{ post.upddated-date | date: "%d %b %Y" }}</p>
         </div>
