@@ -1,10 +1,11 @@
 ---
 layout: default
+title: Home
 ---
 
 <div class="posts">
   {% for post in site.posts %}
-    {% if post.tags contains 'cooking' %}
+    {% if post.type contains 'blog' %}
       <article class="post">
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
         {% if post.image %}
@@ -12,10 +13,6 @@ layout: default
         {% endif %}
         <div class="entry">
           {{ post.excerpt }}
-        </div>
-		<div class="entry">
-      <!-- Format the date as 'DD Month.short YYYY' -->
-      <p>{{ post.upddated-date | date: "%d %b %Y" }}</p>
         </div>
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       </article>

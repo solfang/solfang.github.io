@@ -2,10 +2,14 @@
 layout: post
 title: Black Desert Online - How to Calculate the True Value of Materials
 published: true
+type: writeup
 tags: cooking
 image: /files/cooktldr_2022/bdolytics_pen.png
 excerpt: We'll take a deep dive into item valuation
+post-date: 2021-02-06
+upddated-date: 2022-02-23
 ---
+
 
 Last updated: 23.02.2021
 
