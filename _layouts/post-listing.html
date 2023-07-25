@@ -7,7 +7,7 @@ layout: default
 </h1>
 
 <div class="posts">
-  {% assign sorted_posts = site.posts | sort: 'updated-date' | reverse | date %}
+  {% assign sorted_posts = site.posts}
   {% for post in sorted_posts %}
     {% if post.tags contains page.tag or post.type == page.type %}
       <article class="post">
