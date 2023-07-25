@@ -1,0 +1,19 @@
+- name: Video
+  url: /topics/videos/
+  icon: /files/icons/video.png
+  type: "video"
+  
+- name: Written Guides
+  url: /topics/writeups/
+  icon: /files/icons/writeup.png
+  type: "writeup"
+
+- name: Spreadsheet
+  url: /topics/spreadsheets/
+  icon: /files/icons/spreadsheet.png
+  type: "spreadsheet"
+  
+- name: Cheatsheets
+  url: /topics/cheatsheets/
+  icon: /files/icons/cheatsheet.png
+  type: "cheatsheet"

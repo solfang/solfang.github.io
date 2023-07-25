@@ -1,0 +1,18 @@
+Files you need to know about:
+- index.html: landing page
+- _layouts: html templates that will be used to generate sites. They can be used by adding a yml header to the top of the file (works with markdown and html files).
+  The template can access attributes of the yml header though page.[attribute]
+  ---
+  layout: default
+  ---
+- _data: yml files that are used for liquid templating. See this example: https://jekyllrb.com/tutorials/navigation/
+- _posts: Jekyll expects all posts to be in this folder (and not subfolders or other folders)
+
+curent structure of the page:
+1. Homepage (index.html): Lists diferent topics. these topics are pulled from the .yml files in _data
+2. If you click on a topic, you will be redirected to a page that is specified in the yml file, e.g. /topics/cooking/. This link has a corresponding file, e.g. /topics/cooking.html which will be automatically instatiated given the yml header at the top
+3. The topic pages are currently used to list posts. This happens automatically using a template. The [topic].html page only lists the parameters in the yml header by which posts whould be filtered. The actual code for the post listings is in the specified layout template: _layouts/post-listing.html
+4. The post-listing.html template in turn uses dynamic templating to filter posts by the paramters specified in the [topic].html header.
+
+
+When you open the page, the order is as follows:

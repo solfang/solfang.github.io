@@ -25,7 +25,7 @@
   
 - name: Nodes and Workers
   url: /topics/nodes/
-  icon: /files/icons/training2.png
+  icon: /files/icons/CP2.png
   tag: "nodes"  
 
 - name: All Lifeskills
