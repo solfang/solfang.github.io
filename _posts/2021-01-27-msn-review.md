@@ -361,8 +361,6 @@ The authors explain the network architecture concisely and in an easy to follow 
 
 Furthermore, point-cloud based methods are no longer the only successful approach to point cloud completion. Recent Voxel-based networks, such as *GRNet* [[6]](#6), have overcome the drawbacks of voxelization and can deliver results that rival those of purely point-based networks.
 
-My presentation on this paper can be found [here](/files/msn/ADCV_Seminar_Presi.pdf).
-
 # References
 
 Images not cited are taken from the MSN paper.
