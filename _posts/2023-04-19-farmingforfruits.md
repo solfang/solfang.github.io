@@ -7,7 +7,7 @@ tags: farming
 image: /files/thumbnails/farmingforfruits.png
 excerpt: TODO
 post-date: 2023-04-19
-upddated-date: 2023-04-19
+updated-date: 2023-04-19
 ---
 
 

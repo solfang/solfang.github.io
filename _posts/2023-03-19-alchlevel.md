@@ -7,7 +7,7 @@ tags: alchemy
 image: /files/thumbnails/alchlevel.png
 excerpt: TODO
 post-date: 2023-03-19
-upddated-date: 2023-03-19
+updated-date: 2023-03-19
 ---
 
 

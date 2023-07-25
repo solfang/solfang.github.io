@@ -7,7 +7,7 @@ tags: cooking
 image: /files/thumbnails/cookingvid1.png
 excerpt: none
 post-date: 2022-07-27
-upddated-date: 2022-07-27
+updated-date: 2022-07-27
 ---
 
 {% include youtube.html id="cR6ZD0jJvg0" %}

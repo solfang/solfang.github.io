@@ -7,7 +7,7 @@ tags: farming
 image: /files/thumbnails/farminglevel.png
 excerpt: TODO
 post-date: 2022-10-08
-upddated-date: 2022-10-08
+updated-date: 2022-10-08
 ---
 
 

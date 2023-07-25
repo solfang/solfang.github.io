@@ -7,7 +7,7 @@ layout: default
 </h1>
 
 <div class="posts">
-  {% assign sorted_posts = site.posts | sort: 'upddated-date' | reverse %}
+  {% assign sorted_posts = site.posts | sort: 'updated-date' | reverse %}
   {% for post in sorted_posts %}
     {% if post.tags contains page.tag or post.type == page.type %}
       <article class="post">
@@ -38,7 +38,7 @@ layout: default
         </div>
         <div class="entry">
           <!-- Format the date as 'DD Month.short YYYY' -->
-          <p>{{ post.upddated-date | date: "%d %b %Y" }}</p>
+          <p>{{ post.updated-date | date: "%d %b %Y" }}</p>
         </div>
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       </article>

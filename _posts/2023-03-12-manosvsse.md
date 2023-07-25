@@ -7,7 +7,7 @@ tags: cooking
 image: /files/thumbnails/manosvsse.png
 excerpt: TODO
 post-date: 2023-03-12
-upddated-date: 2023-03-12
+updated-date: 2023-03-12
 ---
 
 

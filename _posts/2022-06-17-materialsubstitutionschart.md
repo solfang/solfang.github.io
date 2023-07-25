@@ -7,7 +7,7 @@ tags: alchemy, cooking
 image: /files/thumbnails/materialsubstitutionschart.png
 excerpt: TODO
 post-date: 2022-07-17
-upddated-date: 2023-06-27
+updated-date: 2023-06-27
 ---
 
 [Link to the cheatsheet](https://cdn.discordapp.com/attachments/589711952234676224/1111742727869181982/substitution_cooking_alch.png)

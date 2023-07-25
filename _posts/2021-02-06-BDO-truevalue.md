@@ -7,7 +7,7 @@ tags: cooking
 image: /files/cooktldr_2022/bdolytics_pen.png
 excerpt: We'll take a deep dive into item valuation
 post-date: 2021-02-06
-upddated-date: 2022-02-23
+updated-date: 2022-02-23
 ---
 
 

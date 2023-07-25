@@ -7,7 +7,7 @@ tags: nodes
 image: /files/thumbnails/artisanworkers.png
 excerpt: TODO
 post-date: 2023-07-15
-upddated-date: 2023-07-15
+updated-date: 2023-07-15
 ---
 
 {% include youtube.html id="g6LjD11NMhw" %}

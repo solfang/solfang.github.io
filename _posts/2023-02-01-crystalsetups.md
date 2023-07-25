@@ -7,7 +7,7 @@ tags: lifeskills
 image: /files/thumbnails/crystalsetups.png
 excerpt: TODO
 post-date: 2023-02-01
-upddated-date: 2023-02-01
+updated-date: 2023-02-01
 ---
 
 [Link to the cheatsheet](https://cdn.discordapp.com/attachments/589711952234676224/1075117571554160691/LifeskillSetups.png)

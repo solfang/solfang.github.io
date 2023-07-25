@@ -7,7 +7,7 @@ tags: trading
 image: /files/thumbnails/sheets.png
 excerpt: TODO
 post-date: 2019-01-08
-upddated-date: 2023-02-13
+updated-date: 2023-02-13
 ---
 
 [Link to the sheet](TODO_Link)

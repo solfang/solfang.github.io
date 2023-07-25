@@ -7,7 +7,7 @@ tags: cooking
 image: /files/thumbnails/cookingvid2.png
 excerpt: TODO
 post-date: 2022-07-28
-upddated-date: 2022-07-28
+updated-date: 2022-07-28
 ---
 
 

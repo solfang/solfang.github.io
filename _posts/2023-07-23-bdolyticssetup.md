@@ -7,7 +7,7 @@ tags: cooking
 image: /files/thumbnails/bdolyticssetup.png
 excerpt: TODO
 post-date: 2023-07-23
-upddated-date: 2023-07-23
+updated-date: 2023-07-23
 ---
 
 {% include youtube.html id="edmjiM7EjD0" %}

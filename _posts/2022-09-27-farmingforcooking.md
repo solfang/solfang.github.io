@@ -7,7 +7,7 @@ tags: farming
 image: /files/thumbnails/farmingforcooking.png
 excerpt: TODO
 post-date: 2022-09-27
-upddated-date: 2022-09-27
+updated-date: 2022-09-27
 ---
 
 

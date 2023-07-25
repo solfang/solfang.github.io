@@ -7,7 +7,7 @@ tags: lifeskills
 image: /files/thumbnails/preordermoney.png
 excerpt: TODO
 post-date: 2023-03-25
-upddated-date: 2023-03-25
+updated-date: 2023-03-25
 ---
 
 
