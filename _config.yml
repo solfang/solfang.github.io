@@ -9,7 +9,7 @@ name: Summer's Blog
 description: BDO Lifeskill Guides
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/panda.png #https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png # https://github.com/solfang/solfang.github.io/blob/master/images/panda.png
+avatar: /files/icons/panda.png #https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png # https://github.com/solfang/solfang.github.io/blob/master/images/panda.png
 
 #
 # Flags below are optional
