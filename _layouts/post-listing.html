@@ -6,37 +6,30 @@ layout: default
 {{ page.title }}
 </h1>
 
-<div class="posts">
+<div class="posts-grid">
   {% assign sorted_posts = site.posts %}
   {% for post in sorted_posts %}
     {% if post.tags contains page.tag or post.type == page.type %}
-      <article class="post">
-        <h1 style="text-align: left;">
-          <!-- Logo based on post type -->
-          {% assign type_logo = post.type | downcase %}
-          {% if type_logo == 'video' %}
-            <img height="30" src="{{ site.baseurl }}/files/icons/video.png" alt="Video">
-          {% elsif type_logo == 'spreadsheet' %}
-            <img height="30" src="{{ site.baseurl }}/files/icons/spreadsheet.png" alt="Spreadsheet">
-          {% elsif type_logo == 'cheatsheet' %}
-            <img height="30" src="{{ site.baseurl }}/files/icons/cheatsheet.png" alt="Cheatsheet">
-          {% elsif type_logo == 'writeup' %}
-            <img height="30" src="{{ site.baseurl }}/files/icons/writeup.png" alt="Writeup">
-          {% endif %}
-		  <!-- Link to: a) post if it's a text-post b) the resource if it contains a direct link -->
-		  {% if post.direct-link %}
-		    <a href="{{ post.direct-link }}" target="_blank">{{ post.title }}</a>
-		  {% else %}
-		    <a href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{ post.title }}</a>
-		  {% endif %}
-        </h1>
+      <article class="post-preview">
+        <h2 style="text-align: left;">
+          {% assign post_link = post.direct-link | default: post.url | prepend: site.baseurl %}
+		  <a href="{{ post_link }}" target="_blank">
+			  <!-- Logo based on post type -->
+			  {% assign type_logo = post.type | downcase %}
+			  <!-- Assign icon file path: Expects that for each post.type there is a [post.type].png in /files/icons/ -->
+			  {% assign image_src = '/files/icons/' | append: type_logo | append: '.png' %}
+			  <img class="logo-image" src="{{ site.baseurl }}{{ image_src }}" alt="{{ type_logo | capitalize }}">
+			  <!-- Link to: a) post if it's a text-post b) the resource if it contains a direct link -->
+		   {{ post.title }}
+		   </a>
+        </h2>
         <!-- Post thumbnail - sheets only have a logo so make it smaller -->
         {% if post.image %}
-          {% if post.type == "spreadsheet" %}
-            <img height="100" src="{{ site.baseurl }}{{ post.image }}" alt="Preview Image">
-          {% else %}
-            <img height="180" src="{{ site.baseurl }}{{ post.image }}" alt="Preview Image">
+          <a href="{{ post_link }}" target="_blank">
+		  {% if post.type != "spreadsheet" %}
+			<img class="preview-image" src="{{ site.baseurl }}{{ post.image }}" alt="Preview Image">
           {% endif %}
+		  </a>
         {% endif %}
         <div class="entry">
           {{ post.excerpt }}
@@ -49,3 +42,5 @@ layout: default
     {% endif %}
   {% endfor %}
 </div>
+
+

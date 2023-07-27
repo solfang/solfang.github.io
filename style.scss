@@ -249,6 +249,59 @@ nav {
 // .main
 //
 
+
+/* POSTS-GRID */
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns per row */
+  grid-gap: 20px; /* Adjust the gap between grid items */
+}
+
+.post-preview {
+  /* Adjust styling for individual posts */
+  /* Example styles, you can modify as per your design */
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  /* Make the container relative for image positioning */
+  position: relative;
+  height: auto;
+  padding-bottom: 0; /* Remove the bottom padding */
+  padding-top: 0px; /* Remove the top padding */
+}
+
+
+/* This covers the title used in the grid elements. Change the styling so that the title is displayed in black even though it's a link (by default it's blue) */
+.post-preview h2 a {
+  color: black; /* Set the desired color for the link */
+  text-decoration: none; /* Remove the underline from the link */
+}
+
+.post-preview h2 {
+  font-size: 22px; /* Adjust the font size as desired */
+  line-height: 1.2; /* Lines are too stretched out by dfault */
+}
+
+
+.post-preview img.preview-image {
+  /* Set the preview image to fill the width and maintain aspect ratio */
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.post-preview img.logo-image {
+  /* Set the logo image with fixed height */
+  height: 30px;
+  width: auto;
+  margin: 0 auto;
+}
+
+
+/* POSTS-GRID */
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
