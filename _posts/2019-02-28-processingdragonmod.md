@@ -4,7 +4,7 @@ title: Niche Market Processing (Dragon Mod)
 published: true
 type: spreadsheet
 tags: processing
-image: /files/thumbnails/sheets.png
+image: /files/thumbnails/sheets.webp
 excerpt: Calculate processing profits for niche markets and workshops
 post-date: 2019-02-28
 updated-date: 2022-11-19

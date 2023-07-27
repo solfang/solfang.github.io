@@ -4,7 +4,7 @@ title: SE vs. Mastery Clothes and Mastery Clothes ROI
 published: true
 type: spreadsheet
 tags: cooking
-image: /files/thumbnails/sheets.png
+image: /files/thumbnails/sheets.webp
 excerpt: Calculate whether it's more profitable to use silver embroidered of mastery clothes for cooking
 post-date: 2020-11-24
 updated-date: 2020-11-24

@@ -4,7 +4,7 @@ title: BDO Cooking Guide Part 4 - Best-in-Slot Profit
 published: true
 type: video
 tags: cooking
-image: /files/thumbnails/cookingvid4.png
+image: /files/thumbnails/cookingvid4.webp
 excerpt: Video 4 of my 2022 cooking series
 post-date: 2022-08-31
 updated-date: 2022-08-31

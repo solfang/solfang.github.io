@@ -3,7 +3,7 @@ layout: post
 title: Morphing and Sampling Network for Dense Point Cloud Completion - A Review
 type: blog
 published: true
-image: /images/paper%20review/shapenet_reordered.png
+image: /images/paper%20review/shapenet_reordered.webp
 tags: computer vision
 post-date: 2021-01-27
 updated-date: 2021-01-27

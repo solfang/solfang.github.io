@@ -4,7 +4,7 @@ title: Lightstone, Artifact and Crystal Setups Cheatsheet
 published: true
 type: cheatsheet
 tags: lifeskills
-image: /files/thumbnails/crystalsetups.png
+image: /files/thumbnails/crystalsetups.webp
 excerpt: An overview of common crystal setups for lifeskilling
 post-date: 2023-02-01
 updated-date: 2023-02-01

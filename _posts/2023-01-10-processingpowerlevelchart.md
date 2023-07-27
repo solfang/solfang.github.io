@@ -4,7 +4,7 @@ title: Powerleveling Processing - Chart
 published: true
 type: cheatsheet
 tags: processing
-image: /files/thumbnails/processingpowerlevelchart.png
+image: /files/thumbnails/processingpowerlevelchart.webp
 excerpt: The Ship Repair Material method explained
 post-date: 2023-01-10
 updated-date: 2023-01-10

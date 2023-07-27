@@ -4,7 +4,7 @@ title: How to Set Up Bdolytics Like the Cooking Pros
 published: true
 type: video
 tags: cooking
-image: /files/thumbnails/bdolyticssetup.png
+image: /files/thumbnails/bdolyticssetup.webp
 excerpt: I show you how to set up bdolytics for cooking profit calculations
 post-date: 2023-07-23
 updated-date: 2023-07-23

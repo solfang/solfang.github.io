@@ -4,7 +4,7 @@ title: CP or Milk ROI Calculator
 published: true
 type: spreadsheet
 tags: cooking
-image: /files/thumbnails/sheets.png
+image: /files/thumbnails/sheets.webp
 excerpt: Calculate the ROI when turning in cooking byproducts as CP over milk
 post-date: 2020-04-15
 updated-date: 2020-04-15

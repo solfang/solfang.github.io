@@ -4,7 +4,7 @@ title: Processing Profit Sheet
 published: true
 type: spreadsheet
 tags: processing
-image: /files/thumbnails/sheets.png
+image: /files/thumbnails/sheets.webp
 excerpt: Calculate processing profits of common markets
 post-date: 2020-03-12
 updated-date: 2022-05-15

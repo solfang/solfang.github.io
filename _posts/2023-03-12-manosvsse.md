@@ -4,7 +4,7 @@ title: Silver Embroidered (SE) vs Mastery Clothes for Cooking - Which is Better?
 published: true
 type: video
 tags: cooking
-image: /files/thumbnails/manosvsse.png
+image: /files/thumbnails/manosvsse.webp
 excerpt: Well, which one is it?
 post-date: 2023-03-12
 updated-date: 2023-03-12

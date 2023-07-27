@@ -4,7 +4,7 @@ title: Everything You Need to Know About Farming for Stonetail Fodder and Fruits
 published: true
 type: video
 tags: farming
-image: /files/thumbnails/farmingforfruits.png
+image: /files/thumbnails/farmingforfruits.webp
 excerpt: ...and more!
 post-date: 2023-04-19
 updated-date: 2023-04-19

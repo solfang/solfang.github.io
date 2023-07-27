@@ -4,7 +4,7 @@ title: Heating Gear
 published: true
 type: spreadsheet
 tags: processing
-image: /files/thumbnails/sheets.png
+image: /files/thumbnails/sheets.webp
 excerpt: Calculate the profit of heating weapons and accessories for gems, traces etc.
 post-date: 2020-03-14
 updated-date: 2020-05-15

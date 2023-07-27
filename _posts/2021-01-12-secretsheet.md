@@ -4,7 +4,7 @@ title: Secret Sheet
 published: true
 type: spreadsheet
 tags: cooking
-image: /files/thumbnails/sheets.png
+image: /files/thumbnails/sheets.webp
 excerpt: Secrets
 post-date: 2021-01-12
 updated-date: 2021-01-12

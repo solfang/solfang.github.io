@@ -4,7 +4,7 @@ title: An In-depth Look at the New Lifeskill Crystals (BDO)
 published: true
 type: video
 tags: lifeskills
-image: /files/thumbnails/newcrystals.png
+image: /files/thumbnails/newcrystals.webp
 excerpt: This video is cinematic as heck
 post-date: 2023-06-21
 updated-date: 2023-06-21

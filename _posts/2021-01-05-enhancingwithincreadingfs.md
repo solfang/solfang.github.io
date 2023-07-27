@@ -4,7 +4,7 @@ title: Enhancing with increasing failstacks
 published: true
 type: spreadsheet
 tags: misc
-image: /files/thumbnails/sheets.png
+image: /files/thumbnails/sheets.webp
 excerpt: Calculate the expected number of clicks to hit pen armor/weapons considering the increasing failstack
 post-date: 2021-01-05
 updated-date: 2021-01-05

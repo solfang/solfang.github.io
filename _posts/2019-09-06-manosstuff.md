@@ -4,7 +4,7 @@ title: Manos Enhancing Cost Calculator
 published: true
 type: spreadsheet
 tags: lifeskills
-image: /files/thumbnails/sheets.png
+image: /files/thumbnails/sheets.webp
 excerpt: Calculate the cost to self-enhance manos accessories and clothes
 post-date: 2019-09-06
 updated-date: 2020-01-01
