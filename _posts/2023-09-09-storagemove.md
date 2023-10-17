@@ -3,7 +3,7 @@ layout: post
 title: I Moved My Storage Across the Ocean to Save CP 
 published: true
 type: video
-tags: nodes
+tags: misc
 image: /files/thumbnails/storagemove.webp
 excerpt: More storage optimization
 post-date: 2023-09-09
