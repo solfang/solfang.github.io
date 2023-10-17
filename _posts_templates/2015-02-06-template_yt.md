@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TODO
+title: TODO (note - no colons in title/excerpt)
 published: true
 type: video
 tags: TODO

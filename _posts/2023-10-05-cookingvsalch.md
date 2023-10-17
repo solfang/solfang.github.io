@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cooking vs. Alchemy: Which One Should You Do?
+title: Cooking vs. Alchemy -  Which One Should You Do?
 published: true
 type: video
 tags: cooking
