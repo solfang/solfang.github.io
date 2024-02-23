@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Powerleveling Processing - Chart
-published: true
+published: false
 type: cheatsheet
 tags: processing
 image: /files/thumbnails/processingpowerlevelchart.webp
