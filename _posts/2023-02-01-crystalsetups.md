@@ -11,7 +11,7 @@ updated-date: 2023-02-01
 direct-link: 
 ---
 
-[Link to the cheatsheet](https://cdn.discordapp.com/attachments/589711952234676224/1075117571554160691/LifeskillSetups.png)
+[Link to the cheatsheet](https://i.imgur.com/yyjUBZZ.png)
 
 *Note: The sheet currently does not contain mastery/EXP crystals. I'll update it when I find some time.*
 
