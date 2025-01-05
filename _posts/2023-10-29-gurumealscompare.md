@@ -3,7 +3,7 @@ layout: post
 title: Which Meal Should You Cook For Guru Imperials? 
 published: true
 type: video
-tags: alchemy
+tags: cooking
 image: /files/thumbnails/68_gurumealscompare.webp
 excerpt: Balenos, Valencia, or O'dyllita Meal, or maybe the new Gukbaps?
 post-date: 2023-10-29
