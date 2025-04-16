@@ -11,7 +11,7 @@ updated-date: 2023-02-01
 direct-link: 
 ---
 
-[Link to the cheatsheet](https://i.imgur.com/yyjUBZZ.png)
+[Link to the cheatsheet](https://solfang.github.io/files/cheatsheets/crystals.png)
 
 *Note: The sheet currently does not contain mastery/EXP crystals. I'll update it when I find some time.*
 

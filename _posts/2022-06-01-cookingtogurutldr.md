@@ -8,5 +8,5 @@ image: /files/thumbnails/cookingtogurutldr.webp
 excerpt: The way to guru as handy cheatsheet (still valid as of 2023)
 post-date: 2022-06-01
 updated-date: 2022-06-01
-direct-link: https://i.imgur.com/iKcYc8e.png
+direct-link: https://solfang.github.io/files/cheatsheets/gurucooking_tldr.png
 ---
